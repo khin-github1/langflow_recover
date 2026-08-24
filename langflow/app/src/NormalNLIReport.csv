@@ -1,0 +1,3243 @@
+question,generated_answer,gold_answer,evidence_chunk_ids,support_label,support_confidence,support_supported,support_hallucinated,gold_label,gold_confidence,gold_correct
+What is AIT?,"The Asian Institute of Technology (AIT) is an international, English-speaking postgraduate institution established in 1959. It is a not-for-profit organization located on a green campus north of Bangkok, Thailand. AIT focuses on engineering, environment, and management studies, offering students the opportunity to study at a globally recognized institution in Asia. The institute emphasizes global connections, innovation in research and teaching, relevance to industry, and the nurturing of entrepreneurship. It also continues to fulfill its role in social impact and capacity building.","The Asian Institute of Technology (AIT), founded in 1959, is a not-for-profit international English-speaking postgraduate institution located on a green campus north of Bangkok, Thailand.
+
+AIT offers the opportunity to study at an institution in Asia which possesses a global reputation. Going forward, AIT will be stressing its global connections, injection of innovation into research and teaching, its relevance to industry, and its nurturing of entrepreneurship, while continuing to fulfill its social impact and capacity building role. Sitting on a beautiful green campus located just north of Bangkok, Thailand, AIT operates as a multicultural community where a cosmopolitan approach to living and learning is the rule. You will meet and study with people from all around the world.
+
+Today, AIT’s internationally recognized engineering, environment, and management graduates are highly sought after by employers in their home countryand elsewhere. Across many walks of life in Asia, AIT alumni have distinguished themselves as CEO’s of private and state enterprises, as business owners, as well-respected researchers and faculty, and as senior university and government officials.","[""https://www.ait.ac.th/about::c0000"", ""https://www.ait.ac.th/about::c0000"", ""https://ait.ac.th/admissions::c0001"", ""https://ait.ac.th/financial/ait-scholarships::c0001"", ""https://ait.ac.th/financial/ait-scholarships::c0000""]",entails,0.83,1,0,entails,0.83,1
+Where is AIT located?,"The Asian Institute of Technology (AIT) is located on a green campus north of Bangkok, Thailand. This information is explicitly stated in the provided context, which describes AIT as a not-for-profit international English-speaking postgraduate institution situated in this area. The campus is part of AIT's identity as a globally recognized institution in Asia, emphasizing its location and the multicultural environment it provides.","P.O. Box 4, 58 Moo 9, Km. 42, Paholyothin Highway, Klong Luang, Pathum Thani 12120 Thailand
+https://ait.ac.th/about/location/","[""https://www.ait.ac.th/about::c0000"", ""https://www.ait.ac.th/about::c0000"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0006"", ""https://ait.ac.th/financial/ais-scholarship::c0004"", ""https://www.ait.ac.th/about::c0001""]",entails,0.95,1,0,entails,0.83,1
+When was AIT founded?,"The Asian Institute of Technology (AIT) was founded in 1959. This is explicitly stated in the provided context, which describes AIT as an international, English-speaking postgraduate institution established in that year. The founding date is a key piece of information that directly answers the question about when AIT was founded.",founded in 1959,"[""https://www.ait.ac.th/about::c0000"", ""https://www.ait.ac.th/about::c0000"", ""https://ait.ac.th/financial/alumni-scholarship-fund::c0000"", ""https://www.ait.ac.th/about::c0009"", ""https://www.ait.ac.th/about::c0009""]",entails,0.83,1,0,entails,0.83,1
+What is AIT’s mission and vision?,"The Asian Institute of Technology (AIT) has a clear mission and vision that guide its goals and operations. 
+
+**Vision**: AIT's vision is to transform itself into a respected international graduate institution whose research and education contribute to the development of Asia. This transformation involves making AIT more global, more innovative, more entrepreneurial, and more economically relevant, while leveraging its core strengths in social impact.
+
+**Mission**: AIT's mission is to develop highly qualified and committed professionals who will play a leading role in the sustainable development of the region and its integration into the global economy. This mission is carried out through a focus on education, research, and professional development, with an emphasis on addressing regional and global challenges.","AIT (Asian Institute of Technology) aims to be a leading graduate institution for Asia's sustainable development, fostering future leaders through relevant education, research, and problem-solving in technology, engineering, and management, by connecting with industry and promoting innovation for real-world impact. Its mission focuses on developing highly qualified professionals and delivering knowledge to tackle regional and global challenges, while its vision emphasizes regional integration, leadership in advanced education, and impactful solutions for a sustainable future. 
+AIT's Vision:
+To be a globally recognized leader in advanced education and research, driving sustainable development in Asia.
+To be an exemplary institution that integrates the region into the global economy through innovation and partnership. 
+AIT's Mission:
+To develop future-focused, problem-solving professionals through rigorous education, leveraging diverse expertise.
+To provide need-responsive, high-quality education and training in technology, engineering, management, and sustainability.
+To generate impactful solutions to societal and industry challenges by applying research and knowledge.
+To build strong connections with industry and community partners for knowledge transfer and sustainable development. ","[""https://www.ait.ac.th/about::c0005"", ""https://www.ait.ac.th/about::c0005"", ""https://www.ait.ac.th/about::c0006"", ""https://www.ait.ac.th/about::c0006"", ""https://www.ait.ac.th/about::c0000""]",not_enough_info,0.67,0,1,entails,0.83,1
+What is the rank of AIT?,"The provided context does not mention the rank of AIT. Therefore, based on the information available, it is not possible to determine AIT's rank.","AIT participated in 12 out of the 17 SDGs this year, securing Top 50 ranks in four SDGs and Top 100 in four others, reflecting the Institute’s commitment to impactful research, inclusive education, and sustainability leadership.
+
+Highlights of AIT’s 2025 Global Rankings:
+SDG 2 – Zero Hunger: Ranked 18th
+SDG 16 – Peace, Justice and Strong Institutions: Ranked 19th
+SDG 17 – Partnerships for the Goals: Ranked 33rd
+SDG 1 – No Poverty: Ranked 47th
+Additional notable rankings:
+
+SDG 14 – Life Below Water: Ranked 62nd
+SDG 8 – Decent Work and Economic Growth: Ranked 80th
+SDG 15 – Life on Land: Ranked 96th
+SDG 6 – Clean Water and Sanitation: Ranked 98th
+AIT is also placed within the:
+
+Top 100–200 for SDGs 10 (Reduced Inequalities) and 12 (Responsible Consumption & Production)
+Top 201–300 for SDGs 7 (Affordable & Clean Energy) and 13 (Climate Action)
+“This year’s strong performance reflects AIT’s ongoing commitment to sustainability and global engagement,” said AIT President Prof. Pai-Chi Li. “Our progress across key SDGs, particularly in SDG 2, SDG 16, and SDG 17, highlights the meaningful contributions AIT continues to make through education, research, and collaboration.”","[""https://ait.ac.th/financial/royal-thai-government-scholarships::c0006"", ""https://ait.ac.th/financial/ait-scholarships::c0002"", ""https://ait.ac.th/financial/ait-alumni-association-hong-kong-macau-chapter-masters-scholarship::c0001"", ""https://ait.ac.th/financial/ait-scholarships::c0001"", ""https://ait.ac.th/financial/alumni-scholarship-fund::c0001""]",entails,0.83,1,0,entails,0.83,1
+What is the duration of study?,"The duration of study at AIT varies depending on the program and the type of degree. Here is a breakdown based on the available information:
+
+1. **Diploma Program**: This program typically covers two (2) semesters or a minimum of one (1) year. It requires students to complete at least 24 credits of coursework and maintain a CGPA of not less than 2.75 out of 4.00.
+
+2. **Certificate Program**: This is a non-degree program that can take between two (2) months to one (1) year, depending on the number of credits registered by the student. It is designed for students or professionals seeking focused education in specific areas to enhance their careers.
+
+3. **One-Year Master’s Degree Program**: AIT offers accelerated master’s programs that can be completed in two semesters (approximately 10 months). These programs provide the same coursework knowledge as traditional two-year master’s programs, but in a more condensed format. Students in these programs can return to work or enter the job market twelve months earlier than those in traditional two-year programs.
+
+4. **Traditional Master’s Programs**: These programs typically take two years to complete and include additional components such as thesis work, internships, and exchange opportunities, which are not part of the accelerated one-year programs.
+
+In summary, the duration of study at AIT ranges from a minimum of one year for diploma and certificate programs to two years for traditional master’s programs, with the option of an accelerated one-year master’s program available for certain disciplines.","2 Year Master’s Degree students normally study for 22 months (enrolled in August Intake) and 24 months (enrolled in January Intake) which includes four semesters, two short breaks and one long break between semesters. Doctoral students study for at least 42 months or seven semesters. 1-year Master, Professional Master Program and the Diploma Programs are at least 12 months or two semesters and the Certificate Program is 5 months or one semester.","[""https://ait.ac.th/program/nanosystems-engineering-nse::c0011"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0012"", ""https://ait.ac.th/study/one-year-masters-degree-program::c0002"", ""https://ait.ac.th/financial/daad-scholarship::c0002"", ""https://ait.ac.th/study/one-year-masters-degree-program::c0001""]",entails,0.95,1,0,entails,0.83,1
+What academic programs and courses does AIT offer?,"AIT offers a wide range of academic programs and courses, primarily at the postgraduate level, with a focus on engineering, environment, and management studies. Here is a detailed breakdown of the academic programs and courses available:
+
+1. **Master’s Degree Programs**:
+   - **Traditional Master’s Programs**: These typically take two years to complete and include coursework, thesis work, internships, and exchange opportunities.
+   - **One-Year Master’s Degree Programs (Accelerated)**: AIT offers accelerated master’s programs that can be completed in two semesters (approximately 10 months). These programs provide the same coursework knowledge as traditional two-year master’s programs but in a more condensed format.
+
+2. **Doctoral Degree Programs**:
+   - AIT offers doctoral degrees such as the Doctor of Engineering (DEng), Doctor of Technology Science (DTechSc), Doctor of Philosophy (PhD), and Doctor of Business Administration (DBA).
+
+3. **Executive Master Degree Programs**:
+   - These are designed for professionals seeking advanced education while balancing work commitments.
+
+4. **Certificate and Special Programs**:
+   - **Certificate Programs**: These are non-degree programs that can take between two months to one year, depending on the number of credits registered. They are designed for students or professionals seeking focused education in specific areas.
+   - **Special Programs**: These include intensive English and academic bridging programs, as well as non-degree continuing education courses.
+
+5. **Diploma Programs**:
+   - These programs typically cover two semesters or a minimum of one year, requiring students to complete at least 24 credits of coursework and maintain a CGPA of not less than 2.75 out of 4.00.
+
+6. **Education for Sustainable Development Goals (SDGs)**:
+   - AIT integrates education for the SDGs into its programs, focusing on sustainable development and global challenges.
+
+7. **Student Opportunities**:
+   - AIT provides various opportunities for students, including international exchange programs, internships, and assistantships, which enhance the learning experience and career development.
+
+These programs are structured to provide students with a globally recognized education, emphasizing innovation, research, and practical application in their respective fields.","The Asian Institute of Technology (AIT) offers a wide range of graduate-level academic programs and courses, primarily at the Master’s and Doctoral (PhD) levels. These programs are designed to address regional and global challenges through advanced education, research, and practical application.
+
+Academic Programs at AIT
+
+AIT’s programs are organized under three main schools, each offering multiple fields of study:
+
+1. School of Engineering and Technology (SET)
+
+Data Science and Artificial Intelligence
+
+Computer Science
+
+Information and Communications Technologies
+
+Civil and Infrastructure Engineering
+
+Environmental Engineering and Management
+
+Electrical and Electronic Engineering
+
+Mechanical, Industrial, and Manufacturing Engineering
+
+2. School of Management (SOM)
+
+Business Administration (MBA)
+
+Management of Technology
+
+International Business
+
+Finance
+
+Marketing
+
+Entrepreneurship and Innovation
+
+3. School of Environment, Resources and Development (SERD)
+
+Sustainable Development
+
+Environmental Management
+
+Energy and Climate Change
+
+Agricultural Systems and Engineering
+
+Urban Environmental Management
+
+Courses and Study Structure
+
+Programs typically include core courses, electives, and either a thesis, research project, or capstone.
+
+Courses are taught in English.
+
+Both research-oriented and coursework-based options are available, depending on the program.
+
+Some programs are interdisciplinary, drawing courses from multiple schools.
+
+Additional Academic Offerings
+
+Doctoral (PhD) programs with strong research focus
+
+Short courses, professional training, and executive education (program-dependent)","[""https://ait.ac.th/admissions::c0001"", ""https://www.ait.ac.th/about::c0002"", ""https://www.ait.ac.th/about::c0002"", ""https://ait.ac.th/academics/student-opportunities::c0000"", ""https://ait.ac.th/program/professional-master-in-environment-social-and-governance-esg::c0003""]",not_enough_info,0.5,0,1,entails,0.83,1
+Which schools or faculties at AIT offer each academic program?,"The Asian Institute of Technology (AIT) offers a variety of academic programs across different faculties and departments. While the provided context does not explicitly list which faculty offers each program, it does provide enough information to identify the general areas of study and the faculties that are likely responsible for them. Here is a step-by-step breakdown of the academic programs and the likely faculties that offer them:
+
+1. **Master’s Degree Programs**:
+   - **Traditional Master’s Programs**: These programs are likely offered by the **Faculty of Engineering**, **Faculty of Environment**, and **Faculty of Management**, as these are the core areas of focus at AIT.
+   - **One-Year Master’s Degree Programs (Accelerated)**: These are also likely offered by the **Faculty of Engineering**, **Faculty of Environment**, and **Faculty of Management**, as they are condensed versions of the traditional programs.
+
+2. **Doctoral Degree Programs**:
+   - **Doctor of Engineering (DEng)**: Likely offered by the **Faculty of Engineering**.
+   - **Doctor of Technology Science (DTechSc)**: Likely offered by the **Faculty of Environment** or **Faculty of Engineering**.
+   - **Doctor of Philosophy (PhD)**: Likely offered by the **Faculty of Engineering**, **Faculty of Environment**, and **Faculty of Management**.
+   - **Doctor of Business Administration (DBA)**: Likely offered by the **Faculty of Management**.
+
+3. **Executive Master Degree Programs**:
+   - These are likely offered by the **Faculty of Management**, as they are designed for professionals and focus on business and management.
+
+4. **Certificate and Special Programs**:
+   - **Certificate Programs**: These are likely offered by the **Faculty of Engineering**, **Faculty of Environment**, and **Faculty of Management**, as they are non-degree programs that focus on specific areas of study.
+   - **Intensive English & Academic Bridging Program**: Likely offered by the **Faculty of Management** or **Academic Support Services**, as these programs are designed to help students improve their English and academic skills.
+   - **Non-Degree Continuing Education Courses**: Likely offered by the **Faculty of Engineering**, **Faculty of Environment**, and **Faculty of Management**, as these courses are designed for professionals seeking to enhance their knowledge in specific areas.
+
+5. **Education for Sustainable Development Goals (SDGs)**:
+   - This is likely integrated across all faculties, particularly the **Faculty of Environment** and **Faculty of Management**, as these areas focus on sustainability and global challenges.
+
+In summary, the **Faculty of Engineering**, **Faculty of Environment**, and **Faculty of Management** are the main faculties that offer the academic programs at AIT. Each faculty is responsible for specific areas of study, and the programs are structured to provide students with a globally recognized education in engineering, environment, and management.","Academic Programs and Their Schools at AIT
+School of Engineering and Technology (SET)
+
+Offers engineering, technology, and related programs, including:
+
+Departments and Programs:
+
+Department of Civil and Infrastructure Engineering
+
+Construction, Engineering and Infrastructure Management
+
+Geotechnical and Earth Resources Engineering
+
+Structural Engineering
+
+Transportation Engineering
+
+Water Engineering and Management
+
+Department of Industrial Systems Engineering
+
+Bio-Nano Material Science and Engineering
+
+Mechatronics and Machine Intelligence
+
+Industrial and Manufacturing Engineering
+
+Medical Engineering
+
+Department of Information and Communication Technologies
+
+Computer Science
+
+Data Science and Artificial Intelligence
+
+Information & Communications Technologies
+
+Information Management
+
+Internet of Things (IoT) Systems Engineering
+
+Remote Sensing and Geographic Information Systems
+
+Telecommunications
+(Source: Official AIT program pages)
+
+Additionally, SET also offers Professional Master’s programs in technical and engineering specialties, such as professional data science, construction, and geotechnical engineering.
+
+School of Environment, Resources and Development (SERD)
+
+Focuses on sustainable development, environment, agriculture, and energy programs:
+
+Departments and Programs:
+
+Department of Food, Agriculture and Natural Resources
+
+AgriBusiness Management
+
+Agricultural Systems & Engineering
+
+Aquaculture and Aquatic Resources Management
+
+Food Engineering and Bioprocess Technology
+
+Food Innovation, Nutrition and Health
+
+Natural Resources Management
+
+Department of Energy and Climate Change
+
+Climate Change and Sustainable Development
+
+Sustainable Energy Transition
+
+Department of Development and Sustainability
+
+Development and Sustainability
+
+Development Planning Management and Innovation
+
+Gender and Development Studies
+
+Urban Innovation and Sustainability
+(Source: Official AIT program pages)
+
+SERD also participates in inter-school programs jointly offered with other schools.
+
+School of Management (SOM)
+
+Focuses on business, management, and related fields:
+
+Programs:
+
+Master of Business Administration (MBA)
+
+Business Analytics and Digital Transformation (MSc)
+
+International Finance (MSc)
+
+Digital Marketing (MSc)
+
+Environmental, Social and Governance (Professional Master)
+(These offerings reflect the main management programs; curricula may vary by term.)
+
+SOM also offers professional and executive programs in finance, banking, and entrepreneurship.
+
+Joint / Inter-School Academic Programs
+
+Some programs combine expertise from multiple schools:
+
+Disaster Preparedness, Mitigation, and Management (SET + SERD)
+
+Urban Water Engineering & Management (SET + SERD)
+
+Water Security and Global Change (SET + SERD)
+
+Social Business and Entrepreneurship (SERD + SOM)
+(Source: Various listings including combined program sections)
+
+Doctoral Programs
+
+Doctoral (PhD and DBA) programs are also offered through the same schools:
+
+SET: Advanced engineering and technology research fields
+
+SERD: Environment, development, and sustainability research
+
+SOM: Business and management research (PhD / DBA)
+(Source: archived doctoral listings)","[""https://ait.ac.th/admissions::c0001"", ""https://www.ait.ac.th/about::c0002"", ""https://www.ait.ac.th/about::c0002"", ""https://ait.ac.th/academics/student-opportunities::c0000"", ""https://ait.ac.th/admissions::c0000""]",not_enough_info,0.83,0,1,not_enough_info,0.83,0
+Can I apply to two Academic Programs at the same time?,"The Asian Institute of Technology (AIT) allows students to apply to multiple academic programs simultaneously, provided they meet the specific requirements and deadlines for each program. This flexibility is supported by the structure of AIT's admissions process, which does not restrict applicants from applying to more than one program at the same time.
+
+However, it is important to note that each program may have its own set of eligibility criteria, application deadlines, and required documents. Therefore, while applying to two programs is permitted, applicants must ensure they are able to meet all the conditions for each program they choose to apply to. This includes submitting all necessary materials, adhering to deadlines, and fulfilling any additional requirements such as minimum academic performance or specific coursework. 
+
+In summary, applying to two academic programs at AIT is allowed, but applicants must carefully manage their application process to ensure compliance with the requirements of each program.",No. You can only apply to one academic program at any time,"[""https://ait.ac.th/academics/study-options::c0001"", ""https://ait.ac.th/apply-online::c0000"", ""https://ait.ac.th/program/university-of-nice-sophia-antipolis-france::c0001"", ""https://ait.ac.th/eligibility/doctoral-degree-program::c0001"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0009""]",not_enough_info,0.33,0,1,contradicts,0.95,0
+Do you have academic exchange programs and scholarships for those?,"AIT offers academic exchange programs and scholarships, though the details vary depending on the program and the student's circumstances.
+
+**Academic Exchange Programs**:  
+AIT has partnerships with universities around the world, and students from these institutions can enroll at AIT as **Special Students (Exchange Students)** under non-degree academic exchange agreements. These students are typically enrolled in certificate or special programs, which are non-degree programs designed to provide focused education in specific areas. Exchange students may also participate in internships, assistantships, and other student opportunities that enhance their learning experience.
+
+**Scholarships**:  
+AIT does not offer scholarships directly to students. However, students are encouraged to apply for scholarships from their home governments or other external organizations. If a student needs support documents from AIT to apply for a scholarship, they can contact AIT for assistance. AIT may also support visa applications for students who are required to come to campus for lab work or other academic activities.
+
+In summary, AIT provides academic exchange opportunities for students from partner universities and supports scholarship applications through documentation and visa assistance, but it does not offer direct scholarships to its students.","Yes, we have academic exchange programs with various partner universities in Asia and Europe. AIT has a limited number of scholarships to assist our students to go on academic exchange. You can apply for an academic exchange program and the scholarship in your second semester of study at AIT.","[""https://ait.ac.th/eligibility/certificate-and-special-program::c0001"", ""https://ait.ac.th/academics/study-options::c0001"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0004"", ""https://ait.ac.th/study/flexible-masters-option::c0011"", ""https://ait.ac.th/study/flexible-phd-option::c0011""]",entails,0.83,1,0,contradicts,0.95,0
+Are AIT programs offered on a full-time or part-time basis?,"The Asian Institute of Technology (AIT) offers its academic programs in both full-time and part-time formats, depending on the specific program and its structure.
+
+For example, the **Flexible Master’s Option** allows students to study part-time, with a total flexible time to complete the program of **2 years full-time** or **4 years part-time**. This option provides flexibility in terms of time management and payment, as students can take courses online from home and pay course-by-course. However, students are still required to come to the AIT campus for certain activities such as labs, research work, and the graduation ceremony.
+
+Additionally, some programs, such as the **Professional Master’s in Geotechnical Engineering and Management (PME-GEM)**, are offered on a **full-time basis** at the AIT Vietnam campus, with a structured schedule of classes held during weekdays and weekends.
+
+In summary, AIT offers both full-time and part-time options for its academic programs, depending on the program's delivery mode and structure.","At the Asian Institute of Technology (AIT), academic programs are offered primarily on a full-time basis.
+
+Key details
+
+Most Master’s and Doctoral programs are full-time, with on-campus study required.
+
+Programs are designed to be academically intensive, combining coursework, research, and/or thesis work that requires regular campus engagement.
+
+Part-time study is generally not available for regular academic degree programs.
+
+Some professional, executive, or short-term programs may offer more flexible formats, but these are exceptions and are program-specific.
+
+Practical implication
+
+Applicants should plan for full-time enrollment and residence in Thailand for the duration of their studies, especially for visa and academic requirements.
+
+For confirmation on any program-specific flexibility, applicants should check the official program page or consult AIT Admissions, as availability may vary by program and intake.","[""https://ait.ac.th/admissions::c0001"", ""https://ait.ac.th/study/flexible-masters-option::c0002"", ""https://ait.ac.th/study/flexible-masters-option::c0001"", ""https://ait.ac.th/apply-online::c0000"", ""https://ait.ac.th/program/professional-master-in-geotechnical-engineering-and-management-pme-gem::c0004""]",entails,0.95,1,0,contradicts,0.75,0
+How long does it typically take to complete a Master’s program at AIT?,"The typical duration of a Master’s program at AIT varies depending on the specific program and its structure. Here is a clear breakdown:
+
+1. **Traditional Master’s Programs**: These programs generally take **two years** to complete. They include coursework, thesis work, internships, and exchange opportunities, which are not part of the accelerated one-year programs.
+
+2. **One-Year Master’s Degree Programs (Accelerated)**: AIT offers **accelerated master’s programs** that can be completed in **two semesters (approximately 10 months)**. These programs provide the same coursework knowledge as traditional two-year master’s programs but in a more condensed format.
+
+3. **Flexible Master’s Option**: This is a part-time option that allows students to complete the program in **2 years full-time** or **4 years part-time**. While students can take courses online from home, they are still required to come to the AIT campus for certain activities such as labs, research work, and the graduation ceremony.
+
+In summary, the standard full-time Master’s program at AIT takes **two years**, while the accelerated option can be completed in **10 months**, and the flexible part-time option allows for completion in **2 to 4 years**.","2 Year Master’s Degree students normally study for 22 months (enrolled in August Intake) and 24 months (enrolled in January Intake) which includes four semesters, two short breaks and one long break between semesters. Doctoral students study for at least 42 months or seven semesters. 1-year Master, Professional Master Program and the Diploma Programs are at least 12 months or two semesters and the Certificate Program is 5 months or one semester.","[""https://ait.ac.th/program/nanosystems-engineering-nse::c0008"", ""https://ait.ac.th/study/one-year-masters-degree-program::c0002"", ""https://ait.ac.th/study/flexible-masters-option::c0001"", ""https://ait.ac.th/program/professional-master-in-banking-and-finance::c0002"", ""https://ait.ac.th/study/flexible-masters-option::c0006""]",entails,0.83,1,0,contradicts,0.67,0
+How long does it take to complete a PhD program at AIT?,"The typical duration of a PhD program at AIT is **6 years** when following the **Flexible Ph.D. Option**. This option allows students to complete their program at their own pace, with the flexibility to take courses online from home and only come to the AIT campus for specific activities such as labs, research work, and the graduation ceremony. 
+
+While the Flexible Ph.D. Option provides a total flexible time of **6 years**, it is important to note that the program is not fully online. Students are still required to come to campus for certain academic activities. Additionally, the program has the same cost as the regular ""On-Campus Option,"" and AIT offers scholarships for eligible candidates.
+
+In summary, the **Flexible Ph.D. Option** typically takes **6 years** to complete, offering students the flexibility to balance their studies with other commitments.","2 Year Master’s Degree students normally study for 22 months (enrolled in August Intake) and 24 months (enrolled in January Intake) which includes four semesters, two short breaks and one long break between semesters. Doctoral students study for at least 42 months or seven semesters. 1-year Master, Professional Master Program and the Diploma Programs are at least 12 months or two semesters and the Certificate Program is 5 months or one semester.","[""https://ait.ac.th/study/flexible-phd-option::c0001"", ""https://ait.ac.th/program/environmental-engineering-and-management::c0005"", ""https://ait.ac.th/study/one-year-masters-degree-program::c0002"", ""https://ait.ac.th/program/water-engineering-and-management-wem::c0006"", ""https://ait.ac.th/study/flexible-masters-option::c0001""]",entails,0.95,1,0,not_enough_info,0.75,0
+Are there non-thesis or coursework-only program options at AIT?,"**How Long Does It Take to Complete a PhD Program at AIT?**
+
+The typical duration of a **PhD program at AIT** is **6 years** when following the **Flexible Ph.D. Option**. This option is designed to provide students with the flexibility to balance their studies with other commitments, such as work or personal responsibilities.
+
+### Key Details of the Flexible Ph.D. Option:
+
+- **Duration**: 6 years (flexible timeline).
+- **Format**: Not fully online. Students are required to come to the AIT campus for certain academic activities, such as labs, research work, and the graduation ceremony.
+- **Coursework**: Students can take courses online via AIT’s Hybrid Mode of Instruction, similar to the Flexible Master’s Option.
+- **Thesis/Research**: After completing the coursework, students can conduct their research or thesis work at the AIT campus at a flexible time.
+- **Payment**: Students can pay course-by-course, offering flexibility in financial management.
+- **Academic Requirements**: The same academic requirements apply as the regular ""On-Campus Option,"" ensuring the same quality of education and degree.
+
+### Additional Notes:
+
+- **Scholarships**: While AIT does not offer direct scholarships, students are encouraged to apply for scholarships from their home governments or other external organizations. AIT can provide supporting documents if needed.
+- **Program Structure**: The PhD program is structured to allow students to design their own research path, often in collaboration with supervisors and co-supervisors, and to integrate interdisciplinary research across AIT’s schools.
+
+### Summary:
+
+- **Standard PhD Duration**: 6 years (Flexible Option).
+- **Not Fully Online**: Students must come to campus for labs, research, and the graduation ceremony.
+- **Flexibility**: Offers flexibility in time management, payment, and course selection.
+- **Same Degree**: Students receive the same degree as those in the traditional on-campus program.
+
+This structure allows students to pursue advanced research while maintaining a balance with other life commitments, making the PhD program at AIT accessible and adaptable to a wide range of students.","Yes — AIT offers alternative study formats that are not strictly the traditional full-time, on-campus thesis route, though a completely coursework-only master’s without research is not the standard structure for degrees. What does exist are flexible options that change how coursework and research are delivered:
+
+Flexible Master’s Option (Hybrid / Flexible Coursework)
+
+AIT’s Flexible Master’s Option allows students to complete most coursework online via hybrid instruction while still being required to do research or thesis work on campus later.
+
+This option gives flexibility in where and how coursework is taken and allows study at the student’s own pace, but it still leads to the same full Master’s degree and includes research or thesis components as required by the program.
+
+Students may spread study over up to four years under this option.
+
+This demonstrates that coursework delivery can be structured differently, even though full coursework-only degrees are not the primary degree format.","[""https://ait.ac.th/study/one-year-masters-degree-program::c0002"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0005"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0004"", ""https://ait.ac.th/study/flexible-masters-option::c0000"", ""https://ait.ac.th/study/flexible-masters-option::c0001""]",not_enough_info,0.3,0,1,not_enough_info,0.3,0
+"Does AIT offer short courses, certificates, or professional training programs?","### **How Long Does It Take to Complete a PhD Program at AIT?**
+
+The **PhD program at AIT** typically takes **6 years** when following the **Flexible Ph.D. Option**. This option is designed to provide students with the flexibility to balance their studies with other commitments, such as work or personal responsibilities.
+
+---
+
+### **Key Details of the Flexible Ph.D. Option:**
+
+- **Duration**: 6 years (flexible timeline).
+- **Format**: Not fully online. Students are required to come to the AIT campus for certain academic activities, such as labs, research work, and the graduation ceremony.
+- **Coursework**: Students can take courses online via AIT’s Hybrid Mode of Instruction, similar to the Flexible Master’s Option.
+- **Thesis/Research**: After completing the coursework, students can conduct their research or thesis work at the AIT campus at a flexible time.
+- **Payment**: Students can pay course-by-course, offering flexibility in financial management.
+- **Academic Requirements**: The same academic requirements apply as the regular ""On-Campus Option,"" ensuring the same quality of education and degree.
+
+---
+
+### **Are There Non-Thesis or Coursework-Only Program Options at AIT?**
+
+AIT does **not offer non-thesis or coursework-only program options** for its **PhD programs**. All PhD programs at AIT require students to complete a **research-based thesis** as part of their degree. This is consistent with the academic standards and research focus of AIT, which emphasizes original research and scholarly contribution.
+
+However, AIT does offer **flexible options** for students who may need to balance their studies with other commitments. These include:
+
+- **Flexible Ph.D. Option**: As described above, this allows students to complete their program over 6 years, with a mix of online and on-campus activities.
+- **Hybrid Mode of Instruction**: Students can take courses online while still being required to attend campus for certain academic activities.
+
+---
+
+### **Summary:**
+
+- **PhD Duration**: 6 years (Flexible Option).
+- **Not Fully Online**: Students must come to campus for labs, research, and the graduation ceremony.
+- **Thesis Requirement**: All PhD programs require a research-based thesis.
+- **Flexibility**: Offers flexibility in time management, payment, and course selection.
+- **Same Degree**: Students receive the same degree as those in the traditional on-campus program.
+
+This structure allows students to pursue advanced research while maintaining a balance with other life commitments, making the PhD program at AIT accessible and adaptable to a wide range of students.","Yes. The Asian Institute of Technology (AIT) does offer short courses, certificate programs, and professional / executive training, in addition to its degree programs.
+
+Types of Non-Degree & Professional Offerings at AIT
+
+Short courses and professional training
+
+Targeted programs for working professionals, organizations, and government agencies
+
+Focus areas include engineering, technology, management, environment, sustainability, and development
+
+Certificate and diploma programs
+
+Skill-oriented and practice-focused
+
+Often delivered in intensive or modular formats
+
+Executive and professional education
+
+Offered through AIT’s schools and specialized centers
+
+Includes leadership, management, policy, and technical training","[""https://ait.ac.th/admissions::c0001"", ""https://www.ait.ac.th/about::c0002"", ""https://www.ait.ac.th/about::c0002"", ""https://ait.ac.th/program/professional-master-in-environment-social-and-governance-esg::c0003"", ""https://ait.ac.th/study/one-year-masters-degree-program::c0002""]",not_enough_info,0.6,0,1,not_enough_info,0.3,0
+What are the requirements to apply to AIT?,"**Does AIT Offer Short Courses, Certificates, or Professional Training Programs?**
+
+Yes, **Asian Institute of Technology (AIT)** offers a variety of **short courses, certificates, and professional training programs** designed to meet the needs of working professionals, industry leaders, and individuals seeking to enhance their skills in specific technical and managerial areas.
+
+---
+
+### ✅ **Types of Programs Offered by AIT:**
+
+#### 1. **Short Courses**
+AIT provides **short-term, intensive courses** that focus on specific technical or managerial topics. These courses are often tailored for professionals who want to gain in-depth knowledge without committing to a full degree program.
+
+- **Examples of Short Courses:**
+  - Project Management
+  - Sustainable Energy Systems
+  - Smart Grid Technologies
+  - Renewable Energy Systems
+  - Data Analytics for Engineering
+  - Environmental Impact Assessment
+
+- **Duration:** Typically 1–3 months, depending on the course.
+
+- **Delivery Mode:** Can be **online**, **on-campus**, or **hybrid** (a mix of both).
+
+- **Target Audience:** Working professionals, industry practitioners, and individuals seeking to upskill.
+
+---
+
+#### 2. **Certificates**
+AIT offers **certificate programs** that provide structured learning in specialized areas. These programs are often shorter than full degree programs and can be completed in a few months.
+
+- **Examples of Certificate Programs:**
+  - Certificate in Sustainable Energy Systems
+  - Certificate in Smart Grid Technologies
+  - Certificate in Environmental Management
+  - Certificate in Project Management
+
+- **Duration:** Usually 3–6 months.
+
+- **Delivery Mode:** Online or on-campus.
+
+- **Target Audience:** Professionals looking to gain specialized knowledge in a particular field.
+
+---
+
+#### 3. **Professional Training Programs**
+AIT also offers **professional training programs** that are often sponsored by industry partners or government agencies. These programs are designed to provide practical, job-ready skills and are often aligned with industry needs.
+
+- **Examples of Professional Training Programs:**
+  - Training in Renewable Energy Technologies
+  - Training in Smart Infrastructure
+  - Training in Energy Efficiency and Management
+  - Training in Environmental Compliance and Regulation
+
+- **Duration:** Varies from a few weeks to several months.
+
+- **Delivery Mode:** On-campus or online.
+
+- **Target Audience:** Industry professionals, government officials, and technical staff.
+
+---
+
+### 🎓 **How to Enroll in AIT Short Courses, Certificates, or Training Programs:**
+
+1. **Visit the AIT Website:**
+   - Go to [https://ait.ac.th](https://ait.ac.th)
+   - Navigate to the **""Programs""** or **""Short Courses""** section.
+
+2. **Check the Course Catalog:**
+   - Browse through the list of available short courses, certificates, and training programs.
+   - Look for course descriptions, eligibility criteria, and application procedures.
+
+3. **Contact the Admissions Office:**
+   - For more information or assistance, contact the **Admissions and Scholarships Unit** at:
+     - Email: [email protected]
+     - Phone: (662) 524 5024, 31-33
+
+4. **Apply Online:**
+   - Many short courses and certificate programs can be applied for through the AIT online application system:
+     - [https://ait.ac.th/apply-online/](https://ait.ac.th/apply-online/)
+
+---
+
+### 📌 **Eligibility for Short Courses and Certificates:**
+
+- **General Requirements:**
+  - A **4-year bachelor’s degree** from a recognized university (or equivalent).
+  - **English proficiency** (IELTS 6.0 or AIT EET 6.0 or equivalent).
+  - Some programs may require **work experience** or **specific background knowledge**.
+
+- **Specialized Programs:**
+  - Some short courses and certificates may have **additional eligibility criteria**, such as:
+    - Minimum GPA (e.g., 2.75 or higher).
+    - Relevant work experience.
+    - Specific technical or managerial background.
+
+---
+
+### 📚 **Examples of AIT Short Courses and Certificates:**
+
+| Course Title | Duration | Mode | Eligibility |
+|--------------|----------|------|-------------|
+| Certificate in Sustainable Energy Systems | 3–6 months | Online/On-campus | Bachelor’s degree + IELTS 6.0 |
+| Short Course in Smart Grid Technologies | 1–3 months | Online | Bachelor’s degree + IELTS 6.0 |
+| Professional Training in Renewable Energy | 2–4 months | On-campus | 3+ years of work experience |
+| Certificate in Environmental Management | 3–6 months | Hybrid | Bachelor’s degree + IELTS 6.0 |
+
+---
+
+### 📌 **Why Choose AIT Short Courses and Certificates?**
+
+- **Flexible Learning Options:** Choose between online, on-campus, or hybrid delivery.
+- **Industry-Relevant Content:** Courses are designed in collaboration with industry experts and aligned with current trends.
+- **Career Advancement:** Gain new skills and knowledge that can directly impact your career.
+- **Networking Opportunities:** Connect with peers, faculty, and industry professionals.
+
+---
+
+### 📞 **Contact Information:**
+
+- **Admissions and Scholarships Unit**
+- **Email:** [email protected]
+- **Phone:** (662) 524 5024, 31-33
+- **Website:** [https://ait.ac.th](https://ait.ac.th)
+
+---
+
+### 📚 **Further Reading:**
+
+- [AIT Short Courses and Certificates](https://ait.ac.th/program/)
+- [AIT Admissions and Scholarships](https://ait.ac.th/financial/)
+- [AIT Online Application Portal](https://ait.ac.th/apply-online/)
+
+---
+
+If you're interested in a specific course or program, feel free to ask for more details!","Academic Requirements
+Master's Programs: A Bachelor's degree from a recognized university, usually with a GPA of at least 2.75 (or equivalent) on a 4.0 scale. Some programs may have higher GPA requirements or require a degree in a specific field.
+Doctoral Programs: A Master's degree from a recognized university, with a strong academic record (typically a GPA of 3.50 or above on a 4.0 scale). Evidence of research ability, often in the form of a Master's thesis, is usually required.
+English Language Proficiency
+Since English is the official language of instruction at AIT, applicants must demonstrate a certain level of English proficiency. This is typically done by submitting a satisfactory score from one of the following standardized tests:
+IELTS: A minimum score of 6.0 (with no band score below 5.5) is generally required for Master's programs.
+TOEFL: Internet-based (iBT): A score of 80 or higher.
+Paper-based: A score of 550 or higher.
+AIT's own English Entry Test: The institute also offers its own test for applicants who are unable to take the IELTS or TOEFL.
+Required Application Documents
+When applying, you will generally need to prepare the following documents:
+Completed Application Form: This is usually submitted online through the AIT admissions portal.
+Official Transcripts and Degree Certificates: You will need to provide certified copies of your academic records from all universities previously attended.
+Two Letters of Recommendation: These should be from professors or employers who are familiar with your academic and/or professional abilities.
+Statement of Purpose: A written essay detailing your academic and career goals, and why you are interested in the specific program at AIT.
+Proof of English Language Proficiency: Your official IELTS, TOEFL, or AIT test score report.
+Copy of your Passport
+Curriculum Vitae (CV) or Resume","[""https://ait.ac.th/financial/ait-scholarships::c0002"", ""https://ait.ac.th/financial/ait-alumni-association-hong-kong-macau-chapter-masters-scholarship::c0001"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0005"", ""https://ait.ac.th/program/professional-master-in-geotechnical-engineering-and-management-pme-gem::c0003"", ""https://ait.ac.th/financial/alumni-scholarship-fund::c0001""]",not_enough_info,0.5,0,1,not_enough_info,0.75,0
+How do I apply online to AIT?,"### 🎓 **Admissions and Scholarships at AIT: A Comprehensive Guide**
+
+---
+
+## 📌 **1. Apply Online to AIT**
+
+AIT welcomes talented, high-achieving students from diverse backgrounds. To begin your application, visit the **[AIT Online Application Portal](https://ait.ac.th/apply-online/)**.
+
+### 📅 **Application Deadlines**
+- **January Intake:** Application deadline is **15 November** of the previous year.
+- **August Intake:** Application deadline is **15 May** of the same year.
+
+### 📝 **Application Process**
+1. **Visit the AIT Online Application Portal**: [https://ait.ac.th/apply-online/](https://ait.ac.th/apply-online/)
+2. **Create an Account**: Register with your email address.
+3. **Complete the Application Form**: Fill in all required details, including personal information, academic background, and English proficiency (IELTS 6.0 or AIT-EET 6.0 or above).
+4. **Submit Your Application**: Review and submit your application before the deadline.
+5. **Pay the Processing Fee**: A non-refundable application fee is required.
+
+---
+
+## 📌 **2. Scholarships at AIT**
+
+AIT offers various scholarships to support students from diverse backgrounds, including international and Thai students.
+
+### 🎓 **DAAD Scholarships**
+- **Eligibility**: International students with strong academic records and English proficiency (IELTS 6.0 or AIT-EET 6.0 or above).
+- **Application Process**:
+  1. **Register on the DAAD Portal**: [https://www.meindaad.de/en/help/how-do-i-register-for-an-application/](https://www.meindaad.de/en/help/how-do-i-register-for-an-application/)
+  2. **Log in and Submit Your Application**: Follow the instructions on the portal.
+  3. **Deadline**: 20 November 2024.
+  4. **Application Link**: [https://funding.meindaad.de/sites/personalfunding#PBFApplication-Start?fundingProgramInstance=57757532](https://funding.meindaad.de/sites/personalfunding#PBFApplication-Start?fundingProgramInstance=57757532)
+  5. **Application Period**: 16 September 2024 to 20 November 2024.
+
+### 🎓 **Royal Thai Government Scholarships**
+- **Eligibility**: Thai citizens with strong academic records and English proficiency (IELTS 6.0 or AIT-EET 6.0 or above).
+- **Contact**: Kanchana at 02-524-6119 or [email protected]
+
+### 🎓 **AIT Scholarships (AIS)**
+- **Application Deadline for January 2026 Intake**: 15 November 2025.
+- **Apply Here**: [https://admission.ait.ac.th/aoas/Applicant/FirstPage.aspx](https://admission.ait.ac.th/aoas/Applicant/FirstPage.aspx)
+
+---
+
+## 📌 **3. Eligibility Criteria for Admissions**
+
+### 📚 **General Requirements**
+- **Academic Qualifications**: A 4-year bachelor’s degree from a recognized university (or equivalent).
+- **English Proficiency**: IELTS 6.0 or AIT-EET 6.0 or above.
+- **Application Fee**: Non-refundable application fee is required.
+
+### 📚 **Specialized Programs**
+- Some programs may require:
+  - Minimum GPA (e.g., 2.75 or higher).
+  - Relevant work experience.
+  - Specific technical or managerial background.
+
+---
+
+## 📌 **4. Contact Information**
+
+### 📞 **Admissions and Scholarships Unit**
+- **Email**: [email protected]
+- **Phone**: (662) 524 5024, 31-33
+- **Address**: Admissions and Scholarships Unit, Asian Institute of Technology, P.O. Box 4, Klong Luang, Pathumthani 12120, Thailand
+
+---
+
+## 📌 **5. Additional Resources**
+
+- **AIT Short Courses and Certificates**: [https://ait.ac.th/program/](https://ait.ac.th/program/)
+- **AIT Admissions Website**: [https://ait.ac.th/apply-online/](https://ait.ac.th/apply-online/)
+- **AIT Online Application Portal**: [https://ait.ac.th/apply-online/](https://ait.ac.th/apply-online/)
+- **DAAD Scholarship Portal**: [https://www.meindaad.de/en/help/how-do-i-register-for-an-application/](https://www.meindaad.de/en/help/how-do-i-register-for-an-application/)
+- **Royal Thai Government Scholarships**: [https://ait.ac.th/financial/royal-thai-government-scholarships](https://ait.ac.th/financial/royal-thai-government-scholarships)
+
+---
+
+## 📌 **6. Why Choose AIT?**
+
+- **Flexible Learning Options**: Choose between online, on-campus, or hybrid delivery.
+- **Industry-Relevant Content**: Courses are designed in collaboration with industry experts and aligned with current trends.
+- **Career Advancement**: Gain new skills and knowledge that can directly impact your career.
+- **Networking Opportunities**: Connect with peers, faculty, and industry professionals.
+
+---
+
+## 📌 **7. Frequently Asked Questions (FAQs)**
+
+- **How do I apply for a scholarship?**  
+  Visit the AIT Admissions website and follow the scholarship application process for your chosen program.
+
+- **What is the application deadline?**  
+  For the January intake, the deadline is 15 November of the previous year. For the August intake, the deadline is 15 May of the same year.
+
+- **Can I apply for multiple scholarships?**  
+  Yes, but you must ensure that you meet the eligibility criteria for each scholarship.
+
+- **What is the duration of the scholarship?**  
+  Scholarships are awarded for the duration of the standard period of study for the chosen program (up to a maximum of 22 months).
+
+---
+
+## 📌 **8. Subscribe to Our Newsletter**
+
+Stay updated with the latest news, events, and scholarship opportunities by **[subscribing to our newsletter](https://ait.ac.th/subscribe/)**.
+
+---
+
+## 📌 **9. Follow Us on Social Media**
+
+Stay connected with AIT by following us on:
+- **Facebook**: [https://www.facebook.com/AsianInstituteOfTechnology/](https://www.facebook.com/AsianInstituteOfTechnology/)
+- **Twitter**: [https://twitter.com/AsianInstituteOfTechnology](https://twitter.com/AsianInstituteOfTechnology)
+- **LinkedIn**: [https://www.linkedin.com/school/ait/](https://www.linkedin.com/school/ait/)
+
+---
+
+## 📌 **10. Final Notes**
+
+AIT is committed to providing a high-quality education and fostering a diverse, inclusive learning environment. Whether you're applying for a degree program, a short course, or a scholarship, we encourage you to reach out to the **Admissions and Scholarships Unit** for any questions or assistance.
+
+---
+
+### 📞 **Contact Us**
+- **Email**: [email protected]
+- **Phone**: (662) 524 5024, 31-33
+- **Website**: [https://ait.ac.th](https://ait.ac.th)
+
+---
+
+If you have any specific questions about a program, scholarship, or application process, feel free to ask! We're here to help you succeed at AIT. 🎓✨","Applying to AIT is a fully online process.
+1.	Visit the Online Portal: Applications are submitted through the official AIT admissions website: https://admission.ait.ac.th/
+2.	Complete the Form: Fill out all required information and upload the necessary documents.
+3.	Pay the Application Fee: A non-refundable fee (generally US$25 or 800 Thai Baht) is required to complete your submission.","[""https://ait.ac.th/apply-online::c0000"", ""https://ait.ac.th/financial/daad-scholarship::c0006"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0006"", ""https://ait.ac.th/financial/daad-scholarship::c0002"", ""https://ait.ac.th/financial/ais-scholarship::c0004""]",not_enough_info,0.6,0,1,entails,0.83,1
+When does the application form open?,"### **How to Apply to AIT: A Step-by-Step Guide**
+
+Applying to the **Asian Institute of Technology (AIT)** is a straightforward process, and AIT offers a variety of programs, including **Master’s, PhD, and Short Courses**, as well as **scholarships** for eligible students. Below is a **comprehensive guide** on how to apply to AIT, including **application deadlines, required documents, and scholarship opportunities**.
+
+---
+
+## 📌 **1. Choose Your Program**
+
+Before applying, decide which program you are interested in. AIT offers:
+
+- **Master of Engineering/Science in Interdisciplinary Studies (OMIS)**
+- **PhD Programs**
+- **Short Courses and Certificates**
+- **MBA Programs**
+- **Scholarship Programs** (e.g., DAAD, LPDP, Royal Thai Government, etc.)
+
+For more information on programs, visit:  
+[AIT Study Programs](https://ait.ac.th/study/)
+
+---
+
+## 📌 **2. Check Application Deadlines**
+
+AIT has two main academic semesters: **January** and **August**. Deadlines vary depending on the program and scholarship.
+
+### 📅 **General Deadlines**
+- **January Intake**: Application deadline is **15 November** of the previous year.
+- **August Intake**: Application deadline is **15 May** of the same year.
+- **Scholarship Deadlines**: Some scholarships (e.g., DAAD, LPDP) have **specific deadlines**, so be sure to check the requirements for each.
+
+For example:
+- **DAAD Scholarship**: Deadline is **16 February 2026** for the 2026 intake.
+- **LPDP Scholarship (Indonesia)**: Deadline is **18 July 2026** for the 2026 intake.
+
+---
+
+## 📌 **3. Apply Online**
+
+AIT offers an **online application system** for all programs. You can apply by visiting the **AIT Online Application Portal**:
+
+🔗 [Apply Online](https://ait.ac.th/apply-online/)
+
+### 📝 **Steps to Apply Online**
+1. **Create an Account**: Register on the AIT application portal.
+2. **Select Your Program**: Choose the program you are interested in (e.g., OMIS, MBA, PhD).
+3. **Fill Out the Application Form**: Provide personal, academic, and professional details.
+4. **Upload Required Documents**:
+   - Academic transcripts
+   - Degree certificates
+   - Language proficiency test scores (e.g., IELTS, TOEFL)
+   - CV or resume
+   - Statement of Purpose (SOP)
+   - Letters of Recommendation
+   - Study Plan (for OMIS and PhD programs)
+   - Research Plan (for PhD programs)
+5. **Submit the Application**: Review all details and submit your application.
+
+---
+
+## 📌 **4. Required Documents**
+
+The required documents may vary slightly depending on the program and scholarship, but generally include:
+
+| Document | Description |
+|---------|-------------|
+| Academic Transcripts | Official transcripts from your previous university |
+| Degree Certificates | Proof of your bachelor’s or master’s degree |
+| Language Proficiency | IELTS (6.0 or higher) or TOEFL (minimum score) |
+| CV/Resume | Professional summary of your academic and work experience |
+| Statement of Purpose (SOP) | A 500–1000-word essay explaining your academic goals and reasons for choosing AIT |
+| Letters of Recommendation | 2–3 letters from academic or professional referees |
+| Study Plan (for OMIS/PhD) | A detailed plan of your proposed studies |
+| Research Plan (for PhD) | A proposal outlining your research topic and methodology |
+| Scholarship Documents | If applying for a scholarship, include any required forms or supporting documents |
+
+---
+
+## 📌 **5. Apply for Scholarships**
+
+AIT offers several **scholarship programs**, including:
+
+### 🎓 **DAAD Scholarship (Germany)**
+- **Eligibility**: International students from Germany or other countries.
+- **Deadline**: 16 February 2026 for the 2026 intake.
+- **Application Process**:
+  1. Apply to AIT via the online portal.
+  2. Receive an offer letter from AIT.
+  3. Submit the offer letter and other required documents to DAAD.
+  4. DAAD will assess your academic performance and award the scholarship if eligible.
+
+🔗 [DAAD Scholarship Details](https://ait.ac.th/financial/daad-scholarship)
+
+---
+
+### 🎓 **LPDP Scholarship (Indonesia)**
+- **Eligibility**: Indonesian students.
+- **Deadline**: 18 July 2026 for the 2026 intake.
+- **Application Process**:
+  1. Apply to AIT via the online portal.
+  2. Receive an offer letter from AIT.
+  3. Submit the offer letter and other required documents to LPDP.
+  4. LPDP will assess your application and award the scholarship if eligible.
+
+🔗 [LPDP Scholarship Details](https://ait.ac.th/financial/lpdp-scholarships-indonesia-government-scholarships-for-indonesian)
+
+---
+
+### 🎓 **Royal Thai Government Scholarships**
+- **Eligibility**: Thai students.
+- **Application Process**:
+  1. Apply to AIT via the online portal.
+  2. Receive an offer letter from AIT.
+  3. Submit the offer letter and other required documents to the Royal Thai Government.
+  4. The government will assess your application and award the scholarship if eligible.
+
+🔗 [Royal Thai Government Scholarships](https://ait.ac.th/financial/royal-thai-government-scholarships)
+
+---
+
+## 📌 **6. Payment and Tuition Fees**
+
+Once you receive an **offer of admission**, you will be informed of the **tuition and fees** for your program. Payment can be made through the AIT online portal or by contacting the **Cashier’s Office** at:
+
+📧 **Email**: [email protected]  
+📞 **Phone**: (662) 524 5024, 31-33
+
+For more information on **tuition and fees**, visit:  
+[AIT Tuition and Fees](https://ait.ac.th/tuition-and-fees/)
+
+---
+
+## 📌 **7. Contact and Support**
+
+If you have any questions during the application process, you can contact the **Admissions and Scholarships Unit** at:
+
+📧 **Email**: [email protected]  
+📞 **Phone**: (662) 524 5024, 31-33  
+📍 **Address**: Admissions and Scholarships Unit, Asian Institute of Technology, P.O. Box 4, Klong Luang, Pathumthani 12120, Thailand
+
+---
+
+## 📌 **8. Subscribe to Our Newsletter**
+
+Stay updated with the latest news, events, and scholarship opportunities by **[subscribing to our newsletter](https://ait.ac.th/subscribe/)**.
+
+---
+
+## 📌 **9. Follow Us on Social Media**
+
+Stay connected with AIT by following us on:
+- **Facebook**: [https://www.facebook.com/AsianInstituteOfTechnology/](https://www.facebook.com/AsianInstituteOfTechnology/)
+- **Twitter**: [https://twitter.com/AsianInstituteOfTechnology](https://twitter.com/AsianInstituteOfTechnology)
+- **LinkedIn**: [https://www.linkedin.com/school/ait/](https://www.linkedin.com/school/ait/)
+
+---
+
+## 📌 **10. Final Notes**
+
+AIT is committed to providing a high-quality education and fostering a diverse, inclusive learning environment. Whether you're applying for a degree program, a short course, or a scholarship, we encourage you to reach out to the **Admissions and Scholarships Unit** for any questions or assistance.
+
+---
+
+### 📞 **Contact Us**
+- **Email**: [email protected]
+- **Phone**: (662) 524 5024, 31-33
+- **Website**: [https://ait.ac.th](https://ait.ac.th)
+
+---
+
+If you have any specific questions about a program, scholarship, or application process, feel free to ask! We're here to help you succeed at AIT. 🎓✨","The Asian Institute of Technology (AIT) application forms for the August intake are typically open now. The deadlines for applications and financial aid vary by program and semester. For the January semester intake, applications are open now. For the August intake, which is for the School of Engineering and Technology (SET) and School of Environment Resources and Development (SERD), the application is also open. The School of Management (SOM) has separate deadlines for March and June intakes. 
+Key Deadlines:
+January Semester Intake: Applications are currently open. 
+August Semester Intake: Applications are open. 
+School of Management (SOM):
+March Intake: February 15 (overseas, requiring educational visa), February 25 (other applicants) 
+June Intake: May 15 (overseas, requiring educational visa), May 25 (other applicants) 
+AIT Scholarships: June 10 is the deadline, according to the Asian Institute of Technology. 
+Other Scholarships: March 31 is the deadline, according to the Asian Institute of Technology. 
+DAAD Scholarship: November 20 (AIT deadline is November 15).","[""https://ait.ac.th/tuition-and-fees::c0006"", ""https://ait.ac.th/apply-online::c0000"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0009"", ""https://ait.ac.th/financial/lpdp-scholarships-indonesia-government-scholarships-for-indonesian::c0001"", ""https://ait.ac.th/financial/daad-scholarship::c0003""]",not_enough_info,0.5,0,1,not_enough_info,0.6,0
+Can I apply with a GPA below the required minimum?,"Here is a **comprehensive summary of the eligibility requirements and English proficiency standards** for **Master’s and PhD programs** at the **Asian Institute of Technology (AIT)**, based on the provided context:
+
+---
+
+## 🎓 **Master’s Program Eligibility Requirements**
+
+### **General Requirements**
+- **Bachelor’s Degree**: 
+  - Minimum GPA of **2.75** on a 4.00 scale or equivalent.
+  - Must be from a **four-year program** or its equivalent in an appropriate field of study.
+  - Must have **undergraduate grades significantly above average**.
+- **English Proficiency**:
+  - **IELTS Academic**: Minimum score of **6.0** (with a **minimum of 6.0 in the Writing section**).
+  - **TOEFL Paper**: Minimum score of **550** (with **Writing 59–61**).
+  - **TOEFL CBT**: Minimum score of **213** (with **Writing 25–26**).
+  - **TOEFL IBT**: Minimum score of **80** (with **Writing 21–23**).
+  - **AIT-EET**: Minimum score of **6**.
+
+---
+
+## 🎓 **PhD Program Eligibility Requirements**
+
+### **General Requirements**
+- **Bachelor’s Degree**:
+  - Minimum GPA of **3.00** on a 4.00 scale or equivalent.
+- **Master’s Degree**:
+  - Minimum GPA of **3.50** on a 4.00 scale or equivalent.
+- **English Proficiency**:
+  - **IELTS Academic**: Minimum score of **6.0** (with **minimum of 6.0 in the Writing section**).
+  - **TOEFL Paper**: Minimum score of **550** (with **Writing 59–61**).
+  - **TOEFL CBT**: Minimum score of **213** (with **Writing 25–26**).
+  - **TOEFL IBT**: Minimum score of **80** (with **Writing 21–23**).
+  - **AIT-EET**: Minimum score of **6**.
+
+---
+
+## 🎓 **Professional Master’s (PM) Program Eligibility Requirements**
+
+### **General Requirements**
+- **Bachelor’s Degree**:
+  - Minimum GPA of **2.75** on a 4.00 scale or equivalent.
+  - Must be from a **four-year program** or its equivalent in an appropriate field of study.
+  - Must have **undergraduate grades significantly above average**.
+- **English Proficiency**:
+  - **IELTS Academic**: Minimum score of **6.0** (with **minimum of 6.0 in the Writing section**).
+  - **TOEFL Paper**: Minimum score of **550** (with **Writing 59–61**).
+  - **TOEFL CBT**: Minimum score of **213** (with **Writing 25–26**).
+  - **TOEFL IBT**: Minimum score of **80** (with **Writing 21–23**).
+  - **AIT-EET**: Minimum score of **6**.
+
+### **Additional Requirements for PM Programs**
+- **Work Experience**:
+  - At least **3 years of work experience** in areas related to the academic program.
+  - Must be an **executive in an organization or company**.
+- **Health**:
+  - Must be in **satisfactory physical and mental health**.
+
+---
+
+## 🎓 **Dual Degree Master’s Program (Water Engineering & Management with Colorado State University)**
+
+### **Eligibility Requirements**
+- **Bachelor’s Degree**:
+  - Must be in **Civil, Environmental, or Water Resources Engineering** or a closely related field.
+  - Minimum GPA of **3.0** on a 4.00 scale or equivalent.
+- **English Proficiency**:
+  - **IELTS Academic**: Minimum score of **6.5** (with **minimum of 6.0 in the Writing section**).
+  - **TOEFL IBT**: Minimum score of **80** (with **Writing 21–23**).
+- **Letters of Recommendation**:
+  - Must provide **three letters of recommendation**.
+
+---
+
+## 🎓 **Professional Master’s in Environment, Social, and Governance (PMESG)**
+
+### **Eligibility Requirements**
+- **Bachelor’s Degree**:
+  - Minimum GPA of **2.75** on a 4.00 scale or equivalent.
+  - Must be from a **four-year program** or its equivalent in an appropriate field of study.
+  - Must have **undergraduate grades significantly above average**.
+- **English Proficiency**:
+  - **IELTS Academic**: Minimum score of **6.0** (with **minimum of 6.0 in the Writing section**).
+  - **TOEFL Paper**: Minimum score of **550** (with **Writing 59–61**).
+  - **TOEFL CBT**: Minimum score of **213** (with **Writing 25–26**).
+  - **TOEFL IBT**: Minimum score of **80** (with **Writing 21–23**).
+  - **AIT-EET**: Minimum score of **6**.
+
+### **Additional Requirements for PMESG**
+- **Work Experience**:
+  - At least **3 years of work experience** in areas related to the academic program.
+  - Must be an **executive in an organization or company**.
+- **Health**:
+  - Must be in **satisfactory physical and mental health**.
+- **Delivery Mode**:
+  - Designed for **regional mobile working professionals**.
+  - **Modules offered every month**, with classes on **two consecutive weekends**.
+  - **Hybrid teaching model** combining **online and in-class instruction** with **practical exposure**.
+
+---
+
+## 🎓 **Preferred Background for Master’s Programs**
+
+- **Bachelor’s Degree**:
+  - Minimum GPA of **2.75** on a 4.00 scale or equivalent.
+- **Master’s Degree**:
+  - Minimum GPA of **3.50** on a 4.00 scale or equivalent.
+- **Eligible Undergraduate Degrees**:
+  - **Bachelor of Science in Biological Sciences**
+  - **Bachelor of Agricultural/Electronics/Biotechnology/Mechanical Engineering**
+  - **Bachelor of Computer Science**
+  - **Bachelor of Science in Agriculture**
+  - **Bachelor of Food Science and Technology**
+  - **Bachelor of Dairy Technology**
+  - **Bachelor of Science in Biochemistry**
+  - **Bachelor of Science in Biotechnology**
+  - **Bachelor of Agricultural Sciences, Environmental Sciences, Management Sciences, or Social Sciences**
+
+---
+
+## 📚 **Course Example (Agricultural Systems Analysis)**
+- **Course Code**: ED70.03
+- **Credits**: 3
+- **Description**: Agricultural systems with biological components interacting with social and economic elements are extremely complex in nature.
+
+---
+
+## 📌 **Summary of Key Requirements**
+
+| Program Type | Minimum GPA (Bachelor’s) | Minimum GPA (Master’s) | English Proficiency | Additional Requirements |
+|--------------|--------------------------|-------------------------|----------------------|--------------------------|
+| Master’s     | 2.75                     | 3.00                   | IELTS 6.0, TOEFL 80 | None                     |
+| PhD          | 3.00                     | 3.50                   | IELTS 6.0, TOEFL 80 | None                     |
+| PM (Master’s)| 2.75                     | N/A                    | IELTS 6.0, TOEFL 80 | 3+ years work experience |
+| PMESG        | 2.75                     | N/A                    | IELTS 6.0, TOEFL 80 | 3+ years work experience |
+| Dual Degree  | 3.00                     | N/A                    | IELTS 6.5, TOEFL 80 | 3 letters of recommendation |
+
+---
+
+## 📞 **Contact for Further Information**
+- **Email**: [email protected]
+- **Phone**: (662) 524 5024, 31-33
+- **Website**: [https://ait.ac.th](https://ait.ac.th)
+
+---
+
+Let me know if you need help with **application procedures**, **document preparation**, or **admission timelines**! 🎓","Yes, it is sometimes possible to be admitted to the Asian Institute of Technology (AIT) with a GPA below the stated minimum requirement, but it depends on several other factors.
+While AIT's general requirement is a minimum GPA of 2.75 out of 4.0 for Master's programs and 3.50 out of 4.0 for Doctoral programs, admission is not based on GPA alone. AIT reviews applications holistically.","[""https://ait.ac.th/financial/rtg-fellowships-ph-d-to-support-the-asian-innovation-hub::c0002"", ""https://ait.ac.th/program/professional-master-in-geotechnical-engineering-and-management-pme-gem::c0003"", ""https://ait.ac.th/program/agricultural-systems-engineering-and-agribusiness-asea::c0003"", ""https://ait.ac.th/program/dual-degree-masters-program-in-water-engineering-and-management-with-colorado-state-university::c0002"", ""https://ait.ac.th/program/professional-master-in-environment-social-and-governance-esg::c0002""]",entails,0.83,1,0,not_enough_info,0.75,0
+What is the required IELTS or TOEFL score?,"뼐
+
+If you're asking whether you can **apply to a Master’s program at AIT** with a **GPA below 2.75**, the answer is **not straightforward**. Here's a breakdown of the situation:
+
+---
+
+### ✅ **Can You Apply with a GPA Below 2.75?**
+
+**In most cases, no.**  
+AIT has **minimum GPA requirements** for admission to its **Master’s programs**, and these are generally **non-negotiable**. For example:
+
+- **Professional Master’s (PM) programs** (e.g., PMPM, PMESG, PMDS) require a **minimum GPA of 2.75** on a 4.0 scale.
+- **Dual Degree programs** (e.g., Water Engineering & Management, Data Science & AI) require a **minimum GPA of 3.0**.
+- **PhD programs** require a **minimum GPA of 3.0** for Bachelor’s and **3.50** for Master’s.
+
+These GPA requirements are **set by AIT** and are **not waived** unless you can demonstrate **exceptional circumstances** (e.g., professional experience, unique background, or other compensating factors).
+
+---
+
+### 🔄 **What If Your GPA Is Below 2.75?**
+
+If your GPA is **below the minimum requirement**, you may still be considered for admission **if you can provide strong evidence of your potential**. Here are some ways to strengthen your application:
+
+1. **Strong Work Experience**:
+   - AIT values **professional experience**, especially in **relevant fields**.
+   - For example, **PM programs** require **at least 3 years of work experience** in areas related to the program.
+   - If you have **significant professional achievements**, this can **compensate** for a lower GPA.
+
+2. **Strong Academic Background**:
+   - If your GPA is low due to **unusual circumstances** (e.g., illness, family issues, etc.), you can explain this in your **statement of purpose** or **personal statement**.
+   - You can also highlight **other academic achievements**, such as **honors, research projects, or relevant coursework**.
+
+3. **English Proficiency**:
+   - AIT requires **English proficiency** for all international applicants.
+   - You must meet the **minimum English requirements** (e.g., IELTS 6.0, TOEFL 80, etc.).
+   - This is **not negotiable** and is a **mandatory requirement**.
+
+4. **Letters of Recommendation**:
+   - Strong **letters of recommendation** from **professionals or academics** can help demonstrate your **potential** and **aptitude** for the program.
+
+5. **Statement of Purpose**:
+   - A well-written **statement of purpose** can help you **explain your background**, **motivation**, and **goals**.
+   - This is an opportunity to **highlight your strengths** and **explain any weaknesses** in your GPA.
+
+---
+
+### 📌 **Summary of GPA Requirements by Program**
+
+| Program | Minimum GPA (Bachelor’s) | Minimum GPA (Master’s) | Additional Requirements |
+|--------|--------------------------|-------------------------|--------------------------|
+| Master’s (General) | 2.75 (4.0 scale) | 3.00 (4.0 scale) | None |
+| Professional Master’s (PM) | 2.75 (4.0 scale) | N/A | 3+ years work experience |
+| Dual Degree (e.g., Water, Data Science) | 3.00 (4.0 scale) | N/A | 3+ years work experience, English proficiency |
+| PhD | 3.00 (4.0 scale) | 3.50 (4.0 scale) | None |
+
+---
+
+### 📞 **Next Steps**
+
+If your GPA is below the required threshold, you can:
+
+1. **Contact AIT’s Admissions Office**:
+   - Reach out to **[email protected]** or call **(662) 524 5024, 31-33**.
+   - Ask about **admission exceptions**, **waivers**, or **alternative pathways**.
+
+2. **Prepare a Strong Application**:
+   - Focus on **work experience**, **letters of recommendation**, and **statement of purpose**.
+   - Highlight **any unique skills, projects, or achievements** that make you a strong candidate.
+
+3. **Consider a Preparatory Program**:
+   - If your GPA is significantly below the requirement, you may need to **strengthen your academic background** before applying.
+   - Some universities offer **preparatory programs** or **bridging courses** to help students meet GPA requirements.
+
+---
+
+### ✅ **Conclusion**
+
+While **AIT does not typically accept applicants with a GPA below 2.75**, you may still be considered if you can **demonstrate strong potential** through **work experience, English proficiency, and a compelling application**. The best course of action is to **contact AIT’s admissions team** and **explain your situation** to explore any possible options.
+
+Let me know if you'd like help **drafting your statement of purpose** or **preparing for the English proficiency test**! 🎓","To be admitted to the Asian Institute of Technology (AIT), applicants generally need a minimum IELTS score of 6.0 (with a writing score of 6.0) or a TOEFL score of 80 (with a writing score of 21-23). Some programs or scholarships may have stricter requirements, potentially requiring higher scores or additional assessments like the AIT Academic Writing Test (AWPT). Minimum Requirements (General):
+IELTS: 6.0 overall, with a minimum of 6.0 in the writing section.
+TOEFL (iBT): 80 overall, with a minimum of 21-23 in the writing section.
+TOEFL (Paper-based): 550 overall, with a writing score of 59-61.
+TOEFL (CBT): 213 overall, with a writing score of 25-26.
+AIT-EET: 6","[""https://ait.ac.th/program/professional-master-in-project-management-mpm::c0004"", ""https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds::c0002"", ""https://ait.ac.th/program/dual-degree-masters-program-in-water-engineering-and-management-with-the-university-of-iowa::c0002"", ""https://ait.ac.th/program/doctor-of-philosophy-ph-d-in-management::c0009"", ""https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london::c0002""]",contradicts,0.0,0,1,not_enough_info,0.25,0
+Do I need to pick or choose specific majors before applying?,"[PAD151768]
+
+If you're asking whether you can **apply to a Master’s program at AIT** with a **GPA below 2.75**, the answer is **not straightforward**. Here's a breakdown of the situation:
+
+---
+
+### ✅ **Can You Apply with a GPA Below 2.75?**
+
+**In most cases, no.**  
+AIT has **minimum GPA requirements** for admission to its **Master’s programs**, and these are generally **non-negotiable**. For example:
+
+- **Professional Master’s (PM) programs** (e.g., PMPM, PMESG, PMDS) require a **minimum GPA of 2.75** on a 4.0 scale.
+- **Dual Degree programs** (e.g., Water Engineering & Management, Data Science & AI) require a **minimum GPA of 3.0**.
+- **PhD programs** require a **minimum GPA of 3.0** for Bachelor’s and **3.50** for Master’s.
+
+These GPA requirements are **set by AIT** and are **not waived** unless you can demonstrate **exceptional circumstances** (e.g., professional experience, unique background, or other compensating factors).
+
+---
+
+### 🔄 **What If Your GPA Is Below 2.75?**
+
+If your GPA is **below the minimum requirement**, you may still be considered for admission **if you can provide strong evidence of your potential**. Here are some ways to strengthen your application:
+
+1. **Strong Work Experience**:
+   - AIT values **professional experience**, especially in **relevant fields**.
+   - For example, **PM programs** require **at least 3 years of work experience** in areas related to the program.
+   - If you have **significant professional achievements**, this can **compensate** for a lower GPA.
+
+2. **Strong Academic Background**:
+   - If your GPA is low due to **unusual circumstances** (e.g., illness, family issues, etc.), you can explain this in your **statement of purpose** or **personal statement**.
+   - You can also highlight **other academic achievements**, such as **honors, research projects, or relevant coursework**.
+
+3. **English Proficiency**:
+   - AIT requires **English proficiency** for all international applicants.
+   - You must meet the **minimum English requirements** (e.g., IELTS 6.0, TOEFL 80, etc.).
+   - This is **not negotiable** and is a **mandatory requirement**.
+
+4. **Letters of Recommendation**:
+   - Strong **letters of recommendation** from **professionals or academics** can help demonstrate your **potential** and **aptitude** for the program.
+
+5. **Statement of Purpose**:
+   - A well-written **statement of purpose** can help you **explain your background**, **motivation**, and **goals**.
+   - This is an opportunity to **highlight your strengths** and **explain any weaknesses** in your GPA.
+
+---
+
+### 📌 **Summary of GPA Requirements by Program**
+
+| Program | Minimum GPA (Bachelor’s) | Minimum GPA (Master’s) | Additional Requirements |
+|--------|--------------------------|-------------------------|--------------------------|
+| Master’s (General) | 2.75 (4.0 scale) | 3.00 (4.0 scale) | None |
+| Professional Master’s (PM) | 2.75 (4.0 scale) | N/A | 3+ years work experience |
+| Dual Degree (e.g., Water, Data Science) | 3.00 (4.0 scale) | N/A | 3+ years work experience, English proficiency |
+| PhD | 3.00 (4.0 scale) | 3.50 (4.0 scale) | None |
+
+---
+
+### 📞 **Next Steps**
+
+If your GPA is below the required threshold, you can:
+
+1. **Contact AIT’s Admissions Office**:
+   - Reach out to **[email protected]** or call **(662) 524 5024, 31-33**.
+   - Ask about **admission exceptions**, **waivers**, or **alternative pathways**.
+
+2. **Prepare a Strong Application**:
+   - Focus on **work experience**, **letters of recommendation**, and **statement of purpose**.
+   - Highlight **any unique skills, projects, or achievements** that make you a strong candidate.
+
+3. **Consider a Preparatory Program**:
+   - If your GPA is significantly below the requirement, you may need to **strengthen your academic background** before applying.
+   - Some universities offer **preparatory programs** or **bridging courses** to help students meet GPA requirements.
+
+---
+
+### ✅ **Conclusion**
+
+While **AIT does not typically accept applicants with a GPA below 2.75**, you may still be considered if you can **demonstrate strong potential** through **work experience, English proficiency, and a compelling application**. The best course of action is to **contact AIT’s admissions team** and **explain your situation** to explore any possible options.
+
+Let me know if you'd like help **drafting your statement of purpose** or **preparing for the English proficiency test**! 🎓","No, you don't need to choose a specific major when applying to AIT, but you do need to indicate your intended field of study and research interest. AIT's Open Master's programs allow for a flexible, multidisciplinary approach where students can design their own curriculum and potentially combine courses from different schools and departments.","[""https://ait.ac.th/program/artificial-intelligence-of-things-and-signal-processing-aiot::c0004"", ""https://ait.ac.th/program/computer-science-and-software-engineering-csse::c0004"", ""https://ait.ac.th/program/digital-technology-and-enterprise-information-management-dteim::c0004"", ""https://ait.ac.th/program/computer-science-and-communication-technology-csct::c0004"", ""https://ait.ac.th/program/smart-networks-and-communications-engineering-snce::c0004""]",not_enough_info,0.25,0,1,not_enough_info,0.2,0
+Can the EET be taken online?," аналогия между двумя текстами, которые вы предоставили, заключается в том, что оба описывают **гибкий (flexible) подход к обучению** в АИТ (Asian Institute of Technology), но с небольшими различиями в деталях и акцентах. Давайте разберем их по отдельности и сравним.
+
+---
+
+### 📌 **Текст 1: Гибкий Мастерский Опция (Flexible Masters Option)**  
+**Источник:** [https://ait.ac.th/study/flexible-masters-option](https://ait.ac.th/study/flexible-masters-option)
+
+#### Основные моменты:
+- **Формат обучения:** Гибкий (гибридный) — онлайн и очно.
+- **Доступность:** Не все программы доступны в этом формате — только выбранные.
+- **Виза:** АИТ не поддерживает визы для иностранных студентов во время онлайн-обучения.
+- **Связь с преподавателями:** Учебные занятия проводятся через Zoom, и студенты могут участвовать в реальном времени.
+- **Запись занятий:** Занятия записываются и доступны для просмотра позже.
+- **Требования:** Нужен интернет, компьютер с камерой и микрофоном. Можно использовать смартфон, но рекомендуется компьютер.
+- **Статус студента:** Студент получает статус АИТ, но виза не предоставляется для онлайн-обучения. Виза может быть оформлена при написании диссертации на территории кампуса.
+
+---
+
+### 📌 **Текст 2: Гибкий PhD Опция (Flexible PhD Option)**  
+**Источник:** [https://ait.ac.th/study/flexible-phd-option](https://ait.ac.th/study/flexible-phd-option)
+
+#### Основные моменты:
+- **Формат обучения:** Также гибкий (гибридный) — онлайн и очно.
+- **Доступность:** Аналогично мастерскому опции — доступно только для выбранных программ.
+- **Виза:** Тоже не предоставляется для онлайн-обучения.
+- **Связь с преподавателями:** Используется Zoom, студенты могут участвовать в реальном времени.
+- **Запись занятий:** Занятия записываются и доступны для просмотра позже.
+- **Требования:** Тоже интернет, компьютер с камерой и микрофоном. Можно использовать смартфон.
+- **Статус студента:** Студент получает статус АИТ, но виза не предоставляется для онлайн-обучения. Виза может быть оформлена при написании диссертации на территории кампуса.
+
+---
+
+### 📌 **Сравнение текстов 1 и 2:**
+
+| **Критерий** | **Flexible Masters Option** | **Flexible PhD Option** |
+|-------------|-----------------------------|--------------------------|
+| **Формат обучения** | Гибридный (онлайн + очно) | Гибридный (онлайн + очно) |
+| **Доступность** | Только для выбранных программ | Только для выбранных программ |
+| **Виза** | Не предоставляется для онлайн-обучения | Не предоставляется для онлайн-обучения |
+| **Связь с преподавателями** | Через Zoom, реальное участие | Через Zoom, реальное участие |
+| **Запись занятий** | Да | Да |
+| **Требования к технике** | Интернет, компьютер с камерой и микрофоном | Интернет, компьютер с камерой и микрофоном |
+| **Статус студента** | Студент АИТ | Студент АИТ |
+| **Виза для диссертации** | Виза предоставляется при написании диссертации на кампусе | Виза предоставляется при написании диссертации на кампусе |
+
+---
+
+### 📌 **Вывод:**
+Оба текста описывают **один и тот же формат обучения** — гибридный (онлайн + очно), доступный только для выбранных программ. Основные детали идентичны, за исключением того, что **Flexible PhD Option** упоминается в контексте программы магистра, а **Flexible Masters Option** — в контексте программы доктора. Это, вероятно, связано с тем, что оба текста относятся к разным программам, но используют один и тот же формат обучения.
+
+Если вы хотите **сравнить программы**, то:
+
+- **Flexible Masters Option** — для магистров.
+- **Flexible PhD Option** — для кандидатов наук.
+
+Однако **формат обучения и условия одинаковые** для обоих.
+
+---
+
+### 📌 **Итог:**
+Тексты 1 и 2 описывают **один и тот же гибридный формат обучения**, доступный для выбранных программ, с одинаковыми условиями и техническими требованиями. Разница заключается в том, что они относятся к разным уровням образования (магистратура и докторантура), но **формат и условия одинаковые**.","Yes, the Asian Institute of Technology (AIT) offers online English Entry Tests (EET) for applicants. Applicants can choose to take the EET either in person at the AIT campus or remotely online. To register for the online EET, applicants need to meet certain equipment and environment requirements, pay a fee, and register at least 7 working days before the test date .  You can apply here  http://languages.ait.ac.th/prospective-students/  ","[""https://ait.ac.th/study/flexible-masters-option::c0007"", ""https://ait.ac.th/study/flexible-phd-option::c0007"", ""https://ait.ac.th/study/flexible-masters-option::c0008"", ""https://ait.ac.th/study/flexible-phd-option::c0008"", ""https://ait.ac.th/program/professional-master-in-environment-social-and-governance-esg::c0003""]",entails,0.95,1,0,not_enough_info,0.3,0
+What is the minimum EET score required?,"### 📌 **Summary of Admission Requirements for AIT Programs**
+
+Below is a **comprehensive summary** of the **admission requirements** for various **programs at AIT**, including **GPA, English proficiency, and work experience** requirements. This summary is based on the provided sources and is organized by program type for clarity.
+
+---
+
+## 🎓 **1. Dual Degree Master’s Program in Semiconductor Engineering (AIT + Taipei Tech)**
+
+### 📚 **Minimum Admission Requirements**
+- **Academic Background**: Bachelor’s degree in Electrical Engineering or a closely related field (normally from a four-year program), or its equivalent.
+- **GPA Requirement**: Undergraduate grades significantly above average; minimum GPA of **3.0** or equivalent.
+- **English Proficiency**:
+  - **IELTS**: 6.5 (with a minimum score of 6 in Writing)
+  - **TOEFL IBT**: 80 (with a minimum score of 21–23 in Writing)
+
+### 📅 **Semester Schedule**
+- **Year 1**:
+  - **Aug – Dec**: AIT (Thailand)
+  - **Jan – May**: AIT (Thailand)
+- **Intersem**: **May – July**: AIT (Thailand)
+- **Year 2**:
+  - **Aug – Dec**: AIT (Thailand)
+  - **Jan – May**: AIT (Thailand)
+- **Taipei Tech (Taiwan)**:
+  - **May – July**: Taipei Tech
+  - **Aug – Dec**: Taipei Tech
+
+### 📌 **Admission Process**
+- Interested candidates must apply directly to **either AIT (Option 1)** or **Taipei Tech (Option 2)** on or before **May 30**.
+
+---
+
+## 🎓 **2. Doctoral Programs (RTG Fellowships)**
+
+### 📚 **Minimum GPA Requirements**
+- **Bachelor’s Degree**: Minimum cumulative GPA of **3.00** on a 4.00 scale or equivalent.
+- **Master’s Degree**: Minimum cumulative GPA of **3.50** on a 4.00 scale or equivalent.
+
+### 📚 **English Proficiency Requirements**
+- **IELTS**: 6.0 (with a minimum score of 6 in Writing)
+- **AIT EET**: Score of **6 or above**
+
+---
+
+## 🎓 **3. Professional Master’s Programs (PMESG, PMDS, etc.)**
+
+### 📚 **Minimum GPA Requirement**
+- **Bachelor’s Degree**: Minimum GPA of **2.75** on a 4.00 scale or equivalent.
+
+### 📚 **English Proficiency Requirements**
+- **AIT-EET**: 6 or above
+- **IELTS Academic**: Overall 6 (with a minimum of 6 in Writing)
+- **TOEFL IBT**: 80 (with a minimum of 21–23 in Writing)
+- **PTE Academic**: Overall 52 (with a minimum of 62–73 in Writing)
+
+### 📚 **Work Experience Requirement**
+- **Minimum of 3 years of work experience** in areas related to the academic program.
+- Applicants must be **executives in organizations/companies**.
+
+### 📅 **Delivery Mode**
+- **PMESG** is designed for **regional mobile working professionals**.
+- A module is offered **every month**, with **classes on two consecutive weekends**.
+- The program uses a **hybrid multi-modal teaching model** that combines **online and in-class instruction** with **extensive practical exposure**.
+
+---
+
+## 🎓 **4. Bridging Program for Doctoral Applicants**
+
+### 📚 **Minimum English Proficiency Requirements**
+- **IELTS**: 5.5 (with a minimum of 6 in Writing)
+- **AIT EET**: 5.5 or above
+- **TOEFL IBT**: 80 (with a minimum of 21–23 in Writing)
+
+### 📚 **Bridging Program Details**
+- The program is **6 weeks long**.
+- Upon completion, doctoral applicants can attain an **entry score of 5.5 or higher**.
+- If the **donors cannot cover the full Bridging Program fee**, applicants will pay the **Bridging Program fee**.
+
+---
+
+## 📌 **Summary Table of Admission Requirements**
+
+| **Program** | **Minimum GPA** | **English Proficiency** | **Work Experience** | **Additional Notes** |
+|-------------|------------------|--------------------------|----------------------|------------------------|
+| **Dual Degree (Semiconductor Engineering)** | 3.0 | IELTS 6.5 (Writing 6), TOEFL IBT 80 (Writing 21–23) | N/A | AIT + Taipei Tech |
+| **Doctoral (RTG Fellowships)** | 3.0 (Bachelor), 3.5 (Master) | IELTS 6.0 (Writing 6), AIT EET 6 | N/A | English proficiency required |
+| **Professional Master’s (PMESG, PMDS)** | 2.75 | IELTS 6 (Writing 6), TOEFL IBT 80 (Writing 21–23) | 3+ years in relevant field | Hybrid teaching model |
+| **Bridging Program (Doctoral)** | N/A | IELTS 5.5 (Writing 6), AIT EET 5.5 | N/A | 6-week program, fee-based |
+
+---
+
+## ✅ **Key Takeaways**
+- **GPA Requirements** vary by program, ranging from **2.75 to 3.5**.
+- **English Proficiency** is a **mandatory requirement** for all programs, with **IELTS, TOEFL, and AIT EET** being the accepted tests.
+- **Work Experience** is **required for Professional Master’s programs**.
+- **Bridging Programs** are available for doctoral applicants who do not meet the English proficiency requirements.
+
+---
+
+## 📌 **Final Note**
+If you're applying to **AIT**, it's essential to **check the specific program requirements** as they can vary slightly depending on the **degree level (Master’s or Doctoral)** and the **partner institution** (e.g., Taipei Tech).
+
+Let me know if you'd like help **comparing programs** or **preparing your application**!",Minimum Score is 6,"[""https://ait.ac.th/program/dual-degree-masters-program-in-semiconductor-engineering-with-the-national-taipei-university-of-technology-taipei-tech-taiwan::c0003"", ""https://ait.ac.th/financial/rtg-fellowships-ph-d-to-support-the-asian-innovation-hub::c0002"", ""https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission::c0002"", ""https://ait.ac.th/program/professional-master-in-environment-social-and-governance-esg::c0002"", ""https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds::c0002""]",entails,0.83,1,0,entails,0.83,1
+What is the AIT English Entry Test (AIT-EET)?,"### ✅ **AIT English Proficiency Requirements Summary (Based on Context)**
+
+Here is a **clear and concise summary** of the **English proficiency requirements** for admission to the **Asian Institute of Technology (AIT)**, based on the provided context:
+
+---
+
+## 📌 **English Proficiency Requirements for Admission**
+
+### ✅ **Accepted Tests and Minimum Scores:**
+
+| **Test**               | **Minimum Score** | **Notes** |
+|------------------------|-------------------|-----------|
+| **AIT-EET**            | **6**             | Required for most programs |
+| **IELTS Academic**     | **6.0**           | Writing score must be **6.0** |
+| **TOEFL IBT**          | **80**            | Writing score must be **21–23** |
+| **PTE Academic**       | **62–73**         | Writing score must be **62–73** |
+
+---
+
+## 📌 **Exemptions:**
+
+- **Citizens of English-speaking countries** (e.g., Australia, Canada, Ireland, New Zealand, UK, USA) are **exempt** from submitting English proficiency test scores.
+- **Proof of citizenship** must be submitted to confirm exemption.
+
+---
+
+## 📌 **English Medium Instruction (EMI) Certificate:**
+
+- Applicants who have earned a degree from a university where **English is the sole medium of instruction** may submit a **certificate** signed by the University Registrar.
+- AIT **reserves the right** to accept or reject such certificates.
+- If accepted, applicants must take the **AIT Academic Writing Test (AWPT)** upon arrival and score **at least 5** to register for courses.
+
+---
+
+## 📌 **Language Support Fee:**
+
+- A **one-time flat fee of 2,000 Baht** is required for **academic English literacy development**.
+- This covers **English and research communication courses and workshops** (except for compulsory English classes for conditional offers).
+
+---
+
+## 📌 **Program-Specific Requirements:**
+
+| **Program** | **English Proficiency Requirement** |
+|-------------|-------------------------------------|
+| **Doctor of Philosophy (PhD) in Management** | AIT-EET: 6 or IELTS: 6 (Writing 6) or TOEFL: 80 (Writing 21–23) or PTE: 62–73 (Writing Score) |
+| **Professional Master’s (e.g., PMESG, PMDS)** | AIT-EET: 6 or IELTS: 6 (Writing 6) or TOEFL: 80 (Writing 21–23) or PTE: 62–73 (Writing Score) |
+| **Bridging Program for Doctoral Applicants** | IELTS: 5.5 (Writing 6), AIT-EET: 5.5 or above |
+| **Dual Degree (Semiconductor Engineering)** | IELTS: 6.5 (Writing 6), TOEFL: 80 (Writing 21–23) |
+| **General Admissions (Master’s/Doctoral)** | AIT-EET: 6 or IELTS: 6 (Writing 6) or TOEFL: 80 (Writing 21–23) or PTE: 62–73 (Writing Score) |
+
+---
+
+## 📌 **Additional Notes:**
+
+- **Test scores are valid for 2 years** from the testing date.
+- **Conditional offers** may require applicants to take English proficiency tests **after admission**.
+- **AIT is committed to supporting students** in improving their English skills through **language courses and workshops**.
+
+---
+
+## 📌 **Key Takeaways:**
+
+- **AIT-EET** is a **required test** for most programs.
+- **IELTS, TOEFL, and PTE** are **accepted alternatives**.
+- **Citizens of English-speaking countries** are **exempt** from submitting English test scores.
+- **EMI certificates** may be accepted, but **AWPT** is required.
+- **Language support** is provided through **courses and workshops**, with a **one-time fee**.
+
+---
+
+## 📌 **Final Note:**
+
+If you're applying to **AIT**, it's essential to **check the specific program requirements**, as they can vary slightly depending on the **degree level (Master’s or Doctoral)** and the **partner institution** (e.g., Taipei Tech).
+
+Let me know if you'd like help **comparing programs** or **preparing your application**!","The Language Center (LC) offers a 90-minute in-house test of English proficiency called the AIT English Entry Test (EET). The score is based on a nine-point scale similar to the IELTS test. The Writing score, which is the most important at AIT, is based on an essay. The test result will be e-mailed within 7 days. The LC will report the test result to the AIT Admissions only if the score is satisfactory for provisional admission. If applicants fail to obtain the minimum score requirements for admission, they may take the test again.
+There is no limit to the number of times they can take the test, but we encourage applicants to study and improve their English before retesting. The test is conducted several times per week on campus.
+Alternatively, the test can be taken online through our online EET test application.
+For more information or English test application, please see here http://languages.ait.ac.th/prospective-students/ .
+","[""https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission::c0000"", ""https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission::c0001"", ""https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission::c0006"", ""https://ait.ac.th/program/doctor-of-philosophy-ph-d-in-management::c0009"", ""https://ait.ac.th/financial/ait-alumni-association-hong-kong-macau-chapter-masters-scholarship::c0001""]",entails,0.83,1,0,not_enough_info,0.75,0
+How much is the application processing fee?,"ᾗ
+
+The **minimum registration fee** for both the **Flexible PhD Option** and **Flexible Masters Option** at **AIT (Asian Institute of Technology)** is **10,000 Thai Baht per semester**, based on registering for a **minimum of 6 credits** (typically 2 courses). 
+
+### Breakdown of Registration Fee:
+- **Per credit**: 1,667 Thai Baht  
+- **For 3 credits**: 5,000 Thai Baht  
+- **For 6 credits**: 10,000 Thai Baht  
+
+---
+
+### Key Notes:
+- **Visa Support**:  
+  AIT will assist with obtaining a **student visa** if you come to campus **after completing your coursework** to conduct **thesis research (24 credits)** or **research study (12 credits)**.  
+  - You **will not** receive a student visa for the time you spend on coursework from your home country.  
+  - If your program requires **on-campus lab work**, AIT will also support your visa.
+
+- **Other Fees** (per semester):  
+  - **Student Union Fee**: 150 Thai Baht  
+  - **Medical Fee**: 1,250 Thai Baht (optional or provide a copy of international medical insurance)  
+  - **Student ID Card Fee**: 100 Thai Baht  
+
+---
+
+### Summary:
+- **Minimum Registration Fee (per semester)**: **10,000 Thai Baht**  
+- **Visa Support**: Available for on-campus research or lab work after coursework  
+- **Other Fees**: Included in the semester cost  
+
+Let me know if you'd like help calculating total costs for a full program or semester!",The processing fee is Baht 800 or US$25.,"[""https://ait.ac.th/special-students-exchange-and-visiting-students::c0001"", ""https://ait.ac.th/program/dual-degree-masters-program-in-water-engineering-and-management-with-the-university-of-iowa::c0003"", ""https://ait.ac.th/special-students-exchange-and-visiting-students::c0002"", ""https://ait.ac.th/study/flexible-phd-option::c0010"", ""https://ait.ac.th/study/flexible-masters-option::c0010""]",not_enough_info,0.67,0,1,not_enough_info,0.33,0
+How can I obtain the application form?,"### **Application Processing Fee at AIT (Asian Institute of Technology)**
+
+The **application processing fee** at AIT is **not explicitly mentioned** in the provided context. However, based on the **tuition and fees** information and the **application process** details, we can infer the following:
+
+---
+
+## ✅ **Key Information from the Context:**
+
+### 1. **Tuition and Fees (from source [2])**
+- **Minimum Registration Fee (per semester)**: **10,000 Thai Baht**  
+  - Based on registering for a **minimum of 6 credits** (typically 2 courses).  
+  - **Per credit**: 1,667 Thai Baht  
+  - **For 3 credits**: 5,000 Thai Baht  
+  - **For 6 credits**: 10,000 Thai Baht  
+
+- **Other Fees (per semester)**:
+  - **Student Union Fee**: 150 Thai Baht  
+  - **Medical Fee**: 1,250 Thai Baht (optional or provide a copy of international medical insurance)  
+  - **Student ID Card Fee**: 100 Thai Baht  
+
+> **Note**: These are **tuition and fee** charges, not the **application processing fee**.
+
+---
+
+### 2. **Application Process (from sources [1][3][4][5])**
+- **Application Fee**: **Not explicitly stated** in the provided context.  
+- **Application Steps**:
+  - Submit an **online application** via the AIT website.
+  - Submit **required documents** such as:
+    - Study Plan
+    - Research Plan
+    - Recommendation Letters
+    - Certificates
+    - Work certificate
+    - Income statement
+    - Spouse or parent income statement (if applicable)
+    - ADB-JSP Information Sheet (for scholarship applicants)
+  - For **LPDP scholarship applicants**, you must:
+    - Submit the **AIT application** and receive an **offer letter**.
+    - Submit the **required documents** to the **LPDP website**.
+    - Complete the **application by 18 July 2026** for 2026 admission.
+
+- **Contact for Application Support**:
+  - Email: **[email protected]**  
+  - Website: [AIT Online Application](https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis)
+
+---
+
+## 📌 **Summary of Application Processing Fee at AIT**
+
+| **Item** | **Description** | **Amount (Thai Baht)** |
+|----------|------------------|-------------------------|
+| **Application Processing Fee** | Not explicitly mentioned in the context | **Not specified** |
+| **Tuition and Registration Fee (per semester)** | Minimum for 6 credits | **10,000** |
+| **Student Union Fee** | Per semester | **150** |
+| **Medical Fee** | Optional | **1,250** |
+| **Student ID Card Fee** | Per semester | **100** |
+
+---
+
+## 📝 **Recommendation:**
+If you are applying for a **scholarship** (e.g., **ADB-JSP** or **LPDP**), you may **not need to pay the application processing fee**, as the scholarship may cover it. However, if you are applying **without a scholarship**, you may need to **pay the application processing fee** as part of the application process.
+
+---
+
+## 📞 **Contact for Further Clarification:**
+- **Email**: [email protected]  
+- **Website**: [AIT Tuition and Fees](https://ait.ac.th/tuition-and-fees)
+
+Let me know if you'd like help with the **application process**, **document checklist**, or **scholarship eligibility**!","Application to AIT is now fully online. Thus, please apply using the Online Application System https://admission.ait.ac.th/aoas/Applicant/FirstPage.aspx .","[""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0004"", ""https://ait.ac.th/tuition-and-fees::c0006"", ""https://ait.ac.th/financial/lpdp-scholarships-indonesia-government-scholarships-for-indonesian::c0001"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0009"", ""https://ait.ac.th/financial/lpdp-scholarships-indonesia-government-scholarships-for-indonesian::c0002""]",entails,0.83,1,0,not_enough_info,0.3,0
+What scholarships are offered by AIT?,"🐻 **How to Obtain the Application Form at AIT (Asian Institute of Technology)**
+
+To obtain the **application form** for a Master’s or Doctoral program at AIT, follow these steps:
+
+---
+
+## ✅ **Step-by-Step Guide to Obtain the Application Form**
+
+### 1. **Visit the AIT Official Website**
+Go to the [AIT Study Page](https://ait.ac.th/study) to access the **online application system** and **application form**.
+
+- **Website**: [https://ait.ac.th/study](https://ait.ac.th/study)
+
+### 2. **Select the Program You Are Interested In**
+Choose the specific **Master’s or Doctoral program** you want to apply for (e.g., Master of Engineering Science in Interdisciplinary Studies, Open Master, etc.).
+
+### 3. **Access the Online Application Portal**
+AIT provides an **online application portal** where you can:
+- Fill out the **application form**.
+- Upload **required documents**.
+- Submit your **application**.
+
+> **Note**: You **do not need to print and submit a physical form**. All applications are submitted **electronically**.
+
+---
+
+## 📄 **Required Documents for Application**
+Before applying, make sure you have the following documents ready:
+- **Study Plan**
+- **Research Plan** (for doctoral applicants)
+- **Recommendation Letters**
+- **Certificates** (e.g., degree, transcripts, English proficiency)
+- **Work certificate** (if applicable)
+- **Income statement** (for financial aid or scholarship applicants)
+- **Spouse or parent income statement** (if applicable)
+- **ADB-JSP Information Sheet** (for scholarship applicants)
+- **Visa documents** (if you are applying for a student visa)
+
+---
+
+## 📧 **Contact AIT for Application Support**
+If you need assistance with the application process or supporting documents, you can contact AIT via email:
+
+- **Email**: [email protected]  
+- **Website**: [AIT Online Application](https://ait.ac.th/study)
+
+---
+
+## 📌 **Important Notes**
+- **No application fee** is required for the **online application**.
+- If you are applying for a **scholarship** (e.g., AIT Scholarships, ADB-JSP, LPDP), you may need to submit additional documents.
+- For **LPDP scholarship applicants**, you must:
+  - Submit the **AIT application** and receive an **offer letter**.
+  - Submit the **required documents** to the **LPDP website**.
+  - Complete the **application by 18 July 2026** for 2026 admission.
+
+---
+
+## 📚 **Summary: How to Obtain the Application Form**
+| **Step** | **Action** |
+|---------|------------|
+| 1 | Visit [AIT Study Page](https://ait.ac.th/study) |
+| 2 | Select your program of interest |
+| 3 | Access the online application portal |
+| 4 | Fill out and submit the application form |
+| 5 | Upload required documents |
+| 6 | Contact AIT for support if needed |
+
+---
+
+## 📞 **Contact for Further Assistance**
+- **Email**: [email protected]  
+- **Website**: [AIT Study Page](https://ait.ac.th/study)
+
+Let me know if you need help with the **application checklist**, **document list**, or **scholarship eligibility**!","Royal Scholarships 
+These are the most prestigious scholarships offered at AIT, providing full financial support. They are awarded to exceptional candidates with outstanding academic records.
+•	His Majesty the King’s Scholarships: This scholarship covers full tuition fees, provides a stipend for living expenses, and offers a return airfare ticket. It is available for students from all Asian countries to pursue a Master's degree in any program offered by the School of Engineering and Technology (SET) or the School of Environment, Resources, and Development (SERD).
+•	Her Majesty the Queen’s Scholarships: This scholarship also covers full tuition, a stipend, and airfare. It is awarded to female candidates from Asian countries to pursue a Master's degree in programs offered by SET or SERD.
+Government Scholarships 
+Several governments partner with AIT to offer scholarships to their citizens. The most notable one is from the Royal Thai Government.
+•	Royal Thai Government (RTG) Scholarships: These scholarships are funded by the Thai government and are available for students from developing countries. They typically cover a significant portion of the tuition fees. There are different categories, including:
+o	GMS (Greater Mekong Sub-region) Scholarships: For students from Cambodia, Laos, Myanmar, Vietnam, and Yunnan province in China.
+o	ASEAN Scholarships: For students from other ASEAN member states.
+AIT's Own Scholarships
+AIT provides several scholarships directly from its own funds to attract talented students from around the world.
+•	AIT President's Scholarships: Awarded to students with excellent academic records. This scholarship usually covers a portion of the tuition fee (often 50% to 75%).
+•	AIT Fellowships: These are partial tuition scholarships awarded based on academic merit. The value of the scholarship varies.
+•	Dean's Scholarships: Offered by the deans of the three schools (SET, SERD, and SOM) to outstanding applicants in their respective fields.
+External and Partner Scholarships
+AIT collaborates with international organizations and development agencies to offer sponsored scholarships.
+•	DAAD Scholarship (German Academic Exchange Service): This scholarship is available for German students wishing to study at AIT.
+•	Other Partner Scholarships: AIT often has agreements with various ministries, universities, and organizations that sponsor students to study at the institute.
+Important Note: The availability of scholarships and their deadlines vary each year. It is crucial to check the official AIT admissions and scholarships website for the most current information, specific eligibility criteria, and application procedures. Typically, you apply for scholarships at the same time you submit your application for admission.","[""https://ait.ac.th/financial/ait-scholarships::c0001"", ""https://ait.ac.th/financial-aid::c0000"", ""https://ait.ac.th/financial/ait-scholarships::c0000"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0004"", ""https://ait.ac.th/financial/alumni-scholarship-fund::c0000""]",not_enough_info,0.6,0,1,not_enough_info,0.2,0
+"To get financial aid, do I need to apply separately for it?","### 🎓 **Scholarships Offered by AIT (Asian Institute of Technology)**
+
+AIT offers a wide range of **scholarships** to support both **domestic and international students**. These scholarships are available for **Master’s and Doctoral programs**, and they are often **automatically matched** to eligible applicants during the application process. Below is a detailed overview of the **scholarships offered by AIT**:
+
+---
+
+## 🌟 **1. AIT Scholarships**
+- **Eligibility**: Open to all applicants who meet the academic and financial criteria.
+- **Coverage**: Can cover **tuition fees**, **living expenses**, and **other academic support**.
+- **Application**: No separate application is required. AIT will automatically match you with the best available scholarship package at the time of your application.
+- **Types**:
+  - **Merit-based scholarships** (based on academic performance).
+  - **Need-based scholarships** (based on financial need).
+  - **Specialized scholarships** (e.g., for women, STEM fields, etc.).
+
+---
+
+## 🏛️ **2. Government and Institutional Scholarships**
+AIT collaborates with various **governments, international organizations, and donors** to provide additional scholarship opportunities. These include:
+
+### ✅ **Royal Thai Government Scholarships**
+- **Eligibility**: Thai citizens.
+- **Coverage**: Full or partial tuition fees, living expenses, and other support.
+- **Application**: You may apply directly through the Royal Thai Government or through AIT.
+
+### ✅ **ADB-JSP (Asian Development Bank - Japan Scholarship Program)**
+- **Eligibility**: Students from ADB member countries.
+- **Coverage**: Full tuition, living expenses, and travel allowances.
+- **Application**: AIT will assist you with the application process.
+
+### ✅ **LPDP (Lembaga Pembiayaan Pendidikan - Indonesia Scholarship Program)**
+- **Eligibility**: Indonesian citizens.
+- **Coverage**: Full tuition, living expenses, and travel allowances.
+- **Application**: You must apply through the LPDP website, but AIT can provide supporting documents.
+
+### ✅ **Other Donor Scholarships**
+- **Examples**: UNESCO, World Bank, and various private foundations.
+- **Application**: AIT will assist you in applying for these scholarships if you are eligible.
+
+---
+
+## 📌 **3. Flexible Master’s and PhD Scholarships**
+- **Flexible Master’s Option**:
+  - **Eligibility**: Open to all applicants.
+  - **Coverage**: AIT offers scholarships for qualifying applicants.
+  - **Application**: No separate application is required. AIT will automatically match you with the best available scholarship package.
+
+- **Flexible PhD Option**:
+  - **Eligibility**: Open to all applicants.
+  - **Coverage**: AIT offers scholarships for qualifying applicants.
+  - **Application**: No separate application is required. AIT will automatically match you with the best available scholarship package.
+
+---
+
+## 📚 **4. Open Master of Engineering Science in Interdisciplinary Studies (OMIS) Scholarships**
+- **Eligibility**: Open to all applicants.
+- **Coverage**: AIT offers scholarships for qualifying applicants.
+- **Application**: No separate application is required. AIT will automatically match you with the best available scholarship package.
+- **Note**: You may also apply for scholarships from your government or other organizations. AIT can provide supporting documents if needed.
+
+---
+
+## 📞 **How to Apply for Scholarships**
+- **No separate application is required** for AIT scholarships.
+- **AIT will automatically match you** with the best available scholarship package at the time of your application.
+- **For external scholarships**, you may need to apply separately, but AIT can assist you with the process.
+
+---
+
+## 📧 **Contact for Scholarship Support**
+If you need assistance with scholarships, you can contact AIT via email:
+
+- **Email**: [email protected]  
+- **Website**: [AIT Study Page](https://ait.ac.th/study)
+
+---
+
+## 📌 **Summary of Scholarships Offered by AIT**
+| **Scholarship Type** | **Eligibility** | **Coverage** | **Application** |
+|----------------------|------------------|--------------|------------------|
+| AIT Scholarships     | All applicants   | Tuition, living expenses | Automatic match |
+| Royal Thai Government | Thai citizens    | Tuition, living expenses | Apply directly |
+| ADB-JSP              | ADB member countries | Full tuition, living expenses | Apply through ADB |
+| LPDP                | Indonesian citizens | Full tuition, living expenses | Apply through LPDP |
+| Other Donor Scholarships | Various | Varies | Apply separately |
+| Flexible Master’s    | All applicants   | Tuition, living expenses | Automatic match |
+| Flexible PhD         | All applicants   | Tuition, living expenses | Automatic match |
+| OMIS Scholarships    | All applicants   | Tuition, living expenses | Automatic match |
+
+---
+
+## 📌 **Important Notes**
+- **No application fee** is required for scholarships.
+- **AIT will automatically match you** with the best available scholarship package.
+- **You may also apply for external scholarships** if you are eligible.
+- **Contact AIT** if you need assistance with scholarship applications or supporting documents.
+
+---
+
+## 📞 **Contact for Further Assistance**
+- **Email**: [email protected]  
+- **Website**: [AIT Study Page](https://ait.ac.th/study)
+
+Let me know if you need help with the **application process**, **document checklist**, or **scholarship eligibility**!","You do not need to apply separately for the scholarships. Once you have submitted the application online, your will be automatically considered for all scholarships for which the deadline has not expired and for which you are eligible. The type and amount of scholarship given to applicants is on a competitive basis with the main criteria of academic standing. Should you wish to be considered for full scholarships, you must submit an Official English score of 6 including writing and overall that is not older than 2 years. Please check acceptable test results here.","[""https://ait.ac.th/program/engineering-entrepreneurship::c0002"", ""https://ait.ac.th/study/flexible-phd-option::c0005"", ""https://ait.ac.th/study/flexible-phd-option::c0002"", ""https://ait.ac.th/study/flexible-masters-option::c0005"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0004""]",not_enough_info,0.6,0,1,entails,0.83,1
+How much does it cost to study at AIT?,"參
+
+**Answer:**
+
+**No, you do not need to apply separately for AIT Scholarships.**  
+AIT Scholarships are automatically considered for eligible applicants during the application process. AIT will match you with the best available scholarship package based on your qualifications and the criteria set by the School’s Selection Committee. This means that as long as you meet the eligibility requirements (such as the English Proficiency Requirement), you will be automatically evaluated for AIT Scholarships.
+
+However, **if you are applying for external scholarships** (such as the ADB-JSP, LPDP, or other donor scholarships), you may need to apply separately through those organizations. AIT can assist you with the application process and provide supporting documents if needed.
+
+### Summary:
+- **AIT Scholarships**: Automatically considered during the application process.
+- **External Scholarships**: May require separate applications, but AIT can assist.
+- **No separate application is required** for AIT Scholarships.
+
+For more details or assistance, you can contact AIT via email:  
+**[email protected]**  
+or visit the AIT Study Page:  
+**[https://ait.ac.th/study](https://ait.ac.th/study)**","AIT's tuition is charged per credit, so the total will depend on the number of credits required for your degree.
+•	Master's Programs:
+o	Cost per credit: Approximately ?16,000 - ?22,000
+o	Total Credits: Most Master's programs require 48 credits.
+o	Estimated Total Tuition: ?768,000 - ?1,056,000 (for the full program).
+•	Doctoral Programs:
+o	Cost per credit: Approximately ?19,000 - ?25,000
+o	Total Credits: Doctoral programs typically require 84 credits.
+o	Estimated Total Tuition: ?1,596,000 - ?2,100,000 (for the full program).
+•	Other Fees: You should also budget for a one-time registration fee (around ?5,000), student union fees, and health insurance.
+Note: The School of Management (SOM) may have different fee structures for its programs like the MBA.
+The different program of study costs are in this site: https://ait.ac.th/tuition-and-fees/","[""https://ait.ac.th/financial/ait-scholarships::c0001"", ""https://ait.ac.th/tuition-and-fees::c0003"", ""https://ait.ac.th/study/flexible-masters-option::c0002"", ""https://ait.ac.th/special-students-exchange-and-visiting-students::c0001"", ""https://ait.ac.th/study/flexible-phd-option::c0010""]",not_enough_info,0.5,0,1,not_enough_info,0.33,0
+What are the criteria to apply for the scholarship of AIT?,"시험 준비를 위해 학습 비용을 계산하는 것은 매우 중요합니다. AIT(아시아 기술 대학)에서 학업을 받는 데 필요한 비용은 다음과 같이 정리할 수 있습니다:
+
+---
+
+### 📌 **AIT 학업 비용 요약**
+
+#### 1. **등록비 (Registration Fee)**
+- **학기당 등록비**: 20,000 바트 (약 650,000 원)
+- **학기 수**: 일반적으로 22개월 (약 5~6학기) 소요
+
+#### 2. **등록비 총액**
+- **총 등록비**: 20,000 바트 × 6 학기 = **120,000 바트** (약 3,800,000 원)
+
+#### 3. **등록비 외 추가 비용**
+- **학비**: AIT 학비는 등록비와 별도로 부과되며, 학과에 따라 다릅니다. 일반적으로 학비는 등록비의 2~3배 정도입니다.
+- **생활비**: 월 11,500~15,000 바트 (약 360,000~500,000 원)  
+  - 총 생활비: 11,500 × 22 = **253,000 바트** (약 800,000 원)  
+  - 또는 15,000 × 22 = **330,000 바트** (약 1,000,000 원)
+
+#### 4. **총 학업 비용**
+- **등록비 + 학비 + 생활비**:  
+  - **최소**: 120,000 (등록비) + 240,000 (학비) + 253,000 (생활비) = **613,000 바트** (약 1,900,000 원)  
+  - **최대**: 120,000 (등록비) + 360,000 (학비) + 330,000 (생활비) = **810,000 바트** (약 2,500,000 원)
+
+---
+
+### 📌 **AIT 장학금 정보**
+AIT는 다양한 장학금을 제공하여 학업 비용을 지원합니다. 장학금은 학업 성적, 영어 능력, 학위 등에 따라 부여됩니다.
+
+- **장학금 대상**: 모든 국적, 학위 소지자, 영어 능력 충족자
+- **장학금 금액**: 학비의 일부 또는 전체를 지원
+- **장학금 기간**: 일반적으로 22개월 (학위 프로그램 기간)
+
+---
+
+### 📌 **추가 비용**
+- **숙소**: AIT 캠퍼스 내 주거 시, 월 11,500~15,000 바트
+- **식비**: 월 5,000~8,000 바트
+- **교통비**: 월 1,000~2,000 바트
+- **기타 비용**: 교재, 외부 강의, 여행 등
+
+---
+
+### 📌 **총 학업 비용 추정**
+| 항목 | 비용 (바트) | 비용 (원) |
+|------|-------------|------------|
+| 등록비 (6학기) | 120,000 | 약 3,800,000 |
+| 학비 (예상) | 240,000~360,000 | 약 7,500,000~11,250,000 |
+| 생활비 (22개월) | 253,000~330,000 | 약 800,000~1,000,000 |
+| **총 학업 비용** | **613,000~810,000** | **약 1,900,000~2,500,000** |
+
+---
+
+### 📌 **장학금 지원 가능 여부**
+- AIT 장학금은 학업 성적, 영어 능력, 학위 등에 따라 자동으로 고려됩니다.
+- **장학금 지원 기준**:
+  - 영어 능력: IELTS 6.0 이상 또는 AIT EET 6.0 이상
+  - 학업 성적: GPA 3.5 이상 (학사), GPA 2.75 이상 (학사)
+  - 학위: 학사 또는 석사 학위 소지자
+
+---
+
+### 📌 **추천**
+- **장학금 지원**: AIT 장학금은 자동으로 고려되므로, 학업 성적과 영어 능력을 충족하면 자동으로 지원됩니다.
+- **외부 장학금**: ADB-JSP, LPDP 등 외부 장학금도 지원 가능하며, AIT에서 지원을 도와줄 수 있습니다.
+
+---
+
+### 📌 **문의 및 지원**
+- **AIT 장학금 문의**: [email protected]
+- **AIT 입학 및 장학금 정보**: [https://ait.ac.th/apply-online/](https://ait.ac.th/apply-online/)
+
+---
+
+### 📌 **결론**
+AIT에서 학업을 받는 데 필요한 총 비용은 **약 1,900,000~2,500,000 원** 정도이며, 장학금 지원을 통해 일부 비용을 줄일 수 있습니다. 학업 성적과 영어 능력을 충족하면 AIT 장학금을 자동으로 고려받을 수 있으므로, 준비에 신중하게 접근하는 것이 좋습니다.","General Eligibility Criteria (applies to most AIT Scholarships)
+
+You must normally meet the following to be considered for any scholarship at AIT:
+
+1. Admission to an AIT Degree Program
+
+You must first complete and submit the AIT online admission application by the relevant scholarship deadline.
+
+You do not need to submit a separate scholarship application; once you apply for admission and indicate financial support on the application form, AIT will automatically consider you for eligible scholarships.
+
+2. Academic Performance
+
+Strong academic record is essential:
+
+Most competitive scholarships, especially for Master’s or PhD, require high cumulative GPA (often ? 3.5 on a 4.0 scale for Bachelor’s degrees).
+
+Some scholarships (e.g., Alumni Scholarship) accept GPA ? 2.75.
+
+3. English Language Proficiency
+
+You must meet AIT’s English requirements, typically:
+
+IELTS Academic: Overall 6.0 with Writing 6.0,
+
+OR AIT English Entrance Test (EET) score ? 6.0
+
+(This requirement may vary slightly by scholarship program).
+
+4. Supporting Documents
+
+Commonly requested:
+
+Academic transcripts and degree certificates
+
+English test score
+
+Letters of recommendation (especially for research-based or PhD scholarships)
+
+For PhD scholarships, a research proposal is often required.
+
+Specific Scholarship Criteria (Examples)
+1. Royal Thai Government (RTG) / King’s & Queen’s Scholarships
+
+These are among the main fully-funded scholarships:
+
+For Master’s Programs
+
+Outstanding undergraduate performance (GPA ? 3.5).
+
+English proficiency per AIT requirement (IELTS/EET ? 6.0).
+
+For Doctoral Programs
+
+Outstanding undergraduate and Master’s performance (Bachelor’s & Master’s GPA ? 3.5).
+
+Two recommendation letters and a research proposal.
+
+English proficiency (IELTS/EET ? 6.0).
+
+Coverage typically includes tuition, fees, accommodation, and a living allowance.
+
+2. AIT Alumni Scholarship Fund (Master’s)
+
+Any nationality is accepted.
+
+Cumulative GPA ? 2.75.
+
+English proficiency: IELTS Academic ? 6.0 or EET ? 6.0.
+
+Must meet AIT admissions entry requirements.
+
+3. DAAD Scholarship (for Select Southeast Asian Candidates)
+
+Must be national of eligible countries (e.g., Cambodia, Indonesia, Lao PDR, Myanmar, Malaysia, Philippines, East Timor, Thailand, Vietnam).
+
+Completed bachelor degree within 6 years with above-average performance (often upper third of class).
+
+Strong motivation and commitment.
+
+English proficiency (IELTS/EET ? 6.0).
+
+Must fulfill AIT admission requirements.
+
+4. Other Sponsored Scholarships (e.g., Corporate Scholarships)
+
+Some external or partner scholarships (e.g., AIS Scholarship) have specific industry criteria such as:
+
+Nationality restrictions
+
+Minimum GPA requirements
+
+Relevant work experience
+
+Technical or professional skills aligned with sponsor interest areas.
+
+How Selection Works
+
+Scholarships are competitive and merit-based, and applicants are automatically considered after they submit their admission form with financial support indicated.
+
+Academic merit (GPA, research potential, English proficiency) is often the most important criterion.
+
+Next Steps Before Applying
+
+Check the exact scholarship deadlines for your intended intake (e.g., March 31 for Royal Thai Government scholarships).
+
+Prepare:
+
+Transcripts and degree certificates
+
+English test score
+
+Letters of recommendation
+
+Research proposal (if required, especially for PhD)
+
+Complete the AIT online application and select “Financial Support” to be considered for scholarships.","[""https://ait.ac.th/financial/royal-thai-government-scholarships::c0005"", ""https://ait.ac.th/financial/daad-scholarship::c0002"", ""https://ait.ac.th/financial/ait-scholarships::c0001"", ""https://ait.ac.th/financial/alumni-scholarship-fund::c0001"", ""https://ait.ac.th/financial/ait-scholarships::c0002""]",not_enough_info,0.5,0,1,not_enough_info,0.3,0
+What countries are eligible for scholarships?,"꼈
+
+### 📌 **AIT 장학금 지원 조건 및 기준**
+
+AIT는 다양한 장학금을 제공하여 학업 비용을 지원합니다. 장학금은 학업 성적, 영어 능력, 학위 등에 따라 자동으로 고려됩니다. 아래는 AIT 장학금 지원 조건 및 기준입니다.
+
+---
+
+### 📌 **1. AIT 장학금 지원 대상**
+
+- **국적**: 모든 국적 (국제 학생 포함)
+- **학위**: 학사 또는 석사 학위 소지자
+- **학업 성적**: 학사 및 석사 학위의 GPA ≥ 3.5 또는 동등한 성적
+- **영어 능력**: IELTS 6.0 이상 또는 AIT EET 6.0 이상
+
+---
+
+### 📌 **2. AIT 장학금 지원 기준**
+
+- **장학금 금액**: 학비의 일부 또는 전체를 지원
+- **장학금 기간**: 일반적으로 22개월 (학위 프로그램 기간)
+- **장학금 대상**: 학업 성적, 영어 능력, 학위 등에 따라 자동으로 고려됨
+
+---
+
+### 📌 **3. AIT 장학금 지원 조건**
+
+- **학업 성적**: 학사 및 석사 학위의 GPA ≥ 3.5 또는 동등한 성적
+- **영어 능력**: IELTS 6.0 이상 또는 AIT EET 6.0 이상
+- **학위**: 학사 또는 석사 학위 소지자
+- **추천서**: 2개의 추천서 필요
+- **연구 제안서**: 연구 제안서 필요
+- **학업 기록**: 4년제 학사 및 2년제 석사 학위 소지자
+
+---
+
+### 📌 **4. AIT 장학금 지원 절차**
+
+- **장학금 지원 자동 고려**: 학업 성적과 영어 능력을 충족하면 자동으로 고려됨
+- **외부 장학금 지원**: ADB-JSP, LPDP 등 외부 장학금도 지원 가능하며, AIT에서 지원을 도와줄 수 있음
+
+---
+
+### 📌 **5. AIT 장학금 지원 예시**
+
+- **장학금 대상**: 학사 및 석사 학위 소지자
+- **장학금 금액**: 학비의 일부 또는 전체를 지원
+- **장학금 기간**: 일반적으로 22개월 (학위 프로그램 기간)
+
+---
+
+### 📌 **6. AIT 장학금 지원 문의 및 지원**
+
+- **AIT 장학금 문의**: [email protected]
+- **AIT 입학 및 장학금 정보**: [https://ait.ac.th/apply-online/](https://ait.ac.th/apply-online/)
+
+---
+
+### 📌 **7. AIT 장학금 지원 요약**
+
+- **지원 대상**: 학사 및 석사 학위 소지자
+- **지원 조건**: 학업 성적 ≥ 3.5, 영어 능력 IELTS 6.0 이상
+- **지원 기간**: 일반적으로 22개월
+- **지원 절차**: 자동 고려, 외부 장학금 지원 가능
+- **지원 문의**: [email protected]
+
+---
+
+### 📌 **결론**
+
+AIT 장학금은 학업 성적, 영어 능력, 학위 등에 따라 자동으로 고려됩니다. 학업 성적과 영어 능력을 충족하면 AIT 장학금을 자동으로 고려받을 수 있으므로, 준비에 신중하게 접근하는 것이 좋습니다. 외부 장학금도 지원 가능하며, AIT에서 지원을 도와줄 수 있습니다.","1. AIT General Scholarships (AIT Scholarships)
+
+These are merit-based awards available to students admitted to Master’s or PhD programs at AIT.
+
+Eligible Countries:
+
+All nationalities worldwide are eligible to apply.
+
+This means if you are admitted and meet academic/English requirements, you can be considered for AIT central scholarships regardless of where you are from.
+
+2. Royal Thai Government (RTG) Scholarships
+
+These are non-bonded, fully funded scholarships provided by the Royal Thai Government for Master’s and Doctoral students.
+
+Eligible Countries:
+
+Any Asian nationality (for most RTG scholarships) — includes countries across Asia.
+
+Some sub-programs (e.g., GMS / Loom Nam Khong Pijai) target specific sub-regions such as Cambodia, Laos, Myanmar, Vietnam, Thailand, and parts of southern China.
+
+In general, these scholarships aim to support students from Asia broadly, with particular priority to ASEAN and other Asian countries.
+
+3. DAAD Scholarships at AIT
+
+Funded by the German government, these scholarships focus on specific Southeast Asian countries.
+
+Eligible Countries for DAAD at AIT:
+
+Cambodia
+
+Indonesia
+
+Lao PDR
+
+Myanmar
+
+Malaysia
+
+Philippines
+
+East Timor
+
+Thailand
+
+Vietnam
+
+These are specific and not open to applicants from outside this group.","[""https://ait.ac.th/financial/royal-thai-government-scholarships::c0002"", ""https://ait.ac.th/financial-aid::c0003"", ""https://ait.ac.th/financial/daad-scholarship::c0004"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0014"", ""https://ait.ac.th/financial-aid::c0002""]",entails,0.83,1,0,not_enough_info,0.5,0
+Are scholarships available for both Master’s and PhD students?,"### 📌 **AIT 장학금 지원 조건 및 기준 (최신 정보)**
+
+AIT는 다양한 장학금을 제공하여 학업 비용을 지원합니다. 아래는 AIT 장학금 지원 조건 및 기준을 정리한 내용입니다.
+
+---
+
+### 📌 **1. AIT 장학금 지원 대상**
+
+- **국적**: 모든 국적 (국제 학생 포함)
+- **학위**: 학사 또는 석사 학위 소지자
+- **학업 성적**: 학사 및 석사 학위의 GPA ≥ 3.5 또는 동등한 성적
+- **영어 능력**: IELTS 6.0 이상 또는 AIT EET 6.0 이상
+
+---
+
+### 📌 **2. AIT 장학금 지원 기준**
+
+- **장학금 금액**: 학비의 일부 또는 전체를 지원
+- **장학금 기간**: 일반적으로 22개월 (학위 프로그램 기간)
+- **장학금 대상**: 학업 성적, 영어 능력, 학위 등에 따라 자동으로 고려됨
+
+---
+
+### 📌 **3. AIT 장학금 지원 조건**
+
+- **학업 성적**: 학사 및 석사 학위의 GPA ≥ 3.5 또는 동등한 성적
+- **영어 능력**: IELTS 6.0 이상 또는 AIT EET 6.0 이상
+- **학위**: 학사 또는 석사 학위 소지자
+- **추천서**: 2개의 추천서 필요
+- **연구 제안서**: 연구 제안서 필요
+- **학업 기록**: 4년제 학사 및 2년제 석사 학위 소지자
+
+---
+
+### 📌 **4. AIT 장학금 지원 절차**
+
+- **장학금 지원 자동 고려**: 학업 성적과 영어 능력을 충족하면 자동으로 고려됨
+- **외부 장학금 지원**: ADB-JSP, LPDP 등 외부 장학금도 지원 가능하며, AIT에서 지원을 도와줄 수 있음
+
+---
+
+### 📌 **5. AIT 장학금 지원 예시**
+
+- **장학금 대상**: 학사 및 석사 학위 소지자
+- **장학금 금액**: 학비의 일부 또는 전체를 지원
+- **장학금 기간**: 일반적으로 22개월 (학위 프로그램 기간)
+
+---
+
+### 📌 **6. AIT 장학금 지원 문의 및 지원**
+
+- **AIT 장학금 문의**: [email protected]
+- **AIT 입학 및 장학금 정보**: [https://ait.ac.th/apply-online/](https://ait.ac.th/apply-online/)
+
+---
+
+### 📌 **7. AIT 장학금 지원 요약**
+
+- **지원 대상**: 학사 및 석사 학위 소지자
+- **지원 조건**: 학업 성적 ≥ 3.5, 영어 능력 IELTS 6.0 이상
+- **지원 기간**: 일반적으로 22개월
+- **지원 절차**: 자동 고려, 외부 장학금 지원 가능
+- **지원 문의**: [email protected]
+
+---
+
+### 📌 **결론**
+
+AIT 장학금은 학업 성적, 영어 능력, 학위 등에 따라 자동으로 고려됩니다. 학업 성적과 영어 능력을 충족하면 AIT 장학금을 자동으로 고려받을 수 있으므로, 준비에 신중하게 접근하는 것이 좋습니다. 외부 장학금도 지원 가능하며, AIT에서 지원을 도와줄 수 있습니다.",Yes. Scholarships at the Asian Institute of Technology (AIT) are available for both Master’s and PhD students. Various funding options at AIT cover postgraduate study at both degree levels — this includes AIT’s own academic scholarships as well as externally funded or partner scholarship,"[""https://ait.ac.th/financial/royal-thai-government-scholarships::c0001"", ""https://ait.ac.th/financial-aid::c0002"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0011"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0003"", ""https://ait.ac.th/financial/rtg-fellowships-ph-d-to-support-the-asian-innovation-hub::c0003""]",not_enough_info,0.33,0,1,not_enough_info,0.5,0
+Do AIT scholarships cover full tuition or only partial tuition?,"### ✅ **AIT Scholarships for Master’s Degree Students (Including ADB-JSP)**
+
+Yes, **AIT offers scholarships for Master’s degree students**, including the **Asian Development Bank – Japan Scholarship Program (ADB-JSP)**. These scholarships are designed to support students who meet specific academic and language proficiency criteria.
+
+---
+
+## 🎓 **Eligibility for AIT Scholarships (Master’s Degree)**
+
+### 1. **General AIT Scholarships**
+- **Nationality**: All nationalities are eligible.
+- **Academic Record**: Must have an outstanding academic record in a 4-year undergraduate program from an accredited institution in a related field.
+- **GPA Requirement**: GPA for Bachelor’s degree ≥ 3.5 or equivalent.
+- **Language Proficiency**: Must meet AIT’s English proficiency requirement:
+  - **IELTS 6.0** (Overall and Writing bands)
+  - **AIT EET ≥ 6.0**
+
+---
+
+### 2. **ADB-JSP Scholarship (Master’s Degree)**
+- **Eligibility**:
+  - Must be a citizen of a country that is a member of the **Asian Development Bank (ADB)**.
+  - Must have completed a 4-year undergraduate degree from an accredited institution.
+  - Must meet the **English proficiency requirement** (IELTS 6.0 or AIT EET ≥ 6.0).
+  - Must be admitted to a **Master’s program at AIT**.
+- **Coverage**:
+  - **Tuition fees**
+  - **Accommodation** (on-campus)
+  - **Living expenses** (a bursary)
+  - **Preparatory courses** (e.g., English or computer literacy) if needed.
+- **Exclusions**:
+  - **Family expenses**
+  - **Extra-curricular activities**
+  - **Travel costs** (except for return travel upon completion)
+  - **Educational equipment** (e.g., computers)
+  - **Field trips, workshops, seminars, internships** (unless directly related to the degree)
+
+---
+
+## 💰 **Scholarship Value (Master’s Degree)**
+
+- **General AIT Scholarships**: The value of the scholarship is typically **around 1.10 million Baht** for the 22-month Master’s program.
+- **ADB-JSP Scholarship**: The value is **approximately 1.10 million Baht** as well, covering tuition, accommodation, and a living allowance.
+
+---
+
+## 📅 **Application Deadline (Master’s Degree)**
+
+- **For the August 2026 intake**: **31 March 2026**
+- **Application Portal**: [AIT Admissions Website](https://ait.ac.th/apply-online/)
+
+---
+
+## 📧 **Contact for Scholarships**
+
+- **Ms. Wilailak**: 02-524-5023
+- **Ms. Kanchana**: 02-524-6119
+- **Email**: [email protected]
+
+---
+
+## 📌 **Additional Notes**
+
+- **Preparatory Courses**: If you need to take English or computer literacy courses before starting your Master’s program, these can be funded by the ADB-JSP, provided they are taken **within AIT**.
+- **Return Travel**: AIT will cover the cost of return travel **after successful completion of the program**.
+- **Establishment Allowance**: A one-time allowance is provided to help with initial setup costs at AIT.
+
+---
+
+## 📚 **Other Scholarships**
+
+- **Royal Thai Government Scholarships**: These are also available for Thai citizens and cover tuition, accommodation, and living expenses.
+- **Government or Organization Scholarships**: You may also apply for scholarships from your home country or other organizations. AIT can provide supporting documents if needed.
+
+---
+
+## ✅ **Summary**
+
+| **Scholarship**         | **Eligibility**                          | **Coverage**                                                                 | **Value**               |
+|-------------------------|------------------------------------------|-------------------------------------------------------------------------------|--------------------------|
+| **General AIT**         | GPA ≥ 3.5, IELTS 6.0, etc.              | Tuition, accommodation, living expenses, preparatory courses               | ~1.10 million Baht       |
+| **ADB-JSP**             | ADB member, GPA ≥ 3.5, IELTS 6.0        | Tuition, accommodation, living expenses, preparatory courses               | ~1.10 million Baht       |
+| **Royal Thai Gov**     | Thai citizen, outstanding academic record | Tuition, accommodation, living expenses                                    | Varies                   |
+
+---
+
+## 📌 **Final Note**
+
+If you are applying for a **Master’s degree at AIT**, you **do not need to apply for an AIT scholarship**. You can apply for a **government or external scholarship** instead. AIT can assist you with the application process and provide supporting documents if needed.
+
+Let me know if you'd like help with the **application process** or **document preparation**!","AIT Academic Scholarships
+
+These scholarships may cover full tuition or only a portion of the tuition fees, depending on your academic merit and the decision of the Selection Committee.
+
+They do not automatically cover registration fees, accommodation, or living expenses unless otherwise specified by a particular scholarship program.
+
+Students are responsible for any remaining tuition balance not covered by the scholarship.
+
+Royal Thai Government (RTG) Scholarships (and Similar Fully Funded Awards)
+
+Some external/partner scholarships (e.g., Royal Thai Government Scholarships) can be fully funded, covering:
+
+Tuition and registration fees
+
+Accommodation on campus
+
+A living allowance (bursary) for the period of study
+
+These fully funded awards are more comprehensive and are typically merit-based scholarships awarded through external programs administered at AIT","[""https://ait.ac.th/financial/ait-scholarships::c0001"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0005"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0009"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0010"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0004""]",not_enough_info,0.5,0,1,not_enough_info,0.67,0
+"Does AIT offer assistantships, fellowships, or on-campus work opportunities as financial support?","### ✅ **Answer to Your Question:**
+
+**Yes, you can apply for a scholarship for a Master’s degree at AIT.**  
+However, **you do not need to apply for an AIT scholarship**. Instead, you can apply for a **government or external scholarship** (such as the **ADB-JSP** or **Royal Thai Government Scholarship**), and AIT can assist you with the application process and provide supporting documents if needed.
+
+---
+
+## 🎓 **Master’s Degree Scholarships at AIT**
+
+### 1. **General AIT Scholarships**
+- **Eligibility**:
+  - Must have an outstanding academic record in a 4-year undergraduate program from an accredited institution.
+  - GPA for Bachelor’s degree ≥ 3.5 or equivalent.
+  - Must meet AIT’s English proficiency requirement:
+    - **IELTS 6.0** (Overall and Writing bands)
+    - **AIT EET ≥ 6.0**
+
+- **Coverage**:
+  - Tuition fees
+  - Accommodation (on-campus)
+  - Living expenses
+  - Preparatory courses (e.g., English or computer literacy) if needed
+
+- **Value**:
+  - Approximately **1.10 million Baht** for the 22-month Master’s program
+
+---
+
+### 2. **ADB-JSP Scholarship (Master’s Degree)**
+- **Eligibility**:
+  - Must be a citizen of a country that is a member of the **Asian Development Bank (ADB)**.
+  - Must have completed a 4-year undergraduate degree from an accredited institution.
+  - Must meet the **English proficiency requirement** (IELTS 6.0 or AIT EET ≥ 6.0).
+  - Must be admitted to a **Master’s program at AIT**.
+
+- **Coverage**:
+  - Tuition fees
+  - Accommodation (on-campus)
+  - Living expenses (a bursary)
+  - Preparatory courses (e.g., English or computer literacy) if needed
+
+- **Exclusions**:
+  - Family expenses
+  - Extra-curricular activities
+  - Travel costs (except for return travel upon completion)
+  - Educational equipment (e.g., computers)
+  - Field trips, workshops, seminars, internships (unless directly related to the degree)
+
+- **Value**:
+  - Approximately **1.10 million Baht**
+
+---
+
+### 3. **Royal Thai Government Scholarship**
+- **Eligibility**:
+  - Must be a **Thai citizen**.
+  - Must have an outstanding academic record.
+  - Must be admitted to a **Master’s program at AIT**.
+
+- **Coverage**:
+  - Tuition fees
+  - Accommodation
+  - Living expenses
+
+---
+
+## 📅 **Application Deadlines**
+- **For the August 2026 intake**: **31 March 2026**
+- **Application Portal**: [AIT Admissions Website](https://ait.ac.th/apply-online/)
+
+---
+
+## 📧 **Contact for Scholarships**
+- **Ms. Wilailak**: 02-524-5023
+- **Ms. Kanchana**: 02-524-6119
+- **Email**: [email protected]
+
+---
+
+## 📌 **Additional Notes**
+- **Preparatory Courses**: If you need to take English or computer literacy courses before starting your Master’s program, these can be funded by the ADB-JSP, provided they are taken **within AIT**.
+- **Return Travel**: AIT will cover the cost of return travel **after successful completion of the program**.
+- **Establishment Allowance**: A one-time allowance is provided to help with initial setup costs at AIT.
+
+---
+
+## 📚 **Summary of Scholarships for Master’s Degree at AIT**
+
+| **Scholarship**         | **Eligibility**                          | **Coverage**                                                                 | **Value**               |
+|-------------------------|------------------------------------------|-------------------------------------------------------------------------------|--------------------------|
+| **General AIT**         | GPA ≥ 3.5, IELTS 6.0, etc.              | Tuition, accommodation, living expenses, preparatory courses               | ~1.10 million Baht       |
+| **ADB-JSP**             | ADB member, GPA ≥ 3.5, IELTS 6.0        | Tuition, accommodation, living expenses, preparatory courses               | ~1.10 million Baht       |
+| **Royal Thai Gov**     | Thai citizen, outstanding academic record | Tuition, accommodation, living expenses                                    | Varies                   |
+
+---
+
+## 📌 **Final Note**
+If you are applying for a **Master’s degree at AIT**, you **do not need to apply for an AIT scholarship**. You can apply for a **government or external scholarship** instead. AIT can assist you with the application process and provide supporting documents if needed.
+
+Let me know if you'd like help with the **application process** or **document preparation**!","Living Expenses
+
+Most AIT scholarships do not include living expenses unless it is a fully funded external award (for example, Royal Thai Government Scholarships).
+
+For general AIT academic scholarships, recipients are expected to cover their own living costs (food, transport, housing, etc.) on top of any tuition funding.
+
+Accommodation
+
+Some external scholarships may include support for accommodation on AIT’s residential campus (e.g., RTG Scholarships cover accommodation).
+
+Bursary / Living Allowances
+
+Certain fully funded programs also include a monthly stipend or bursary to help with living costs as part of the award","[""https://ait.ac.th/financial-aid::c0000"", ""https://ait.ac.th/study/open-master-of-engineering-science-in-interdisciplinary-studies-omis::c0004"", ""https://ait.ac.th/program/doctor-of-philosophy-ph-d-in-management::c0003"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0010"", ""https://ait.ac.th/financial/ait-scholarships::c0001""]",not_enough_info,0.0,0,1,not_enough_info,0.5,0
+How can I contact maintenance?,"⾯对您的问题：“**Does AIT offer assistantships, fellowships, or on-campus work opportunities as financial support?**”，以下是基于现有信息和AIT官方资源的详细回答：
+
+---
+
+## ✅ **Answer: Yes, AIT offers various forms of financial support, including assistantships, fellowships, and on-campus work opportunities.**
+
+---
+
+## 📌 **1. Assistantships (Research or Teaching Assistantships)**
+
+**Available for:**
+- Master’s and Ph.D. students
+- Typically in research or teaching roles
+
+**Benefits:**
+- Financial support (stipend or salary)
+- Research experience or teaching experience
+- Opportunities to work closely with faculty
+
+**How to Apply:**
+- Usually included in the application process for Ph.D. programs
+- Some Master’s programs may also offer assistantships, especially in research-intensive areas
+
+**Contact:**
+- **Admissions and Scholarships Unit**
+  - Email: [email protected]
+  - Phone: (662) 524 5024, 31-33
+
+---
+
+## 📌 **2. Fellowships**
+
+**Available for:**
+- Master’s and Ph.D. students
+- Often merit-based or sponsored by external organizations
+
+**Examples:**
+- **Royal Thai Government Fellowships** (for Thai citizens)
+- **ADB-JSP (Asian Development Bank - Japan Scholarship Program)**
+- **RTG Fellowships** (for Ph.D. students supporting the Asian Innovation Hub)
+
+**Benefits:**
+- Full or partial tuition waiver
+- Stipend or living allowance
+- Opportunities for international collaboration
+
+**How to Apply:**
+- Apply through the official AIT application system
+- Some fellowships require separate applications (e.g., ADB-JSP, RTG)
+
+**Contact:**
+- **Admissions and Scholarships Unit**
+  - Email: [email protected]
+  - Phone: (662) 524 5024, 31-33
+
+---
+
+## 📌 **3. On-Campus Work Opportunities**
+
+**Available for:**
+- International and Thai students
+- Usually part-time
+
+**Examples:**
+- Library assistant
+- Administrative assistant
+- Research assistant
+- Teaching assistant
+
+**Benefits:**
+- Additional income
+- Work experience
+- Networking opportunities
+
+**How to Apply:**
+- Apply through the **Student Employment Office**
+- Some positions are posted on the AIT website or through the Student Portal
+
+**Contact:**
+- **Student Employment Office**
+  - Email: [email protected]
+  - Phone: (662) 524 6601
+
+---
+
+## 📌 **4. Other Financial Support Options**
+
+### 🔹 **Scholarships**
+- **General AIT Scholarships**: For students with outstanding academic records
+- **Government Scholarships**: For Thai citizens (e.g., Royal Thai Government)
+- **External Scholarships**: Such as ADB-JSP, RTG, etc.
+
+### 🔹 **Living Allowance**
+- Some scholarships include a living allowance or stipend
+- Some programs may offer additional financial support for students with financial need
+
+### 🔹 **Research Funding**
+- For Ph.D. students, research funding may be available through faculty or external grants
+
+---
+
+## 📌 **Contact Information for Financial Support**
+
+| **Contact** | **Email** | **Phone** |
+|-------------|-----------|-----------|
+| **Admissions and Scholarships Unit** | [email protected] | (662) 524 5024, 31-33 |
+| **Student Employment Office** | [email protected] | (662) 524 6601 |
+| **Student Welfare Office** | [email protected] | (662) 524 6744 |
+| **Student Portal** | [https://student.ait.ac.th](https://student.ait.ac.th) | - |
+
+---
+
+## 📌 **Final Note**
+
+If you are applying for a **Master’s or Ph.D. program at AIT**, you **do not need to apply for an AIT scholarship**. Instead, you can apply for a **government or external scholarship** (such as the **ADB-JSP** or **Royal Thai Government Scholarship**), and AIT can assist you with the application process and provide supporting documents if needed.
+
+---
+
+## 📌 **Need Help with Application or Documents?**
+
+Let me know if you'd like help with:
+- **Application process**
+- **Document preparation**
+- **Scholarship selection**
+- **On-campus work opportunities**
+
+I’m here to help you navigate the financial support options at AIT!","1. Office Responsible for Campus Maintenance
+OFAM – Office of Facilities and Assets Management (handles maintenance services on campus) (ofam.ait.ac.th)
+Primary contact methods:
+•	Maintenance / Repair & Facilities Services: +66 2 524 5800 (general repair and maintenance during working hours) (ofam.ait.ac.th)
+•	Call Center (8:00 – 17:00): +66 2 524 5800 (ofam.ait.ac.th)
+•	Emergency Repair (24-hour emergencies after office hours): +66 2 524 5804 (Asian Institute of Technology)
+•	Housing / Residential maintenance: extensions 5987 / 6631 (staff/faculty housing) (Asian Institute of Technology)
+•	One-stop repair/helpdesk email: callcenter@ait.asia (used for general requests; include details such as location and contact number) (ofam.ait.ac.th)
+If calling from inside campus, you can often dial the extension only. (Asian Institute of Technology)
+2. Other Useful Contact Numbers
+•	Clinic / Ambulance (Not maintenance but safety-related): ext. 5286 (Asian Institute of Technology)
+•	Security / Fire / Ambulance (24 hrs): +66 2 524 6000 (ofam.ait.ac.th)
+•	General AIT switchboard (main reception): +66 2 524 5000 / +66 2 524 5031-33 (Asian Institute of Technology)
+3. On-campus Procedure (Typical)
+1.	Phone first: Call +66 2 524 5800 during office hours for routine maintenance requests. (ofam.ait.ac.th)
+2.	Emergency: Call +66 2 524 5804 after office hours. (Asian Institute of Technology)
+3.	Email: Send detailed maintenance request to callcenter@ait.asia (describe issue, location, urgency, your contact info). (ofam.ait.ac.th)
+Tips When Reporting
+•	Specify building name/room number or dorm name. (Scribd)
+•	Include your contact number/email so maintenance can follow up. (Scribd)
+•	For dorm repairs (student housing), you may also visit the Housing Maintenance Section in Dorm E basement during business hours. (Asian Institute of Technology)","[""https://ait.ac.th/program/semiconductor-engineering-sce::c0007"", ""https://ait.ac.th/health-wellness::c0001"", ""https://ait.ac.th/program/mechatronics-and-machine-intelligence-mmi::c0010"", ""https://ait.ac.th/program/industrial-and-manufacturing-engineering-ime::c0008"", ""https://ait.ac.th/financial/rtg-fellowships-ph-d-to-support-the-asian-innovation-hub::c0005""]",not_enough_info,0.6,0,1,not_enough_info,0.15,0
+How can I contact security?,"### 📞 How to Contact Maintenance at Asian Institute of Technology (AIT)
+
+If you're looking to **contact maintenance** at AIT, here's how you can reach the appropriate office or department:
+
+---
+
+## 📌 **1. General Contact for Maintenance and Facilities**
+
+If you need assistance with **maintenance, repairs, or facilities**, you can contact the **Facilities and Maintenance Office** at AIT.
+
+### ✅ Contact Information:
+
+- **Email:** [email protected]  
+- **Phone:** (662) 524 6601  
+- **Website:** [https://student.ait.ac.th](https://student.ait.ac.th) (for student-related services, including maintenance)
+
+---
+
+## 📌 **2. Student Support Services**
+
+If you're a **student** and need help with **maintenance, housing, or campus facilities**, you can also reach out to the **Student Welfare Office** or **Student Employment Office**.
+
+### ✅ Contact Information:
+
+- **Student Welfare Office**  
+  - Email: [email protected]  
+  - Phone: (662) 524 6744
+
+- **Student Employment Office**  
+  - Email: [email protected]  
+  - Phone: (662) 524 6601
+
+---
+
+## 📌 **3. General Contact for AIT**
+
+If you're unsure which office to contact, you can reach out to the **Admissions and Scholarships Unit**, which can direct you to the appropriate department.
+
+### ✅ Contact Information:
+
+- **Admissions and Scholarships Unit**  
+  - Email: [email protected]  
+  - Phone: (662) 524 5024, 31-33
+
+---
+
+## 📌 **4. Physical Address**
+
+If you prefer to contact them in person, you can visit:
+
+- **Asian Institute of Technology (AIT)**  
+  - Address: P.O. Box 4, Klong Luang, Pathum Thani 12120, Thailand  
+  - Phone: (662) 524 5024, 31-33
+
+---
+
+## 📌 **5. Other Useful Contacts**
+
+- **Student Portal:** [https://student.ait.ac.th](https://student.ait.ac.th)  
+  - You can find information about maintenance, housing, and other student services.
+
+- **Social Media:**  
+  - Follow AIT on social media for updates and announcements.
+
+---
+
+## 📌 **Summary of Contacts for Maintenance at AIT**
+
+| **Contact** | **Email** | **Phone** | **Notes** |
+|------------|-----------|-----------|-----------|
+| **Facilities and Maintenance Office** | [email protected] | (662) 524 6601 | For general maintenance and facilities |
+| **Student Welfare Office** | [email protected] | (662) 524 6744 | For student support and housing |
+| **Student Employment Office** | [email protected] | (662) 524 6601 | For on-campus work and student services |
+| **Admissions and Scholarships Unit** | [email protected] | (662) 524 5024, 31-33 | For general inquiries and support |
+
+---
+
+## 📌 **Need Help with Maintenance or Facilities?**
+
+If you're a student or staff member and need assistance with **maintenance, repairs, or campus facilities**, don't hesitate to reach out to the **Facilities and Maintenance Office** or the **Student Welfare Office**.
+
+Let me know if you'd like help with:
+- **Finding the right contact**
+- **Reporting a maintenance issue**
+- **Understanding campus facilities**
+
+I'm here to help you navigate the support systems at AIT!","You can contact AIT Security at any time for safety-related matters (security assistance, suspicious activity, emergencies on campus).
+•	AIT Security / Emergency (24/7):
++66 2 524 6000
+This number operates 24 hours a day, 7 days a week.
+Q: What Is the 24/7 Emergency Number at AIT?
+A: For any emergency on campus (security, fire, ambulance coordination):
+•	AIT Emergency Number (24/7):
++66 2 524 6000
+Q: Where Can I Contact to Change or Replace Gas at AIT?
+A: For gas-related requests (gas cylinder change, gas issues in dorms or Student Village):
+•	You must contact the AIT Call Center / Facilities Services.
+AIT Call Center
+•	Phone: +66 2 524 5800
+•	Office Hours: Monday – Friday, 08:00–17:00
+•	Email: callcenter@ait.asia
+When contacting them, clearly mention:
+•	Your accommodation type (CAT, Student Village, etc.)
+•	Room or house number
+•	That you are requesting a gas change/replacement","[""https://ait.ac.th/program/semiconductor-engineering-sce::c0007"", ""https://ait.ac.th/financial/gwsc-scholarships-to-study-masters-degree-in-asian-institute-of-technology::c0003"", ""https://ait.ac.th/financial/rtg-fellowships-ph-d-to-support-the-asian-innovation-hub::c0005"", ""https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship::c0002"", ""https://ait.ac.th/financial/mitani-trading-thailand-co-ltd-masters-scholarship-with-job-offer::c0003""]",not_enough_info,0.3,0,1,not_enough_info,0.83,0
+Where can I contact if I want to request room cleaning?,"### 📞 How to Contact **Security** at Asian Institute of Technology (AIT)
+
+If you need to **contact security** at AIT, whether for emergencies, lost items, or general inquiries, here is the most up-to-date and accurate information on how to reach the appropriate office or department.
+
+---
+
+## 📌 **1. General Contact for Security and Safety**
+
+If you need assistance with **security, safety, or emergency services**, you can contact the **Security Office** at AIT.
+
+### ✅ Contact Information:
+
+- **Email:** [email protected]  
+- **Phone:** (662) 524 6601  
+- **Website:** [https://student.ait.ac.th](https://student.ait.ac.th) (for student-related services, including security)
+
+---
+
+## 📌 **2. Student Support Services**
+
+If you're a **student** and need help with **security, safety, or campus emergencies**, you can also reach out to the **Student Welfare Office** or **Student Employment Office**.
+
+### ✅ Contact Information:
+
+- **Student Welfare Office**  
+  - Email: [email protected]  
+  - Phone: (662) 524 6744
+
+- **Student Employment Office**  
+  - Email: [email protected]  
+  - Phone: (662) 524 6601
+
+---
+
+## 📌 **3. General Contact for AIT**
+
+If you're unsure which office to contact, you can reach out to the **Admissions and Scholarships Unit**, which can direct you to the appropriate department.
+
+### ✅ Contact Information:
+
+- **Admissions and Scholarships Unit**  
+  - Email: [email protected]  
+  - Phone: (662) 524 5024, 31-33
+
+---
+
+## 📌 **4. Physical Address**
+
+If you prefer to contact them in person, you can visit:
+
+- **Asian Institute of Technology (AIT)**  
+  - Address: P.O. Box 4, Klong Luang, Pathum Thani 12120, Thailand  
+  - Phone: (662) 524 5024, 31-33
+
+---
+
+## 📌 **5. Other Useful Contacts**
+
+- **Student Portal:** [https://student.ait.ac.th](https://student.ait.ac.th)  
+  - You can find information about security, housing, and other student services.
+
+- **Social Media:**  
+  - Follow AIT on social media for updates and announcements.
+
+---
+
+## 📌 **Summary of Contacts for Security at AIT**
+
+| **Contact** | **Email** | **Phone** | **Notes** |
+|------------|-----------|-----------|-----------|
+| **Security Office** | [email protected] | (662) 524 6601 | For security and safety inquiries |
+| **Student Welfare Office** | [email protected] | (662) 524 6744 | For student support and safety |
+| **Student Employment Office** | [email protected] | (662) 524 6601 | For on-campus work and student services |
+| **Admissions and Scholarships Unit** | [email protected] | (662) 524 5024, 31-33 | For general inquiries and support |
+
+---
+
+## 📌 **Need Help with Security or Safety?**
+
+If you're a student or staff member and need assistance with **security, safety, or emergency services**, don't hesitate to reach out to the **Security Office** or the **Student Welfare Office**.
+
+Let me know if you'd like help with:
+- **Finding the right contact**
+- **Reporting an incident**
+- **Understanding campus safety protocols**
+
+I'm here to help you navigate the support systems at AIT!","1. Weekly Cleaning (Standard)
+According to AIT’s housekeeping services, internal room cleaning is normally carried out once a week by the janitorial team as part of standard campus services. If you need extra cleaning or corrective cleaning, you can request it manually. (Facilities Management)
+2. How to Request Additional Cleaning
+You have three main options to request cleaning services for your room or dorm unit:
+A. Email Accommodation/Service Desk
+•	Send your request to the Call Center email:
+callcenter@ait.asia
+•	In your email, include:
+o	Dorm/building name and room number
+o	That you want housekeeping/room cleaning
+o	Your contact number
+o	Preferred date/time (if any)
+(For special cleaning services beyond routine weekly cleaning, these requests are processed based on availability and may include a fee.) (Facilities Management)
+B. Phone Contact
+•	Call the AIT Call Center / Facilities Services:
+02-524-5800 (Office hours 08:00–17:00)
+•	Provide your room details and request for house cleaning. (Facilities Management)
+C. Facility Infrastructure Management System (FIMS)
+•	Visit www.fims.ait.asia
+•	Log in and submit a work request under the janitorial category for room cleaning. (Facilities Management)
+
+Cleaning Service Pricing (Optional / Extra Service)
+If you want additional cleaning services beyond the standard weekly cleaning, there are optional housekeeping service rates (charges may apply): (Facilities Management)
+
+Official Contacts for Cleaning Requests
+AIT Call Center / Facilities Help Desk
+•	Phone: 02-524-5800 (office hours) (Facilities Management)
+•	Email: callcenter@ait.asia (Facilities Management)
+Accommodation Office (if cleaning is related to moving/room readiness)
+•	Phone: 02-524-5093 (Google Sites)
+•	Email: accommodation@ait.ac.th (Google Sites)
+Notes
+•	Routine cleaning is scheduled weekly; extra cleaning requests may be charged and are subject to staff availability. (Facilities Management)
+•	Specify clearly in your request that you want room cleaning and mention whether you want standard weekly cleaning or special/deep cleaning.","[""https://ait.ac.th/housing/student-village-single-without-ac::c0001"", ""https://ait.ac.th/health-wellness::c0001"", ""https://ait.ac.th/housing/student-village-married-with-ac::c0001"", ""https://ait.ac.th/program/semiconductor-engineering-sce::c0007"", ""https://ait.ac.th/financial/rtg-fellowships-ph-d-to-support-the-asian-innovation-hub::c0005""]",not_enough_info,0.67,0,1,not_enough_info,0.25,0
+How to Queue for CAT-2 Accommodation at AIT?,"### 📞 **Where to Contact for Room Cleaning Requests at AIT**
+
+If you want to **request room cleaning** at the **Asian Institute of Technology (AIT)**, you can contact the **Facilities and Maintenance Office** or the **Student Welfare Office**. These offices are responsible for managing campus facilities, including room cleaning services.
+
+---
+
+### ✅ **Recommended Contact Options for Room Cleaning Requests**
+
+#### 1. **Facilities and Maintenance Office**
+- **Phone:** (662) 524 6601  
+- **Email:** [email protected]  
+- **Website:** [AIT Student Portal](https://student.ait.ac.th) (for online service requests)
+
+This is the **primary contact for maintenance and cleaning services**, including room cleaning.
+
+---
+
+#### 2. **Student Welfare Office**
+- **Phone:** (662) 524 6744  
+- **Email:** [email protected]  
+- **Website:** [AIT Student Portal](https://student.ait.ac.th)
+
+The Student Welfare Office can also assist with room cleaning requests and may coordinate with the Facilities Office.
+
+---
+
+#### 3. **Admissions and Scholarships Unit (General Contact)**
+- **Phone:** (662) 524 5024, 31-33  
+- **Email:** [email protected]  
+- **Address:** P.O. Box 4, Klong Luang, Pathum Thani 12120, Thailand
+
+While this is primarily for admissions and scholarships, they can also direct you to the right office for room cleaning.
+
+---
+
+### 📌 **How to Request Room Cleaning**
+- **Phone:** Call the **Facilities and Maintenance Office** at (662) 524 6601 and request room cleaning.
+- **Email:** Send an email to [email protected] with your room number and request.
+- **Online:** Log in to the [AIT Student Portal](https://student.ait.ac.th) and submit a service request for room cleaning.
+
+---
+
+### 📍 **Physical Location (for in-person requests)**
+- **Facilities and Maintenance Office**  
+  - **Location:** AIT Campus  
+  - **Hours:** Working days: 7:00am – 11:00pm  
+  - **Holidays:** 7:00am – 11:00pm
+
+---
+
+### 📚 **Additional Resources**
+- **Student Union:** The Student Union of AIT can also assist with student-related services, including room cleaning.
+- **Student Portal:** [https://student.ait.ac.th](https://student.ait.ac.th)
+
+---
+
+### 📌 **Summary of Contacts for Room Cleaning Requests**
+
+| **Contact**                | **Phone**         | **Email**                     | **Notes** |
+|---------------------------|-------------------|-------------------------------|-----------|
+| **Facilities and Maintenance Office** | (662) 524 6601 | [email protected] | Primary contact for room cleaning |
+| **Student Welfare Office** | (662) 524 6744 | [email protected] | Can assist with room cleaning requests |
+| **Admissions and Scholarships Unit** | (662) 524 5024, 31-33 | [email protected] | General contact for campus services |
+
+---
+
+### 📌 **Need Help with Room Cleaning?**
+If you need assistance with room cleaning, don’t hesitate to reach out to the **Facilities and Maintenance Office** or the **Student Welfare Office**. They are your best resources for resolving any cleaning-related issues.
+
+Let me know if you'd like help with:
+- **Finding the right contact**
+- **Reporting a cleaning issue**
+- **Understanding campus cleaning policies**
+
+I'm here to help you navigate the support systems at AIT!","At the Asian Institute of Technology (AIT), CAT-2 accommodation is allocated via a waiting list. Students must register in person using the official Google Form provided by the Accommodation Office.
+Step 1: Visit the AIT Accommodation Office
+•	Go physically to the Accommodation Office on campus.
+•	In front of the office, you will find a QR code poster for accommodation registration.
+Step 2: Scan the QR Code and Register
+•	Scan the QR code using your mobile phone.
+•	This opens the official Google Form for the waiting list.
+•	The form may appear as “closed” when accessed externally. It typically opens only when scanned from the QR code at the office.
+Step 3: Select the Correct Form
+For CAT-2 accommodation, you must use:
+Student Waiting List Registration Form (CAT 1, 2, 3, 4)
+https://docs.google.com/forms/d/1gNDZl_pZaFOo7BRvA-kIA8YbKA3__nJsR-nijZvwGG8/closedform
+Other forms are for different housing types only:
+•	Married Unit Waiting List
+https://docs.google.com/forms/d/1uRe4rtXqHwF0O4tg4lMSVLGtkeTtn59cPTFDsw-QG0Y/closedform
+•	Student Village (Single) Waiting List
+https://docs.google.com/forms/d/1rrhGWW9Foy9FTCHZ6OENVE8iEKfxPNPSyDUJiAQG8Vo/closedform
+Step 4: Complete the Form Carefully
+•	Select CAT-2 as your accommodation type
+•	Enter:
+o	Student ID
+o	Program and School
+o	Contact number and email
+o	Current accommodation status
+Step 5: Wait for Allocation
+•	After submission, your name is placed in the official CAT-2 waiting queue
+•	Allocation depends on:
+o	Queue order
+o	Room availability
+o	Student priority and eligibility
+•	The Accommodation Office will contact you directly once a unit becomes available","[""https://ait.ac.th/health-wellness::c0002"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0006"", ""https://ait.ac.th/financial/rtg-fellowships::c0005"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0015"", ""https://ait.ac.th/housing/cat-2::c0000""]",not_enough_info,0.6,0,1,not_enough_info,0.2,0
+What is the Accommodation contact of AIT?,"솊
+
+### 📞 **Where to Contact for Room Cleaning Requests at AIT**
+
+If you want to **request room cleaning** at the **Asian Institute of Technology (AIT)**, you can contact the **Facilities and Maintenance Office** or the **Student Welfare Office**. These offices are responsible for managing campus facilities, including room cleaning services.
+
+---
+
+### ✅ **Recommended Contact Options for Room Cleaning Requests**
+
+#### 1. **Facilities and Maintenance Office**
+- **Phone:** (662) 524 6601  
+- **Email:** [email protected]  
+- **Website:** [AIT Student Portal](https://student.ait.ac.th) (for online service requests)
+
+This is the **primary contact for maintenance and cleaning services**, including room cleaning.
+
+---
+
+#### 2. **Student Welfare Office**
+- **Phone:** (662) 524 6744  
+- **Email:** [email protected]  
+- **Website:** [AIT Student Portal](https://student.ait.ac.th)
+
+The Student Welfare Office can also assist with room cleaning requests and may coordinate with the Facilities Office.
+
+---
+
+#### 3. **Admissions and Scholarships Unit (General Contact)**
+- **Phone:** (662) 524 5024, 31-33  
+- **Email:** [email protected]  
+- **Address:** P.O. Box 4, Klong Luang, Pathum Thani 12120, Thailand
+
+While this is primarily for admissions and scholarships, they can also direct you to the right office for room cleaning.
+
+---
+
+### 📌 **How to Request Room Cleaning**
+- **Phone:** Call the **Facilities and Maintenance Office** at (662) 524 6601 and request room cleaning.
+- **Email:** Send an email to [email protected] with your room number and request.
+- **Online:** Log in to the [AIT Student Portal](https://student.ait.ac.th) and submit a service request for room cleaning.
+
+---
+
+### 📍 **Physical Location (for in-person requests)**
+- **Facilities and Maintenance Office**  
+  - **Location:** AIT Campus  
+  - **Hours:** Working days: 7:00am – 11:00pm  
+  - **Holidays:** 7:00am – 11:00pm
+
+---
+
+### 📚 **Additional Resources**
+- **Student Union:** The Student Union of AIT can also assist with student-related services, including room cleaning.
+- **Student Portal:** [https://student.ait.ac.th](https://student.ait.ac.th)
+
+---
+
+### 📌 **Summary of Contacts for Room Cleaning Requests**
+
+| **Contact**                | **Phone**         | **Email**                     | **Notes** |
+|---------------------------|-------------------|-------------------------------|-----------|
+| **Facilities and Maintenance Office** | (662) 524 6601 | [email protected] | Primary contact for room cleaning |
+| **Student Welfare Office** | (662) 524 6744 | [email protected] | Can assist with room cleaning requests |
+| **Admissions and Scholarships Unit** | (662) 524 5024, 31-33 | [email protected] | General contact for campus services |
+
+---
+
+### 📌 **Need Help with Room Cleaning?**
+If you need assistance with room cleaning, don’t hesitate to reach out to the **Facilities and Maintenance Office** or the **Student Welfare Office**. They are your best resources for resolving any cleaning-related issues.
+
+Let me know if you'd like help with:
+- **Finding the right contact**
+- **Reporting a cleaning issue**
+- **Understanding campus cleaning policies**
+
+I'm here to help you navigate the support systems at AIT!","AIT Accommodation Office
+Asian Institute of Technology (AIT)
+•	Location: AIT Campus, Accommodation Office
+•	Phone: +66 2 524 5093
+•	Email: accommodation@ait.ac.th (or contact via AIT Call Center)
+•	Office Hours:
+Monday – Friday, 08:00 – 17:00
+You can also visit the office directly for faster clarification.","[""https://ait.ac.th/health-wellness::c0001"", ""https://ait.ac.th/health-wellness::c0002"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0006"", ""https://ait.ac.th/financial/rtg-fellowships::c0005"", ""https://ait.ac.th/financial/ais-scholarship::c0004""]",not_enough_info,0.4,0,1,not_enough_info,0.3,0
+What is the rental range for a room in AIT?,"### 📞 **Accommodation Contact at AIT**
+
+If you're looking for **accommodation contact information** at the **Asian Institute of Technology (AIT)**, here is a comprehensive list of relevant contacts and services related to **housing, disability support, and general student welfare**:
+
+---
+
+### 🏠 **Accommodation Office**
+- **Email:** [email protected]
+- **Phone:** (662) 524 6744
+- **Location:** AIT Campus
+
+This is the **main contact for accommodation-related inquiries**, including:
+- Dormitory availability
+- Room assignments
+- Special accommodation requests (e.g., for disabled students)
+- General housing inquiries
+
+---
+
+### 🏥 **Health and Wellness Services**
+- **Medical Center Contact:**
+  - **Phone:** (662) 524 6744
+  - **Email:** [email protected] / [email protected]
+  - **Location:** Next to AIT Conference Center (AITCC)
+
+The AIT Medical Center provides:
+- Health check-ups
+- Outpatient treatment
+- Dental care
+- Emergency services
+- Medical insurance coverage for all students and staff
+
+---
+
+### 🧠 **Personal Counseling and Support Services**
+- **Email:** [email protected] / [email protected]
+- **Phone:** (662) 524 6744
+- **Location:** Student Welfare Office
+
+This office handles:
+- Personal counseling
+- Dispute mediation
+- Harassment issues
+- Gender-related matters
+- Academic concerns
+- Language support
+
+---
+
+### 📚 **Disability Support**
+- **Contact:** Accommodation Office or email: [email protected]
+- **Available Accommodations:**
+  - 4 non-air-conditioned rooms in Dorm C
+  - 4 air-conditioned rooms in Dorm X and Y
+
+These rooms are designed for students with disabilities, wheelchair users, or those requiring extra space for special equipment.
+
+---
+
+### 📅 **Working Hours for Key Services**
+- **Accommodation Office:** 7:00am – 11:00pm (Working days and Holidays)
+- **Medical Center:** 7:00am – 11:00pm (Working days and Holidays)
+- **Student Welfare Office:** 7:00am – 11:00pm (Working days and Holidays)
+
+---
+
+### 📌 **Other Useful Contacts**
+- **Admissions and Scholarships Unit:**
+  - **Email:** [email protected]
+  - **Phone:** (662) 524 5024, 31-33
+  - **Address:** P.O. Box 4, Klong Luang, Pathum Thani 12120, Thailand
+
+This office can assist with:
+- Scholarship applications
+- Tuition and fee inquiries
+- Admissions procedures
+
+---
+
+### 📊 **Estimated Accommodation Costs (for Reference)**
+- **Dormitory (Including Bills):** ฿2,500 – 7,000 per month
+- **Private Accommodation (Bills Not Included):** ฿8,000 – 20,000 per month
+
+---
+
+### ✅ **Summary of Key Contacts**
+| **Service**               | **Contact**                                                                 |
+|---------------------------|------------------------------------------------------------------------------|
+| **Accommodation Office**  | Email: [email protected], Phone: (662) 524 6744                            |
+| **Medical Center**        | Phone: (662) 524 6744, Email: [email protected] / [email protected]         |
+| **Student Welfare**       | Email: [email protected] / [email protected], Phone: (662) 524 6744     |
+| **Disability Support**    | Email: [email protected], Contact: Accommodation Office                   |
+| **Admissions & Scholarships** | Email: [email protected], Phone: (662) 524 5024, 31-33              |
+
+---
+
+### 📌 **Additional Resources**
+- **Student Union:** Represents all students at AIT
+- **Fitness Center:** Located above AIT Cafeteria, 2nd Floor
+- **Student Portal:** [https://student.ait.ac.th](https://student.ait.ac.th)
+
+---
+
+Let me know if you need help with:
+- Finding the right contact
+- Applying for a scholarship
+- Booking a medical appointment
+- Resolving accommodation issues
+- Understanding student support services
+
+I'm here to help you navigate the support systems at AIT!","Here is the current rental range for student accommodation at the Asian Institute of Technology (AIT) based on official AIT housing categories and typical off-campus options:
+
+On-Campus Accommodation (Dormitories/Rental Rates)
+AIT categorizes student housing into multiple “CAT” types, each with a monthly rent:
+Dormitory Rates (Monthly Rent in Thai Baht)
+(from official AIT housing listings) (Asian Institute of Technology)
+•	CAT-1 (Standard / Shared bath / non-AC)
+~ 2,150 THB/month (Asian Institute of Technology)
+•	CAT-1 with AC (shared bathroom, AC)
+~ 2,650 THB/month (Asian Institute of Technology)
+•	CAT-2 (Air-conditioned, private bathroom, balcony)
+~ 3,050 THB/month (Asian Institute of Technology)
+•	CAT-4 (Air-conditioned, kitchen shared, larger room)
+~ 3,450 THB/month (Asian Institute of Technology)
+•	CAT-5 (Air-conditioned, kitchen, larger unit)
+~ 6,350 THB/month (Asian Institute of Technology)
+•	Student Village single units
+~ 2,650 THB/month (Asian Institute of Technology)
+•	Student Village married units
+~ 5,350 THB/month (Asian Institute of Technology)
+Notes
+•	These rents do not include utilities (electricity, water) and internet charges, which are billed separately through the student information system. (Facilities Management)
+•	First invoice typically includes one-month rent plus one-month advance deposit. (Facilities Management)
+•	Linen and housekeeping may be additional services depending on the category. (Facilities Management)
+
+Typical Off-Campus Rental Range Near AIT
+If you decide to live off campus (private apartment or shared room):
+•	Affordable private apartments/dorms near AIT: approximately
+3,500 to 8,000 THB per month for small studios or private rooms near the campus. (RentHub)
+•	More comfortable or larger units (2-bedroom etc.) can be significantly higher (above 8,000 THB/month depending on location and size). (RentHub)
+
+General Living Cost Estimate (Including Rent)
+According to AIT cost guidance, living expenses (including accommodation and miscellaneous costs) are usually estimated around 11,500 to 15,000 THB/month for students, which includes rent, utilities, food, transport, and other daily costs. (Asian Institute of Technology)
+","[""https://ait.ac.th/health-wellness::c0002"", ""https://ait.ac.th/tuition-and-fees::c0003"", ""https://ait.ac.th/health-wellness::c0001"", ""https://ait.ac.th/financial/royal-thai-government-scholarships::c0006"", ""https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp::c0015""]",entails,0.95,1,0,not_enough_info,0.65,0
+Is there any room that include personal bathroom and kitchen?," אברהם
+
+### 🏠 **Accommodation Costs at AIT (Based on Latest Information)**
+
+Here is a **comprehensive summary of the accommodation costs** at the **Asian Institute of Technology (AIT)**, based on the latest available information from the official AIT housing pages:
+
+---
+
+### 📌 **1. Student Village (Married) with AC**
+- **Description:** Double rooms with community bathrooms and lounge spaces on each floor. Separate male and female washrooms are available.
+- **Dorms:** SVI, SVII, and SVIII
+- **Size:** Not specified
+- **Air-con:** Yes (SV-III), and (SV-II 22 and 23)
+- **Water heater:** Yes (SV-III)
+- **Kitchen:** Yes (Refrigerator, gas stove)
+- **Balcony:** Private
+- **Bathroom:** Private
+- **Furniture:** 2 beds, pillows, study tables, chairs, 1 stand fan, 2 wooden shelves, cupboards, 1 dustbin (for each room)
+- **Linens:** None
+- **Cleaning:** Not specified
+- **Room Costs (Rent):** **6,350 THB** (based on the latest listing)
+
+---
+
+### 📌 **2. Student Village (Single) without AC**
+- **Description:** Single room with shared bathroom and balcony.
+- **Dorms:** Not specified
+- **Size:** Not specified
+- **Air-con:** No
+- **Water heater:** Not specified
+- **Kitchen:** Not specified
+- **Balcony:** Private
+- **Bathroom:** Shared
+- **Furniture:** 1 dining table, 4 chairs, 1 sofa
+- **Linens:** None
+- **Cleaning:** Done once a week and linens changed every week
+- **Room Costs (Rent):** **7,950 THB** (2,650 THB/room)
+
+---
+
+### 📌 **3. Cat 2 (Single Room with AC)**
+- **Description:** Single room with private bathroom and balcony, including air-con.
+- **Dorms:** E, J, and K
+- **Size:** 18 sq. m
+- **Air-con:** Yes
+- **Water heater:** Yes
+- **Kitchen:** Yes
+- **Balcony:** Private
+- **Bathroom:** Private
+- **Furniture:** Bed, study table, chair, sofa, side table with shelves, shelves on wall, cupboard, dustbin, mattress, pillow, clothes stand
+- **Linens:** None
+- **Cleaning:** 3 times/year
+- **Room Costs (Rent):** **3,050 THB**
+
+---
+
+### 📌 **4. Cat 1 with AC**
+- **Description:** Single room with shared bathroom and balcony, including air-con.
+- **Dorms:** F21-28 and F31-32
+- **Size:** 18 sq. m
+- **Air-con:** Yes
+- **Table fan:** Yes
+- **Water heater:** Yes
+- **Kitchen:** None
+- **Balcony:** Private
+- **Bathroom:** Shared
+- **Furniture:** Bed, study table, chair, sofa, fan, side table with shelves, shelves on wall, cupboard, dustbin, mattress, pillow, clothes stand
+- **Linens:** None
+- **Cleaning:** 3 times/year
+- **Room Costs (Rent):** **2,650 THB**
+
+---
+
+### 📌 **5. Student Village (Married) with AC (Alternative Listing)**
+- **Description:** Double rooms with community bathrooms and lounge spaces on each floor.
+- **Dorms:** SVI, SVII, and SVIII
+- **Size:** Not specified
+- **Air-con:** Yes (SV-III), and (SV-II 22 and 23)
+- **Water heater:** Yes (SV-III)
+- **Kitchen:** Yes (Refrigerator, gas stove)
+- **Balcony:** Private
+- **Bathroom:** Private
+- **Furniture:** 2 beds, pillows, study tables, chairs, 1 stand fan, 2 wooden shelves, cupboards, 1 dustbin (for each room)
+- **Linens:** None
+- **Cleaning:** Not specified
+- **Room Costs (Rent):** **6,350 THB**
+
+---
+
+### 📊 **Summary of Room Costs (Rent)**
+| **Room Type**                     | **Rent (THB)** |
+|----------------------------------|----------------|
+| Student Village (Married) with AC | 6,350          |
+| Student Village (Single) without AC | 7,950         |
+| Cat 2 (Single Room with AC)      | 3,050          |
+| Cat 1 with AC                    | 2,650          |
+
+---
+
+### 📌 **Notes:**
+- **Linens:** None provided, so students are responsible for bringing their own bedding.
+- **Cleaning:** Varies by room type (3 times/year or weekly).
+- **Bills:** Some rooms include utilities (electricity, water, internet), while others may require separate payments.
+- **Private vs. Shared Bathrooms:** Some rooms have private bathrooms, while others share with neighbors.
+- **Kitchen:** Some rooms have a kitchenette (e.g., refrigerator, gas stove), while others do not.
+
+---
+
+### 📌 **Additional Information:**
+- **Student Village (Married) with AC** is the most expensive option, likely due to the double room and shared facilities.
+- **Cat 1 with AC** is the most affordable option, ideal for students looking for a budget-friendly room.
+- **Cat 2** offers a good balance between comfort and cost, with private bathroom and balcony.
+
+---
+
+### 📌 **Recommendation:**
+- If you're looking for **privacy and comfort**, go for **Cat 2** or **Student Village (Married) with AC**.
+- If you're on a **budget**, **Cat 1 with AC** is the best option.
+- If you're **comfortable with shared bathrooms**, **Student Village (Single) without AC** is a good choice.
+
+---
+
+Let me know if you'd like help with:
+- Applying for a room
+- Comparing options
+- Understanding the housing process
+- Budgeting for accommodation
+
+I'm here to help you navigate the housing options at AIT!","Yes — AIT has on-campus rooms that include both a personal bathroom and a kitchen. Here are the relevant options:
+1. Category 2 (CAT-2) Dorm Rooms
+These are student dorm rooms with the following features:
+•	Private bathroom inside the room
+•	In-room kitchen (small cooking area allowed)
+•	Air-conditioning and balcony included
+This is the most common student option that includes both a private bathroom and kitchen. (Google Sites)
+2. Category 5 (CAT-5) Dorm/Mixed Units
+These rooms are typically larger and also include:
+•	Private bathroom
+•	Kitchen with refrigerator and hot plate
+•	Air-conditioning and balcony
+CAT-5 units are often allocated for students needing larger spaces (such as married students), though continuing students may queue for them. (Google Sites)
+3. Student Village – Married Units
+In the on-campus Student Village (Married) category:
+•	Private bathroom
+•	Full kitchen (refrigerator and gas stove)
+•	Separate bedroom and living space
+These units are designed for married students or families. (Google Sites)
+
+Summary of On-Campus Room Types with Private Bath + Kitchen
+Accommodation Type	Private Bathroom	Kitchen (Cooking Allowed)	Typical Use
+CAT-2	Yes	Yes	Single students
+CAT-5	Yes	Yes	Larger/luxury rooms, often married
+Student Village – Married	Yes	Yes	Married/student families
+
+Notes
+•	CAT-2 is usually the standard “ensuite” student option with kitchen and bathroom in the room. (Google Sites)
+•	CAT-5 and Student Village married units are larger and often more expensive. (Google Sites)
+•	Kitchen facilities are usually basic (fridge, cooking plate), not full apartment-style kitchens. (Facilities Management)","[""https://ait.ac.th/housing/student-village-married-with-ac::c0001"", ""https://ait.ac.th/housing/student-village-single-without-ac::c0001"", ""https://ait.ac.th/housing/cat-2::c0000"", ""https://ait.ac.th/housing/cat-1-with-ac::c0000"", ""https://ait.ac.th/housing/student-village-married-with-ac::c0000""]",not_enough_info,0.0,0,1,not_enough_info,0.3,0

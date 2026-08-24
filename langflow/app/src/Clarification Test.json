@@ -1,0 +1,98 @@
+{
+  "record_type": "clarification_stage_writer",
+  "saved_at_utc": "2026-04-28T03:57:59.331816+00:00",
+  "analyzer": {
+    "original_question": "When is the deadline?",
+    "history_window": "",
+    "intent_type": "faq",
+    "request_type": "deadlines",
+    "effective_request_types": [
+      "deadlines"
+    ],
+    "topic": "",
+    "expected_general_slots": [
+      "deadline"
+    ],
+    "expected_critical_slots": [
+      "intake_year_or_term",
+      "deadline"
+    ],
+    "required_general_slots": [
+      "program",
+      "degree_level",
+      "intake_year_or_term"
+    ],
+    "required_critical_slots": [
+      "intake_year_or_term"
+    ],
+    "missing_slots": {
+      "general": [
+        "program",
+        "degree_level",
+        "intake_year_or_term"
+      ],
+      "critical": [
+        "intake_year_or_term"
+      ]
+    },
+    "slot_coverage_general": 0.0,
+    "slot_coverage_critical": 0.0,
+    "slot_coverage_weighted": 0.0,
+    "counts": {
+      "general_total": 3,
+      "critical_total": 1,
+      "general_missing": 3,
+      "critical_missing": 1
+    },
+    "resolved_slots": {},
+    "refinement": {
+      "enabled": true,
+      "used": false,
+      "refined_query": "",
+      "used_slots": []
+    },
+    "clarification_decision": {
+      "threshold": 0.75,
+      "coverage_weighted": 0.0,
+      "has_missing_slots": true,
+      "clarification_needed": true,
+      "suppressed_because_last_ai_turn_was_clarification": false,
+      "last_turn_clarification_type": "none"
+    },
+    "clarification_needed": true
+  },
+  "clarification_tracking": {
+    "clarification_asked_in_last_ai_turn": false,
+    "matched_clarification_type": "none"
+  },
+  "clarification_message": {
+    "text": "Which intake are you referring to?"
+  },
+  "stage_metrics": {
+    "analyzer": {
+      "model": "qwen3:8b",
+      "prompt_eval_count": 732,
+      "eval_count": 69,
+      "prompt_eval_duration_ns": 218397787,
+      "eval_duration_ns": 1355021760,
+      "total_duration_ns": 4426170738,
+      "load_duration_ns": 2784513459,
+      "wall_time_s": 4.453639497005497,
+      "requested_think": false,
+      "observed_has_thinking_field": false
+    },
+    "clarification_tracking": {},
+    "clarification_message": {
+      "model": "qwen3:4b-instruct",
+      "prompt_eval_count": 403,
+      "eval_count": 8,
+      "prompt_eval_duration_ns": 76340280,
+      "eval_duration_ns": 79049611,
+      "total_duration_ns": 247736133,
+      "load_duration_ns": 87542741,
+      "wall_time_s": 0.2784248609968927,
+      "requested_think": false,
+      "observed_has_thinking_field": false
+    }
+  }
+}

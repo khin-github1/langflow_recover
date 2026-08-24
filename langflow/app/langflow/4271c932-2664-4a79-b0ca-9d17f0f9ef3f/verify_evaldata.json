@@ -1,0 +1,628 @@
+[
+  {
+    "question_uid": "bu_row_001",
+    "question": "For foreign students, what fee options does the Master of Laws offer?",
+    "answer": "Plan A Thesis: 226,880,  Plan B Non-Thesis: 224,080 ",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "bu_row_002",
+    "question": "For foreign students, what fee options does the Master of Business Administration offer?",
+    "answer": " Plan A Thesis: 231,030,Plan B Non-Thesis: 230,030",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "bu_row_003",
+    "question": "For foreign students, which tuition fee plan has the lower cost for the Master of Communication Arts in Strategic Brand and Communication Management?",
+    "answer": "Plan B Non-Thesis",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "bu_row_004",
+    "question": "For foreign students, does the Master of Architecture offer both Plan A and Plan B options?",
+    "answer": "No",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "bu_row_005",
+    "question": "For foreign students, does the Master of Management Program in Entrepreneurship offer a Plan A Thesis option?",
+    "answer": "No",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "bu_row_006",
+    "question": "For foreign students, how much difference  fees in  Master of business Administration (English Program) between Plan A Thesis and Plan B Non-Thesis?",
+    "answer": "1000",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "bu_row_007",
+    "question": "For Thai students, does the Master of Science Program in Information Technology and Data Science offer a Plan B Non-Thesis option?",
+    "answer": "No",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+    {
+    "question_uid": "bu_row_008",
+    "question": "For Thai students, what fee options does the Master of Laws offer?",
+    "answer": " Plan A Thesis: 213,380 , Plan B Non-Thesis: 212,380",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "bu_col_001",
+    "question": "For foreign students, which master's program has the highest Plan A Thesis tuition fee?",
+    "answer": "Master of Engineering in Electrical & Computer Engineering (International Program), at 370,980 (Research Based)",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_002",
+    "question": "For foreign students, which master's program has the lowest Plan A Thesis tuition fee?",
+    "answer": "Master of Communication Arts Program in Global Communication (International Program), at 200,630",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_003",
+    "question": "For foreign students, which master's program has the highest Plan B Non-Thesis tuition fee?",
+    "answer": "Master of Management Program in Entrepreneurship and Emerging Enterprises, at 374,530",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_004",
+    "question": "For foreign students, which master's program has the lowest Plan B Non-Thesis tuition fee?",
+    "answer": "Master of Communication Arts Program in Global Communication (International Program), at 199,630",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_005",
+    "question": "How many master's programs require 42 credits?",
+    "answer": "4 (Master of Business Administration, Master of Management Program in Entrepreneurship and Emerging Enterprises, Master of Business Administration (English Program), and Master of Business Administration in Innovation Management (International Program))",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_006",
+    "question": "How many master's programs require 36 credits?",
+    "answer": "5 (Master of Communication Arts (Strategic Brand and Communication Management), Master of Arts Program in Tourism and Hospitality Management Innovation, Master of Architecture, Master of Engineering in Electrical & Computer Engineering, and Master of Science Program in Information Technology and Data Science)",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_007",
+    "question": "How many master's programs require 39 credits?",
+    "answer": "2 (Master of Communication Arts Program in Global Communication and Master of Laws)",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_008",
+    "question": "Which master's programs require 39 credits?",
+    "answer": "Master of Communication Arts Program in Global Communication (International Program) and Master of Laws",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_009",
+    "question": "How many master's programs are listed in the tuition table for foreign students?",
+    "answer": "12",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_010",
+    "question": "For foreign students, which master's programs do not offer a Plan B Non-Thesis option?",
+    "answer": "Master of Architecture, Master of Engineering in Electrical & Computer Engineering (International Program), and Master of Science Program in Information Technology and Data Science",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_011",
+    "question": "For Thai students, which program has the highest Plan A Thesis fee?",
+    "answer": "Master of Engineering in Electrical & Computer Engineering at 360,180",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_012",
+    "question": "For Thai students, which program has the lowest Plan A Thesis fee?",
+    "answer": "Master of Communication Arts Program in Global Communication at 188,930",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_013",
+    "question": "For Thai students, which programs require 39 credits?",
+    "answer": "Master of Communication Arts Program in Global Communication, Master of Laws",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_col_014",
+    "question": "For Thai students, which programs do not offer a Plan B Non-Thesis option?",
+    "answer": "Master of Architecture, Master of Engineering in Electrical & Computer Engineering, Master of Science in IT and Data Sciences",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "bu_cross_001",
+    "question": "For foreign students, what is the Plan A Thesis fee for the Master of Business Administration?",
+    "answer": "231,030",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_002",
+    "question": "For foreign students, what is the Plan B Non-Thesis fee for the Master of Communication Arts (Strategic Brand and Communication Management)?",
+    "answer": "227,230",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_003",
+    "question": "For foreign students, what is the Plan A Thesis fee for the Master of Engineering in Electrical & Computer Engineering?",
+    "answer": "370,980",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_004",
+    "question": "For foreign students, what is the Plan A Thesis type for the Master of Engineering in Electrical & Computer Engineering?",
+    "answer": "Research Based",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_005",
+    "question": "For foreign students, what is the Plan A Thesis fee for the Master of Business Administration in Innovation Management?",
+    "answer": "355,030",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_006",
+    "question": "For foreign students, what is the Plan B Non-Thesis fee for the Master of Laws?",
+    "answer": "224,080",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_007",
+    "question": "For foreign students, how many credits does the Master of Communication Arts Program in Global Communication require?",
+    "answer": "39",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_008",
+    "question": "For foreign students, what is the Plan A Thesis fee for the Master of Arts Program in Data-Driven Marketing and Communications?",
+    "answer": "313,330",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_009",
+    "question": "For foreign students, what is the Plan B Non-Thesis fee for the Master of Management Program in Entrepreneurship and Emerging Enterprises?",
+    "answer": "374,530 ",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_010",
+    "question": "For foreign students, how many credits does the Master of Business Administration require?",
+    "answer": "42",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_011",
+    "question": "For foreign students, what is the Plan A Thesis fee for the Master of Architecture?",
+    "answer": "217,230",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_012",
+    "question": "For Thai students, what is the Plan A Thesis fee for the Master of Business Administration?",
+    "answer": "218,430",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_013",
+    "question": "For Thai students, what is the Plan B Non-Thesis fee for the Master of Communication Arts (Strategic Brand and Communication Management)?",
+    "answer": "216,430",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_014",
+    "question": "For Thai students, what is the Plan A Thesis fee for the Master of Engineering in Electrical & Computer Engineering?",
+    "answer": "360,180",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_015",
+    "question": "For Thai students, what is the Plan A Thesis fee for the Master of Arts Program in Data-Driven Marketing and Communications?",
+    "answer": "302,530",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_016",
+    "question": "For Thai students, what is the Plan B Non-Thesis fee for the Master of Management Program in Entrepreneurship and Emerging Enterprises?",
+    "answer": "212,380",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_017",
+    "question": "For foreign students under Plan A Thesis, which is more expensive, the Master of Business Administration in Innovation Management or the Master of Engineering in Electrical & Computer Engineering?",
+    "answer": "361,930",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_018",
+    "question": "For Thai students, what is the Plan A Thesis fee for the Master of Business Administration in Innovation Management?",
+    "answer": "342,430",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_019",
+    "question": "For Thai students, how many credits does the Master of Laws require?",
+    "answer": "39",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "bu_cross_020",
+    "question": "For Thai students, what is the Plan A Thesis fee for the Master of Science Program in Information Technology and Data Science?",
+    "answer": "209,880",
+    "document_uid": "0de05b96-6d08-4af3-b30e-815a6e3b8133",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_001",
+    "question": "How many semesters and credits does the AIT Doctorate program require?",
+    "answer": "7 Semesters (84 credits) 42 Months",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_002",
+    "question": "What is the Registration Fee for the Doctorate program in AIT?",
+    "answer": "140,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_003",
+    "question": "What is the Tuition Fee for the Master's & M.Phil program? in AIT",
+    "answer": "768,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_004",
+    "question": "What is the Medical Insurance Fee for the Master (1 year) program? in AIT",
+    "answer": "2,500",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_005",
+    "question": "What is the Student Union Fee for the Certificate program in AIT?",
+    "answer": "150",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_006",
+    "question": "What is the Tuition Fee for the Master (1 year) program in AIT ?",
+    "answer": "480,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_007",
+    "question": "What is the Registration Fee for the Certificate program in AIT?",
+    "answer": "20,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_008",
+    "question": "What is the Language Support Fee for the Doctorate program in AIT?",
+    "answer": "2000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_009",
+    "question": "What is the Medical Insurance Fee for the Doctorate program in AIT?",
+    "answer": "8,750",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_010",
+    "question": "What is the Student Union Fee for the Master's & M.Phil program in AIT?",
+    "answer": "600",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_011",
+    "question": "What is the Total Fees for the Master (1 year) program in AIT?",
+    "answer": "524,800",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_012",
+    "question": "What is the Visa fee for the Doctorate program in AIT?",
+    "answer": "5700",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_013",
+    "question": "What is the Tuition Fee for the Certificate program in AIT?",
+    "answer": "48,000–192,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_014",
+    "question": "What is the Medical Insurance Fee for a Master (1 year) program?",
+    "answer": "2,500",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+
+  {
+    "question_uid": "ait_cross_015",
+    "question": "In the general faculties fee table, what are the Total Fees for a Master's & M.Phil program in AIT?",
+    "answer": "855,600",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_016",
+    "question": "In the general faculties fee table, what are the Total Fees for a Master (1 year) program?",
+    "answer": "524,800",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_017",
+    "question": "In the general faculties fee table, what are the Total Fees for a Certificate program?",
+    "answer": "69,400 – 213,400",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_018",
+    "question": "In the general faculties fee table, what is the Living/Accommodation/Miscellaneous expenses range for a Doctorate program?",
+    "answer": "483,000 – 630,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_019",
+    "question": "In the general faculties fee table, what is the Living/Accommodation/Miscellaneous expenses range for a Master's & M.Phil program?",
+    "answer": "253,000 – 330,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_020",
+    "question": "In the general faculties fee table, what is the Visa fee for a Master's & M.Phil program?",
+    "answer": "3,800",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_021",
+    "question": "What is the Tuition and Registration Fee for the DBA program?",
+    "answer": "1,500,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_022",
+    "question": "What is the Medical fee for the MBA/MSc 1 year program?",
+    "answer": "2500",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_023",
+    "question": "In the School of Management fee table, what is the Tuition and Registration Fee for the PhD Program?",
+    "answer": "฿1,484,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_024",
+    "question": "What is the Education visa fee for the MBA/MSc 2 year program?",
+    "answer": "3800",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "ait_cross_025",
+    "question": "What is the Total Fees for the MBA/MSc 1 year program?",
+    "answer": "632,700",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "cross"
+  },
+  
+  {
+    "question_uid": "ait_row_001",
+    "question": "Which program has the lowest Registration Fee?",
+    "answer": "Certificate ฿20,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_002",
+    "question": "Which program has the highest Total Fees?",
+    "answer": "Doctorate ฿1,495,800",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_003",
+    "question": "In the general faculties fee table, which program has the highest Tuition Fee?",
+    "answer": "Doctorate ฿1,344,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_004",
+    "question": "Which program has the lowest Total Fees?",
+    "answer": "Certificate ฿69,400–213,400",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_005",
+    "question": "In the School of Management fee table, which program has the highest Tuition and Registration Fee?",
+    "answer": "DBA Program, at ฿1,500,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_06",
+    "question": "In the School of Management fee table, which program has the lowest Tuition and Registration Fee?",
+    "answer": "MBA / MSc Program (1 year) ฿626,000",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_07",
+    "question": "In the School of Management fee table, which program has the highest Total Fees?",
+    "answer": "DBA Program  ฿1,516,100",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_08",
+    "question": "In the School of Management fee table, which program has the lowest Total Fees?",
+    "answer": "MBA / MSc Program (1 year), at ฿632,700",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_009",
+    "question": "In the School of Management fee table, which program has the highest Medical fee?",
+    "answer": "PhD Program, at ฿8,750",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+  {
+    "question_uid": "ait_row_010",
+    "question": "In the AIT living costs guide, what is the approximate monthly cost of dormitory accommodation (usually including bills)?",
+    "answer": "2,500 – 7,000 per month",
+    "document_uid": "9978610a-3822-482c-bc70-037f8f818579",
+    "q_type": "row"
+  },
+
+  {
+    "question_uid": "iis_col_001",
+    "question": "In the B.A. MAGIC program, which semester has the highest tuition fee?",
+    "answer": "Second Year / First Semester, at 55,490 Baht",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "iis_col_002",
+    "question": "In the B.A. MAGIC program, which semester(s) have the lowest tuition fee?",
+    "answer": "First Year / Second Semester and Third Year / Second Semester, both at 53,200 Baht",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "col"
+  },
+  {
+    "question_uid": "iis_cross_001",
+    "question": "How much is the tuition fee for the B.A. English program in the First Year / First Semester?",
+    "answer": "61,090 Baht",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_002",
+    "question": "How many credits does the B.A. English program have in the Second Year / First Semester?",
+    "answer": "21 credits",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_003",
+    "question": "How much is the tuition fee for B.A. MAGIC in the Second Year / First Semester?",
+    "answer": "55,490 Baht",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_004",
+    "question": "How many courses does the Bachelor of Business Administration Program in Global Business and Digital Communication have in the First Year / First Semester?",
+    "answer": "6 courses",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_005",
+    "question": "What is the total tuition fee for the B.A. English program across all 6 semesters?",
+    "answer": "325,670 Baht",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_006",
+    "question": "What is the total number of credits for the B.A. MAGIC program?",
+    "answer": "123 credits",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_007",
+    "question": "What is the total tuition fee for the Bachelor of Business Administration Program in Global Business and Digital Communication?",
+    "answer": "323,670 Baht",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_008",
+    "question": "How much is the tuition fee for B.A. MAGIC in the Third Year / Second Semester?",
+    "answer": "53,200 Baht",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_009",
+    "question": "How many courses does the B.A. English program have in the Third Year / First Semester?",
+    "answer": "7 courses",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  },
+  {
+    "question_uid": "iis_cross_010",
+    "question": "How much is the tuition fee for Bachelor of Business Administration Program in Global Business and Digital Communication in the Second Year / First Semester?",
+    "answer": "54,490",
+    "document_uid": "f29917c6-6390-451d-91b0-fc15eb08ca60",
+    "q_type": "cross"
+  }
+]

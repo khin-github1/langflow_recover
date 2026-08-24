@@ -1,0 +1,11 @@
+hi
+exit
+hi
+0;78;30M0;78;30mqnvitop
+hi
+hi
+how can I check if the url to use is working correctly
+https://ollama.aitgpt.dev.brain.cs.ait.ac.th/ is ollama url. When access, it says ollama is running. How can I make sure the model are also working
+curl http://ollama.aitgpt.dev.brain.cs.ait.ac.th/models
+this return moved permanently
+curl -s -X POST to ollama with target models work. Only /models return not found

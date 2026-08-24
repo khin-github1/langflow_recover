@@ -1,0 +1,206 @@
+{
+  "record_count": 27,
+  "model_name": "gpt-5-mini",
+  "endpoint": "/v1/chat/completions",
+  "mode_counts": {
+    "normal": 27,
+    "reason": 0,
+    "unknown": 0
+  },
+  "source_formats": {
+    "slim": 27,
+    "prebuilt": 0
+  },
+  "generation_mode_override": "auto",
+  "rows": [
+    {
+      "custom_id": "normal_000001",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the minimum cGPA requirement for AIT Master's admission?\n\nContext:\n[1] nt, in an appropriate field of study from an institution of good standing acceptable to AIT;\n* Have undergraduate grades significantly above average; the minimum cGPA requirement for admission to the MPhil Pro",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000002",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What research proposal requirement does AIT list for doctoral applicants?\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular Doct",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000003",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is AIT's official medium of instruction and campus communication?\n\nContext:\n[1] # PAGE: English Proficiency Requirement For Admission - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission/\n\n# English Proficiency Requirement ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000004",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Which nationalities are listed for the DAAD Scholarship?\n\nContext:\n[1] # PAGE: DAAD Scholarship - Asian Institute of Technology\nURL: https://ait.ac.th/financial/daad-scholarship/\n\n# DAAD Scholarship\n\nDAAD Scholarship at AIT is Funded by the German Federal Ministry for Economic Cooperatio",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000005",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Which nationalities are listed for the DAAD Scholarship?\n\nContext:\n[1] # PAGE: DAAD Scholarship - Asian Institute of Technology\nURL: https://ait.ac.th/financial/daad-scholarship/\n\n# DAAD Scholarship\n\nDAAD Scholarship at AIT is Funded by the German Federal Ministry for Economic Cooperatio",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000006",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What maintenance services are listed for AIT accommodation?\n\nContext:\n[1] e fully furnished with regular maintenance services. Weekly cleaning service is also available.\n\n### Accommodation facilities & service\n\n* Campus accommodation with air-conditioned/non air-conditioned & cooking/non",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000007",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have an About page?\n\nContext:\n[1] # PAGE: About - Asian Institute of Technology\nURL: https://www.ait.ac.th/about/\n\n# About AIT\nAIT is an international English-speaking postgraduate institution, focusing on engineering, environment, and management studies.In this section [About A",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000008",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Climate Change and Sustainable Development (CCSD) as an academic program?\n\nContext:\n[1] # PAGE: Climate Change and Sustainable Development (CCSD) - Asian Institute of Technology\nURL: https://ait.ac.th/program/climate-change-and-sustainable-development-ccsd/\n\n# Climate Chang",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000009",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Computer Science and Communication Technology (CSCT) as an academic program?\n\nContext:\n[1] # PAGE: Computer Science and Communication Technology (CSCT) - Asian Institute of Technology\nURL: https://ait.ac.th/program/computer-science-and-communication-technology-csct/\n\n# Comp",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000010",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Development Innovation and Sustainability (DIS) as an academic program?\n\nContext:\n[1] # PAGE: Development Innovation and Sustainability (DIS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/development-innovation-and-sustainability-dis/\n\n# Development Innovat",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000011",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Digital Technology and Enterprise Information Management (DTEIM) as an academic program?\n\nContext:\n[1] Innovation (DPMI)](https://ait.ac.th/program/development-planning-management-and-innovation/)  [Digital Technology and Enterprise Information Management (DTEIM)](https://a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000012",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Doctor of Philosophy (Ph.D.) in Management as an academic program?\n\nContext:\n[1] Innovation (DPMI)](https://ait.ac.th/program/development-planning-management-and-innovation/)  [Digital Technology and Enterprise Information Management (DTEIM)](https://ait.ac.th/program/digit",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000013",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program in Geotechnical and Earth Resources Engineering with Colorado State University as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master’s Program in Geotechnical and Earth Resources Engineering with Colorado State University (USA) - Asia",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000014",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program in Water Engineering and Management with Colorado State University as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master’s Program in Water Engineering and Management with Colorado State University (USA) - Asian Institute of Technolog",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000015",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Program with University of Wollongong Australia as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Programs - Asian Institute of Technology\nURL: https://ait.ac.th/study/dual-degree-programs/\n\n# Dual Degree Programs\n\n* Dual Degree Master’s Program in Water",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000016",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Master's in Business Analytics and Digital Transformation as an academic program?\n\nContext:\n[1] # PAGE: Business Analytics and Digital Transformation | AIT School of Management\nURL: https://som.ait.ac.th/badt\n\n# M/MSc Business Analytics andDigital Transformation (BADT)\n\nRan",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000017",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Master's in Business Analytics and Digital Transformation as an academic program?\n\nContext:\n[1] # PAGE: Business Analytics and Digital Transformation | AIT School of Management\nURL: https://som.ait.ac.th/badt\n\n# M/MSc Business Analytics andDigital Transformation (BADT)\n\nRan",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000018",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Master's in Business Analytics and Digital Transformation as an academic program?\n\nContext:\n[1] # PAGE: Business Analytics and Digital Transformation | AIT School of Management\nURL: https://som.ait.ac.th/badt\n\n# M/MSc Business Analytics andDigital Transformation (BADT)\n\nRan",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000019",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master in Banking and Finance as an academic program?\n\nContext:\n[1] # PAGE: Professional Master in Banking and Finance - Asian Institute of Technology\nURL: https://ait.ac.th/program/professional-master-in-banking-and-finance/\n\n# Professional Master in Banking a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000020",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Sustainable Energy Transition as an academic program?\n\nContext:\n[1] # PAGE: Sustainable Energy Transition (SET) - Asian Institute of Technology\nURL: https://ait.ac.th/program/sustainable-energy-transition/\n\n# Sustainable Energy Transition (SET)\n\n## Introduction / Background",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000021",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list University of Nice Sophia Antipolis, France as an academic program?\n\nContext:\n[1] # PAGE: Joint Degree Programme with the University of Nice Sophia Antipolis (France) - Asian Institute of Technology\nURL: https://ait.ac.th/program/university-of-nice-sophia-antipolis-france/\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000022",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Water Engineering and Management (WEM) as an academic program?\n\nContext:\n[1] # PAGE: Water Engineering and Management (WEM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/water-engineering-and-management-wem/\n\n# Water Engineering and Management (WEM)\n\n## Int",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000023",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: March term, other applicants.\n\nContext:\n[1] plication process, too.\n\nAcross each and every program, we actively seek students from a wide variety of backgrounds. We value the exceptional academic talent, intellectual curiosity, individual perspectives, creativity, and other defining attr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000024",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Are rooms furnished?\n\nContext:\n[1] and single or double occupancy — all rooms are fully furnished with regular maintenance services. Weekly cleaning service is also available.\n\n### Accommodation facilities & service\n\n* Campus accommodation with air-conditioned/non air-conditioned & cooki",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000025",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What are the exact room numbers available today in Dorm J?\n\nContext:\n[1] tory 3 – Married | 8 | Staff Dormitory 9 – Studio | 42 |\n| Staff Dormitory 4 – Studio | 12 | Staff Dormitory 10 – 2 br | 18 |\n| Staff Dormitory 4 – Married | 3 | Staff Dormitory 11 – 1 br | 2 |\n| Staff Dormitory 5 –",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000026",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What are the exact room numbers available today in Dorm J?\n\nContext:\n[1] tory 3 – Married | 8 | Staff Dormitory 9 – Studio | 42 |\n| Staff Dormitory 4 – Studio | 12 | Staff Dormitory 10 – 2 br | 18 |\n| Staff Dormitory 4 – Married | 3 | Staff Dormitory 11 – 1 br | 2 |\n| Staff Dormitory 5 –",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000027",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the personal phone number of the Dean of the School of Management?\n\nContext:\n[1] # PAGE: Roger Levermore - Asian Institute of Technology\nURL: https://ait.ac.th/people/dr-roger-levermore/\n\n# Dr.\nRoger Levermore\nPositionSenior Strategic Advisor to the President and the Faculty of B",
+      "source_format": "slim"
+    }
+  ]
+}

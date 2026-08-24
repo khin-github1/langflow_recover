@@ -1,0 +1,415 @@
+[
+    {
+        "question_uid": "d28302f5-9bb5-44a1-b821-ca6661f88839",
+        "question": "How many data rows are in Table 0 of the Bangkok University bachelor tuition fees?",
+        "answer": 17.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "3dd01b52-a201-44d2-b9d8-b8477dc3a1ee",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, how many items have a value listed under 'กองทุนกู้ยืม กยศ.'?",
+        "answer": 2.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "c91273f6-3227-43a1-80cc-2aa6764e32e3",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, how many items have a value listed under 'โครงการแบ่งชำระ ค่าเล่าเรียน'?",
+        "answer": 2.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "08f9cb5b-a3d6-4c71-8e51-61c5a96ee323",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, how many items have a value listed under 'Tuition Fees'?",
+        "answer": 16.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "214cd9c6-209f-4351-bbec-3deff3197ff4",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the sum of all 'Tuition Fees' values?",
+        "answer": 8974730.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "b59f9727-7c2e-491f-827a-328365a769a7",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the average of all 'Tuition Fees' values?",
+        "answer": 598315.3333,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "0b9231df-6c3b-40c3-8c1d-628734f86765",
+        "question": "How many data rows are in Table 1 of the Bangkok University bachelor tuition fees?",
+        "answer": 62.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "6ad475b7-3146-4201-af6f-ec23dab6b01a",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, how many items have a value listed under 'กองทุนกู้ยืม กยศ.'?",
+        "answer": 14.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "5b2cadd2-e19f-49c7-8c40-9e3f7b3ab601",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, how many items have a value listed under 'โครงการแบ่งชำระ ค่าเล่าเรียน'?",
+        "answer": 14.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "9aec9f89-3537-4a96-a3bd-9c82100839b9",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, how many items have a value listed under 'Tuition Fees'?",
+        "answer": 61.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "2bd47b60-0ae8-4e8a-9d36-048dabf19295",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, what is the sum of all 'Tuition Fees' values?",
+        "answer": 19353050.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "9eca712f-369e-4220-8790-644c5d3d0cee",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, what is the average of all 'Tuition Fees' values?",
+        "answer": 403188.5417,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "ad11dbab-564a-4b9b-8087-828233db834a",
+        "question": "How many data rows are in Table 2 of the Bangkok University bachelor tuition fees?",
+        "answer": 2.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "9709c51a-0ffc-4226-837d-ff8ec44ebdae",
+        "question": "How many data rows are in Table 3 of the Bangkok University bachelor tuition fees?",
+        "answer": 2.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "012cc9b5-451c-4eb3-92b9-a83b1ddc2e60",
+        "question": "How many data rows are in Table 4 of the Bangkok University bachelor tuition fees?",
+        "answer": 2.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "col"
+    },
+    {
+        "question_uid": "90a274c4-421f-4881-beee-7cd4bcd8f87e",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, which 'Program' has the lowest 'Tuition Fees'?",
+        "answer": "[Apply Now] Bachelor of Arts Program in Business English (International Program) (ศิลปศาสตรบัณฑิต สาขาวิชาภาษาอังกฤษธุรกิจ (หลักสูตรนานาชาติ))",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "19e31eb2-639d-479b-9be6-7dddcad39d69",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, which 'Program' has the highest 'Tuition Fees'?",
+        "answer": "[Apply Now] Bachelor of Fine and Applied Arts Program in Film Series and Global Content (International Program) (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาภาพยนตร์ซีรีส์และเนื้อหาระดับโลก (หลักสูตรนานาชาติ))",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "3adbe7a0-da69-49a0-8c1a-47acff520004",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the difference between the highest and lowest 'Tuition Fees'?",
+        "answer": 206380.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "71980272-5b92-4365-ba46-e0cc4be673e3",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the difference in 'Tuition Fees' between '[Apply Now] Bachelor of Fine and Applied Arts Program in Film Series and Global Content (International Program) (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาภาพยนตร์ซีรีส์และเนื้อหาระดับโลก (หลักสูตรนานาชาติ))' and '[Apply Now] Bachelor of Fine and Applied Arts Program in Creative Communication Design (International Program) (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาการออกแบบนิเทศศิลป์สร้างสรรค์ (หลักสูตรนานาชาติ))'?",
+        "answer": 31280.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "e427aa1e-f596-443d-b9db-49a4a3f94125",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, which 'Program' has the lowest 'Tuition Fees'?",
+        "answer": "[Apply Now] International Business Management (สาขาวิชาการจัดการธุรกิจระหว่างประเทศ)",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "25076761-d515-47f1-a7b4-d712c6b53302",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, which 'Program' has the highest 'Tuition Fees'?",
+        "answer": "New [Apply Now] Bachelor of Fine and Applied Arts Program in Virtual Production and Creative Technology (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาการผลิตเสมือนและเทคโนโลยีเชิงสร้างสรรค์)",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "b9ce8566-1f66-4951-9d0a-acfa98ed8dd1",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, what is the difference between the highest and lowest 'Tuition Fees'?",
+        "answer": 193700.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "48897ec6-04ec-420e-8ab6-cfdbe23b1493",
+        "question": "In the Bangkok University bachelor tuition fees Table 1, what is the difference in 'Tuition Fees' between 'New [Apply Now] Bachelor of Fine and Applied Arts Program in Virtual Production and Creative Technology (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาการผลิตเสมือนและเทคโนโลยีเชิงสร้างสรรค์)' and '[Apply Now] Bachelor of Fine and Applied Arts Program in Digital Media (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาสื่อดิจิทัล)'?",
+        "answer": 1300.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "3a9e2030-0292-4a7b-96de-b4cb2853d53d",
+        "question": "In the AIT tuition and fees Table 0, which 'Study costs' has the lowest 'Doctorate'?",
+        "answer": "Student Union Fee @Baht 150 per Semester",
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "15eb5bf9-5c32-435f-952b-27885170ee9f",
+        "question": "In the AIT tuition and fees Table 0, which 'Study costs' has the highest 'Doctorate'?",
+        "answer": "Total Fees",
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "28a3e56f-238c-4074-bd9a-a7d7d45e8ccf",
+        "question": "In the AIT tuition and fees Table 0, what is the difference between the highest and lowest 'Doctorate'?",
+        "answer": 1494750.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "b6e459e0-16bc-496f-a5d7-335898b5547f",
+        "question": "In the AIT tuition and fees Table 0, what is the difference in 'Doctorate' between 'Total Fees' and 'Tuition Fee @Baht 16,000 per Credit'?",
+        "answer": 151800.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "c4dd3a00-1903-4aeb-b60b-5a4aeb5a3c08",
+        "question": "In the AIT tuition and fees Table 0, which 'Study costs' has the lowest 'Master’s & M.Phil'?",
+        "answer": "Student Union Fee @Baht 150 per Semester",
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "438efe43-0ec1-4977-93ba-7b6dbbb1352e",
+        "question": "In the AIT tuition and fees Table 0, which 'Study costs' has the highest 'Master’s & M.Phil'?",
+        "answer": "Total Fees",
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "e11954b1-6ea0-43b1-a5da-7e9c78fd27d9",
+        "question": "In the AIT tuition and fees Table 0, what is the difference between the highest and lowest 'Master’s & M.Phil'?",
+        "answer": 855000.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "cross"
+    },
+    {
+        "question_uid": "f9f3a65c-0151-4550-96c6-0ff97161173b",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the กองทุนกู้ยืม กยศ. for 'Semester 1'?",
+        "answer": 2.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "04858ac5-e421-400e-b362-8139a910dc82",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the โครงการแบ่งชำระ ค่าเล่าเรียน for 'Semester 1'?",
+        "answer": "Total Tuition",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "afb27286-449c-4f98-8849-a17f691f5139",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the กองทุนกู้ยืม กยศ. for 'Bangkok University International (For Foreign Students)'?",
+        "answer": "Bangkok University International (For Foreign Students)",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "97c9c03c-305a-4593-8b34-cca7e3913fce",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the โครงการแบ่งชำระ ค่าเล่าเรียน for 'Bangkok University International (For Foreign Students)'?",
+        "answer": "Bangkok University International (For Foreign Students)",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "a41a9182-29d7-41d3-9b84-a637ab32066b",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for 'Bangkok University International (For Foreign Students)'?",
+        "answer": "Bangkok University International (For Foreign Students)",
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "f2dd5d22-de97-4b04-a195-4fbbc95640d5",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Business Administration Program in Marketing (International Program) (บริหารธุรกิจบัณฑิต สาขาวิชาการตลาด (หลักสูตรนานาชาติ))'?",
+        "answer": 544650.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "c322f4a3-961f-48d1-8690-3036947e6166",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Business Administration Program in Entrepreneurship (International Program) (บริหารธุรกิจบัณฑิต สาขาวิชาการเป็นผู้ประกอบการ (หลักสูตรนานาชาติ))'?",
+        "answer": 566150.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "ad3823d1-f7eb-43b9-b3d6-f10f4bd9b2f3",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Communication Arts Program in Media and Communication (International Program) (นิเทศศาสตรบัณฑิต สาขาวิชาสื่อและการสื่อสาร (หลักสูตรนานาชาติ))'?",
+        "answer": 562050.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "3db920ca-9e24-4400-8d04-80470194d84c",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Arts Program in Business English (International Program) (ศิลปศาสตรบัณฑิต สาขาวิชาภาษาอังกฤษธุรกิจ (หลักสูตรนานาชาติ))'?",
+        "answer": 524750.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "b6bfe3fc-ac3c-49dc-89d4-c8d499fb8da0",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Fine and Applied Arts Program in Creative Communication Design (International Program) (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาการออกแบบนิเทศศิลป์สร้างสรรค์ (หลักสูตรนานาชาติ))'?",
+        "answer": 699850.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "420d8cc9-e7a2-4882-893e-15694511e279",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Arts Program in International Tourism Management (International Program) (ศิลปศาสตรบัณฑิต สาขาวิชาการท่องเที่ยวนานาชาติ (หลักสูตรนานาชาติ))'?",
+        "answer": 592050.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "0642e130-f465-4c52-905b-19940aafa112",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Fine and Applied Arts Program in Culinary Arts and Design (International Program) (ศิลปกรรมศาสตรบัณฑิต สาขาวิชาศิลปะการประกอบอาหารและการออกแบบ (หลักสูตรนานาชาติ))'?",
+        "answer": 656050.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "305099c1-1d25-49bd-a7f7-82d3ce833aff",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Communication Arts Program in Innovative Media Production (International Program) (นิเทศศาสตรบัณฑิต สาขาวิชาการผลิตสื่อนวัตกรรม (หลักสูตรนานาชาติ))'?",
+        "answer": 595350.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "e833379c-325d-44e3-b5bc-4183aab8e0bf",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Business Administration Program in Business Administration: Digital Marketing (International Program) 3 years (บริหารธุรกิจบัณฑิต สาขาวิชาบริหารธุรกิจ วิชาเอกการตลาดดิจิทัล (หลักสูตรนานาชาติ))'?",
+        "answer": 569150.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "80ddfb7c-8168-41a6-8146-f32d0b427a42",
+        "question": "In the Bangkok University bachelor tuition fees Table 0, what is the Tuition Fees for '[Apply Now] Bachelor of Business Administration Program in Business Administration: International Business Management (International Program) 3 years (บริหารธุรกิจบัณฑิต สาขาวิชาบริหารธุรกิจ วิชาเอกการจัดการธุรกิจระหว่างประเทศ (หลักสูตรนานาชาติ))'?",
+        "answer": 569150.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "row"
+    },
+    {
+        "question_uid": "321fab00-9d98-476a-9961-d9b0123b168b",
+        "question": "How many data tables are present on the Bangkok University bachelor tuition fees page?",
+        "answer": 17.0,
+        "document_uid": "846c299b-8e9e-4535-b163-a3d710cff248",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "24c65bd9-0883-4392-b0a8-fda3442bc379",
+        "question": "What is the AIT registration fee per semester (Thai Baht)?",
+        "answer": 20000.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "c4711d34-9f8d-469c-8213-3415f42703a3",
+        "question": "What is the AIT tuition fee per credit (Thai Baht)?",
+        "answer": 16000.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "97c02544-e8a7-4bcc-ad27-6e1eb25c90e5",
+        "question": "How many credits does the AIT Doctorate program require?",
+        "answer": 84.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "cdfbbefe-05de-4eec-87b8-609929cc7cad",
+        "question": "How many semesters is the AIT Doctorate program?",
+        "answer": 7.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "1a4bc038-0577-4638-83cc-8c4c7ec3c161",
+        "question": "How many credits are required for the AIT Master's (4-semester) program?",
+        "answer": 48.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "aaf371a1-7d1e-4b9f-a221-a7b09cc83bd4",
+        "question": "What is the AIT official exchange rate from Thai Baht to USD?",
+        "answer": 29.34,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "aeb178f7-f15c-437a-adb6-a604d9457748",
+        "question": "In which currency does AIT charge tuition and registration fees?",
+        "answer": "Thai Baht",
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "a2b33995-f48f-42aa-a57c-af59f7391944",
+        "question": "What is the minimum estimated living expense per month according to the AIT tuition and fees page (Thai Baht)?",
+        "answer": 11500.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "c8316117-ac83-4c1a-b174-5fe3f224689f",
+        "question": "How many distinct types of fees are listed on the AIT tuition and fees page?",
+        "answer": 5.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "c838dd2f-ed23-4ae6-897d-42f7a01c6a22",
+        "question": "How many data tables are present on the AIT tuition and fees page?",
+        "answer": 3.0,
+        "document_uid": "26ee19d8-8e8c-4ba6-9f1f-941f3a729747",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "fc55417f-547b-48e6-9f96-96e743f7c15f",
+        "question": "What is one of the tuition fee amounts listed on the IIS Rangsit University fees page?",
+        "answer": 1000.0,
+        "document_uid": "01002947-2dae-455a-96a0-a5f7afbf514a",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "241e3577-2e7c-4131-8951-0237695bd768",
+        "question": "How many distinct types of fees are listed on the IIS Rangsit University tuition fees page?",
+        "answer": 4.0,
+        "document_uid": "01002947-2dae-455a-96a0-a5f7afbf514a",
+        "q_type": "text"
+    },
+    {
+        "question_uid": "5e6f5bd2-3f7d-4f4d-b788-93f4ed9860ed",
+        "question": "How many data tables are present on the IIS Rangsit University tuition fees page?",
+        "answer": 1.0,
+        "document_uid": "01002947-2dae-455a-96a0-a5f7afbf514a",
+        "q_type": "text"
+    }
+]

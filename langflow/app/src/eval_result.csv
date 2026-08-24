@@ -1,0 +1,253 @@
+q_type,question,gold_answer,generated_answer,EM,hit_rank,hit@1,hit@5,rr
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Business Administration?","231,030 (Saturday)","231,030",0,1,1,1,1.0
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Business Administration?","230,030 (Saturday)","230,030",0,1,1,1,1.0
+row,"For foreign students, how many credits does the Master of Business Administration require?",42,42,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Communication Arts (Strategic Brand and Communication Management)?","242,430 (Saturday)","242,430",0,3,0,1,0.3333333333333333
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Communication Arts (Strategic Brand and Communication Management)?","227,230 (Saturday)","216,430",0,2,0,1,0.5
+row,"For foreign students, how many credits does the Master of Communication Arts (Strategic Brand and Communication Management) require?",36,36,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Arts Program (Data-Driven Marketing and Communications)?","313,330 (Saturday)","313,330",0,4,0,1,0.25
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Arts Program (Data-Driven Marketing and Communications)?","308,330 (Saturday)","308,330",0,4,0,1,0.25
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Arts Program in Tourism and Hospitality Management Innovation (International Program)?","232,480 (Saturday)","232,480",0,1,1,1,1.0
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Arts Program in Tourism and Hospitality Management Innovation (International Program)?","231,480 (Saturday)","220,680",0,1,1,1,1.0
+row,"For foreign students, how many credits does the Master of Arts Program in Tourism and Hospitality Management Innovation (International Program) require?",36,36,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Architecture?","217,230 (Saturday)","206,430",0,1,1,1,1.0
+row,"For foreign students, how many credits does the Master of Architecture require?",36,36,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Engineering in Electrical & Computer Engineering (International Program)?","370,980 (Research Based)","370,980",0,1,1,1,1.0
+row,"For foreign students, how many credits does the Master of Engineering in Electrical & Computer Engineering (International Program) require?",36,36,1,1,1,1,1.0
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Management Program in Entrepreneurship and Emerging Enterprises?","374,530 (Saturday)","374,530",0,2,0,1,0.5
+row,"For foreign students, how many credits does the Master of Management Program in Entrepreneurship and Emerging Enterprises require?",42,42,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Communication Arts Program in Global Communication (International Program)?","200,630 (Saturday)","188,930",0,1,1,1,1.0
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Communication Arts Program in Global Communication (International Program)?","199,630 (Saturday)","187,930",0,1,1,1,1.0
+row,"For foreign students, how many credits does the Master of Communication Arts Program in Global Communication (International Program) require?",39,39,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Business Administration (English Program)?","231,030 (Saturday)","231,030",0,1,1,1,1.0
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Business Administration (English Program)?","230,030 (Saturday)","230,030",0,1,1,1,1.0
+row,"For foreign students, how many credits does the Master of Business Administration (English Program) require?",42,42,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Business Administration in Innovation Management (International Program)?","355,030 (Saturday)","355,030",0,1,1,1,1.0
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Business Administration in Innovation Management (International Program)?","354,030 (Saturday)","354,030",0,2,0,1,0.5
+row,"For foreign students, how many credits does the Master of Business Administration in Innovation Management (International Program) require?",42,42,1,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Laws?","226,880 (Saturday)","226,880",0,5,0,1,0.2
+row,"For foreign students, what is the Plan B Non-Thesis tuition fee for the Master of Laws?","224,080 (Saturday)","224,080",0,5,0,1,0.2
+row,"For foreign students, how many credits does the Master of Laws require?",39,36,0,1,1,1,1.0
+row,"For foreign students, what is the Plan A Thesis tuition fee for the Master of Science Program in Information Technology and Data Science?","220,680 (Saturday)","220,680",0,2,0,1,0.5
+row,"For foreign students, how many credits does the Master of Science Program in Information Technology and Data Science require?",36,36,1,1,1,1,1.0
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Business Administration?","218,430 (Saturday)","218,430",0,1,1,1,1.0
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Business Administration?","217,430 (Saturday)","217,430",0,1,1,1,1.0
+row,"For Thai students, how many credits does the Master of Business Administration require?",42,42,1,1,1,1,1.0
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Communication Arts (Strategic Brand and Communication Management)?","231,630 (Saturday)","231,630",0,2,0,1,0.5
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Communication Arts (Strategic Brand and Communication Management)?","216,430 (Saturday)","216,430",0,5,0,1,0.2
+row,"For Thai students, how many credits does the Master of Communication Arts (Strategic Brand and Communication Management) require?",36,36,1,1,1,1,1.0
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Arts Program (Data-Driven Marketing and Communications)?","302,530 (Saturday)","302,530",0,2,0,1,0.5
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Arts Program (Data-Driven Marketing and Communications)?","297,530 (Saturday)","297,530",0,2,0,1,0.5
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Arts Program in Tourism and Hospitality Management Innovation (International Program)?","221,680 (Saturday)","221,680",0,3,0,1,0.3333333333333333
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Arts Program in Tourism and Hospitality Management Innovation (International Program)?","220,680 (Saturday)","220,680",0,1,1,1,1.0
+row,"For Thai students, how many credits does the Master of Arts Program in Tourism and Hospitality Management Innovation (International Program) require?",36,36,1,1,1,1,1.0
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Architecture?","206,430 (Saturday)","206,430",0,3,0,1,0.3333333333333333
+row,"For Thai students, how many credits does the Master of Architecture require?",36,36,1,3,0,1,0.3333333333333333
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Engineering in Electrical & Computer Engineering (International Program)?","360,180 (Research Based)","370,980",0,4,0,1,0.25
+row,"For Thai students, how many credits does the Master of Engineering in Electrical & Computer Engineering (International Program) require?",36,36,1,1,1,1,1.0
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Management Program in Entrepreneurship and Emerging Enterprises?","361,930 (Saturday)","217,430",0,2,0,1,0.5
+row,"For Thai students, how many credits does the Master of Management Program in Entrepreneurship and Emerging Enterprises require?",42,42,1,1,1,1,1.0
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Communication Arts Program in Global Communication (International Program)?","188,930 (Saturday)","200,630",0,5,0,1,0.2
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Communication Arts Program in Global Communication (International Program)?","187,930 (Saturday)","199,630",0,3,0,1,0.3333333333333333
+row,"For Thai students, how many credits does the Master of Communication Arts Program in Global Communication (International Program) require?",39,39,1,2,0,1,0.5
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Business Administration (English Program)?","218,430 (Saturday)","218,430",0,1,1,1,1.0
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Business Administration (English Program)?","217,430 (Saturday)","217,430",0,1,1,1,1.0
+row,"For Thai students, how many credits does the Master of Business Administration (English Program) require?",42,42,1,1,1,1,1.0
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Business Administration in Innovation Management (International Program)?","342,430 (Saturday)","342,430",0,3,0,1,0.3333333333333333
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Business Administration in Innovation Management (International Program)?","341,430 (Saturday)","341,430",0,4,0,1,0.25
+row,"For Thai students, how many credits does the Master of Business Administration in Innovation Management (International Program) require?",42,42,1,1,1,1,1.0
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Laws?","213,380 (Saturday)","226,880",0,4,0,1,0.25
+row,"For Thai students, what is the Plan B Non-Thesis tuition fee for the Master of Laws?","212,380 (Saturday)","224,080",0,0,0,0,0.0
+row,"For Thai students, how many credits does the Master of Laws require?",39,30,0,2,0,1,0.5
+row,"For Thai students, what is the Plan A Thesis tuition fee for the Master of Science Program in Information Technology and Data Science?","209,880 (Saturday)","220,680",0,4,0,1,0.25
+row,"For Thai students, how many credits does the Master of Science Program in Information Technology and Data Science require?",36,39,0,1,1,1,1.0
+col,"For foreign students, which master's program has the highest Plan A Thesis tuition fee?","Master of Engineering in Electrical & Computer Engineering (International Program), at 370,980 (Research Based)",374530,0,0,0,0,0.0
+col,"For foreign students, which master's program has the lowest Plan A Thesis tuition fee?","Master of Communication Arts Program in Global Communication (International Program), at 200,630",206430,0,0,0,0,0.0
+col,"For foreign students, which master's program has the highest Plan B Non-Thesis tuition fee?","Master of Management Program in Entrepreneurship and Emerging Enterprises, at 374,530","374,530",0,0,0,0,0.0
+col,"For foreign students, which master's program has the lowest Plan B Non-Thesis tuition fee?","Master of Communication Arts Program in Global Communication (International Program), at 199,630","187,930",0,0,0,0,0.0
+col,How many master's programs require 42 credits?,"4 (Master of Business Administration, Master of Management Program in Entrepreneurship and Emerging Enterprises, Master of Business Administration (English Program), and Master of Business Administration in Innovation Management (International Program))",42,0,0,0,0,0.0
+col,How many master's programs require 36 credits?,"5 (Master of Communication Arts (Strategic Brand and Communication Management), Master of Arts Program in Tourism and Hospitality Management Innovation, Master of Architecture, Master of Engineering in Electrical & Computer Engineering, and Master of Science Program in Information Technology and Data Science)",36,0,0,0,0,0.0
+col,How many master's programs require 39 credits?,2 (Master of Communication Arts Program in Global Communication and Master of Laws),39,0,0,0,0,0.0
+col,Which master's programs require 39 credits?,Master of Communication Arts Program in Global Communication (International Program) and Master of Laws,Master of Communication Arts Program in Global Communication (International Program),0,0,0,0,0.0
+col,How many master's programs are listed in the tuition table for foreign students?,12,42,0,4,0,1,0.25
+col,"For foreign students, which master's programs do not offer a Plan B Non-Thesis option?","Master of Architecture, Master of Engineering in Electrical & Computer Engineering (International Program), and Master of Science Program in Information Technology and Data Science","360,180 (Research Based)",0,0,0,0,0.0
+col,"For foreign students, which master's program does not offer a Plan A Thesis option?",Master of Management Program in Entrepreneurship and Emerging Enterprises,Master of Engineering in Electrical & Computer Engineering (International Program),0,3,0,1,0.3333333333333333
+col,"For foreign students, which master's program lists its Plan A Thesis fee as Research Based rather than Saturday?",Master of Engineering in Electrical & Computer Engineering (International Program),"360,180 (Research Based)",0,1,1,1,1.0
+col,"For Thai students, which master's program has the highest Plan A Thesis tuition fee?","Master of Engineering in Electrical & Computer Engineering (International Program), at 360,180 (Research Based)","355,030",0,0,0,0,0.0
+col,"For Thai students, which master's program has the lowest Plan A Thesis tuition fee?","Master of Communication Arts Program in Global Communication (International Program), at 188,930","218,430",0,0,0,0,0.0
+col,"For Thai students, which master's program has the highest Plan B Non-Thesis tuition fee?","Master of Management Program in Entrepreneurship and Emerging Enterprises, at 361,930","313,330",0,0,0,0,0.0
+col,"For Thai students, which master's program has the lowest Plan B Non-Thesis tuition fee?","Master of Communication Arts Program in Global Communication (International Program), at 187,930","217,430",0,0,0,0,0.0
+col,How many master's programs are listed in the tuition table for Thai students?,12,3,0,1,1,1,1.0
+col,"For Thai students, which master's programs do not offer a Plan B Non-Thesis option?","Master of Architecture, Master of Engineering in Electrical & Computer Engineering (International Program), and Master of Science Program in Information Technology and Data Science",Master of Science Program in Information Technology and Data Science,0,0,0,0,0.0
+col,"For Thai students, which master's program does not offer a Plan A Thesis option?",Master of Management Program in Entrepreneurship and Emerging Enterprises,Master of Science Program in Information Technology and Data Science (For Thai Students),0,4,0,1,0.25
+col,"For Thai students, which master's program lists its Plan A Thesis fee as Research Based rather than Saturday?",Master of Engineering in Electrical & Computer Engineering (International Program),Master of Engineering in Electrical & Computer Engineering (International Program),1,2,0,1,0.5
+cross,"For foreign students taking the Master of Business Administration, which is cheaper, Plan A Thesis or Plan B Non-Thesis, and by how much?","Plan B Non-Thesis is cheaper by 1,000 (230,030 vs 231,030)","230,030",0,0,0,0,0.0
+cross,"For foreign students taking the Master of Communication Arts (Strategic Brand and Communication Management), how much less is the Plan B Non-Thesis fee than the Plan A Thesis fee?","15,200 less (227,230 vs 242,430)","242,430",0,0,0,0,0.0
+cross,"For foreign students taking the Master of Arts Program (Data-Driven Marketing and Communications), what is the difference between the Plan A Thesis and Plan B Non-Thesis fees?","5,000 (313,330 minus 308,330)",297530,0,0,0,0,0.0
+cross,"For foreign students taking the Master of Laws, how much cheaper is the Plan B Non-Thesis fee compared to the Plan A Thesis fee?","2,800 cheaper (224,080 vs 226,880)","226,880",0,0,0,0,0.0
+cross,"For Thai students taking the Master of Communication Arts (Strategic Brand and Communication Management), how much less is the Plan B Non-Thesis fee than the Plan A Thesis fee?","15,200 less (216,430 vs 231,630)",36000,0,0,0,0,0.0
+cross,"For Thai students taking the Master of Arts Program (Data-Driven Marketing and Communications), what is the difference between the Plan A Thesis and Plan B Non-Thesis fees?","5,000 (302,530 minus 297,530)","302,530 - 297,530 = 5,000",0,0,0,0,0.0
+cross,"For Thai students taking the Master of Laws, which is cheaper, Plan A Thesis or Plan B Non-Thesis, and by how much?","Plan B Non-Thesis is cheaper by 1,000 (212,380 vs 213,380)","355,030 354,030 1,000",0,0,0,0,0.0
+cross,"For the Master of Business Administration Plan A Thesis fee, how much more do foreign students pay than Thai students?","12,600 more (231,030 vs 218,430)","13,000",0,0,0,0,0.0
+cross,"For the Master of Laws Plan A Thesis fee, how much more do foreign students pay than Thai students?","13,500 more (226,880 vs 213,380)","17,000",0,0,0,0,0.0
+cross,"For the Master of Communication Arts Program in Global Communication Plan A Thesis fee, what is the difference between the foreign-student and Thai-student fees?","11,700 (200,630 minus 188,930)","18,000",0,0,0,0,0.0
+cross,"For the Master of Science Program in Information Technology and Data Science Plan A Thesis fee, how much more do foreign students pay than Thai students?","10,800 more (220,680 vs 209,880)","14,800",0,0,0,0,0.0
+cross,"For the Master of Engineering in Electrical & Computer Engineering Plan A Thesis fee, what is the difference between the foreign-student and Thai-student fees?","10,800 (370,980 minus 360,180)","370,980",0,0,0,0,0.0
+cross,"For the Master of Business Administration in Innovation Management Plan A Thesis fee, how much more do foreign students pay than Thai students?","12,600 more (355,030 vs 342,430)","355,030",0,0,0,0,0.0
+cross,"For the Master of Business Administration Plan B Non-Thesis fee, how much more do foreign students pay than Thai students?","12,600 more (230,030 vs 217,430)",300,0,0,0,0,0.0
+cross,"For the Master of Management Program in Entrepreneurship and Emerging Enterprises Plan B Non-Thesis fee, what is the difference between the foreign-student and Thai-student fees?","12,600 (374,530 minus 361,930)",36,0,0,0,0,0.0
+cross,"For foreign students under Plan A Thesis, which is more expensive, the Master of Business Administration or the Master of Laws?","The Master of Business Administration (231,030 vs 226,880)","342,430",0,0,0,0,0.0
+cross,"For foreign students under Plan A Thesis, which is more expensive, the Master of Business Administration in Innovation Management or the Master of Engineering in Electrical & Computer Engineering?","The Master of Engineering in Electrical & Computer Engineering (370,980 vs 355,030)","360,180",0,0,0,0,0.0
+cross,"For Thai students under Plan A Thesis, which is more expensive, the Master of Arts Program (Data-Driven Marketing and Communications) or the Master of Business Administration in Innovation Management?","The Master of Business Administration in Innovation Management (342,430 vs 302,530)","355,030",0,0,0,0,0.0
+cross,"For foreign students under Plan A Thesis, which is cheaper, the Master of Communication Arts Program in Global Communication or the Master of Science Program in Information Technology and Data Science?","The Master of Communication Arts Program in Global Communication (200,630 vs 220,680)","187,930",0,0,0,0,0.0
+cross,"For foreign students, do the Master of Business Administration and the Master of Business Administration (English Program) have the same Plan A Thesis fee?","Yes, both are 231,030",No,0,0,0,0,0.0
+cross,"For Thai students, do the Master of Business Administration and the Master of Business Administration (English Program) have the same Plan B Non-Thesis fee?","Yes, both are 217,430",No,0,0,0,0,0.0
+cross,"For foreign students, does the Master of Business Administration require more credits than the Master of Laws?","Yes, the Master of Business Administration requires 42 credits versus 39 for the Master of Laws",Yes,0,0,0,0,0.0
+cross,"In the general faculties fee table, what is the Registration Fee for a Doctorate program?","฿140,000","฿20,000",0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Registration Fee for a Master's & M.Phil program?","฿80,000","฿20,000",0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Registration Fee for a Master (1 year) program?","฿40,000","฿140,000",0,5,0,1,0.2
+cross,"In the general faculties fee table, what is the Registration Fee for a Certificate program?","฿20,000","฿20,000",1,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Tuition Fee for a Doctorate program?","฿1,344,000","฿1,484,000",0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Tuition Fee for a Master's & M.Phil program?","฿768,000","฿1,344,000",0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Tuition Fee for a Master (1 year) program?","฿480,000","฿1,344,000",0,5,0,1,0.2
+cross,"In the general faculties fee table, what is the Tuition Fee for a Certificate program?","฿48,000 – 192,000","฿48,000",0,2,0,1,0.5
+cross,"In the general faculties fee table, what is the Language Support Fee for a Doctorate program?","฿2,000","฿2,000",1,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Language Support Fee for a Master (1 year) program?","฿2,000","฿2,000",1,2,0,1,0.5
+cross,"In the general faculties fee table, what Language Support Fee is listed for a Certificate program?",Not applicable (shown as –),"฿2,000",0,0,0,0,0.0
+cross,"In the general faculties fee table, what is the Medical Insurance Fee for a Doctorate program?","฿8,750","฿8,750",1,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Medical Insurance Fee for a Master's & M.Phil program?","฿5,000","฿2,500",0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Medical Insurance Fee for a Master (1 year) program?","฿2,500","฿2,500",1,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Medical Insurance Fee for a Certificate program?","฿1,250","฿2,500",0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Student Union Fee for a Doctorate program?","฿1,050","฿1,050",1,2,0,1,0.5
+cross,"In the general faculties fee table, what is the Student Union Fee for a Master's & M.Phil program?",฿600,฿300,0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Student Union Fee for a Master (1 year) program?",฿300,"฿2,500",0,2,0,1,0.5
+cross,"In the general faculties fee table, what is the Student Union Fee for a Certificate program?",฿150,฿150,1,3,0,1,0.3333333333333333
+cross,"In the general faculties fee table, what are the Total Fees for a Doctorate program?","฿1,495,800","฿1,495,800",1,2,0,1,0.5
+cross,"In the general faculties fee table, what are the Total Fees for a Master's & M.Phil program?","฿855,600","฿1,495,800",0,4,0,1,0.25
+cross,"In the general faculties fee table, what are the Total Fees for a Master (1 year) program?","฿524,800","฿1,344,000",0,0,0,0,0.0
+cross,"In the general faculties fee table, what are the Total Fees for a Certificate program?","฿69,400 – 213,400","฿48,000",0,0,0,0,0.0
+cross,"In the general faculties fee table, what is the Living/Accommodation/Miscellaneous expenses range for a Doctorate program?","฿483,000 – 630,000","฿483,000 – 630,000",1,2,0,1,0.5
+cross,"In the general faculties fee table, what is the Living/Accommodation/Miscellaneous expenses range for a Master's & M.Phil program?","฿253,000 – 330,000","฿483,000 – 630,000",0,5,0,1,0.2
+cross,"In the general faculties fee table, what is the Living/Accommodation/Miscellaneous expenses range for a Master (1 year) program?","฿138,000 – 180,000",Not provided,0,0,0,0,0.0
+cross,"In the general faculties fee table, what is the Living/Accommodation/Miscellaneous expenses range for a Certificate program?","฿57,500 – 75,000","฿20,000",0,0,0,0,0.0
+cross,"In the general faculties fee table, what is the Visa fee for a Doctorate program?","฿5,700","฿1,900",0,1,1,1,1.0
+cross,"In the general faculties fee table, what is the Visa fee for a Master's & M.Phil program?","฿3,800","฿1,900",0,3,0,1,0.3333333333333333
+cross,"In the general faculties fee table, what is the Visa fee for a Master (1 year) program?","฿1,900","฿1,900",1,5,0,1,0.2
+cross,"In the general faculties fee table, what is the Visa fee for a Certificate program?","฿1,900","฿1,900",1,2,0,1,0.5
+cross,"In the School of Management fee table, what is the Tuition and Registration Fee for the PhD Program?","฿1,484,000","฿1,484,000",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Tuition and Registration Fee for the DBA Program?","฿1,500,000","฿1,484,000",0,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Tuition and Registration Fee for the MBA / MSc Program (1 year)?","฿626,000","฿1,484,000",0,2,0,1,0.5
+cross,"In the School of Management fee table, what is the Tuition and Registration Fee for the MBA / MSc Program (2 years)?","฿848,000","฿848,000",1,2,0,1,0.5
+cross,"In the School of Management fee table, what is the Language Support Fee for the PhD Program?","฿2,000","฿2,000",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Medical fee for the PhD Program?","฿8,750","฿8,750",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Medical fee for the DBA Program?","฿7,500","฿2,500",0,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Medical fee for the MBA / MSc Program (1 year)?","฿2,500","฿2,500",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Medical fee for the MBA / MSc Program (2 years)?","฿2,500","฿2,500",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Student Union Fee for the PhD Program?","฿1,050","฿1,050",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Student Union Fee for the DBA Program?",฿900,"฿1,900",0,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Student Union Fee for the MBA / MSc Program (1 year)?",฿300,฿300,1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Student Union Fee for the MBA / MSc Program (2 years)?",฿300,฿300,1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Education visa fee for the PhD Program?","฿5,700","฿1,900",0,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Education visa fee for the DBA Program?","฿5,700","฿1,900",0,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Education visa fee for the MBA / MSc Program (1 year)?","฿1,900","฿1,900",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Education visa fee for the MBA / MSc Program (2 years)?","฿3,800","฿1,900",0,1,1,1,1.0
+cross,"In the School of Management fee table, what are the Total Fees for the PhD Program?","฿1,501,500","฿1,495,800",0,0,0,0,0.0
+cross,"In the School of Management fee table, what are the Total Fees for the DBA Program?","฿1,516,100","฿69,400",0,0,0,0,0.0
+cross,"In the School of Management fee table, what are the Total Fees for the MBA / MSc Program (1 year)?","฿632,700","฿855,600",0,0,0,0,0.0
+cross,"In the School of Management fee table, what are the Total Fees for the MBA / MSc Program (2 years)?","฿856,600","฿524,800",0,0,0,0,0.0
+cross,"In the School of Management fee table, what is the Living/Accommodation/Miscellaneous expenses range for the PhD Program?","฿483,000 – 630,000","฿483,000 – 630,000",1,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Living/Accommodation/Miscellaneous expenses range for the DBA Program?","฿414,000 – 540,000","฿57,500 – 75,000",0,4,0,1,0.25
+cross,"In the School of Management fee table, what is the Living/Accommodation/Miscellaneous expenses range for the MBA / MSc Program (1 year)?","฿138,000 – 180,000","฿483,000 – 630,000",0,1,1,1,1.0
+cross,"In the School of Management fee table, what is the Living/Accommodation/Miscellaneous expenses range for the MBA / MSc Program (2 years)?","฿253,000 – 330,000","฿138,000 – 180,000",0,1,1,1,1.0
+row,"In the general faculties fee table, which program has the highest Registration Fee?","Doctorate, at ฿140,000","฿20,000",0,0,0,0,0.0
+row,"In the general faculties fee table, which program has the lowest Registration Fee?","Certificate, at ฿20,000","20,000",0,0,0,0,0.0
+row,"In the general faculties fee table, which program has the highest Tuition Fee?","Doctorate, at ฿1,344,000","374,530",0,0,0,0,0.0
+row,"In the general faculties fee table, is the Language Support Fee the same for the Doctorate, Master's & M.Phil, and Master (1 year) programs?","Yes, it is ฿2,000 for each",Yes,0,0,0,0,0.0
+row,"In the general faculties fee table, which program has the highest Total Fees?","Doctorate, at ฿1,495,800","342,430",0,0,0,0,0.0
+row,"In the general faculties fee table, which program has the lowest Total Fees?","Certificate, at ฿69,400 – 213,400","324,670.-",0,0,0,0,0.0
+row,"In the general faculties fee table, which programs have a Visa fee of ฿1,900?",Master (1 year) and Certificate,36 Master of Engineering in Electrical & Computer Engineering (International Program),0,0,0,0,0.0
+row,"In the general faculties fee table, which program has the highest Medical Insurance Fee?","Doctorate, at ฿8,750","฿8,750",0,0,0,0,0.0
+row,"In the School of Management fee table, which program has the highest Tuition and Registration Fee?","DBA Program, at ฿1,500,000",Master of Business Administration in Innovation Management (International Program),0,0,0,0,0.0
+row,"In the School of Management fee table, which program has the lowest Tuition and Registration Fee?","MBA / MSc Program (1 year), at ฿626,000","฿524,800",0,0,0,0,0.0
+row,"In the School of Management fee table, which program has the highest Total Fees?","DBA Program, at ฿1,516,100","฿1,495,800",0,0,0,0,0.0
+row,"In the School of Management fee table, which program has the lowest Total Fees?","MBA / MSc Program (1 year), at ฿632,700","฿69,400",0,0,0,0,0.0
+row,"In the School of Management fee table, is the Language Support Fee the same for all four programs?","Yes, it is ฿2,000 for each",Yes,0,0,0,0,0.0
+row,"In the School of Management fee table, which programs have a Student Union Fee of ฿300?",MBA / MSc Program (1 year) and MBA / MSc Program (2 years),Master of Engineering in Electrical & Computer Engineering (International Program),0,0,0,0,0.0
+row,"In the School of Management fee table, which program has the highest Medical fee?","PhD Program, at ฿8,750","฿8,750",0,0,0,0,0.0
+row,"In the AIT living costs guide, what is the approximate monthly cost of dormitory accommodation (usually including bills)?","฿2,500 – 7,000 per month","฿2,500 – 7,000",0,1,1,1,1.0
+row,"In the AIT living costs guide, what is the approximate monthly cost of private accommodation (bills not included)?","฿8,000 – 20,000 per month","฿8,000 – 20,000",0,1,1,1,1.0
+row,"In the AIT living costs guide, what is the minimum suggested monthly amount for a mobile phone?",฿200 per month,฿200,0,1,1,1,1.0
+row,"In the AIT living costs guide, what is the minimum suggested amount for books and stationery?","฿2,000","฿2,000",1,1,1,1,1.0
+row,"In the AIT living costs guide, what is the minimum suggested monthly amount for travel and transport?","฿2,000 per month","฿2,000",0,2,0,1,0.5
+col,"In the general faculties fee table, which single fee line item is the largest component of a Doctorate program's costs?","Tuition Fee, at ฿1,344,000",Tuition Fee,0,0,0,0,0.0
+col,"In the general faculties fee table, excluding living expenses, which fee line item is the smallest for a Doctorate program?","Student Union Fee, at ฿1,050","฿2,000",0,0,0,0,0.0
+col,"In the general faculties fee table, which single fee line item is the largest component of a Master's & M.Phil program's costs?","Tuition Fee, at ฿768,000",Tuition Fee,0,0,0,0,0.0
+col,"In the general faculties fee table, which fee line item is not applicable (shown as –) for the Certificate program?",Language Support Fee,Language Support Fee,1,5,0,1,0.2
+col,"In the general faculties fee table, excluding living expenses, which fee line item is the smallest for a Master (1 year) program?","Student Union Fee, at ฿300","187,930",0,0,0,0,0.0
+col,"In the School of Management fee table, which single fee line item is the largest component of the PhD Program's costs?","Tuition and Registration Fee, at ฿1,484,000","฿1,484,000",0,0,0,0,0.0
+col,"In the School of Management fee table, which single fee line item is the largest component of the DBA Program's costs?","Tuition and Registration Fee, at ฿1,500,000","฿1,484,000",0,0,0,0,0.0
+col,"In the School of Management fee table, excluding living expenses, which fee line item is the smallest for the MBA / MSc Program (1 year)?","Student Union Fee, at ฿300",฿150,0,0,0,0,0.0
+col,"In the School of Management fee table, for the PhD Program, which is smaller: the Student Union Fee or the Education visa fee?","The Student Union Fee (฿1,050) is smaller than the Education visa fee (฿5,700)","฿1,900",0,0,0,0,0.0
+col,"In the AIT living costs guide, which is more expensive per month: dormitory accommodation or private accommodation?","Private accommodation (฿8,000 – 20,000) is more expensive than dormitory accommodation (฿2,500 – 7,000)",Private accommodation,0,0,0,0,0.0
+cross,Which is higher: the Total Fees for a Doctorate in the general faculties table or the Total Fees for the PhD Program in the School of Management table?,"The School of Management PhD Program is higher, at ฿1,501,500 versus ฿1,495,800 (a difference of ฿5,700)","฿1,495,800",0,0,0,0,0.0
+cross,Which is higher: the Total Fees for a Master (1 year) in the general faculties table or the Total Fees for the MBA / MSc Program (1 year) in the School of Management table?,"The School of Management MBA / MSc Program (1 year) is higher, at ฿632,700 versus ฿524,800 (a difference of ฿107,900)","฿1,495,800",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the tuition fee for the First Year / First Semester?","61,090 Baht","61,090.",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the tuition fee for the First Year / Second Semester?","52,200 Baht","52,200.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the tuition fee for the Second Year / First Semester?","53,490 Baht","55,490.",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the tuition fee for the Second Year / Second Semester?","52,200 Baht","52,200.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the tuition fee for the Third Year / First Semester?","53,490 Baht","53,490.",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the tuition fee for the Third Year / Second Semester?","53,200 Baht","53,200.",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the total tuition fee for all 6 semesters?","325,670 Baht","325,670.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in English (B.A. English), how many credits are taken in the First Year / First Semester?",21,7,0,1,1,1,1.0
+row,"For the Bachelor of Arts Program in English (B.A. English), how many courses are taken in the First Year / First Semester?",7,7,1,1,1,1,1.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the total number of credits across all 6 semesters?",126,126,1,1,1,1,1.0
+row,"For the Bachelor of Arts Program in English (B.A. English), what is the total number of courses across all 6 semesters?",42,42,1,1,1,1,1.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the tuition fee for the First Year / First Semester?","55,090 Baht","55,090.",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the tuition fee for the First Year / Second Semester?","53,200 Baht","53,200.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the tuition fee for the Second Year / First Semester?","55,490 Baht","55,490.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the tuition fee for the Second Year / Second Semester?","54,200 Baht","54,200.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the tuition fee for the Third Year / First Semester?","53,490 Baht","53,490.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the tuition fee for the Third Year / Second Semester?","53,200 Baht","53,200.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the total tuition fee for all 6 semesters?","324,670 Baht","324,670.-",0,0,0,0,0.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), how many courses are taken in the First Year / First Semester?",6,6,1,1,1,1,1.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), how many credits are taken in the First Year / First Semester?",18,18,1,1,1,1,1.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the total number of credits across all 6 semesters?",123,123,1,1,1,1,1.0
+row,"For the Bachelor of Arts Program in Media and Global Innovative Communication (B.A. MAGIC), what is the total number of courses across all 6 semesters?",41,123,0,1,1,1,1.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the tuition fee for the First Year / First Semester?","54,090 Baht","61,090.-",0,0,0,0,0.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the tuition fee for the First Year / Second Semester?","53,200 Baht","53,200.-",0,0,0,0,0.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the tuition fee for the Second Year / First Semester?","54,490 Baht","54,490.",0,0,0,0,0.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the tuition fee for the Second Year / Second Semester?","53,200 Baht","53,200",0,0,0,0,0.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the tuition fee for the Third Year / First Semester?","54,490 Baht","54,490.",0,0,0,0,0.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the tuition fee for the Third Year / Second Semester?","54,200 Baht","53,200.",0,0,0,0,0.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the total tuition fee for all 6 semesters?","323,670 Baht","324,670.-",0,0,0,0,0.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, how many courses are taken in the First Year / First Semester?",6,7,0,1,1,1,1.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, how many credits are taken in the First Year / First Semester?",18,7,0,1,1,1,1.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the total number of credits across all 6 semesters?",123,123,1,1,1,1,1.0
+row,"For the Bachelor of Business Administration Program in Global Business and Digital Communication, what is the total number of courses across all 6 semesters?",41,41,1,1,1,1,1.0
+col,"In the B.A. English program, which semester has the highest tuition fee?","First Year / First Semester, at 61,090 Baht",First Year / First Semester,0,0,0,0,0.0
+col,"In the B.A. English program, which semester(s) have the lowest tuition fee?","First Year / Second Semester and Second Year / Second Semester, both at 52,200 Baht",First Year / Second Semester,0,0,0,0,0.0
+col,How many semesters of tuition are listed for the B.A. English program (excluding the total row)?,6,6,1,1,1,1,1.0
+col,"In the B.A. MAGIC program, which semester has the highest tuition fee?","Second Year / First Semester, at 55,490 Baht",First Year / First Semester,0,0,0,0,0.0
+col,"In the B.A. MAGIC program, which semester(s) have the lowest tuition fee?","First Year / Second Semester and Third Year / Second Semester, both at 53,200 Baht",First Year / Second Semester,0,0,0,0,0.0
+col,"In the Bachelor of Business Administration program, which semester(s) have the highest tuition fee?","Second Year / First Semester and Third Year / First Semester, both at 54,490 Baht",First Year / First Semester,0,0,0,0,0.0
+col,"In the Bachelor of Business Administration program, which semester(s) have the lowest tuition fee?","First Year / Second Semester and Second Year / Second Semester, both at 53,200 Baht",Second Year / Second Semester,0,0,0,0,0.0
+col,"In the B.A. English program, is the First Year / First Semester tuition fee the single most expensive semester in the program?","Yes; at 61,090 Baht it is higher than every other semester, all of which are between 52,200 and 53,490 Baht",Yes,0,0,0,0,0.0
+cross,"For the First Year / First Semester, which of the three programs has the highest tuition fee?","B.A. English, at 61,090 Baht (versus 55,090 for B.A. MAGIC and 54,090 for the B.B.A. program)","302,530",0,0,0,0,0.0
+cross,"For the First Year / First Semester, how much more expensive is the B.A. English tuition fee than the B.B.A. program?","7,000 Baht more (61,090 versus 54,090)","18,890.",0,0,0,0,0.0
+cross,"For the First Year / First Semester, what is the difference in tuition fee between the B.A. English and B.A. MAGIC programs?","6,000 Baht (61,090 minus 55,090)","9,890.",0,0,0,0,0.0
+cross,"For the First Year / First Semester, what is the difference in tuition fee between the B.A. MAGIC and B.B.A. programs?","1,000 Baht (55,090 minus 54,090)","14,890.",0,0,0,0,0.0
+cross,Which of the three programs has the highest total tuition fee for all 6 semesters?,"B.A. English, at 325,670 Baht","325,670.-",0,0,0,0,0.0
+cross,Which of the three programs has the lowest total tuition fee for all 6 semesters?,"Bachelor of Business Administration program, at 323,670 Baht","324,670.-",0,0,0,0,0.0
+cross,What is the difference in total tuition fee between the B.A. English program and the B.B.A. program?,"2,000 Baht (325,670 minus 323,670)","10,000.",0,0,0,0,0.0
+cross,What is the difference in total tuition fee between the B.A. English and B.A. MAGIC programs?,"1,000 Baht (325,670 minus 324,670)","1,000.",0,0,0,0,0.0
+cross,What is the difference in total tuition fee between the B.A. MAGIC program and the B.B.A. program?,"1,000 Baht (324,670 minus 323,670)","7,000.",0,0,0,0,0.0
+cross,"Which has more total credits across the program: B.A. English or B.A. MAGIC, and by how many?","B.A. English has more, with 126 credits versus 123 for B.A. MAGIC (3 more)","B.A. English, 3 credits",0,0,0,0,0.0
+cross,Do the B.A. MAGIC and B.B.A. programs have the same total number of credits?,"Yes, both total 123 credits",Yes,0,0,0,0,0.0
+cross,Do the B.A. MAGIC and B.B.A. programs have the same total number of courses?,"Yes, both total 41 courses",Yes,0,0,0,0,0.0
+cross,"In the B.A. English program, is the First Year / First Semester more expensive than the Second Year / First Semester, and by how much?","Yes, by 7,600 Baht (61,090 versus 53,490)","Yes, 8,400.",0,0,0,0,0.0
+cross,"In the B.A. MAGIC program, which is more expensive: the Second Year / First Semester or the Third Year / First Semester, and by how much?","The Second Year / First Semester, by 2,000 Baht (55,490 versus 53,490)","Second Year / First Semester is more expensive by 2,000.",0,0,0,0,0.0
+cross,"In the B.B.A. program, which is more expensive: the Second Year / Second Semester or the Third Year / Second Semester, and by how much?","The Third Year / Second Semester, by 1,000 Baht (54,200 versus 53,200)","Third Year / Second Semester 1,290.-",0,0,0,0,0.0
+cross,"For the Second Year / First Semester, which of the three programs has the highest tuition fee?","B.A. MAGIC, at 55,490 Baht (versus 53,490 for B.A. English and 54,490 for the B.B.A. program)","302,530",0,0,0,0,0.0
+cross,"For the Third Year / First Semester, which of the three programs has the highest tuition fee?","The B.B.A. program, at 54,490 Baht (B.A. English and B.A. MAGIC are both 53,490)","355,030",0,0,0,0,0.0
+cross,"For the First Year / First Semester, how does the number of courses in B.A. English compare with B.A. MAGIC and the B.B.A. program?","B.A. English has 7 courses, one more than both B.A. MAGIC and the B.B.A. program, which each have 6","7, 6, 7",0,0,0,0,0.0
+cross,"Which program has the most total courses, and how does it compare with the others?","B.A. English has 42 total courses, one more than both B.A. MAGIC and the B.B.A. program, which each have 41",36 More Information,0,0,0,0,0.0

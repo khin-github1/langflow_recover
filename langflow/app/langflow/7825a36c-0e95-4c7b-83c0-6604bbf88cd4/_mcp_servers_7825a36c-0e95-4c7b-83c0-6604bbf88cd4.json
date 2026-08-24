@@ -1,0 +1,1 @@
+{"mcpServers": {"lf-starter_project": {"command": "uvx", "args": ["mcp-proxy", "--transport", "streamablehttp", "--headers", "x-api-key", "sk-Mn2ACvPBrfkfM4VPxotC1vKI92bW7WnYn07sxf-oLcU", "http://localhost:7860/api/v1/mcp/project/346c2b82-daba-412b-b64f-f669b1277744/streamable"]}}}

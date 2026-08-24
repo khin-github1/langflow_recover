@@ -1,0 +1,1373 @@
+{
+  "id": "01688253-9915-49d7-ad1d-3143540fb4f8",
+  "data": {
+    "edges": [
+      {
+        "id": "xy-edge__OllamaEmbeddings-ZOncm{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-ZOncmœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-tDZXg{œfieldNameœ:œembeddingœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "OllamaEmbeddings-ZOncm",
+            "name": "embeddings",
+            "dataType": "OllamaEmbeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "id": "pgvector-tDZXg",
+            "type": "other",
+            "fieldName": "embedding",
+            "inputTypes": [
+              "Embeddings"
+            ]
+          }
+        },
+        "source": "OllamaEmbeddings-ZOncm",
+        "target": "pgvector-tDZXg",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-ZOncmœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "id": "xy-edge__SplitText-0dSTB{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-0dSTBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-pgvector-tDZXg{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "SplitText-0dSTB",
+            "name": "dataframe",
+            "dataType": "SplitText",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "id": "pgvector-tDZXg",
+            "type": "other",
+            "fieldName": "ingest_data",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ]
+          }
+        },
+        "source": "SplitText-0dSTB",
+        "target": "pgvector-tDZXg",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-0dSTBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "id": "xy-edge__CustomComponent-9HPbg{œdataTypeœ:œMultiWebScraperœ,œidœ:œCustomComponent-9HPbgœ,œnameœ:œscraped_dataœ,œoutput_typesœ:[œDataœ]}-SplitText-0dSTB{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-0dSTBœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "CustomComponent-9HPbg",
+            "name": "scraped_data",
+            "dataType": "MultiWebScraper",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "id": "SplitText-0dSTB",
+            "type": "other",
+            "fieldName": "data_inputs",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ]
+          }
+        },
+        "source": "CustomComponent-9HPbg",
+        "target": "SplitText-0dSTB",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œMultiWebScraperœ,œidœ:œCustomComponent-9HPbgœ,œnameœ:œscraped_dataœ,œoutput_typesœ:[œDataœ]}",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-0dSTBœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "OllamaEmbeddings-ZOncm",
+        "data": {
+          "id": "OllamaEmbeddings-ZOncm",
+          "node": {
+            "beta": false,
+            "icon": "Ollama",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "embeddings",
+                "cache": true,
+                "types": [
+                  "Embeddings"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "build_embeddings",
+                "options": null,
+                "selected": "Embeddings",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Embeddings",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.ollama_embeddings",
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "code_hash": "ea2827c2a89f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "httpx",
+                    "version": "0.28.1"
+                  },
+                  {
+                    "name": "langchain_ollama",
+                    "version": "0.3.10"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import OllamaEmbeddings\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.ollama_constants import OLLAMA_EMBEDDING_MODELS\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import DropdownInput, MessageTextInput, Output\nfrom lfx.utils.util import transform_localhost_url\n\nHTTP_STATUS_OK = 200\n\n\nclass OllamaEmbeddingsComponent(LCModelComponent):\n    display_name: str = \"Ollama Embeddings\"\n    description: str = \"Generate embeddings using Ollama models.\"\n    documentation = \"https://python.langchain.com/docs/integrations/text_embedding/ollama\"\n    icon = \"Ollama\"\n    name = \"OllamaEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Ollama Model\",\n            value=\"\",\n            options=[],\n            real_time_refresh=True,\n            refresh_button=True,\n            combobox=True,\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"base_url\",\n            display_name=\"Ollama Base URL\",\n            info=\"Endpoint of the Ollama API. Defaults to http://localhost:11434.\",\n            value=\"http://localhost:11434\",\n            required=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        transformed_base_url = transform_localhost_url(self.base_url)\n        try:\n            output = OllamaEmbeddings(model=self.model_name, base_url=transformed_base_url)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \",\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\",\n            )\n            raise ValueError(msg) from e\n        return output\n\n    async def update_build_config(self, build_config: dict, _field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\"} and not await self.is_valid_ollama_url(self.base_url):\n            msg = \"Ollama is not running on the provided base URL. Please start Ollama and try again.\"\n            raise ValueError(msg)\n        if field_name in {\"model_name\", \"base_url\", \"tool_model_enabled\"}:\n            if await self.is_valid_ollama_url(self.base_url):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(self.base_url)\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n\n        return build_config\n\n    async def get_model(self, base_url_value: str) -> list[str]:\n        \"\"\"Get the model names from Ollama.\"\"\"\n        model_ids = []\n        try:\n            base_url_value = transform_localhost_url(base_url_value)\n            url = urljoin(base_url_value, \"/api/tags\")\n            async with httpx.AsyncClient() as client:\n                response = await client.get(url)\n                response.raise_for_status()\n                data = response.json()\n\n            model_ids = [model[\"name\"] for model in data.get(\"models\", [])]\n            # this to ensure that not embedding models are included.\n            # not even the base models since models can have 1b 2b etc\n            # handles cases when embeddings models have tags like :latest - etc.\n            model_ids = [\n                model\n                for model in model_ids\n                if any(model.startswith(f\"{embedding_model}\") for embedding_model in OLLAMA_EMBEDDING_MODELS)\n            ]\n\n        except (ImportError, ValueError, httpx.RequestError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            async with httpx.AsyncClient() as client:\n                url = transform_localhost_url(url)\n                return (await client.get(f\"{url}/api/tags\")).status_code == HTTP_STATUS_OK\n        except httpx.RequestError:\n            return False\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "base_url": {
+                "info": "Endpoint of the Ollama API. Defaults to http://localhost:11434.",
+                "list": false,
+                "name": "base_url",
+                "show": true,
+                "type": "str",
+                "value": "https://ollama.aitgpt.dev.brain.cs.ait.ac.th/",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Ollama Base URL",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "is_refresh": false,
+              "model_name": {
+                "info": "",
+                "name": "model_name",
+                "show": true,
+                "type": "str",
+                "value": "mxbai-embed-large:latest",
+                "toggle": false,
+                "dynamic": false,
+                "options": [
+                  "mxbai-embed-large:latest",
+                  "nomic-embed-text:latest"
+                ],
+                "advanced": false,
+                "combobox": true,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "DropdownInput",
+                "placeholder": "",
+                "display_name": "Ollama Model",
+                "load_from_db": false,
+                "dialog_inputs": {},
+                "override_skip": false,
+                "refresh_button": true,
+                "external_options": {},
+                "options_metadata": [],
+                "real_time_refresh": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "_frontend_node_flow_id": {
+                "value": "3885219d-410a-4329-b446-a5baecc61d31"
+              },
+              "_frontend_node_folder_id": {
+                "value": "6cd9b1e4-fe0c-45d3-8466-c5c5854ab85b"
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Generate embeddings using Ollama models.",
+            "field_order": [
+              "model_name",
+              "base_url"
+            ],
+            "base_classes": [
+              "Embeddings"
+            ],
+            "display_name": "Ollama Embeddings",
+            "last_updated": "2026-02-06T10:45:39.747Z",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://python.langchain.com/docs/integrations/text_embedding/ollama",
+            "conditional_paths": []
+          },
+          "type": "OllamaEmbeddings",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 285
+        },
+        "position": {
+          "x": 1207.5762111188037,
+          "y": 1537.6982726317995
+        },
+        "selected": false
+      },
+      {
+        "id": "SplitText-0dSTB",
+        "data": {
+          "id": "SplitText-0dSTB",
+          "node": {
+            "beta": false,
+            "icon": "scissors-line-dashed",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "dataframe",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "split_text",
+                "options": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Chunks",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.split_text",
+              "code_hash": "b9d63ae59e8a",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langchain_text_splitters",
+                    "version": "0.3.11"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 2
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from langchain_text_splitters import CharacterTextSplitter\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.io import DropdownInput, HandleInput, IntInput, MessageTextInput, Output\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.utils.util import unescape_string\n\n\nclass SplitTextComponent(Component):\n    display_name: str = \"Split Text\"\n    description: str = \"Split text into chunks based on specified criteria.\"\n    documentation: str = \"https://docs.langflow.org/split-text\"\n    icon = \"scissors-line-dashed\"\n    name = \"SplitText\"\n\n    inputs = [\n        HandleInput(\n            name=\"data_inputs\",\n            display_name=\"Input\",\n            info=\"The data with texts to split in chunks.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        IntInput(\n            name=\"chunk_overlap\",\n            display_name=\"Chunk Overlap\",\n            info=\"Number of characters to overlap between chunks.\",\n            value=200,\n        ),\n        IntInput(\n            name=\"chunk_size\",\n            display_name=\"Chunk Size\",\n            info=(\n                \"The maximum length of each chunk. Text is first split by separator, \"\n                \"then chunks are merged up to this size. \"\n                \"Individual splits larger than this won't be further divided.\"\n            ),\n            value=1000,\n        ),\n        MessageTextInput(\n            name=\"separator\",\n            display_name=\"Separator\",\n            info=(\n                \"The character to split on. Use \\\\n for newline. \"\n                \"Examples: \\\\n\\\\n for paragraphs, \\\\n for lines, . for sentences\"\n            ),\n            value=\"\\n\",\n        ),\n        MessageTextInput(\n            name=\"text_key\",\n            display_name=\"Text Key\",\n            info=\"The key to use for the text column.\",\n            value=\"text\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"keep_separator\",\n            display_name=\"Keep Separator\",\n            info=\"Whether to keep the separator in the output chunks and where to place it.\",\n            options=[\"False\", \"True\", \"Start\", \"End\"],\n            value=\"False\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Chunks\", name=\"dataframe\", method=\"split_text\"),\n    ]\n\n    def _docs_to_data(self, docs) -> list[Data]:\n        return [Data(text=doc.page_content, data=doc.metadata) for doc in docs]\n\n    def _fix_separator(self, separator: str) -> str:\n        \"\"\"Fix common separator issues and convert to proper format.\"\"\"\n        if separator == \"/n\":\n            return \"\\n\"\n        if separator == \"/t\":\n            return \"\\t\"\n        return separator\n\n    def split_text_base(self):\n        separator = self._fix_separator(self.separator)\n        separator = unescape_string(separator)\n\n        if isinstance(self.data_inputs, DataFrame):\n            if not len(self.data_inputs):\n                msg = \"DataFrame is empty\"\n                raise TypeError(msg)\n\n            self.data_inputs.text_key = self.text_key\n            try:\n                documents = self.data_inputs.to_lc_documents()\n            except Exception as e:\n                msg = f\"Error converting DataFrame to documents: {e}\"\n                raise TypeError(msg) from e\n        elif isinstance(self.data_inputs, Message):\n            self.data_inputs = [self.data_inputs.to_data()]\n            return self.split_text_base()\n        else:\n            if not self.data_inputs:\n                msg = \"No data inputs provided\"\n                raise TypeError(msg)\n\n            documents = []\n            if isinstance(self.data_inputs, Data):\n                self.data_inputs.text_key = self.text_key\n                documents = [self.data_inputs.to_lc_document()]\n            else:\n                try:\n                    documents = [input_.to_lc_document() for input_ in self.data_inputs if isinstance(input_, Data)]\n                    if not documents:\n                        msg = f\"No valid Data inputs found in {type(self.data_inputs)}\"\n                        raise TypeError(msg)\n                except AttributeError as e:\n                    msg = f\"Invalid input type in collection: {e}\"\n                    raise TypeError(msg) from e\n        try:\n            # Convert string 'False'/'True' to boolean\n            keep_sep = self.keep_separator\n            if isinstance(keep_sep, str):\n                if keep_sep.lower() == \"false\":\n                    keep_sep = False\n                elif keep_sep.lower() == \"true\":\n                    keep_sep = True\n                # 'start' and 'end' are kept as strings\n\n            splitter = CharacterTextSplitter(\n                chunk_overlap=self.chunk_overlap,\n                chunk_size=self.chunk_size,\n                separator=separator,\n                keep_separator=keep_sep,\n            )\n            return splitter.split_documents(documents)\n        except Exception as e:\n            msg = f\"Error splitting text: {e}\"\n            raise TypeError(msg) from e\n\n    def split_text(self) -> DataFrame:\n        return DataFrame(self._docs_to_data(self.split_text_base()))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "text_key": {
+                "info": "The key to use for the text column.",
+                "list": false,
+                "name": "text_key",
+                "show": true,
+                "type": "str",
+                "value": "text",
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Text Key",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "separator": {
+                "info": "The character to split on. Use \\n for newline. Examples: \\n\\n for paragraphs, \\n for lines, . for sentences",
+                "list": false,
+                "name": "separator",
+                "show": true,
+                "type": "str",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Separator",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "chunk_size": {
+                "info": "The maximum length of each chunk. Text is first split by separator, then chunks are merged up to this size. Individual splits larger than this won't be further divided.",
+                "list": false,
+                "name": "chunk_size",
+                "show": true,
+                "type": "int",
+                "value": 1000,
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Chunk Size",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "data_inputs": {
+                "info": "The data with texts to split in chunks.",
+                "list": false,
+                "name": "data_inputs",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "chunk_overlap": {
+                "info": "Number of characters to overlap between chunks.",
+                "list": false,
+                "name": "chunk_overlap",
+                "show": true,
+                "type": "int",
+                "value": 200,
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Chunk Overlap",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "keep_separator": {
+                "info": "Whether to keep the separator in the output chunks and where to place it.",
+                "name": "keep_separator",
+                "show": true,
+                "type": "str",
+                "value": "False",
+                "toggle": false,
+                "dynamic": false,
+                "options": [
+                  "False",
+                  "True",
+                  "Start",
+                  "End"
+                ],
+                "advanced": true,
+                "combobox": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "DropdownInput",
+                "placeholder": "",
+                "display_name": "Keep Separator",
+                "dialog_inputs": {},
+                "override_skip": false,
+                "external_options": {},
+                "options_metadata": [],
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Split text into chunks based on specified criteria.",
+            "field_order": [
+              "data_inputs",
+              "chunk_overlap",
+              "chunk_size",
+              "separator",
+              "text_key",
+              "keep_separator"
+            ],
+            "base_classes": [
+              "DataFrame"
+            ],
+            "display_name": "Split Text",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://docs.langflow.org/split-text",
+            "conditional_paths": []
+          },
+          "type": "SplitText",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 411
+        },
+        "position": {
+          "x": 1443.8469814211817,
+          "y": 848.5854995352462
+        },
+        "selected": false
+      },
+      {
+        "id": "pgvector-tDZXg",
+        "data": {
+          "id": "pgvector-tDZXg",
+          "node": {
+            "beta": false,
+            "icon": "cpu",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "search_results",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "search_documents",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Search Results",
+                "group_outputs": false,
+                "required_inputs": null
+              },
+              {
+                "name": "dataframe",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "as_dataframe",
+                "options": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "DataFrame",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "lfx.components.pgvector.pgvector.PGVectorStoreComponent",
+              "code_hash": "50117607bf5e",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langchain_community",
+                    "version": "0.3.31"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 2
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from langchain_community.vectorstores import PGVector\n\nfrom lfx.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom lfx.helpers.data import docs_to_data\nfrom lfx.io import HandleInput, IntInput, SecretStrInput, StrInput\nfrom lfx.schema.data import Data\nfrom lfx.utils.connection_string_parser import transform_connection_string\n\n\nclass PGVectorStoreComponent(LCVectorStoreComponent):\n    display_name = \"PGVector\"\n    description = \"PGVector Vector Store with search capabilities\"\n    name = \"pgvector\"\n    icon = \"cpu\"\n\n    inputs = [\n        SecretStrInput(name=\"pg_server_url\", display_name=\"PostgreSQL Server Connection String\", required=True),\n        StrInput(name=\"collection_name\", display_name=\"Table\", required=True),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"], required=True),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            value=4,\n            advanced=True,\n        ),\n    ]\n\n    @check_cached_vector_store\n    def build_vector_store(self) -> PGVector:\n        # Convert DataFrame to Data if needed using parent's method\n        self.ingest_data = self._prepare_ingest_data()\n\n        documents = []\n        for _input in self.ingest_data or []:\n            if isinstance(_input, Data):\n                documents.append(_input.to_lc_document())\n            else:\n                documents.append(_input)\n\n        connection_string_parsed = transform_connection_string(self.pg_server_url)\n\n        if documents:\n            pgvector = PGVector.from_documents(\n                embedding=self.embedding,\n                documents=documents,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n        else:\n            pgvector = PGVector.from_existing_index(\n                embedding=self.embedding,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n\n        return pgvector\n\n    def search_documents(self) -> list[Data]:\n        vector_store = self.build_vector_store()\n\n        if self.search_query and isinstance(self.search_query, str) and self.search_query.strip():\n            docs = vector_store.similarity_search(\n                query=self.search_query,\n                k=self.number_of_results,\n            )\n\n            data = docs_to_data(docs)\n            self.status = data\n            return data\n        return []\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "embedding": {
+                "info": "",
+                "list": false,
+                "name": "embedding",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "placeholder": "",
+                "display_name": "Embedding",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "is_refresh": false,
+              "ingest_data": {
+                "info": "",
+                "list": true,
+                "name": "ingest_data",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "placeholder": "",
+                "display_name": "Ingest Data",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "search_query": {
+                "info": "Enter a query to run a similarity search.",
+                "list": false,
+                "name": "search_query",
+                "show": true,
+                "type": "query",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": true,
+                "title_case": false,
+                "_input_type": "QueryInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "Enter a query...",
+                "display_name": "Search Query",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "pg_server_url": {
+                "info": "",
+                "name": "pg_server_url",
+                "show": true,
+                "type": "str",
+                "value": "postgresql://user:password@pgvector:5432/default",
+                "dynamic": false,
+                "advanced": false,
+                "password": true,
+                "required": true,
+                "title_case": false,
+                "_input_type": "SecretStrInput",
+                "input_types": [],
+                "placeholder": "",
+                "display_name": "PostgreSQL Server Connection String",
+                "load_from_db": false,
+                "override_skip": false,
+                "track_in_telemetry": false
+              },
+              "collection_name": {
+                "info": "",
+                "list": false,
+                "name": "collection_name",
+                "show": true,
+                "type": "str",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "StrInput",
+                "placeholder": "",
+                "display_name": "Table",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "number_of_results": {
+                "info": "Number of results to return.",
+                "list": false,
+                "name": "number_of_results",
+                "show": true,
+                "type": "int",
+                "value": 4,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Number of Results",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "_frontend_node_flow_id": {
+                "value": "3885219d-410a-4329-b446-a5baecc61d31"
+              },
+              "_frontend_node_folder_id": {
+                "value": "6cd9b1e4-fe0c-45d3-8466-c5c5854ab85b"
+              },
+              "should_cache_vector_store": {
+                "info": "If True, the vector store will be cached for the current build of the component. This is useful for components that have multiple output methods and want to share the same vector store.",
+                "list": false,
+                "name": "should_cache_vector_store",
+                "show": true,
+                "type": "bool",
+                "value": true,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "BoolInput",
+                "placeholder": "",
+                "display_name": "Cache Vector Store",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "PGVector Vector Store with search capabilities",
+            "field_order": [
+              "pg_server_url",
+              "collection_name",
+              "ingest_data",
+              "search_query",
+              "should_cache_vector_store",
+              "embedding",
+              "number_of_results"
+            ],
+            "base_classes": [
+              "Data",
+              "DataFrame"
+            ],
+            "display_name": "PGVector",
+            "last_updated": "2026-02-06T10:27:26.005Z",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "pgvector",
+          "showNode": true,
+          "selected_output": "search_results"
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 455
+        },
+        "position": {
+          "x": 2112.3507005929077,
+          "y": 715.8312558606418
+        },
+        "selected": false
+      },
+      {
+        "id": "CustomComponent-Tl5AZ",
+        "data": {
+          "id": "CustomComponent-Tl5AZ",
+          "node": {
+            "beta": false,
+            "icon": "globe",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.multiurl_scraper_v3_final",
+              "code_hash": "2a8a7f08ec02",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List, Any\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Multi-URL Scraper_v3_Final\"\r\n    description = \"Advanced cleansing: Decodes emails, removes specific AIT breadcrumbs, and captures contextual links.\"\r\n    icon = \"globe\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/programs/flexible-masters/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Scraped Data\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        \"\"\"Decodes Cloudflare's XOR-encoded email strings.\"\"\"\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            email = \"\".join(\r\n                [chr(int(hex_string[i:i+2], 16) ^ key) \r\n                 for i in range(2, len(hex_string), 2)]\r\n            )\r\n            return email\r\n        except Exception:\r\n            return \"[Decoding Failed]\"\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        \r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = requests.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # 1. FIX EMAIL PROTECTION: Decode [email protected]\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded:\r\n                        decoded_email = self.decode_cf_email(encoded)\r\n                        cf_tag.replace_with(decoded_email)\r\n\r\n                # 2. CAPTURE IMPORTANT LINKS (Buttons/Brochures)\r\n                important_links = []\r\n                for a in soup.find_all('a', href=True):\r\n                    link_text = a.get_text(strip=True)\r\n                    if any(x in link_text for x in [\"Apply Now\", \"brochure\", \"Click this link\"]):\r\n                        full_url = urljoin(url, a['href'])\r\n                        important_links.append(f\"{link_text}: {full_url}\")\r\n\r\n                # 3. TARGETED LINK EXTRACTION (\"Clicking here\" patterns)\r\n                internal_links = []\r\n                for link in soup.find_all('a', string=re.compile(r'click(ing)? here', re.I)):\r\n                    href = link.get('href')\r\n                    if href:\r\n                        full_url = urljoin(url, href)\r\n                        link_context = link.find_parent().get_text(strip=True) \r\n                        internal_links.append(f\"Context: {link_context} -> URL: {full_url}\")\r\n\r\n                # 4. AGGRESSIVE CLEANING (Breadcrumbs & UI Noise)\r\n                # Specific AIT classes identified from your inspection photos\r\n                noise_selectors = [\r\n                    \".cli-bar-message\", \".cli-privacy-content-text\", \".cli-bar-container\",\r\n                    \".fusion-breadcrumb\", \".fusion-breadcrumbs\", \".breadcrumb\", \r\n                    \".fusion-page-title-row\", \".fusion-page-title-bar\", \".fusion-page-title-captions\"\r\n                ]\r\n                for selector in noise_selectors:\r\n                    for tag in soup.select(selector):\r\n                        tag.decompose()\r\n\r\n                # Pattern-based removal for any remaining \"Home >\" text strings\r\n                breadcrumb_pattern = re.compile(r'Home\\s*>\\s*', re.I)\r\n                for bc_tag in soup.find_all(string=breadcrumb_pattern):\r\n                    if bc_tag.parent:\r\n                        bc_tag.parent.decompose()\r\n\r\n                # Remove structural junk tags\r\n                for tag in soup([\"script\", \"style\", \"nav\", \"footer\", \"header\", \"aside\", \"noscript\"]):\r\n                    tag.decompose()\r\n\r\n                # 5. EXTRACT TEXT BODY (Prioritize main knowledge area)\r\n                # This explicitly avoids the page title area\r\n                content_body = soup.find('main') or soup.find('article') or soup.find(id='content') or soup.find('body')\r\n                clean_text = content_body.get_text(separator=' ', strip=True)\r\n\r\n                # 6. APPEND COLLECTED LINKS\r\n                if important_links:\r\n                    clean_text += \"\\n\\nImportant Links:\\n\" + \"\\n\".join(important_links)\r\n                \r\n                if internal_links:\r\n                    clean_text += \"\\n\\nAdditional Resources Found:\\n\" + \"\\n\".join(internal_links)\r\n\r\n                results.append(Data(data={\"text\": clean_text, \"source\": url}))\r\n\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n\r\n        self.status = results\r\n        return results",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Advanced cleansing: Decodes emails, removes specific AIT breadcrumbs, and captures contextual links.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Multi-URL Scraper_v3_Final",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 235
+        },
+        "position": {
+          "x": 286.291889213709,
+          "y": 1032.6556043561206
+        },
+        "selected": false
+      },
+      {
+        "id": "CustomComponent-nZZpm",
+        "data": {
+          "id": "CustomComponent-nZZpm",
+          "node": {
+            "beta": false,
+            "icon": "markdown",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data List",
+                "group_outputs": false,
+                "required_inputs": null
+              },
+              {
+                "name": "merged_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "merge_scraped_data",
+                "options": null,
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Merged Markdown",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.markdown_web_scraper_fixed",
+              "code_hash": "d43fafdd3b8e",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup, NavigableString\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List, Any\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Markdown Web Scraper (Fixed)\"\r\n    description = \"Extracts structured Markdown. Use 'Merged Markdown' for Write File components.\"\r\n    icon = \"markdown\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/admissions/tuition-and-fees/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        # This one returns a list (causes the error with Write File)\r\n        Output(display_name=\"Scraped Data List\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n        # This one returns a SINGLE string (works with Write File)\r\n        Output(display_name=\"Merged Markdown\", name=\"merged_data\", method=\"merge_scraped_data\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            return \"\".join([chr(int(hex_string[i:i+2], 16) ^ key) for i in range(2, len(hex_string), 2)])\r\n        except Exception:\r\n            return \"[Email Protected]\"\r\n\r\n    def html_to_markdown(self, element, url):\r\n        if isinstance(element, NavigableString):\r\n            return element.strip()\r\n        \r\n        tag = element.name\r\n        if tag == 'a' and element.get('href'):\r\n            href = urljoin(url, element['href'])\r\n            return f\" [{element.get_text(strip=True)}]({href}) \"\r\n        if tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:\r\n            level = tag[1]\r\n            return f\"\\n\\n{'#' * int(level)} {element.get_text(strip=True)}\\n\"\r\n        if tag == 'li':\r\n            return f\"\\n* {element.get_text(strip=True)}\"\r\n        if tag == 'table':\r\n            rows = []\r\n            for tr in element.find_all('tr'):\r\n                cells = [td.get_text(strip=True) for td in tr.find_all(['td', 'th'])]\r\n                if not cells: continue\r\n                rows.append(\"| \" + \" | \".join(cells) + \" |\")\r\n                if tr == element.find('tr'):\r\n                    rows.append(\"| \" + \" | \".join(['---'] * len(cells)) + \" |\")\r\n            return \"\\n\\n\" + \"\\n\".join(rows) + \"\\n\\n\"\r\n        if tag == 'p':\r\n            return f\"\\n\\n{element.get_text(strip=True)}\\n\"\r\n        \r\n        return \"\".join(self.html_to_markdown(child, url) for child in element.children if child.name not in ['script', 'style'])\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = requests.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # Clean Emails & Noise\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded: cf_tag.replace_with(self.decode_cf_email(encoded))\r\n                \r\n                for selector in [\".o-breadcrumb\", \"nav\", \"footer\", \"header\", \"script\", \"style\"]:\r\n                    for tag in soup.select(selector): tag.decompose()\r\n\r\n                page_title = soup.title.string if soup.title else url\r\n                main_body = soup.find('main') or soup.find('article') or soup.find('body')\r\n                \r\n                md = f\"# PAGE: {page_title}\\nURL: {url}\\n\\n\"\r\n                md += self.html_to_markdown(main_body, url) if main_body else \"No content found.\"\r\n                \r\n                results.append(Data(data={\"text\": re.sub(r'\\n{3,}', '\\n\\n', md), \"source\": url}))\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n        return results\r\n\r\n    def merge_scraped_data(self) -> Data:\r\n        \"\"\"Helper to combine all scraped pages into one Data object for file writing.\"\"\"\r\n        scraped_list = self.scrape_urls()\r\n        combined_text = \"\\n\\n---\\n\\n\".join([item.text for item in scraped_list])\r\n        return Data(data={\"text\": combined_text})",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/housing/dorm-p/\nhttps://ait.ac.th/housing/student-village/\nhttps://ait.ac.th/housing/student-village-single-without-ac/\nhttps://ait.ac.th/housing/student-village-married-with-ac/\nhttps://ait.ac.th/housing/student-village-married-without-ac/\nhttps://ait.ac.th/health-wellness/\nhttps://ait.ac.th/athletcis/\nhttps://ait.ac.th/career-development/\nhttps://ait.ac.th/facilities/\nhttps://ofam.ait.ac.th/\nhttps://ofam.ait.ac.th/asset-management/accommodation-office/\nhttps://ofam.ait.ac.th/ait-sport-facilities/\nhttps://ofam.ait.ac.th/campus-maintenance/security/\nhttps://ofam.ait.ac.th/campus-services/call-center/\nhttp://aitcc.ait.ac.th/standard-rates/\nhttp://aitcc.ait.ac.th/contact-us/\nhttp://aitcc.ait.ac.th/facilities/\nhttp://aitcc.ait.ac.th/home/\nhttp://aitcc.ait.ac.th/accommodation/\nhttps://ait.ac.th/admissions/frequently-asked-questions/\nhttps://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/\n",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Extracts structured Markdown. Use 'Merged Markdown' for Write File components.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Markdown Web Scraper (Fixed)",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true,
+          "selected_output": "scraped_data"
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": 309.2661308556002,
+          "y": 1380.8780519786105
+        },
+        "selected": false
+      },
+      {
+        "id": "CustomComponent-9HPbg",
+        "data": {
+          "id": "CustomComponent-9HPbg",
+          "node": {
+            "beta": false,
+            "icon": "globe",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.multiurl_scraper_new",
+              "code_hash": "ef3b105235ea",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List, Any\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Multi-URL Scraper_New\"\r\n    description = \"Cleans AIT noise: Removes o-breadcrumb, decodes emails, and captures action links.\"\r\n    icon = \"globe\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/admissions/tuition-and-fees/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Scraped Data\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        \"\"\"Decodes Cloudflare's XOR-encoded email strings.\"\"\"\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            email = \"\".join(\r\n                [chr(int(hex_string[i:i+2], 16) ^ key) \r\n                 for i in range(2, len(hex_string), 2)]\r\n            )\r\n            return email\r\n        except Exception:\r\n            return \"[Decoding Failed]\"\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        \r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = requests.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # 1. FIX EMAIL PROTECTION\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded:\r\n                        decoded_email = self.decode_cf_email(encoded)\r\n                        cf_tag.replace_with(decoded_email)\r\n\r\n                # 2. CAPTURE LINKS BEFORE DECOMPOSING\r\n                important_links = []\r\n                for a in soup.find_all('a', href=True):\r\n                    text = a.get_text(strip=True)\r\n                    if any(x in text for x in [\"Apply Now\", \"brochure\", \"Click this link\"]):\r\n                        important_links.append(f\"{text}: {urljoin(url, a['href'])}\")\r\n                # 3. TARGETED LINK EXTRACTION (\"Clicking here\" patterns)\r\n                internal_links = []\r\n                for link in soup.find_all('a', string=re.compile(r'click(ing)? here', re.I)):\r\n                    href = link.get('href')\r\n                    if href:\r\n                        full_url = urljoin(url, href)\r\n                        link_context = link.find_parent().get_text(strip=True) \r\n                        internal_links.append(f\"Context: {link_context} -> URL: {full_url}\")\r\n                # 4. AGGRESSIVE CLEANING (Specifically targeting o-breadcrumb)\r\n                noise_selectors = [\r\n                    \".o-breadcrumb\", \".cli-bar-container\", \".cli-bar-message\", \r\n                    \".fusion-breadcrumb\", \".fusion-breadcrumbs\", \".breadcrumb\", \r\n                    \".fusion-page-title-bar\", \".fusion-page-title-row\"\r\n                ]\r\n                for selector in noise_selectors:\r\n                    for tag in soup.select(selector):\r\n                        tag.decompose()\r\n\r\n                # Pattern-based safeguard: Delete ANY element containing \"Home >\"\r\n                for text_node in soup.find_all(string=re.compile(r'Home\\s*>\\s*', re.I)):\r\n                    parent = text_node.find_parent()\r\n                    if parent:\r\n                        parent.decompose()\r\n\r\n                # Remove standard structural junk\r\n                for tag in soup([\"script\", \"style\", \"nav\", \"footer\", \"header\", \"aside\", \"noscript\"]):\r\n                    tag.decompose()\r\n\r\n                # 5. EXTRACT CLEAN CONTENT\r\n                content_body = soup.find('main') or soup.find('article') or soup.find(id='content') or soup.find('body')\r\n                clean_text = content_body.get_text(separator=' ', strip=True)\r\n\r\n                if important_links:\r\n                    clean_text += \"\\n\\nImportant Links:\\n\" + \"\\n\".join(important_links)\r\n                if internal_links:\r\n                    clean_text += \"\\n\\nAdditional Resources Found:\\n\" + \"\\n\".join(internal_links)\r\n                results.append(Data(data={\"text\": clean_text, \"source\": url}))\r\n\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n\r\n        self.status = results\r\n        return results",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/\nhttps://iis.ru.ac.th/index.php/academics/tuition-fees/tuition-fee-tables-new-rate\nhttps://www.bu.ac.th/en/tuition-fees/master-degree/2026",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Cleans AIT noise: Removes o-breadcrumb, decodes emails, and captures action links.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Multi-URL Scraper_New",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": 897.1397034541192,
+          "y": 1039.7984379340155
+        },
+        "selected": false
+      },
+      {
+        "id": "MultiWebScraper-89IKT",
+        "data": {
+          "id": "MultiWebScraper-89IKT",
+          "node": {
+            "beta": false,
+            "icon": "markdown",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data List",
+                "group_outputs": false,
+                "required_inputs": null
+              },
+              {
+                "name": "merged_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "merge_scraped_data",
+                "options": null,
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Merged Markdown",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.markdown_web_scraper_fixed",
+              "code_hash": "d43fafdd3b8e",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup, NavigableString\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List, Any\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Markdown Web Scraper (Fixed)\"\r\n    description = \"Extracts structured Markdown. Use 'Merged Markdown' for Write File components.\"\r\n    icon = \"markdown\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/admissions/tuition-and-fees/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        # This one returns a list (causes the error with Write File)\r\n        Output(display_name=\"Scraped Data List\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n        # This one returns a SINGLE string (works with Write File)\r\n        Output(display_name=\"Merged Markdown\", name=\"merged_data\", method=\"merge_scraped_data\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            return \"\".join([chr(int(hex_string[i:i+2], 16) ^ key) for i in range(2, len(hex_string), 2)])\r\n        except Exception:\r\n            return \"[Email Protected]\"\r\n\r\n    def html_to_markdown(self, element, url):\r\n        if isinstance(element, NavigableString):\r\n            return element.strip()\r\n        \r\n        tag = element.name\r\n        if tag == 'a' and element.get('href'):\r\n            href = urljoin(url, element['href'])\r\n            return f\" [{element.get_text(strip=True)}]({href}) \"\r\n        if tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:\r\n            level = tag[1]\r\n            return f\"\\n\\n{'#' * int(level)} {element.get_text(strip=True)}\\n\"\r\n        if tag == 'li':\r\n            return f\"\\n* {element.get_text(strip=True)}\"\r\n        if tag == 'table':\r\n            rows = []\r\n            for tr in element.find_all('tr'):\r\n                cells = [td.get_text(strip=True) for td in tr.find_all(['td', 'th'])]\r\n                if not cells: continue\r\n                rows.append(\"| \" + \" | \".join(cells) + \" |\")\r\n                if tr == element.find('tr'):\r\n                    rows.append(\"| \" + \" | \".join(['---'] * len(cells)) + \" |\")\r\n            return \"\\n\\n\" + \"\\n\".join(rows) + \"\\n\\n\"\r\n        if tag == 'p':\r\n            return f\"\\n\\n{element.get_text(strip=True)}\\n\"\r\n        \r\n        return \"\".join(self.html_to_markdown(child, url) for child in element.children if child.name not in ['script', 'style'])\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = requests.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # Clean Emails & Noise\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded: cf_tag.replace_with(self.decode_cf_email(encoded))\r\n                \r\n                for selector in [\".o-breadcrumb\", \"nav\", \"footer\", \"header\", \"script\", \"style\"]:\r\n                    for tag in soup.select(selector): tag.decompose()\r\n\r\n                page_title = soup.title.string if soup.title else url\r\n                main_body = soup.find('main') or soup.find('article') or soup.find('body')\r\n                \r\n                md = f\"# PAGE: {page_title}\\nURL: {url}\\n\\n\"\r\n                md += self.html_to_markdown(main_body, url) if main_body else \"No content found.\"\r\n                \r\n                results.append(Data(data={\"text\": re.sub(r'\\n{3,}', '\\n\\n', md), \"source\": url}))\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n        return results\r\n\r\n    def merge_scraped_data(self) -> Data:\r\n        \"\"\"Helper to combine all scraped pages into one Data object for file writing.\"\"\"\r\n        scraped_list = self.scrape_urls()\r\n        combined_text = \"\\n\\n---\\n\\n\".join([item.text for item in scraped_list])\r\n        return Data(data={\"text\": combined_text})",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/\n",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Extracts structured Markdown. Use 'Merged Markdown' for Write File components.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Markdown Web Scraper (Fixed)",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true,
+          "selected_output": "scraped_data"
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": 770.393897071122,
+          "y": 1643.8144233336545
+        },
+        "selected": false
+      }
+    ],
+    "viewport": {
+      "x": -187.31966196849396,
+      "y": -1054.5106282596212,
+      "zoom": 1.0364590164939278
+    }
+  },
+  "name": "280pages store in pgvector",
+  "updated_at": "2026-08-07 19:21:44.866619",
+  "is_component": false,
+  "endpoint_name": null
+}

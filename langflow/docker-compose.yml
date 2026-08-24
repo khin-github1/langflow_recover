@@ -1,0 +1,121 @@
+services:
+  langflow:
+    image: ait-brainlab/langflow
+    build:
+      context: .
+      dockerfile: dockerfile
+      args:
+        USERNAME: ubuntu
+        USER_GID: 1000
+        USER_UID: 1000
+        BUILD_VERSION: DEV
+        WORKDIR: /app/src
+        http_proxy: http://192.41.170.82:3128
+        https_proxy: http://192.41.170.82:3128
+    command: uv run langflow run
+    restart: always
+    environment:
+      - http_proxy=http://192.41.170.82:3128
+      - https_proxy=http://192.41.170.82:3128
+      - no_proxy=localhost,postgres,ollama
+      - LANGFLOW_DATABASE_URL=${LANGFLOW_DATABASE_URL}
+      - LANGFLOW_CONFIG_DIR=${LANGFLOW_CONFIG_DIR}
+    volumes:
+      - $PWD/app/langflow:/app/langflow
+      - $PWD/app/src:/app/src
+    env_file:
+      - .env
+    labels:
+      # Accessing dashboard via traefik
+      - traefik.enable=true
+      - traefik.http.services.langflow.loadBalancer.server.port=7860
+      - traefik.http.routers.langflow.rule=Host(`langflow.aitgpt.dev.brain.cs.ait.ac.th`)
+      - traefik.http.routers.langflow.entrypoints=websecure
+      - traefik.http.routers.langflow.tls=true
+      - traefik.http.routers.langflow.tls.certresolver=production    
+    networks:
+      - traefik_default
+      - default
+
+  ollama:
+    image: ollama/ollama
+    restart: always
+    environment:
+      - https_proxy=http://192.41.170.82:3128
+    labels:
+      # Accessing dashboard via traefik
+      - traefik.enable=true
+      - traefik.http.services.ollama.loadBalancer.server.port=11434
+      - traefik.http.routers.ollama.rule=Host(`ollama.aitgpt.dev.brain.cs.ait.ac.th`)
+      - traefik.http.routers.ollama.entrypoints=websecure
+      - traefik.http.routers.ollama.tls=true
+      - traefik.http.routers.ollama.tls.certresolver=production
+    volumes:
+      - ${PWD}/ollama:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - traefik_default
+      - default
+
+  postgres:
+    image: postgres:18.0
+    restart: always
+    # set shared memory limit when using docker compose
+    shm_size: 128mb
+    environment:
+      - TZ=Asia/Bangkok
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - psql_data:/var/lib/postgresql
+    networks:
+      - default
+
+  pgvector:
+    image: pgvector/pgvector:pg18-trixie
+    restart: always
+    shm_size: 128mb
+    environment:
+      - TZ=Asia/Bangkok
+      - PGTZ=Asia/Bangkok
+      - POSTGRES_USER=user
+      - POSTGRES_DB=default
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - pgvector_data:/var/lib/postgresql/18/docker
+    networks:
+      - default
+      - traefik_default
+  
+  adminer:
+    image: adminer
+    restart: always
+    labels:
+      # Accessing dashboard via traefik
+      - traefik.enable=true
+      - traefik.http.services.langflow-adminer.loadBalancer.server.port=8080
+      - traefik.http.routers.langflow-adminer.rule=Host(`adminer.aitgpt.dev.brain.cs.ait.ac.th`)
+      - traefik.http.routers.langflow-adminer.entrypoints=websecure
+      - traefik.http.routers.langflow-adminer.tls=true
+      - traefik.http.routers.langflow-adminer.tls.certresolver=production    
+    networks:
+      - traefik_default
+      - default
+
+networks:
+  traefik_default:
+    external: true
+  default:
+
+volumes:
+  psql_data:
+  pgvector_data:

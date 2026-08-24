@@ -1,0 +1,9 @@
+url,Summary with extractive,Summary with abstractive
+https://ait.ac.th/tuition-and-fees/,Error,"Failed: Client error '404 Not Found' for url 'https://ollama.aitgpt.dev.brain.cs.ait.ac.th/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+https://ait.ac.th/admissions/,Error,"Failed: Client error '404 Not Found' for url 'https://ollama.aitgpt.dev.brain.cs.ait.ac.th/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+https://ait.ac.th/student-housing/,Error,"Failed: Client error '404 Not Found' for url 'https://ollama.aitgpt.dev.brain.cs.ait.ac.th/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+https://ait.ac.th/eligibility/,Error,"Failed: Client error '404 Not Found' for url 'https://ollama.aitgpt.dev.brain.cs.ait.ac.th/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"

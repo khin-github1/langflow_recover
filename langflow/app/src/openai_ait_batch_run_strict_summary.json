@@ -1,0 +1,51 @@
+{
+  "input_jsonl_path": "/app/langflow/e03a7df9-4f1a-4743-947f-4097e7e2f482/pregeneration_payload_strict_ait.jsonl",
+  "built_batch_input_jsonl_path": "openai_ait_batch_run_strict_batch_input.jsonl",
+  "manifest_json_path": "openai_ait_batch_run_strict_manifest.json",
+  "generation_mode_override": "auto",
+  "model_name": "gpt-5-mini",
+  "endpoint": "/v1/chat/completions",
+  "mode_counts": {
+    "normal": 27,
+    "reason": 0,
+    "unknown": 0
+  },
+  "source_formats": {
+    "slim": 27,
+    "prebuilt": 0
+  },
+  "record_count": 27,
+  "batch_id": "batch_6a1eb1bdd1d481908c203268555cfe03",
+  "batch_status": "validating",
+  "input_file_id": "file-48Qo2p2MJ2kofdWj2j6t7q",
+  "output_file_id": null,
+  "error_file_id": null,
+  "request_counts": {
+    "total": 0,
+    "completed": 0,
+    "failed": 0
+  },
+  "upload_wall_time_s": 0.4818311929702759,
+  "create_batch_wall_time_s": 1.4057849270757288,
+  "batch_usage_from_api": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "server_timestamps": {
+    "created_at": 1780396477,
+    "in_progress_at": null,
+    "finalizing_at": null,
+    "completed_at": null,
+    "failed_at": null,
+    "expired_at": null,
+    "cancelled_at": null
+  },
+  "local_total_wall_time_s": 1.9684332269243896
+}

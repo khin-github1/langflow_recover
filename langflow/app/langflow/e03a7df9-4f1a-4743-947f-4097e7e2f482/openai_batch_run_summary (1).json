@@ -1,0 +1,112 @@
+{
+  "input_jsonl_path": "/app/langflow/e03a7df9-4f1a-4743-947f-4097e7e2f482/gpt5mini_batch_input_test.jsonl",
+  "built_batch_input_jsonl_path": "openai_batch_run_batch_input.jsonl",
+  "manifest_json_path": "openai_batch_run_manifest.json",
+  "model_name": "gpt-5-mini",
+  "endpoint": "/v1/chat/completions",
+  "mode_counts": {
+    "normal": 2,
+    "reason": 0,
+    "unknown": 0
+  },
+  "source_formats": {
+    "slim": 2,
+    "prebuilt": 0
+  },
+  "record_count": 2,
+  "batch_id": "batch_6a11810079788190967162f8cc2f9d40",
+  "batch_status": "completed",
+  "input_file_id": "file-L5tWMdeHSZpaXAfWdhKnju",
+  "output_file_id": "file-WZHiELK46n5YqbVxTWukL7",
+  "error_file_id": null,
+  "request_counts": {
+    "total": 2,
+    "completed": 2,
+    "failed": 0
+  },
+  "upload_wall_time_s": 2.0205595919978805,
+  "create_batch_wall_time_s": 2.8908855740446597,
+  "poll_wall_time_s": 152.90058927901555,
+  "downloaded_output_jsonl_path": "openai_batch_run_batch_output.jsonl",
+  "aggregate_usage_from_output": {
+    "requests": 2,
+    "successful": 2,
+    "failed": 0,
+    "prompt_tokens": 2044,
+    "completion_tokens": 96,
+    "total_tokens": 2140,
+    "reasoning_tokens": 0
+  },
+  "usage_by_mode_from_output": {
+    "normal": {
+      "requests": 2,
+      "successful": 2,
+      "failed": 0,
+      "prompt_tokens": 2044,
+      "completion_tokens": 96,
+      "total_tokens": 2140,
+      "reasoning_tokens": 0
+    },
+    "reason": {
+      "requests": 0,
+      "successful": 0,
+      "failed": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "unknown": {
+      "requests": 0,
+      "successful": 0,
+      "failed": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "result_rows": [
+    {
+      "custom_id": "normal_000001",
+      "mode": "normal",
+      "status_code": 200,
+      "prompt_tokens": 956,
+      "completion_tokens": 15,
+      "total_tokens": 971,
+      "reasoning_tokens": 0,
+      "assistant_preview": "admissions@ait.ac.th"
+    },
+    {
+      "custom_id": "normal_000002",
+      "mode": "normal",
+      "status_code": 200,
+      "prompt_tokens": 1088,
+      "completion_tokens": 81,
+      "total_tokens": 1169,
+      "reasoning_tokens": 0,
+      "assistant_preview": "Call: 02-524-5250\nEmail: aitccr@ait.ac.th\nAddress: Asian Institute of Technology Conference Center, P.O. Box 4, Klong Luang, Pathumthani 12120, Thailand\nDining phone: 02-524-5256\nDining email: aitccdining@ait.ac.th"
+    }
+  ],
+  "batch_usage_from_api": {
+    "input_tokens": 2044,
+    "output_tokens": 96,
+    "total_tokens": 2140,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "server_timestamps": {
+    "created_at": 1779532032,
+    "in_progress_at": 1779532094,
+    "finalizing_at": 1779532163,
+    "completed_at": 1779532165,
+    "failed_at": null,
+    "expired_at": null,
+    "cancelled_at": null
+  },
+  "local_total_wall_time_s": 158.96643136499915
+}

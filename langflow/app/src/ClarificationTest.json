@@ -1,0 +1,403 @@
+[
+  {
+    "record_type": "clarification_stage_writer",
+    "saved_at_utc": "2026-04-28T04:33:38.031489+00:00",
+    "analyzer": {
+      "original_question": "What is the fee?",
+      "history_window": "",
+      "intent_type": "faq",
+      "request_type": "fees",
+      "effective_request_types": [
+        "fees"
+      ],
+      "topic": "",
+      "expected_general_slots": [
+        "fee_type"
+      ],
+      "expected_critical_slots": [
+        "fee_type",
+        "fees",
+        "tuition_fees"
+      ],
+      "required_general_slots": [
+        "program",
+        "degree_level",
+        "fee_type"
+      ],
+      "required_critical_slots": [
+        "program",
+        "fee_type"
+      ],
+      "missing_slots": {
+        "general": [
+          "program",
+          "degree_level",
+          "fee_type"
+        ],
+        "critical": [
+          "program",
+          "fee_type"
+        ]
+      },
+      "slot_coverage_general": 0.0,
+      "slot_coverage_critical": 0.0,
+      "slot_coverage_weighted": 0.0,
+      "counts": {
+        "general_total": 3,
+        "critical_total": 2,
+        "general_missing": 3,
+        "critical_missing": 2
+      },
+      "resolved_slots": {},
+      "refinement": {
+        "enabled": true,
+        "used": false,
+        "refined_query": "",
+        "used_slots": []
+      },
+      "clarification_decision": {
+        "threshold": 0.75,
+        "coverage_weighted": 0.0,
+        "has_missing_slots": true,
+        "clarification_needed": true,
+        "suppressed_because_last_ai_turn_was_clarification": false,
+        "last_turn_clarification_type": "none"
+      },
+      "clarification_needed": true
+    },
+    "clarification_tracking": {
+      "clarification_asked_in_last_ai_turn": false,
+      "matched_clarification_type": "none"
+    },
+    "clarification_message": {
+      "text": "Which program and fee type are you referring to?"
+    },
+    "stage_metrics": {
+      "analyzer": {
+        "model": "qwen3:8b",
+        "prompt_eval_count": 732,
+        "eval_count": 58,
+        "prompt_eval_duration_ns": 320424844,
+        "eval_duration_ns": 1824816157,
+        "total_duration_ns": 2248610073,
+        "load_duration_ns": 81068388,
+        "wall_time_s": 2.2820397420000518,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      },
+      "clarification_tracking": {},
+      "clarification_message": {
+        "model": "qwen3:4b-instruct",
+        "prompt_eval_count": 402,
+        "eval_count": 11,
+        "prompt_eval_duration_ns": 75218917,
+        "eval_duration_ns": 111466792,
+        "total_duration_ns": 270418736,
+        "load_duration_ns": 77774581,
+        "wall_time_s": 0.3025814369902946,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      }
+    }
+  },
+  {
+    "record_type": "clarification_stage_writer",
+    "saved_at_utc": "2026-04-28T05:17:32.146016+00:00",
+    "analyzer": {
+      "original_question": "What is the fee?",
+      "history_window": "",
+      "intent_type": "faq",
+      "request_type": "fees",
+      "effective_request_types": [
+        "fees"
+      ],
+      "topic": "",
+      "expected_general_slots": [
+        "fee_type"
+      ],
+      "expected_critical_slots": [
+        "fee_type",
+        "fees",
+        "tuition_fees"
+      ],
+      "required_general_slots": [
+        "program",
+        "degree_level",
+        "fee_type"
+      ],
+      "required_critical_slots": [
+        "program",
+        "fee_type"
+      ],
+      "missing_slots": {
+        "general": [
+          "program",
+          "degree_level",
+          "fee_type"
+        ],
+        "critical": [
+          "program",
+          "fee_type"
+        ]
+      },
+      "slot_coverage_general": 0.0,
+      "slot_coverage_critical": 0.0,
+      "slot_coverage_weighted": 0.0,
+      "counts": {
+        "general_total": 3,
+        "critical_total": 2,
+        "general_missing": 3,
+        "critical_missing": 2
+      },
+      "resolved_slots": {},
+      "refinement": {
+        "enabled": true,
+        "used": false,
+        "refined_query": "",
+        "used_slots": []
+      },
+      "clarification_decision": {
+        "threshold": 0.75,
+        "coverage_weighted": 0.0,
+        "has_missing_slots": true,
+        "clarification_needed": true,
+        "suppressed_because_last_ai_turn_was_clarification": false,
+        "last_turn_clarification_type": "none"
+      },
+      "clarification_needed": true
+    },
+    "clarification_tracking": {
+      "clarification_asked_in_last_ai_turn": false,
+      "matched_clarification_type": "none"
+    },
+    "clarification_message": {
+      "text": "Which program and fee type are you referring to?"
+    },
+    "stage_metrics": {
+      "analyzer": {
+        "model": "qwen3:8b",
+        "prompt_eval_count": 732,
+        "eval_count": 58,
+        "prompt_eval_duration_ns": 231903477,
+        "eval_duration_ns": 1190725603,
+        "total_duration_ns": 1526597709,
+        "load_duration_ns": 82515552,
+        "wall_time_s": 1.5581361709919292,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      },
+      "clarification_tracking": {},
+      "clarification_message": {
+        "model": "qwen3:4b-instruct",
+        "prompt_eval_count": 402,
+        "eval_count": 11,
+        "prompt_eval_duration_ns": 76011564,
+        "eval_duration_ns": 111615570,
+        "total_duration_ns": 283655952,
+        "load_duration_ns": 90267992,
+        "wall_time_s": 0.31591053800366353,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      }
+    }
+  },
+  {
+    "record_type": "clarification_stage_writer",
+    "saved_at_utc": "2026-04-28T05:18:38.060506+00:00",
+    "analyzer": {
+      "original_question": "What is the fee?",
+      "history_window": "",
+      "intent_type": "faq",
+      "request_type": "fees",
+      "effective_request_types": [
+        "fees"
+      ],
+      "topic": "",
+      "expected_general_slots": [
+        "fee_type"
+      ],
+      "expected_critical_slots": [
+        "fee_type",
+        "fees",
+        "tuition_fees"
+      ],
+      "required_general_slots": [
+        "program",
+        "degree_level",
+        "fee_type"
+      ],
+      "required_critical_slots": [
+        "program",
+        "fee_type"
+      ],
+      "missing_slots": {
+        "general": [
+          "program",
+          "degree_level",
+          "fee_type"
+        ],
+        "critical": [
+          "program",
+          "fee_type"
+        ]
+      },
+      "slot_coverage_general": 0.0,
+      "slot_coverage_critical": 0.0,
+      "slot_coverage_weighted": 0.0,
+      "counts": {
+        "general_total": 3,
+        "critical_total": 2,
+        "general_missing": 3,
+        "critical_missing": 2
+      },
+      "resolved_slots": {},
+      "refinement": {
+        "enabled": true,
+        "used": false,
+        "refined_query": "",
+        "used_slots": []
+      },
+      "clarification_decision": {
+        "threshold": 0.75,
+        "coverage_weighted": 0.0,
+        "has_missing_slots": true,
+        "clarification_needed": true,
+        "suppressed_because_last_ai_turn_was_clarification": false,
+        "last_turn_clarification_type": "none"
+      },
+      "clarification_needed": true
+    },
+    "clarification_tracking": {
+      "clarification_asked_in_last_ai_turn": false,
+      "matched_clarification_type": "none"
+    },
+    "clarification_message": {
+      "text": "Which program and fee type are you referring to?"
+    },
+    "stage_metrics": {
+      "analyzer": {
+        "model": "qwen3:8b",
+        "prompt_eval_count": 732,
+        "eval_count": 64,
+        "prompt_eval_duration_ns": 30138166,
+        "eval_duration_ns": 2044500088,
+        "total_duration_ns": 2176474298,
+        "load_duration_ns": 80158883,
+        "wall_time_s": 2.2057787800004007,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      },
+      "clarification_tracking": {},
+      "clarification_message": {
+        "model": "qwen3:4b-instruct",
+        "prompt_eval_count": 402,
+        "eval_count": 11,
+        "prompt_eval_duration_ns": 74874151,
+        "eval_duration_ns": 111233865,
+        "total_duration_ns": 270260589,
+        "load_duration_ns": 78534837,
+        "wall_time_s": 0.2973204320005607,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      }
+    }
+  },
+  {
+    "record_type": "clarification_stage_writer",
+    "saved_at_utc": "2026-04-28T05:23:48.030966+00:00",
+    "analyzer": {
+      "original_question": "When is the deadline?",
+      "history_window": "",
+      "intent_type": "faq",
+      "request_type": "deadlines",
+      "effective_request_types": [
+        "deadlines"
+      ],
+      "topic": "",
+      "expected_general_slots": [
+        "deadline"
+      ],
+      "expected_critical_slots": [
+        "intake_year_or_term",
+        "deadline"
+      ],
+      "required_general_slots": [
+        "program",
+        "degree_level",
+        "intake_year_or_term"
+      ],
+      "required_critical_slots": [
+        "intake_year_or_term"
+      ],
+      "missing_slots": {
+        "general": [
+          "program",
+          "degree_level",
+          "intake_year_or_term"
+        ],
+        "critical": [
+          "intake_year_or_term"
+        ]
+      },
+      "slot_coverage_general": 0.0,
+      "slot_coverage_critical": 0.0,
+      "slot_coverage_weighted": 0.0,
+      "counts": {
+        "general_total": 3,
+        "critical_total": 1,
+        "general_missing": 3,
+        "critical_missing": 1
+      },
+      "resolved_slots": {},
+      "refinement": {
+        "enabled": true,
+        "used": false,
+        "refined_query": "",
+        "used_slots": []
+      },
+      "clarification_decision": {
+        "threshold": 0.75,
+        "coverage_weighted": 0.0,
+        "has_missing_slots": true,
+        "clarification_needed": true,
+        "suppressed_because_last_ai_turn_was_clarification": false,
+        "last_turn_clarification_type": "none"
+      },
+      "clarification_needed": true
+    },
+    "clarification_tracking": {
+      "clarification_asked_in_last_ai_turn": false,
+      "matched_clarification_type": "none"
+    },
+    "clarification_message": {
+      "text": "Which intake are you referring to?"
+    },
+    "stage_metrics": {
+      "analyzer": {
+        "model": "qwen3:8b",
+        "prompt_eval_count": 732,
+        "eval_count": 60,
+        "prompt_eval_duration_ns": 30087932,
+        "eval_duration_ns": 1931084138,
+        "total_duration_ns": 2073207505,
+        "load_duration_ns": 83545103,
+        "wall_time_s": 2.1008477069990477,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      },
+      "clarification_tracking": {},
+      "clarification_message": {
+        "model": "qwen3:4b-instruct",
+        "prompt_eval_count": 403,
+        "eval_count": 8,
+        "prompt_eval_duration_ns": 74973466,
+        "eval_duration_ns": 79217438,
+        "total_duration_ns": 248824935,
+        "load_duration_ns": 89171366,
+        "wall_time_s": 0.27836395699705463,
+        "requested_think": false,
+        "observed_has_thinking_field": false
+      }
+    }
+  }
+]

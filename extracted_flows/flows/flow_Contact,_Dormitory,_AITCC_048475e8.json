@@ -1,0 +1,947 @@
+{
+  "id": "048475e8-7245-464a-b60f-a6810943ec2e",
+  "data": {
+    "edges": [
+      {
+        "id": "xy-edge__OllamaEmbeddings-jLP8d{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-jLP8dœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-ukBBF{œfieldNameœ:œembeddingœ,œidœ:œpgvector-ukBBFœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "OllamaEmbeddings-jLP8d",
+            "name": "embeddings",
+            "dataType": "OllamaEmbeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "id": "pgvector-ukBBF",
+            "type": "other",
+            "fieldName": "embedding",
+            "inputTypes": [
+              "Embeddings"
+            ]
+          }
+        },
+        "source": "OllamaEmbeddings-jLP8d",
+        "target": "pgvector-ukBBF",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-jLP8dœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œpgvector-ukBBFœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "id": "xy-edge__WebSearchNoAPI-BTkH0{œdataTypeœ:œWebSearchNoAPIœ,œidœ:œWebSearchNoAPI-BTkH0œ,œnameœ:œresultsœ,œoutput_typesœ:[œDataFrameœ]}-pgvector-ukBBF{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-ukBBFœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "WebSearchNoAPI-BTkH0",
+            "name": "results",
+            "dataType": "WebSearchNoAPI",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "id": "pgvector-ukBBF",
+            "type": "other",
+            "fieldName": "ingest_data",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ]
+          }
+        },
+        "source": "WebSearchNoAPI-BTkH0",
+        "target": "pgvector-ukBBF",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œWebSearchNoAPIœ,œidœ:œWebSearchNoAPI-BTkH0œ,œnameœ:œresultsœ,œoutput_typesœ:[œDataFrameœ]}",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-ukBBFœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "pgvector-ukBBF",
+        "data": {
+          "id": "pgvector-ukBBF",
+          "node": {
+            "key": "pgvector",
+            "beta": false,
+            "icon": "cpu",
+            "score": 5.97035286583837e-08,
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "search_results",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "search_documents",
+                "selected": "Data",
+                "tool_mode": true,
+                "allows_loop": false,
+                "display_name": "Search Results",
+                "group_outputs": false
+              },
+              {
+                "name": "dataframe",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "as_dataframe",
+                "tool_mode": true,
+                "allows_loop": false,
+                "display_name": "DataFrame",
+                "group_outputs": false
+              }
+            ],
+            "category": "pgvector",
+            "metadata": {},
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from langchain_community.vectorstores import PGVector\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.helpers.data import docs_to_data\nfrom langflow.io import HandleInput, IntInput, SecretStrInput, StrInput\nfrom langflow.schema.data import Data\nfrom langflow.utils.connection_string_parser import transform_connection_string\n\n\nclass PGVectorStoreComponent(LCVectorStoreComponent):\n    display_name = \"PGVector\"\n    description = \"PGVector Vector Store with search capabilities\"\n    name = \"pgvector\"\n    icon = \"cpu\"\n\n    inputs = [\n        SecretStrInput(name=\"pg_server_url\", display_name=\"PostgreSQL Server Connection String\", required=True),\n        StrInput(name=\"collection_name\", display_name=\"Table\", required=True),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"], required=True),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            value=4,\n            advanced=True,\n        ),\n    ]\n\n    @check_cached_vector_store\n    def build_vector_store(self) -> PGVector:\n        # Convert DataFrame to Data if needed using parent's method\n        self.ingest_data = self._prepare_ingest_data()\n\n        documents = []\n        for _input in self.ingest_data or []:\n            if isinstance(_input, Data):\n                documents.append(_input.to_lc_document())\n            else:\n                documents.append(_input)\n\n        connection_string_parsed = transform_connection_string(self.pg_server_url)\n\n        if documents:\n            pgvector = PGVector.from_documents(\n                embedding=self.embedding,\n                documents=documents,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n        else:\n            pgvector = PGVector.from_existing_index(\n                embedding=self.embedding,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n\n        return pgvector\n\n    def search_documents(self) -> list[Data]:\n        vector_store = self.build_vector_store()\n\n        if self.search_query and isinstance(self.search_query, str) and self.search_query.strip():\n            docs = vector_store.similarity_search(\n                query=self.search_query,\n                k=self.number_of_results,\n            )\n\n            data = docs_to_data(docs)\n            self.status = data\n            return data\n        return []\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "embedding": {
+                "info": "",
+                "list": false,
+                "name": "embedding",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "placeholder": "",
+                "display_name": "Embedding",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              },
+              "ingest_data": {
+                "info": "",
+                "list": true,
+                "name": "ingest_data",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "placeholder": "",
+                "display_name": "Ingest Data",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              },
+              "search_query": {
+                "info": "Enter a query to run a similarity search.",
+                "list": false,
+                "name": "search_query",
+                "show": true,
+                "type": "query",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": true,
+                "title_case": false,
+                "_input_type": "QueryInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "Enter a query...",
+                "display_name": "Search Query",
+                "load_from_db": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true
+              },
+              "pg_server_url": {
+                "info": "",
+                "name": "pg_server_url",
+                "show": true,
+                "type": "str",
+                "value": "postgresql://user:password@pgvector:5432/default",
+                "dynamic": false,
+                "advanced": false,
+                "password": true,
+                "required": true,
+                "title_case": false,
+                "_input_type": "SecretStrInput",
+                "input_types": [],
+                "placeholder": "",
+                "display_name": "PostgreSQL Server Connection String",
+                "load_from_db": false
+              },
+              "collection_name": {
+                "info": "",
+                "list": false,
+                "name": "collection_name",
+                "show": true,
+                "type": "str",
+                "value": "ait_mainpage",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "StrInput",
+                "placeholder": "",
+                "display_name": "Table",
+                "load_from_db": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              },
+              "number_of_results": {
+                "info": "Number of results to return.",
+                "list": false,
+                "name": "number_of_results",
+                "show": true,
+                "type": "int",
+                "value": 7,
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Number of Results",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              },
+              "should_cache_vector_store": {
+                "info": "If True, the vector store will be cached for the current build of the component. This is useful for components that have multiple output methods and want to share the same vector store.",
+                "list": false,
+                "name": "should_cache_vector_store",
+                "show": true,
+                "type": "bool",
+                "value": true,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "BoolInput",
+                "placeholder": "",
+                "display_name": "Cache Vector Store",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.6.3",
+            "description": "PGVector Vector Store with search capabilities",
+            "field_order": [
+              "pg_server_url",
+              "collection_name",
+              "ingest_data",
+              "search_query",
+              "should_cache_vector_store",
+              "embedding",
+              "number_of_results"
+            ],
+            "base_classes": [
+              "Data",
+              "DataFrame"
+            ],
+            "display_name": "PGVector",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "pgvector",
+          "showNode": true,
+          "selected_output": "search_results"
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 546
+        },
+        "position": {
+          "x": 845.9242477945264,
+          "y": 785.2796269672398
+        },
+        "selected": false
+      },
+      {
+        "id": "WebSearchNoAPI-sJIi2",
+        "data": {
+          "id": "WebSearchNoAPI-sJIi2",
+          "node": {
+            "beta": false,
+            "icon": "search",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "results",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "perform_search",
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "allows_loop": false,
+                "display_name": "Search Results",
+                "group_outputs": false
+              }
+            ],
+            "metadata": {},
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import re\nfrom urllib.parse import parse_qs, unquote, urlparse\n\nimport pandas as pd\nimport requests\nfrom bs4 import BeautifulSoup\n\nfrom langflow.custom import Component\nfrom langflow.io import IntInput, MessageTextInput, Output\nfrom langflow.schema import DataFrame\nfrom langflow.services.deps import get_settings_service\n\n\nclass WebSearchComponent(Component):\n    display_name = \"Web Search\"\n    description = \"Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.\"\n    documentation: str = \"https://docs.langflow.org/components-data#web-search\"\n    icon = \"search\"\n    name = \"WebSearchNoAPI\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"query\",\n            display_name=\"Search Query\",\n            info=\"Keywords to search for.\",\n            tool_mode=True,\n            required=True,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"Timeout for the web search request.\",\n            value=5,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [Output(name=\"results\", display_name=\"Search Results\", method=\"perform_search\")]\n\n    def validate_url(self, string: str) -> bool:\n        url_regex = re.compile(\n            r\"^(https?:\\/\\/)?\" r\"(www\\.)?\" r\"([a-zA-Z0-9.-]+)\" r\"(\\.[a-zA-Z]{2,})?\" r\"(:\\d+)?\" r\"(\\/[^\\s]*)?$\",\n            re.IGNORECASE,\n        )\n        return bool(url_regex.match(string))\n\n    def ensure_url(self, url: str) -> str:\n        if not url.startswith((\"http://\", \"https://\")):\n            url = \"https://\" + url\n        if not self.validate_url(url):\n            msg = f\"Invalid URL: {url}\"\n            raise ValueError(msg)\n        return url\n\n    def _sanitize_query(self, query: str) -> str:\n        \"\"\"Sanitize search query.\"\"\"\n        # Remove potentially dangerous characters\n        return re.sub(r'[<>\"\\']', \"\", query.strip())\n\n    def perform_search(self) -> DataFrame:\n        query = self._sanitize_query(self.query)\n        if not query:\n            msg = \"Empty search query\"\n            raise ValueError(msg)\n        headers = {\"User-Agent\": get_settings_service().settings.user_agent}\n        params = {\"q\": query, \"kl\": \"us-en\"}\n        url = \"https://html.duckduckgo.com/html/\"\n\n        try:\n            response = requests.get(url, params=params, headers=headers, timeout=self.timeout)\n            response.raise_for_status()\n        except requests.RequestException as e:\n            self.status = f\"Failed request: {e!s}\"\n            return DataFrame(pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": str(e), \"content\": \"\"}]))\n\n        if not response.text or \"text/html\" not in response.headers.get(\"content-type\", \"\").lower():\n            self.status = \"No results found\"\n            return DataFrame(\n                pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": \"No results found\", \"content\": \"\"}])\n            )\n        soup = BeautifulSoup(response.text, \"html.parser\")\n        results = []\n\n        for result in soup.select(\"div.result\"):\n            title_tag = result.select_one(\"a.result__a\")\n            snippet_tag = result.select_one(\"a.result__snippet\")\n            if title_tag:\n                raw_link = title_tag.get(\"href\", \"\")\n                parsed = urlparse(raw_link)\n                uddg = parse_qs(parsed.query).get(\"uddg\", [\"\"])[0]\n                decoded_link = unquote(uddg) if uddg else raw_link\n\n                try:\n                    final_url = self.ensure_url(decoded_link)\n                    page = requests.get(final_url, headers=headers, timeout=self.timeout)\n                    page.raise_for_status()\n                    content = BeautifulSoup(page.text, \"lxml\").get_text(separator=\" \", strip=True)\n                except requests.RequestException as e:\n                    final_url = decoded_link\n                    content = f\"(Failed to fetch: {e!s}\"\n\n                results.append(\n                    {\n                        \"title\": title_tag.get_text(strip=True),\n                        \"link\": final_url,\n                        \"snippet\": snippet_tag.get_text(strip=True) if snippet_tag else \"\",\n                        \"content\": content,\n                    }\n                )\n\n        df_results = pd.DataFrame(results)\n        return DataFrame(df_results)\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "query": {
+                "info": "Keywords to search for.",
+                "list": false,
+                "name": "query",
+                "show": true,
+                "type": "str",
+                "value": "http://aitcc.ait.ac.th/",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": true,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Search Query",
+                "load_from_db": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true
+              },
+              "timeout": {
+                "info": "Timeout for the web search request.",
+                "list": false,
+                "name": "timeout",
+                "show": true,
+                "type": "int",
+                "value": 5,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Timeout",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.6.3",
+            "description": "Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.",
+            "field_order": [
+              "query",
+              "timeout"
+            ],
+            "base_classes": [
+              "DataFrame"
+            ],
+            "display_name": "Web Search",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://docs.langflow.org/components-data#web-search",
+            "conditional_paths": []
+          },
+          "type": "WebSearchNoAPI",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": -1016.4646672839558,
+          "y": 460.3020533175078
+        },
+        "selected": false
+      },
+      {
+        "id": "WebSearchNoAPI-HqA70",
+        "data": {
+          "id": "WebSearchNoAPI-HqA70",
+          "node": {
+            "beta": false,
+            "icon": "search",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "results",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "perform_search",
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "allows_loop": false,
+                "display_name": "Search Results",
+                "group_outputs": false
+              }
+            ],
+            "metadata": {},
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import re\nfrom urllib.parse import parse_qs, unquote, urlparse\n\nimport pandas as pd\nimport requests\nfrom bs4 import BeautifulSoup\n\nfrom langflow.custom import Component\nfrom langflow.io import IntInput, MessageTextInput, Output\nfrom langflow.schema import DataFrame\nfrom langflow.services.deps import get_settings_service\n\n\nclass WebSearchComponent(Component):\n    display_name = \"Web Search\"\n    description = \"Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.\"\n    documentation: str = \"https://docs.langflow.org/components-data#web-search\"\n    icon = \"search\"\n    name = \"WebSearchNoAPI\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"query\",\n            display_name=\"Search Query\",\n            info=\"Keywords to search for.\",\n            tool_mode=True,\n            required=True,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"Timeout for the web search request.\",\n            value=5,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [Output(name=\"results\", display_name=\"Search Results\", method=\"perform_search\")]\n\n    def validate_url(self, string: str) -> bool:\n        url_regex = re.compile(\n            r\"^(https?:\\/\\/)?\" r\"(www\\.)?\" r\"([a-zA-Z0-9.-]+)\" r\"(\\.[a-zA-Z]{2,})?\" r\"(:\\d+)?\" r\"(\\/[^\\s]*)?$\",\n            re.IGNORECASE,\n        )\n        return bool(url_regex.match(string))\n\n    def ensure_url(self, url: str) -> str:\n        if not url.startswith((\"http://\", \"https://\")):\n            url = \"https://\" + url\n        if not self.validate_url(url):\n            msg = f\"Invalid URL: {url}\"\n            raise ValueError(msg)\n        return url\n\n    def _sanitize_query(self, query: str) -> str:\n        \"\"\"Sanitize search query.\"\"\"\n        # Remove potentially dangerous characters\n        return re.sub(r'[<>\"\\']', \"\", query.strip())\n\n    def perform_search(self) -> DataFrame:\n        query = self._sanitize_query(self.query)\n        if not query:\n            msg = \"Empty search query\"\n            raise ValueError(msg)\n        headers = {\"User-Agent\": get_settings_service().settings.user_agent}\n        params = {\"q\": query, \"kl\": \"us-en\"}\n        url = \"https://html.duckduckgo.com/html/\"\n\n        try:\n            response = requests.get(url, params=params, headers=headers, timeout=self.timeout)\n            response.raise_for_status()\n        except requests.RequestException as e:\n            self.status = f\"Failed request: {e!s}\"\n            return DataFrame(pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": str(e), \"content\": \"\"}]))\n\n        if not response.text or \"text/html\" not in response.headers.get(\"content-type\", \"\").lower():\n            self.status = \"No results found\"\n            return DataFrame(\n                pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": \"No results found\", \"content\": \"\"}])\n            )\n        soup = BeautifulSoup(response.text, \"html.parser\")\n        results = []\n\n        for result in soup.select(\"div.result\"):\n            title_tag = result.select_one(\"a.result__a\")\n            snippet_tag = result.select_one(\"a.result__snippet\")\n            if title_tag:\n                raw_link = title_tag.get(\"href\", \"\")\n                parsed = urlparse(raw_link)\n                uddg = parse_qs(parsed.query).get(\"uddg\", [\"\"])[0]\n                decoded_link = unquote(uddg) if uddg else raw_link\n\n                try:\n                    final_url = self.ensure_url(decoded_link)\n                    page = requests.get(final_url, headers=headers, timeout=self.timeout)\n                    page.raise_for_status()\n                    content = BeautifulSoup(page.text, \"lxml\").get_text(separator=\" \", strip=True)\n                except requests.RequestException as e:\n                    final_url = decoded_link\n                    content = f\"(Failed to fetch: {e!s}\"\n\n                results.append(\n                    {\n                        \"title\": title_tag.get_text(strip=True),\n                        \"link\": final_url,\n                        \"snippet\": snippet_tag.get_text(strip=True) if snippet_tag else \"\",\n                        \"content\": content,\n                    }\n                )\n\n        df_results = pd.DataFrame(results)\n        return DataFrame(df_results)\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "query": {
+                "info": "Keywords to search for.",
+                "list": false,
+                "name": "query",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/housing/",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": true,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Search Query",
+                "load_from_db": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true
+              },
+              "timeout": {
+                "info": "Timeout for the web search request.",
+                "list": false,
+                "name": "timeout",
+                "show": true,
+                "type": "int",
+                "value": 5,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Timeout",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.6.3",
+            "description": "Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.",
+            "field_order": [
+              "query",
+              "timeout"
+            ],
+            "base_classes": [
+              "DataFrame"
+            ],
+            "display_name": "Web Search",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://docs.langflow.org/components-data#web-search",
+            "conditional_paths": []
+          },
+          "type": "WebSearchNoAPI",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": -854.1458917001021,
+          "y": -168.6103280390655
+        },
+        "selected": true
+      },
+      {
+        "id": "WebSearchNoAPI-iwrch",
+        "data": {
+          "id": "WebSearchNoAPI-iwrch",
+          "node": {
+            "beta": false,
+            "icon": "search",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "results",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "perform_search",
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "allows_loop": false,
+                "display_name": "Search Results",
+                "group_outputs": false
+              }
+            ],
+            "metadata": {},
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import re\nfrom urllib.parse import parse_qs, unquote, urlparse\n\nimport pandas as pd\nimport requests\nfrom bs4 import BeautifulSoup\n\nfrom langflow.custom import Component\nfrom langflow.io import IntInput, MessageTextInput, Output\nfrom langflow.schema import DataFrame\nfrom langflow.services.deps import get_settings_service\n\n\nclass WebSearchComponent(Component):\n    display_name = \"Web Search\"\n    description = \"Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.\"\n    documentation: str = \"https://docs.langflow.org/components-data#web-search\"\n    icon = \"search\"\n    name = \"WebSearchNoAPI\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"query\",\n            display_name=\"Search Query\",\n            info=\"Keywords to search for.\",\n            tool_mode=True,\n            required=True,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"Timeout for the web search request.\",\n            value=5,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [Output(name=\"results\", display_name=\"Search Results\", method=\"perform_search\")]\n\n    def validate_url(self, string: str) -> bool:\n        url_regex = re.compile(\n            r\"^(https?:\\/\\/)?\" r\"(www\\.)?\" r\"([a-zA-Z0-9.-]+)\" r\"(\\.[a-zA-Z]{2,})?\" r\"(:\\d+)?\" r\"(\\/[^\\s]*)?$\",\n            re.IGNORECASE,\n        )\n        return bool(url_regex.match(string))\n\n    def ensure_url(self, url: str) -> str:\n        if not url.startswith((\"http://\", \"https://\")):\n            url = \"https://\" + url\n        if not self.validate_url(url):\n            msg = f\"Invalid URL: {url}\"\n            raise ValueError(msg)\n        return url\n\n    def _sanitize_query(self, query: str) -> str:\n        \"\"\"Sanitize search query.\"\"\"\n        # Remove potentially dangerous characters\n        return re.sub(r'[<>\"\\']', \"\", query.strip())\n\n    def perform_search(self) -> DataFrame:\n        query = self._sanitize_query(self.query)\n        if not query:\n            msg = \"Empty search query\"\n            raise ValueError(msg)\n        headers = {\"User-Agent\": get_settings_service().settings.user_agent}\n        params = {\"q\": query, \"kl\": \"us-en\"}\n        url = \"https://html.duckduckgo.com/html/\"\n\n        try:\n            response = requests.get(url, params=params, headers=headers, timeout=self.timeout)\n            response.raise_for_status()\n        except requests.RequestException as e:\n            self.status = f\"Failed request: {e!s}\"\n            return DataFrame(pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": str(e), \"content\": \"\"}]))\n\n        if not response.text or \"text/html\" not in response.headers.get(\"content-type\", \"\").lower():\n            self.status = \"No results found\"\n            return DataFrame(\n                pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": \"No results found\", \"content\": \"\"}])\n            )\n        soup = BeautifulSoup(response.text, \"html.parser\")\n        results = []\n\n        for result in soup.select(\"div.result\"):\n            title_tag = result.select_one(\"a.result__a\")\n            snippet_tag = result.select_one(\"a.result__snippet\")\n            if title_tag:\n                raw_link = title_tag.get(\"href\", \"\")\n                parsed = urlparse(raw_link)\n                uddg = parse_qs(parsed.query).get(\"uddg\", [\"\"])[0]\n                decoded_link = unquote(uddg) if uddg else raw_link\n\n                try:\n                    final_url = self.ensure_url(decoded_link)\n                    page = requests.get(final_url, headers=headers, timeout=self.timeout)\n                    page.raise_for_status()\n                    content = BeautifulSoup(page.text, \"lxml\").get_text(separator=\" \", strip=True)\n                except requests.RequestException as e:\n                    final_url = decoded_link\n                    content = f\"(Failed to fetch: {e!s}\"\n\n                results.append(\n                    {\n                        \"title\": title_tag.get_text(strip=True),\n                        \"link\": final_url,\n                        \"snippet\": snippet_tag.get_text(strip=True) if snippet_tag else \"\",\n                        \"content\": content,\n                    }\n                )\n\n        df_results = pd.DataFrame(results)\n        return DataFrame(df_results)\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "query": {
+                "info": "Keywords to search for.",
+                "list": false,
+                "name": "query",
+                "show": true,
+                "type": "str",
+                "value": "https://ofam.ait.ac.th/",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": true,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Search Query",
+                "load_from_db": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true
+              },
+              "timeout": {
+                "info": "Timeout for the web search request.",
+                "list": false,
+                "name": "timeout",
+                "show": true,
+                "type": "int",
+                "value": 5,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Timeout",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.6.3",
+            "description": "Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.",
+            "field_order": [
+              "query",
+              "timeout"
+            ],
+            "base_classes": [
+              "DataFrame"
+            ],
+            "display_name": "Web Search",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://docs.langflow.org/components-data#web-search",
+            "conditional_paths": []
+          },
+          "type": "WebSearchNoAPI",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": -1002.175554581185,
+          "y": 134.27762514807102
+        },
+        "selected": false
+      },
+      {
+        "id": "WebSearchNoAPI-BTkH0",
+        "data": {
+          "id": "WebSearchNoAPI-BTkH0",
+          "node": {
+            "beta": false,
+            "icon": "search",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "results",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "perform_search",
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "allows_loop": false,
+                "display_name": "Search Results",
+                "group_outputs": false
+              }
+            ],
+            "metadata": {},
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import re\nfrom urllib.parse import parse_qs, unquote, urlparse\n\nimport pandas as pd\nimport requests\nfrom bs4 import BeautifulSoup\n\nfrom langflow.custom import Component\nfrom langflow.io import IntInput, MessageTextInput, Output\nfrom langflow.schema import DataFrame\nfrom langflow.services.deps import get_settings_service\n\n\nclass WebSearchComponent(Component):\n    display_name = \"Web Search\"\n    description = \"Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.\"\n    documentation: str = \"https://docs.langflow.org/components-data#web-search\"\n    icon = \"search\"\n    name = \"WebSearchNoAPI\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"query\",\n            display_name=\"Search Query\",\n            info=\"Keywords to search for.\",\n            tool_mode=True,\n            required=True,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"Timeout for the web search request.\",\n            value=5,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [Output(name=\"results\", display_name=\"Search Results\", method=\"perform_search\")]\n\n    def validate_url(self, string: str) -> bool:\n        url_regex = re.compile(\n            r\"^(https?:\\/\\/)?\" r\"(www\\.)?\" r\"([a-zA-Z0-9.-]+)\" r\"(\\.[a-zA-Z]{2,})?\" r\"(:\\d+)?\" r\"(\\/[^\\s]*)?$\",\n            re.IGNORECASE,\n        )\n        return bool(url_regex.match(string))\n\n    def ensure_url(self, url: str) -> str:\n        if not url.startswith((\"http://\", \"https://\")):\n            url = \"https://\" + url\n        if not self.validate_url(url):\n            msg = f\"Invalid URL: {url}\"\n            raise ValueError(msg)\n        return url\n\n    def _sanitize_query(self, query: str) -> str:\n        \"\"\"Sanitize search query.\"\"\"\n        # Remove potentially dangerous characters\n        return re.sub(r'[<>\"\\']', \"\", query.strip())\n\n    def perform_search(self) -> DataFrame:\n        query = self._sanitize_query(self.query)\n        if not query:\n            msg = \"Empty search query\"\n            raise ValueError(msg)\n        headers = {\"User-Agent\": get_settings_service().settings.user_agent}\n        params = {\"q\": query, \"kl\": \"us-en\"}\n        url = \"https://html.duckduckgo.com/html/\"\n\n        try:\n            response = requests.get(url, params=params, headers=headers, timeout=self.timeout)\n            response.raise_for_status()\n        except requests.RequestException as e:\n            self.status = f\"Failed request: {e!s}\"\n            return DataFrame(pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": str(e), \"content\": \"\"}]))\n\n        if not response.text or \"text/html\" not in response.headers.get(\"content-type\", \"\").lower():\n            self.status = \"No results found\"\n            return DataFrame(\n                pd.DataFrame([{\"title\": \"Error\", \"link\": \"\", \"snippet\": \"No results found\", \"content\": \"\"}])\n            )\n        soup = BeautifulSoup(response.text, \"html.parser\")\n        results = []\n\n        for result in soup.select(\"div.result\"):\n            title_tag = result.select_one(\"a.result__a\")\n            snippet_tag = result.select_one(\"a.result__snippet\")\n            if title_tag:\n                raw_link = title_tag.get(\"href\", \"\")\n                parsed = urlparse(raw_link)\n                uddg = parse_qs(parsed.query).get(\"uddg\", [\"\"])[0]\n                decoded_link = unquote(uddg) if uddg else raw_link\n\n                try:\n                    final_url = self.ensure_url(decoded_link)\n                    page = requests.get(final_url, headers=headers, timeout=self.timeout)\n                    page.raise_for_status()\n                    content = BeautifulSoup(page.text, \"lxml\").get_text(separator=\" \", strip=True)\n                except requests.RequestException as e:\n                    final_url = decoded_link\n                    content = f\"(Failed to fetch: {e!s}\"\n\n                results.append(\n                    {\n                        \"title\": title_tag.get_text(strip=True),\n                        \"link\": final_url,\n                        \"snippet\": snippet_tag.get_text(strip=True) if snippet_tag else \"\",\n                        \"content\": content,\n                    }\n                )\n\n        df_results = pd.DataFrame(results)\n        return DataFrame(df_results)\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "query": {
+                "info": "Keywords to search for.",
+                "list": false,
+                "name": "query",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": true,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Search Query",
+                "load_from_db": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true
+              },
+              "timeout": {
+                "info": "Timeout for the web search request.",
+                "list": false,
+                "name": "timeout",
+                "show": true,
+                "type": "int",
+                "value": 5,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Timeout",
+                "list_add_label": "Add More",
+                "trace_as_metadata": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.6.3",
+            "description": "Performs a basic DuckDuckGo search (HTML scraping). May be subject to rate limits.",
+            "field_order": [
+              "query",
+              "timeout"
+            ],
+            "base_classes": [
+              "DataFrame"
+            ],
+            "display_name": "Web Search",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://docs.langflow.org/components-data#web-search",
+            "conditional_paths": []
+          },
+          "type": "WebSearchNoAPI",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": -96.50049791866707,
+          "y": 634.3462097412933
+        },
+        "selected": false
+      },
+      {
+        "id": "OllamaEmbeddings-jLP8d",
+        "data": {
+          "id": "OllamaEmbeddings-jLP8d",
+          "node": {
+            "key": "OllamaEmbeddings",
+            "beta": false,
+            "icon": "Ollama",
+            "score": 7.568328950209746e-06,
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "embeddings",
+                "cache": true,
+                "types": [
+                  "Embeddings"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "build_embeddings",
+                "options": null,
+                "selected": "Embeddings",
+                "tool_mode": true,
+                "allows_loop": false,
+                "display_name": "Embeddings",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "category": "ollama",
+            "metadata": {
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ]
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import OllamaEmbeddings\n\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.base.models.ollama_constants import OLLAMA_EMBEDDING_MODELS, URL_LIST\nfrom langflow.field_typing import Embeddings\nfrom langflow.io import DropdownInput, MessageTextInput, Output\n\nHTTP_STATUS_OK = 200\n\n\nclass OllamaEmbeddingsComponent(LCModelComponent):\n    display_name: str = \"Ollama Embeddings\"\n    description: str = \"Generate embeddings using Ollama models.\"\n    documentation = \"https://python.langchain.com/docs/integrations/text_embedding/ollama\"\n    icon = \"Ollama\"\n    name = \"OllamaEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Ollama Model\",\n            value=\"\",\n            options=[],\n            real_time_refresh=True,\n            refresh_button=True,\n            combobox=True,\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"base_url\",\n            display_name=\"Ollama Base URL\",\n            value=\"\",\n            required=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        try:\n            output = OllamaEmbeddings(model=self.model_name, base_url=self.base_url)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \",\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\",\n            )\n            raise ValueError(msg) from e\n        return output\n\n    async def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\"} and not await self.is_valid_ollama_url(field_value):\n            # Check if any URL in the list is valid\n            valid_url = \"\"\n            for url in URL_LIST:\n                if await self.is_valid_ollama_url(url):\n                    valid_url = url\n                    break\n            build_config[\"base_url\"][\"value\"] = valid_url\n        if field_name in {\"model_name\", \"base_url\", \"tool_model_enabled\"}:\n            if await self.is_valid_ollama_url(self.base_url):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(self.base_url)\n            elif await self.is_valid_ollama_url(build_config[\"base_url\"].get(\"value\", \"\")):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(build_config[\"base_url\"].get(\"value\", \"\"))\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n\n        return build_config\n\n    async def get_model(self, base_url_value: str) -> list[str]:\n        \"\"\"Get the model names from Ollama.\"\"\"\n        model_ids = []\n        try:\n            url = urljoin(base_url_value, \"/api/tags\")\n            async with httpx.AsyncClient() as client:\n                response = await client.get(url)\n                response.raise_for_status()\n                data = response.json()\n\n            model_ids = [model[\"name\"] for model in data.get(\"models\", [])]\n            # this to ensure that not embedding models are included.\n            # not even the base models since models can have 1b 2b etc\n            # handles cases when embeddings models have tags like :latest - etc.\n            model_ids = [\n                model\n                for model in model_ids\n                if any(model.startswith(f\"{embedding_model}\") for embedding_model in OLLAMA_EMBEDDING_MODELS)\n            ]\n\n        except (ImportError, ValueError, httpx.RequestError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            async with httpx.AsyncClient() as client:\n                return (await client.get(f\"{url}/api/tags\")).status_code == HTTP_STATUS_OK\n        except httpx.RequestError:\n            return False\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "base_url": {
+                "info": "",
+                "list": false,
+                "name": "base_url",
+                "show": true,
+                "type": "str",
+                "value": "https://ollama.aitgpt.dev.brain.cs.ait.ac.th/",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Ollama Base URL",
+                "load_from_db": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true
+              },
+              "model_name": {
+                "info": "",
+                "name": "model_name",
+                "show": true,
+                "type": "str",
+                "value": "mxbai-embed-large:latest",
+                "toggle": false,
+                "dynamic": false,
+                "options": [
+                  "mxbai-embed-large:latest",
+                  "nomic-embed-text:latest"
+                ],
+                "advanced": false,
+                "combobox": true,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "DropdownInput",
+                "placeholder": "",
+                "display_name": "Ollama Model",
+                "dialog_inputs": {},
+                "refresh_button": true,
+                "external_options": {},
+                "options_metadata": [],
+                "real_time_refresh": true,
+                "trace_as_metadata": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.6.3",
+            "description": "Generate embeddings using Ollama models.",
+            "field_order": [
+              "model_name",
+              "base_url"
+            ],
+            "base_classes": [
+              "Embeddings"
+            ],
+            "display_name": "Ollama Embeddings",
+            "last_updated": "2025-12-03T04:11:50.439Z",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://python.langchain.com/docs/integrations/text_embedding/ollama",
+            "conditional_paths": []
+          },
+          "type": "OllamaEmbeddings",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 294
+        },
+        "position": {
+          "x": 1.0715968862605507,
+          "y": 1044.686862342827
+        },
+        "selected": false
+      }
+    ],
+    "viewport": {
+      "x": 1101.8331057561809,
+      "y": 383.74672488049447,
+      "zoom": 1.261251496360308
+    }
+  },
+  "name": "Contact, Dormitory, AITCC",
+  "updated_at": "2026-06-07 12:30:16.816022",
+  "is_component": false,
+  "endpoint_name": null
+}

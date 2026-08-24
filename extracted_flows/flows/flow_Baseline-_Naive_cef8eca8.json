@@ -1,0 +1,1976 @@
+{
+  "id": "cef8eca8-9c6e-4ed7-8138-01111c771510",
+  "data": {
+    "edges": [
+      {
+        "id": "xy-edge__OllamaEmbeddings-ZOncm{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-ZOncmœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-tDZXg{œfieldNameœ:œembeddingœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "OllamaEmbeddings-ZOncm",
+            "name": "embeddings",
+            "dataType": "OllamaEmbeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "id": "pgvector-tDZXg",
+            "type": "other",
+            "fieldName": "embedding",
+            "inputTypes": [
+              "Embeddings"
+            ]
+          }
+        },
+        "source": "OllamaEmbeddings-ZOncm",
+        "target": "pgvector-tDZXg",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-ZOncmœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "id": "xy-edge__SplitText-0dSTB{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-0dSTBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-pgvector-tDZXg{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "SplitText-0dSTB",
+            "name": "dataframe",
+            "dataType": "SplitText",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "id": "pgvector-tDZXg",
+            "type": "other",
+            "fieldName": "ingest_data",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ]
+          }
+        },
+        "source": "SplitText-0dSTB",
+        "target": "pgvector-tDZXg",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-0dSTBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-tDZXgœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "id": "xy-edge__CustomComponent-9HPbg{œdataTypeœ:œMultiWebScraperœ,œidœ:œCustomComponent-9HPbgœ,œnameœ:œscraped_dataœ,œoutput_typesœ:[œDataœ]}-SplitText-0dSTB{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-0dSTBœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "id": "CustomComponent-9HPbg",
+            "name": "scraped_data",
+            "dataType": "MultiWebScraper",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "id": "SplitText-0dSTB",
+            "type": "other",
+            "fieldName": "data_inputs",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ]
+          }
+        },
+        "source": "CustomComponent-9HPbg",
+        "target": "SplitText-0dSTB",
+        "animated": false,
+        "selected": false,
+        "className": "",
+        "sourceHandle": "{œdataTypeœ:œMultiWebScraperœ,œidœ:œCustomComponent-9HPbgœ,œnameœ:œscraped_dataœ,œoutput_typesœ:[œDataœ]}",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-0dSTBœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "OllamaEmbeddings-ZOncm",
+        "data": {
+          "id": "OllamaEmbeddings-ZOncm",
+          "node": {
+            "beta": false,
+            "icon": "Ollama",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "embeddings",
+                "cache": true,
+                "types": [
+                  "Embeddings"
+                ],
+                "value": "__UNDEFINED__",
+                "method": "build_embeddings",
+                "options": null,
+                "selected": "Embeddings",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Embeddings",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.ollama_embeddings",
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "code_hash": "ea2827c2a89f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "httpx",
+                    "version": "0.28.1"
+                  },
+                  {
+                    "name": "langchain_ollama",
+                    "version": "0.3.10"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import OllamaEmbeddings\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.ollama_constants import OLLAMA_EMBEDDING_MODELS\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import DropdownInput, MessageTextInput, Output\nfrom lfx.utils.util import transform_localhost_url\n\nHTTP_STATUS_OK = 200\n\n\nclass OllamaEmbeddingsComponent(LCModelComponent):\n    display_name: str = \"Ollama Embeddings\"\n    description: str = \"Generate embeddings using Ollama models.\"\n    documentation = \"https://python.langchain.com/docs/integrations/text_embedding/ollama\"\n    icon = \"Ollama\"\n    name = \"OllamaEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Ollama Model\",\n            value=\"\",\n            options=[],\n            real_time_refresh=True,\n            refresh_button=True,\n            combobox=True,\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"base_url\",\n            display_name=\"Ollama Base URL\",\n            info=\"Endpoint of the Ollama API. Defaults to http://localhost:11434.\",\n            value=\"http://localhost:11434\",\n            required=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        transformed_base_url = transform_localhost_url(self.base_url)\n        try:\n            output = OllamaEmbeddings(model=self.model_name, base_url=transformed_base_url)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \",\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\",\n            )\n            raise ValueError(msg) from e\n        return output\n\n    async def update_build_config(self, build_config: dict, _field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\"} and not await self.is_valid_ollama_url(self.base_url):\n            msg = \"Ollama is not running on the provided base URL. Please start Ollama and try again.\"\n            raise ValueError(msg)\n        if field_name in {\"model_name\", \"base_url\", \"tool_model_enabled\"}:\n            if await self.is_valid_ollama_url(self.base_url):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(self.base_url)\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n\n        return build_config\n\n    async def get_model(self, base_url_value: str) -> list[str]:\n        \"\"\"Get the model names from Ollama.\"\"\"\n        model_ids = []\n        try:\n            base_url_value = transform_localhost_url(base_url_value)\n            url = urljoin(base_url_value, \"/api/tags\")\n            async with httpx.AsyncClient() as client:\n                response = await client.get(url)\n                response.raise_for_status()\n                data = response.json()\n\n            model_ids = [model[\"name\"] for model in data.get(\"models\", [])]\n            # this to ensure that not embedding models are included.\n            # not even the base models since models can have 1b 2b etc\n            # handles cases when embeddings models have tags like :latest - etc.\n            model_ids = [\n                model\n                for model in model_ids\n                if any(model.startswith(f\"{embedding_model}\") for embedding_model in OLLAMA_EMBEDDING_MODELS)\n            ]\n\n        except (ImportError, ValueError, httpx.RequestError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            async with httpx.AsyncClient() as client:\n                url = transform_localhost_url(url)\n                return (await client.get(f\"{url}/api/tags\")).status_code == HTTP_STATUS_OK\n        except httpx.RequestError:\n            return False\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "base_url": {
+                "info": "Endpoint of the Ollama API. Defaults to http://localhost:11434.",
+                "list": false,
+                "name": "base_url",
+                "show": true,
+                "type": "str",
+                "value": "http://ollama:11434",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Ollama Base URL",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "is_refresh": false,
+              "model_name": {
+                "info": "",
+                "name": "model_name",
+                "show": true,
+                "type": "str",
+                "value": "mxbai-embed-large:latest",
+                "toggle": false,
+                "dynamic": false,
+                "options": [
+                  "mxbai-embed-large:latest",
+                  "nomic-embed-text:latest"
+                ],
+                "advanced": false,
+                "combobox": true,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "DropdownInput",
+                "placeholder": "",
+                "display_name": "Ollama Model",
+                "load_from_db": false,
+                "dialog_inputs": {},
+                "override_skip": false,
+                "refresh_button": true,
+                "external_options": {},
+                "options_metadata": [],
+                "real_time_refresh": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "_frontend_node_flow_id": {
+                "value": "cef8eca8-9c6e-4ed7-8138-01111c771510"
+              },
+              "_frontend_node_folder_id": {
+                "value": "6cd9b1e4-fe0c-45d3-8466-c5c5854ab85b"
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Generate embeddings using Ollama models.",
+            "field_order": [
+              "model_name",
+              "base_url"
+            ],
+            "base_classes": [
+              "Embeddings"
+            ],
+            "display_name": "Ollama Embeddings",
+            "last_updated": "2026-08-13T06:19:06.062Z",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://python.langchain.com/docs/integrations/text_embedding/ollama",
+            "conditional_paths": []
+          },
+          "type": "OllamaEmbeddings",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 285
+        },
+        "position": {
+          "x": 1022.9917858566464,
+          "y": 591.3368542242322
+        },
+        "selected": false
+      },
+      {
+        "id": "SplitText-0dSTB",
+        "data": {
+          "id": "SplitText-0dSTB",
+          "node": {
+            "beta": false,
+            "icon": "scissors-line-dashed",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "dataframe",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "split_text",
+                "options": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Chunks",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.split_text_with_chunk_id",
+              "code_hash": "d16a34de2280",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langchain_text_splitters",
+                    "version": "0.3.11"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 2
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from langchain_text_splitters import CharacterTextSplitter\r\n\r\nfrom lfx.custom.custom_component.component import Component\r\nfrom lfx.io import DropdownInput, HandleInput, IntInput, MessageTextInput, Output\r\nfrom lfx.schema.data import Data\r\nfrom lfx.schema.dataframe import DataFrame\r\nfrom lfx.schema.message import Message\r\nfrom lfx.utils.util import unescape_string\r\n\r\nimport hashlib\r\n\r\n\r\nclass SplitTextComponent(Component):\r\n    display_name: str = \"Split Text (with chunk_id)\"\r\n    description: str = \"Split text into chunks and stamp a stable chunk_id into each chunk's metadata.\"\r\n    documentation: str = \"https://docs.langflow.org/split-text\"\r\n    icon = \"scissors-line-dashed\"\r\n    name = \"SplitText\"\r\n\r\n    inputs = [\r\n        HandleInput(\r\n            name=\"data_inputs\",\r\n            display_name=\"Input\",\r\n            info=\"The data with texts to split in chunks.\",\r\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\r\n            required=True,\r\n        ),\r\n        IntInput(\r\n            name=\"chunk_overlap\",\r\n            display_name=\"Chunk Overlap\",\r\n            info=\"Number of characters to overlap between chunks.\",\r\n            value=200,\r\n        ),\r\n        IntInput(\r\n            name=\"chunk_size\",\r\n            display_name=\"Chunk Size\",\r\n            info=(\r\n                \"The maximum length of each chunk. Text is first split by separator, \"\r\n                \"then chunks are merged up to this size. \"\r\n                \"Individual splits larger than this won't be further divided.\"\r\n            ),\r\n            value=1000,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"separator\",\r\n            display_name=\"Separator\",\r\n            info=(\r\n                \"The character to split on. Use \\\\n for newline. \"\r\n                \"Examples: \\\\n\\\\n for paragraphs, \\\\n for lines, . for sentences\"\r\n            ),\r\n            value=\"\\n\",\r\n        ),\r\n        MessageTextInput(\r\n            name=\"text_key\",\r\n            display_name=\"Text Key\",\r\n            info=\"The key to use for the text column.\",\r\n            value=\"text\",\r\n            advanced=True,\r\n        ),\r\n        DropdownInput(\r\n            name=\"keep_separator\",\r\n            display_name=\"Keep Separator\",\r\n            info=\"Whether to keep the separator in the output chunks and where to place it.\",\r\n            options=[\"False\", \"True\", \"Start\", \"End\"],\r\n            value=\"False\",\r\n            advanced=True,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"chunk_id_key\",\r\n            display_name=\"Chunk ID metadata key\",\r\n            info=\"Metadata key under which the stable chunk id is stored.\",\r\n            value=\"chunk_id\",\r\n            advanced=True,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"chunk_id_prefix\",\r\n            display_name=\"Chunk ID prefix\",\r\n            info=\"Prefix for the readable chunk id, e.g. 'c' -> c0000, c0001, ...\",\r\n            value=\"c\",\r\n            advanced=True,\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Chunks\", name=\"dataframe\", method=\"split_text\"),\r\n    ]\r\n\r\n    def _docs_to_data(self, docs) -> list[Data]:\r\n        return [Data(text=doc.page_content, data=doc.metadata) for doc in docs]\r\n\r\n    def _fix_separator(self, separator: str) -> str:\r\n        \"\"\"Fix common separator issues and convert to proper format.\"\"\"\r\n        if separator == \"/n\":\r\n            return \"\\n\"\r\n        if separator == \"/t\":\r\n            return \"\\t\"\r\n        return separator\r\n\r\n    def split_text_base(self):\r\n        separator = self._fix_separator(self.separator)\r\n        separator = unescape_string(separator)\r\n\r\n        if isinstance(self.data_inputs, DataFrame):\r\n            if not len(self.data_inputs):\r\n                msg = \"DataFrame is empty\"\r\n                raise TypeError(msg)\r\n\r\n            self.data_inputs.text_key = self.text_key\r\n            try:\r\n                documents = self.data_inputs.to_lc_documents()\r\n            except Exception as e:\r\n                msg = f\"Error converting DataFrame to documents: {e}\"\r\n                raise TypeError(msg) from e\r\n        elif isinstance(self.data_inputs, Message):\r\n            self.data_inputs = [self.data_inputs.to_data()]\r\n            return self.split_text_base()\r\n        else:\r\n            if not self.data_inputs:\r\n                msg = \"No data inputs provided\"\r\n                raise TypeError(msg)\r\n\r\n            documents = []\r\n            if isinstance(self.data_inputs, Data):\r\n                self.data_inputs.text_key = self.text_key\r\n                documents = [self.data_inputs.to_lc_document()]\r\n            else:\r\n                try:\r\n                    documents = [input_.to_lc_document() for input_ in self.data_inputs if isinstance(input_, Data)]\r\n                    if not documents:\r\n                        msg = f\"No valid Data inputs found in {type(self.data_inputs)}\"\r\n                        raise TypeError(msg)\r\n                except AttributeError as e:\r\n                    msg = f\"Invalid input type in collection: {e}\"\r\n                    raise TypeError(msg) from e\r\n        try:\r\n            # Convert string 'False'/'True' to boolean\r\n            keep_sep = self.keep_separator\r\n            if isinstance(keep_sep, str):\r\n                if keep_sep.lower() == \"false\":\r\n                    keep_sep = False\r\n                elif keep_sep.lower() == \"true\":\r\n                    keep_sep = True\r\n                # 'start' and 'end' are kept as strings\r\n\r\n            splitter = CharacterTextSplitter(\r\n                chunk_overlap=self.chunk_overlap,\r\n                chunk_size=self.chunk_size,\r\n                separator=separator,\r\n                keep_separator=keep_sep,\r\n            )\r\n            return splitter.split_documents(documents)\r\n        except Exception as e:\r\n            msg = f\"Error splitting text: {e}\"\r\n            raise TypeError(msg) from e\r\n\r\n    def _stamp_chunk_ids(self, docs):\r\n        \"\"\"Assign a stable, readable chunk_id (+ index + content hash) to each chunk.\"\"\"\r\n        for i, doc in enumerate(docs):\r\n            if doc.metadata is None:\r\n                doc.metadata = {}\r\n            doc.metadata[self.chunk_id_key] = f\"{self.chunk_id_prefix}{i:04d}\"\r\n            doc.metadata[\"chunk_index\"] = i\r\n            doc.metadata[\"content_hash\"] = hashlib.md5(doc.page_content.encode(\"utf-8\")).hexdigest()[:10]\r\n        return docs\r\n\r\n    def split_text(self) -> DataFrame:\r\n        docs = self._stamp_chunk_ids(self.split_text_base())\r\n        self.status = f\"Split into {len(docs)} chunks, each tagged with a '{self.chunk_id_key}'.\"\r\n        return DataFrame(self._docs_to_data(docs))",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "text_key": {
+                "info": "The key to use for the text column.",
+                "list": false,
+                "name": "text_key",
+                "show": true,
+                "type": "str",
+                "value": "text",
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Text Key",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "separator": {
+                "info": "The character to split on. Use \\n for newline. Examples: \\n\\n for paragraphs, \\n for lines, . for sentences",
+                "list": false,
+                "name": "separator",
+                "show": true,
+                "type": "str",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Separator",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "chunk_size": {
+                "info": "The maximum length of each chunk. Text is first split by separator, then chunks are merged up to this size. Individual splits larger than this won't be further divided.",
+                "list": false,
+                "name": "chunk_size",
+                "show": true,
+                "type": "int",
+                "value": 1000,
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Chunk Size",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "data_inputs": {
+                "info": "The data with texts to split in chunks.",
+                "list": false,
+                "name": "data_inputs",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "chunk_id_key": {
+                "info": "Metadata key under which the stable chunk id is stored.",
+                "list": false,
+                "name": "chunk_id_key",
+                "show": true,
+                "type": "str",
+                "value": "chunk_id",
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Chunk ID metadata key",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "chunk_overlap": {
+                "info": "Number of characters to overlap between chunks.",
+                "list": false,
+                "name": "chunk_overlap",
+                "show": true,
+                "type": "int",
+                "value": 200,
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Chunk Overlap",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "keep_separator": {
+                "info": "Whether to keep the separator in the output chunks and where to place it.",
+                "name": "keep_separator",
+                "show": true,
+                "type": "str",
+                "value": "False",
+                "toggle": false,
+                "dynamic": false,
+                "options": [
+                  "False",
+                  "True",
+                  "Start",
+                  "End"
+                ],
+                "advanced": true,
+                "combobox": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "DropdownInput",
+                "placeholder": "",
+                "display_name": "Keep Separator",
+                "dialog_inputs": {},
+                "override_skip": false,
+                "external_options": {},
+                "options_metadata": [],
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "chunk_id_prefix": {
+                "info": "Prefix for the readable chunk id, e.g. 'c' -> c0000, c0001, ...",
+                "list": false,
+                "name": "chunk_id_prefix",
+                "show": true,
+                "type": "str",
+                "value": "c",
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Chunk ID prefix",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Split text into chunks and stamp a stable chunk_id into each chunk's metadata.",
+            "field_order": [
+              "data_inputs",
+              "chunk_overlap",
+              "chunk_size",
+              "separator",
+              "text_key",
+              "keep_separator",
+              "chunk_id_key",
+              "chunk_id_prefix"
+            ],
+            "base_classes": [
+              "DataFrame"
+            ],
+            "display_name": "Split Text (with chunk_id)",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "https://docs.langflow.org/split-text",
+            "conditional_paths": []
+          },
+          "type": "SplitText",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 427
+        },
+        "position": {
+          "x": 1259.2625561590244,
+          "y": 139.54691360759503
+        },
+        "selected": false
+      },
+      {
+        "id": "pgvector-tDZXg",
+        "data": {
+          "id": "pgvector-tDZXg",
+          "node": {
+            "beta": false,
+            "icon": "cpu",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "search_results",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "search_documents",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Search Results",
+                "group_outputs": false,
+                "required_inputs": null
+              },
+              {
+                "name": "dataframe",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "as_dataframe",
+                "options": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "DataFrame",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.pgvector_chunk_id_aware",
+              "code_hash": "0affc915c431",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langchain_community",
+                    "version": "0.3.31"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 2
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "from langchain_community.vectorstores import PGVector\r\n\r\nfrom lfx.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\r\nfrom lfx.helpers.data import docs_to_data\r\nfrom lfx.io import HandleInput, IntInput, SecretStrInput, StrInput\r\nfrom lfx.schema.data import Data\r\nfrom lfx.utils.connection_string_parser import transform_connection_string\r\n\r\n\r\nclass PGVectorStoreComponent(LCVectorStoreComponent):\r\n    display_name = \"PGVector (chunk_id aware)\"\r\n    description = \"PGVector Vector Store that persists chunk_id from metadata as the stored id.\"\r\n    name = \"pgvector\"\r\n    icon = \"cpu\"\r\n    inputs = [\r\n        SecretStrInput(name=\"pg_server_url\", display_name=\"PostgreSQL Server Connection String\", required=True),\r\n        StrInput(name=\"collection_name\", display_name=\"Table\", required=True),\r\n        *LCVectorStoreComponent.inputs,\r\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"], required=True),\r\n        IntInput(\r\n            name=\"number_of_results\",\r\n            display_name=\"Number of Results\",\r\n            info=\"Number of results to return.\",\r\n            value=4,\r\n            advanced=True,\r\n        ),\r\n    ]\r\n\r\n    @check_cached_vector_store\r\n    def build_vector_store(self) -> PGVector:\r\n        # Convert DataFrame to Data if needed using parent's method\r\n        self.ingest_data = self._prepare_ingest_data()\r\n        documents = []\r\n        for _input in self.ingest_data or []:\r\n            if isinstance(_input, Data):\r\n                documents.append(_input.to_lc_document())\r\n            else:\r\n                documents.append(_input)\r\n        connection_string_parsed = transform_connection_string(self.pg_server_url)\r\n        if documents:\r\n            # If every chunk carries a chunk_id in metadata, use those as the stored ids.\r\n            # This puts chunk_id in the custom_id column AND keeps it in cmetadata, and makes\r\n            # re-ingestion idempotent (same id upserts instead of duplicating).\r\n            chunk_ids = [d.metadata.get(\"chunk_id\") for d in documents]\r\n            ids = chunk_ids if all(chunk_ids) else None\r\n\r\n            pgvector = PGVector.from_documents(\r\n                embedding=self.embedding,\r\n                documents=documents,\r\n                collection_name=self.collection_name,\r\n                connection_string=connection_string_parsed,\r\n                ids=ids,\r\n            )\r\n        else:\r\n            pgvector = PGVector.from_existing_index(\r\n                embedding=self.embedding,\r\n                collection_name=self.collection_name,\r\n                connection_string=connection_string_parsed,\r\n            )\r\n        return pgvector\r\n\r\n    def search_documents(self) -> list[Data]:\r\n        vector_store = self.build_vector_store()\r\n        if self.search_query and isinstance(self.search_query, str) and self.search_query.strip():\r\n            docs = vector_store.similarity_search(\r\n                query=self.search_query,\r\n                k=self.number_of_results,\r\n            )\r\n            data = docs_to_data(docs)\r\n            self.status = data\r\n            return data\r\n        return []",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "embedding": {
+                "info": "",
+                "list": false,
+                "name": "embedding",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "placeholder": "",
+                "display_name": "Embedding",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "ingest_data": {
+                "info": "",
+                "list": true,
+                "name": "ingest_data",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "placeholder": "",
+                "display_name": "Ingest Data",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "search_query": {
+                "info": "Enter a query to run a similarity search.",
+                "list": false,
+                "name": "search_query",
+                "show": true,
+                "type": "query",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": true,
+                "title_case": false,
+                "_input_type": "QueryInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "Enter a query...",
+                "display_name": "Search Query",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "pg_server_url": {
+                "info": "",
+                "name": "pg_server_url",
+                "show": true,
+                "type": "str",
+                "value": "postgresql://user:password@pgvector:5432/default",
+                "dynamic": false,
+                "advanced": false,
+                "password": true,
+                "required": true,
+                "title_case": false,
+                "_input_type": "SecretStrInput",
+                "input_types": [],
+                "placeholder": "",
+                "display_name": "PostgreSQL Server Connection String",
+                "load_from_db": false,
+                "override_skip": false,
+                "track_in_telemetry": false
+              },
+              "collection_name": {
+                "info": "",
+                "list": false,
+                "name": "collection_name",
+                "show": true,
+                "type": "str",
+                "value": "baseline",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "StrInput",
+                "placeholder": "",
+                "display_name": "Table",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "number_of_results": {
+                "info": "Number of results to return.",
+                "list": false,
+                "name": "number_of_results",
+                "show": true,
+                "type": "int",
+                "value": 4,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Number of Results",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "should_cache_vector_store": {
+                "info": "If True, the vector store will be cached for the current build of the component. This is useful for components that have multiple output methods and want to share the same vector store.",
+                "list": false,
+                "name": "should_cache_vector_store",
+                "show": true,
+                "type": "bool",
+                "value": true,
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "BoolInput",
+                "placeholder": "",
+                "display_name": "Cache Vector Store",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "PGVector Vector Store that persists chunk_id from metadata as the stored id.",
+            "field_order": [
+              "pg_server_url",
+              "collection_name",
+              "ingest_data",
+              "search_query",
+              "should_cache_vector_store",
+              "embedding",
+              "number_of_results"
+            ],
+            "base_classes": [
+              "Data",
+              "DataFrame"
+            ],
+            "display_name": "PGVector (chunk_id aware)",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "pgvector",
+          "showNode": true,
+          "selected_output": "search_results"
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 471
+        },
+        "position": {
+          "x": 1664.0742392419547,
+          "y": 173.79762612256144
+        },
+        "selected": false
+      },
+      {
+        "id": "CustomComponent-Tl5AZ",
+        "data": {
+          "id": "CustomComponent-Tl5AZ",
+          "node": {
+            "beta": false,
+            "icon": "globe",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.multiurl_scraper_v3_final",
+              "code_hash": "2a8a7f08ec02",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List, Any\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Multi-URL Scraper_v3_Final\"\r\n    description = \"Advanced cleansing: Decodes emails, removes specific AIT breadcrumbs, and captures contextual links.\"\r\n    icon = \"globe\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/programs/flexible-masters/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Scraped Data\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        \"\"\"Decodes Cloudflare's XOR-encoded email strings.\"\"\"\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            email = \"\".join(\r\n                [chr(int(hex_string[i:i+2], 16) ^ key) \r\n                 for i in range(2, len(hex_string), 2)]\r\n            )\r\n            return email\r\n        except Exception:\r\n            return \"[Decoding Failed]\"\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        \r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = requests.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # 1. FIX EMAIL PROTECTION: Decode [email protected]\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded:\r\n                        decoded_email = self.decode_cf_email(encoded)\r\n                        cf_tag.replace_with(decoded_email)\r\n\r\n                # 2. CAPTURE IMPORTANT LINKS (Buttons/Brochures)\r\n                important_links = []\r\n                for a in soup.find_all('a', href=True):\r\n                    link_text = a.get_text(strip=True)\r\n                    if any(x in link_text for x in [\"Apply Now\", \"brochure\", \"Click this link\"]):\r\n                        full_url = urljoin(url, a['href'])\r\n                        important_links.append(f\"{link_text}: {full_url}\")\r\n\r\n                # 3. TARGETED LINK EXTRACTION (\"Clicking here\" patterns)\r\n                internal_links = []\r\n                for link in soup.find_all('a', string=re.compile(r'click(ing)? here', re.I)):\r\n                    href = link.get('href')\r\n                    if href:\r\n                        full_url = urljoin(url, href)\r\n                        link_context = link.find_parent().get_text(strip=True) \r\n                        internal_links.append(f\"Context: {link_context} -> URL: {full_url}\")\r\n\r\n                # 4. AGGRESSIVE CLEANING (Breadcrumbs & UI Noise)\r\n                # Specific AIT classes identified from your inspection photos\r\n                noise_selectors = [\r\n                    \".cli-bar-message\", \".cli-privacy-content-text\", \".cli-bar-container\",\r\n                    \".fusion-breadcrumb\", \".fusion-breadcrumbs\", \".breadcrumb\", \r\n                    \".fusion-page-title-row\", \".fusion-page-title-bar\", \".fusion-page-title-captions\"\r\n                ]\r\n                for selector in noise_selectors:\r\n                    for tag in soup.select(selector):\r\n                        tag.decompose()\r\n\r\n                # Pattern-based removal for any remaining \"Home >\" text strings\r\n                breadcrumb_pattern = re.compile(r'Home\\s*>\\s*', re.I)\r\n                for bc_tag in soup.find_all(string=breadcrumb_pattern):\r\n                    if bc_tag.parent:\r\n                        bc_tag.parent.decompose()\r\n\r\n                # Remove structural junk tags\r\n                for tag in soup([\"script\", \"style\", \"nav\", \"footer\", \"header\", \"aside\", \"noscript\"]):\r\n                    tag.decompose()\r\n\r\n                # 5. EXTRACT TEXT BODY (Prioritize main knowledge area)\r\n                # This explicitly avoids the page title area\r\n                content_body = soup.find('main') or soup.find('article') or soup.find(id='content') or soup.find('body')\r\n                clean_text = content_body.get_text(separator=' ', strip=True)\r\n\r\n                # 6. APPEND COLLECTED LINKS\r\n                if important_links:\r\n                    clean_text += \"\\n\\nImportant Links:\\n\" + \"\\n\".join(important_links)\r\n                \r\n                if internal_links:\r\n                    clean_text += \"\\n\\nAdditional Resources Found:\\n\" + \"\\n\".join(internal_links)\r\n\r\n                results.append(Data(data={\"text\": clean_text, \"source\": url}))\r\n\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n\r\n        self.status = results\r\n        return results",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Advanced cleansing: Decodes emails, removes specific AIT breadcrumbs, and captures contextual links.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Multi-URL Scraper_v3_Final",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 235
+        },
+        "position": {
+          "x": -1030.8649717207109,
+          "y": 992.5800599721898
+        },
+        "selected": false
+      },
+      {
+        "id": "CustomComponent-9HPbg",
+        "data": {
+          "id": "CustomComponent-9HPbg",
+          "node": {
+            "beta": false,
+            "icon": "globe",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.multiurl_scraper_new",
+              "code_hash": "ef3b105235ea",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List, Any\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Multi-URL Scraper_New\"\r\n    description = \"Cleans AIT noise: Removes o-breadcrumb, decodes emails, and captures action links.\"\r\n    icon = \"globe\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/admissions/tuition-and-fees/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Scraped Data\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        \"\"\"Decodes Cloudflare's XOR-encoded email strings.\"\"\"\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            email = \"\".join(\r\n                [chr(int(hex_string[i:i+2], 16) ^ key) \r\n                 for i in range(2, len(hex_string), 2)]\r\n            )\r\n            return email\r\n        except Exception:\r\n            return \"[Decoding Failed]\"\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        \r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = requests.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # 1. FIX EMAIL PROTECTION\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded:\r\n                        decoded_email = self.decode_cf_email(encoded)\r\n                        cf_tag.replace_with(decoded_email)\r\n\r\n                # 2. CAPTURE LINKS BEFORE DECOMPOSING\r\n                important_links = []\r\n                for a in soup.find_all('a', href=True):\r\n                    text = a.get_text(strip=True)\r\n                    if any(x in text for x in [\"Apply Now\", \"brochure\", \"Click this link\"]):\r\n                        important_links.append(f\"{text}: {urljoin(url, a['href'])}\")\r\n                # 3. TARGETED LINK EXTRACTION (\"Clicking here\" patterns)\r\n                internal_links = []\r\n                for link in soup.find_all('a', string=re.compile(r'click(ing)? here', re.I)):\r\n                    href = link.get('href')\r\n                    if href:\r\n                        full_url = urljoin(url, href)\r\n                        link_context = link.find_parent().get_text(strip=True) \r\n                        internal_links.append(f\"Context: {link_context} -> URL: {full_url}\")\r\n                # 4. AGGRESSIVE CLEANING (Specifically targeting o-breadcrumb)\r\n                noise_selectors = [\r\n                    \".o-breadcrumb\", \".cli-bar-container\", \".cli-bar-message\", \r\n                    \".fusion-breadcrumb\", \".fusion-breadcrumbs\", \".breadcrumb\", \r\n                    \".fusion-page-title-bar\", \".fusion-page-title-row\"\r\n                ]\r\n                for selector in noise_selectors:\r\n                    for tag in soup.select(selector):\r\n                        tag.decompose()\r\n\r\n                # Pattern-based safeguard: Delete ANY element containing \"Home >\"\r\n                for text_node in soup.find_all(string=re.compile(r'Home\\s*>\\s*', re.I)):\r\n                    parent = text_node.find_parent()\r\n                    if parent:\r\n                        parent.decompose()\r\n\r\n                # Remove standard structural junk\r\n                for tag in soup([\"script\", \"style\", \"nav\", \"footer\", \"header\", \"aside\", \"noscript\"]):\r\n                    tag.decompose()\r\n\r\n                # 5. EXTRACT CLEAN CONTENT\r\n                content_body = soup.find('main') or soup.find('article') or soup.find(id='content') or soup.find('body')\r\n                clean_text = content_body.get_text(separator=' ', strip=True)\r\n\r\n                if important_links:\r\n                    clean_text += \"\\n\\nImportant Links:\\n\" + \"\\n\".join(important_links)\r\n                if internal_links:\r\n                    clean_text += \"\\n\\nAdditional Resources Found:\\n\" + \"\\n\".join(internal_links)\r\n                results.append(Data(data={\"text\": clean_text, \"source\": url}))\r\n\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n\r\n        self.status = results\r\n        return results",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/\nhttps://iis.ru.ac.th/index.php/academics/tuition-fees/tuition-fee-tables-new-rate\nhttps://www.bu.ac.th/en/tuition-fees/master-degree/2026",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Cleans AIT noise: Removes o-breadcrumb, decodes emails, and captures action links.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Multi-URL Scraper_New",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": 806.3124465790894,
+          "y": 280.95135630070297
+        },
+        "selected": false
+      },
+      {
+        "id": "MultiWebScraper-89IKT",
+        "data": {
+          "id": "MultiWebScraper-89IKT",
+          "node": {
+            "beta": false,
+            "icon": "markdown",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data List",
+                "group_outputs": false,
+                "required_inputs": null
+              },
+              {
+                "name": "merged_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "merge_scraped_data",
+                "options": null,
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Merged Markdown",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.markdown_web_scraper_fixed",
+              "code_hash": "d43fafdd3b8e",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup, NavigableString\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List, Any\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Markdown Web Scraper (Fixed)\"\r\n    description = \"Extracts structured Markdown. Use 'Merged Markdown' for Write File components.\"\r\n    icon = \"markdown\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/admissions/tuition-and-fees/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        # This one returns a list (causes the error with Write File)\r\n        Output(display_name=\"Scraped Data List\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n        # This one returns a SINGLE string (works with Write File)\r\n        Output(display_name=\"Merged Markdown\", name=\"merged_data\", method=\"merge_scraped_data\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            return \"\".join([chr(int(hex_string[i:i+2], 16) ^ key) for i in range(2, len(hex_string), 2)])\r\n        except Exception:\r\n            return \"[Email Protected]\"\r\n\r\n    def html_to_markdown(self, element, url):\r\n        if isinstance(element, NavigableString):\r\n            return element.strip()\r\n        \r\n        tag = element.name\r\n        if tag == 'a' and element.get('href'):\r\n            href = urljoin(url, element['href'])\r\n            return f\" [{element.get_text(strip=True)}]({href}) \"\r\n        if tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:\r\n            level = tag[1]\r\n            return f\"\\n\\n{'#' * int(level)} {element.get_text(strip=True)}\\n\"\r\n        if tag == 'li':\r\n            return f\"\\n* {element.get_text(strip=True)}\"\r\n        if tag == 'table':\r\n            rows = []\r\n            for tr in element.find_all('tr'):\r\n                cells = [td.get_text(strip=True) for td in tr.find_all(['td', 'th'])]\r\n                if not cells: continue\r\n                rows.append(\"| \" + \" | \".join(cells) + \" |\")\r\n                if tr == element.find('tr'):\r\n                    rows.append(\"| \" + \" | \".join(['---'] * len(cells)) + \" |\")\r\n            return \"\\n\\n\" + \"\\n\".join(rows) + \"\\n\\n\"\r\n        if tag == 'p':\r\n            return f\"\\n\\n{element.get_text(strip=True)}\\n\"\r\n        \r\n        return \"\".join(self.html_to_markdown(child, url) for child in element.children if child.name not in ['script', 'style'])\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = requests.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # Clean Emails & Noise\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded: cf_tag.replace_with(self.decode_cf_email(encoded))\r\n                \r\n                for selector in [\".o-breadcrumb\", \"nav\", \"footer\", \"header\", \"script\", \"style\"]:\r\n                    for tag in soup.select(selector): tag.decompose()\r\n\r\n                page_title = soup.title.string if soup.title else url\r\n                main_body = soup.find('main') or soup.find('article') or soup.find('body')\r\n                \r\n                md = f\"# PAGE: {page_title}\\nURL: {url}\\n\\n\"\r\n                md += self.html_to_markdown(main_body, url) if main_body else \"No content found.\"\r\n                \r\n                results.append(Data(data={\"text\": re.sub(r'\\n{3,}', '\\n\\n', md), \"source\": url}))\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n        return results\r\n\r\n    def merge_scraped_data(self) -> Data:\r\n        \"\"\"Helper to combine all scraped pages into one Data object for file writing.\"\"\"\r\n        scraped_list = self.scrape_urls()\r\n        combined_text = \"\\n\\n---\\n\\n\".join([item.text for item in scraped_list])\r\n        return Data(data={\"text\": combined_text})",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/\n",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Extracts structured Markdown. Use 'Merged Markdown' for Write File components.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Markdown Web Scraper (Fixed)",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true,
+          "selected_output": "scraped_data"
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": -523.8827419945131,
+          "y": 1323.1204510156338
+        },
+        "selected": false
+      },
+      {
+        "id": "MultiWebScraper-kmCfD",
+        "data": {
+          "id": "MultiWebScraper-kmCfD",
+          "node": {
+            "beta": false,
+            "icon": "globe",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.multiurl_scraper_new",
+              "code_hash": "a58a7074775f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import requests\r\nimport re\r\nfrom bs4 import BeautifulSoup\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MultilineInput, Output\r\nfrom langflow.schema import Data\r\nfrom typing import List\r\nfrom urllib.parse import urljoin\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Multi-URL Scraper_New\"\r\n    description = \"Cleans AIT noise: Removes o-breadcrumb, decodes emails, and captures action links.\"\r\n    icon = \"globe\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://ait.ac.th/admissions/tuition-and-fees/\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Scraped Data\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n    ]\r\n\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        \"\"\"Decodes Cloudflare's XOR-encoded email strings.\"\"\"\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            email = \"\".join(\r\n                [chr(int(hex_string[i:i+2], 16) ^ key)\r\n                 for i in range(2, len(hex_string), 2)]\r\n            )\r\n            return email\r\n        except Exception:\r\n            return \"[Decoding Failed]\"\r\n\r\n    def clean_url(self, raw: str) -> str:\r\n        \"\"\"Repairs a URL that was pasted as a Markdown link, e.g.\r\n        '[www.bu.ac.th](https://www.bu.ac.th)/en/x' -> 'https://www.bu.ac.th/en/x'.\"\"\"\r\n        m = re.match(r'\\[[^\\]]*\\]\\(([^)]*)\\)(.*)', raw.strip())\r\n        if m:\r\n            return (m.group(1) + m.group(2)).strip()\r\n        return raw.strip()\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = [u.strip() for u in urls.split('\\n') if u.strip()] if isinstance(urls, str) else urls\r\n        url_list = [self.clean_url(u) for u in url_list]\r\n\r\n        # Ignore any HTTP_PROXY/HTTPS_PROXY inherited from the environment\r\n        # (Docker/campus proxy). This is what was causing the ProxyError.\r\n        session = requests.Session()\r\n        session.trust_env = False\r\n\r\n        results = []\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        for url in url_list:\r\n            try:\r\n                response = session.get(url, headers=headers, timeout=15)\r\n                response.raise_for_status()\r\n                soup = BeautifulSoup(response.text, 'html.parser')\r\n\r\n                # 1. FIX EMAIL PROTECTION\r\n                for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n                    encoded = cf_tag.get(\"data-cfemail\")\r\n                    if encoded:\r\n                        decoded_email = self.decode_cf_email(encoded)\r\n                        cf_tag.replace_with(decoded_email)\r\n\r\n                # 2. CAPTURE LINKS BEFORE DECOMPOSING\r\n                important_links = []\r\n                for a in soup.find_all('a', href=True):\r\n                    text = a.get_text(strip=True)\r\n                    if any(x in text for x in [\"Apply Now\", \"brochure\", \"Click this link\"]):\r\n                        important_links.append(f\"{text}: {urljoin(url, a['href'])}\")\r\n\r\n                # 3. TARGETED LINK EXTRACTION (\"Clicking here\" patterns)\r\n                internal_links = []\r\n                for link in soup.find_all('a', string=re.compile(r'click(ing)? here', re.I)):\r\n                    href = link.get('href')\r\n                    if href:\r\n                        full_url = urljoin(url, href)\r\n                        link_context = link.find_parent().get_text(strip=True)\r\n                        internal_links.append(f\"Context: {link_context} -> URL: {full_url}\")\r\n\r\n                # 4. AGGRESSIVE CLEANING (Specifically targeting o-breadcrumb)\r\n                noise_selectors = [\r\n                    \".o-breadcrumb\", \".cli-bar-container\", \".cli-bar-message\",\r\n                    \".fusion-breadcrumb\", \".fusion-breadcrumbs\", \".breadcrumb\",\r\n                    \".fusion-page-title-bar\", \".fusion-page-title-row\"\r\n                ]\r\n                for selector in noise_selectors:\r\n                    for tag in soup.select(selector):\r\n                        tag.decompose()\r\n\r\n                # Pattern-based safeguard: Delete ANY element containing \"Home >\"\r\n                for text_node in soup.find_all(string=re.compile(r'Home\\s*>\\s*', re.I)):\r\n                    parent = text_node.find_parent()\r\n                    if parent:\r\n                        parent.decompose()\r\n\r\n                # Remove standard structural junk\r\n                for tag in soup([\"script\", \"style\", \"nav\", \"footer\", \"header\", \"aside\", \"noscript\"]):\r\n                    tag.decompose()\r\n\r\n                # 5. EXTRACT CLEAN CONTENT\r\n                content_body = soup.find('main') or soup.find('article') or soup.find(id='content') or soup.find('body')\r\n                clean_text = content_body.get_text(separator=' ', strip=True)\r\n\r\n                if important_links:\r\n                    clean_text += \"\\n\\nImportant Links:\\n\" + \"\\n\".join(important_links)\r\n                if internal_links:\r\n                    clean_text += \"\\n\\nAdditional Resources Found:\\n\" + \"\\n\".join(internal_links)\r\n                results.append(Data(data={\"text\": clean_text, \"source\": url}))\r\n\r\n            except Exception as e:\r\n                results.append(Data(data={\"text\": f\"Error: {str(e)}\", \"source\": url}))\r\n\r\n        self.status = results\r\n        return results",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Cleans AIT noise: Removes o-breadcrumb, decodes emails, and captures action links.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Multi-URL Scraper_New",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 219
+        },
+        "position": {
+          "x": -536.9431874007157,
+          "y": 1641.0021842006754
+        },
+        "selected": false
+      },
+      {
+        "id": "MultiWebScraper-EGq6p",
+        "data": {
+          "id": "MultiWebScraper-EGq6p",
+          "node": {
+            "beta": false,
+            "icon": "globe",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.multiurl_scraperv1",
+              "code_hash": "520256bcfd6a",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import re\r\nfrom bs4 import BeautifulSoup\r\nimport requests\r\nfrom urllib.parse import urljoin\r\n\r\nfrom lfx.custom.custom_component.component import Component\r\nfrom lfx.io import MultilineInput, Output\r\nfrom lfx.schema.data import Data\r\nfrom typing import List\r\n\r\n\r\n# ---------------------------------------------------------------------------\r\n# Per-source table registry.\r\n#\r\n# The key is matched as a SUBSTRING of the URL. For every source we declare:\r\n#   - prefix : institution id used to build gold_table_id ({prefix}-t000k)\r\n#   - n      : how many MAIN data tables to keep (in gold order)\r\n#   - hints  : optional ordered keyword groups used to pin which physical\r\n#              table gets t0001, t0002, ... If a table's context text\r\n#              (caption + nearest heading + cell text) matches a hint group,\r\n#              it takes that slot. Anything unmatched falls back to DOM order.\r\n#\r\n# These ids must line up with evidence_ground_truth.json:\r\n#   bu  -> bu-t0001 (foreign), bu-t0002 (Thai)\r\n#   ait -> ait-t0001, ait-t0002, ait-t0003 (dormitory)\r\n#   iis -> iis-t0001\r\n# ---------------------------------------------------------------------------\r\nSOURCE_CONFIG = [\r\n    {\r\n        \"match\": \"bu.ac.th/en/tuition-fees/master-degree/2026\",\r\n        \"prefix\": \"bu\",\r\n        \"n\": 2,\r\n        # foreign/international table first, Thai table second\r\n        \"hints\": [[\"foreign\", \"international\"], [\"thai\", \"thailand\"]],\r\n    },\r\n    {\r\n        \"match\": \"ait.ac.th/tuition-and-fees\",\r\n        \"prefix\": \"ait\",\r\n        \"n\": 3,\r\n        \"hints\": [],  # keep DOM order: main tuition, SOM, dormitory\r\n    },\r\n    {\r\n        \"match\": \"iis.ru.ac.th\",\r\n        \"prefix\": \"iis\",\r\n        \"n\": 1,\r\n        \"hints\": [],\r\n    },\r\n]\r\n\r\nNUMERIC_RE = re.compile(r\"\\d\")\r\n\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Multi-URL Scraper-v1\"\r\n    description = (\r\n        \"Extracts only the MAIN data tables per source (drops row-filter / \"\r\n        \"dropdown UI and nested 'inside link' tables), flattens each to markdown, \"\r\n        \"and stamps gold_table_id from the source registry.\"\r\n    )\r\n    icon = \"globe\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://www.bu.ac.th/en/tuition-fees/master-degree/2026\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Scraped Data\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n    ]\r\n\r\n    # ------------------------------------------------------------------ utils\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        \"\"\"Decodes Cloudflare's XOR-encoded email strings.\"\"\"\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            return \"\".join(\r\n                chr(int(hex_string[i:i + 2], 16) ^ key)\r\n                for i in range(2, len(hex_string), 2)\r\n            )\r\n        except Exception:\r\n            return \"[Decoding Failed]\"\r\n\r\n    def _config_for(self, url: str) -> dict:\r\n        for cfg in SOURCE_CONFIG:\r\n            if cfg[\"match\"] in url:\r\n                return cfg\r\n        # Unknown source: keep every real table, generic prefix.\r\n        return {\"prefix\": \"src\", \"n\": 999, \"hints\": []}\r\n\r\n    # ------------------------------------------------------- table -> grid/md\r\n    def _table_to_grid(self, table) -> List[List[str]]:\r\n        \"\"\"Expand a <table> into a rectangular grid, honouring colspan/rowspan.\r\n\r\n        Uses recursive=False on rows/cells so nested tables inside a cell are\r\n        never pulled into this table's grid.\r\n        \"\"\"\r\n        trs = [tr for tr in table.find_all(\"tr\") if tr.find_parent(\"table\") is table]\r\n        grid: List[dict] = []  # list of {col_index: text}\r\n\r\n        for r, tr in enumerate(trs):\r\n            while len(grid) <= r:\r\n                grid.append({})\r\n            cells = tr.find_all([\"td\", \"th\"], recursive=False)\r\n            c = 0\r\n            for cell in cells:\r\n                # skip columns already filled by a previous rowspan\r\n                while c in grid[r]:\r\n                    c += 1\r\n                text = cell.get_text(separator=\" \", strip=True)\r\n                try:\r\n                    colspan = int(cell.get(\"colspan\", 1) or 1)\r\n                except ValueError:\r\n                    colspan = 1\r\n                try:\r\n                    rowspan = int(cell.get(\"rowspan\", 1) or 1)\r\n                except ValueError:\r\n                    rowspan = 1\r\n                for dr in range(rowspan):\r\n                    while len(grid) <= r + dr:\r\n                        grid.append({})\r\n                    for dc in range(colspan):\r\n                        grid[r + dr][c + dc] = text\r\n                c += colspan\r\n\r\n        max_col = max((max(rowd) + 1 if rowd else 0) for rowd in grid) if grid else 0\r\n        return [[rowd.get(i, \"\") for i in range(max_col)] for rowd in grid]\r\n\r\n    def _grid_to_markdown(self, grid: List[List[str]]) -> str:\r\n        if not grid:\r\n            return \"\"\r\n        width = max(len(r) for r in grid)\r\n        header = (grid[0] + [\"\"] * width)[:width]\r\n\r\n        def esc(x: str) -> str:\r\n            return (x or \"\").replace(\"|\", \"\\\\|\").replace(\"\\n\", \" \").strip()\r\n\r\n        lines = [\"| \" + \" | \".join(esc(h) for h in header) + \" |\",\r\n                 \"| \" + \" | \".join([\"---\"] * width) + \" |\"]\r\n        for row in grid[1:]:\r\n            row = (row + [\"\"] * width)[:width]\r\n            lines.append(\"| \" + \" | \".join(esc(c) for c in row) + \" |\")\r\n        return \"\\n\".join(lines)\r\n\r\n    # --------------------------------------------------- table classification\r\n    def _numeric_count(self, grid: List[List[str]]) -> int:\r\n        return sum(1 for row in grid for cell in row if NUMERIC_RE.search(cell or \"\"))\r\n\r\n    def _context_text(self, table) -> str:\r\n        \"\"\"Caption + nearest preceding headings + table text, for hint matching.\"\"\"\r\n        parts = []\r\n        cap = table.find(\"caption\")\r\n        if cap:\r\n            parts.append(cap.get_text(\" \", strip=True))\r\n        for prev in table.find_all_previous([\"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"strong\", \"p\"], limit=3):\r\n            parts.append(prev.get_text(\" \", strip=True))\r\n        parts.append(table.get_text(\" \", strip=True)[:300])\r\n        return \" \".join(parts).lower()\r\n\r\n    def _extract_main_tables(self, soup, cfg):\r\n        \"\"\"Return [(table_id, markdown, context), ...] for the main data tables.\"\"\"\r\n        # Drop \"inside link\" tables entirely so their text cannot bleed into a\r\n        # parent cell: any table nested in another table, or wrapped in <a>.\r\n        for t in soup.find_all(\"table\"):\r\n            if t.find_parent(\"table\") is not None or t.find_parent(\"a\") is not None:\r\n                t.decompose()\r\n\r\n        candidates = []\r\n        for dom_index, table in enumerate(soup.find_all(\"table\")):\r\n            # drop nested \"inside link\" tables and tables wrapped in an anchor\r\n            if table.find_parent(\"table\") is not None:\r\n                continue\r\n            if table.find_parent(\"a\") is not None:\r\n                continue\r\n            # drop row-filter / dropdown / search UI rendered as a table\r\n            if table.find([\"select\", \"input\", \"button\", \"textarea\"]):\r\n                continue\r\n            grid = self._table_to_grid(table)\r\n            rows, cols = len(grid), (len(grid[0]) if grid else 0)\r\n            if rows < 2 or cols < 2:\r\n                continue\r\n            numeric = self._numeric_count(grid)\r\n            if numeric == 0:  # tuition tables always carry numbers\r\n                continue\r\n            score = rows * cols + 5 * numeric\r\n            candidates.append({\r\n                \"dom_index\": dom_index,\r\n                \"grid\": grid,\r\n                \"score\": score,\r\n                \"context\": self._context_text(table),\r\n            })\r\n\r\n        # keep the top-n by score, then restore DOM order among the kept ones\r\n        keep = sorted(candidates, key=lambda x: x[\"score\"], reverse=True)[: cfg[\"n\"]]\r\n        keep = sorted(keep, key=lambda x: x[\"dom_index\"])\r\n\r\n        # assign gold_table_ids: honour hints first, then DOM order for the rest\r\n        prefix = cfg[\"prefix\"]\r\n        assigned = [None] * len(keep)\r\n        used = set()\r\n        hints = cfg.get(\"hints\") or []\r\n        for slot, hint_group in enumerate(hints):\r\n            if slot >= len(keep):\r\n                break\r\n            for i, cand in enumerate(keep):\r\n                if i in used:\r\n                    continue\r\n                if any(kw in cand[\"context\"] for kw in hint_group):\r\n                    assigned[slot] = cand\r\n                    used.add(i)\r\n                    break\r\n        remaining = [c for i, c in enumerate(keep) if i not in used]\r\n        for slot in range(len(assigned)):\r\n            if assigned[slot] is None and remaining:\r\n                assigned[slot] = remaining.pop(0)\r\n\r\n        out = []\r\n        for slot, cand in enumerate(assigned):\r\n            if cand is None:\r\n                continue\r\n            table_id = f\"{prefix}-t{slot + 1:04d}\"\r\n            out.append((table_id, self._grid_to_markdown(cand[\"grid\"]), cand[\"context\"]))\r\n        return out\r\n\r\n    # -------------------------------------------------------------- pipeline\r\n    def _preclean(self, soup):\r\n        \"\"\"Decode CF emails and strip obvious non-content noise (not tables).\"\"\"\r\n        for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n            enc = cf_tag.get(\"data-cfemail\")\r\n            if enc:\r\n                cf_tag.replace_with(self.decode_cf_email(enc))\r\n        for tag in soup([\"script\", \"style\", \"noscript\"]):\r\n            tag.decompose()\r\n        for sel in [\".o-breadcrumb\", \".cli-bar-container\", \".cli-bar-message\",\r\n                    \".fusion-breadcrumb\", \".fusion-breadcrumbs\", \".breadcrumb\"]:\r\n            for t in soup.select(sel):\r\n                t.decompose()\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = (\r\n            [u.strip() for u in urls.split(\"\\n\") if u.strip()]\r\n            if isinstance(urls, str) else list(urls)\r\n        )\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        results: List[Data] = []\r\n        preview = []\r\n\r\n        for url in url_list:\r\n            try:\r\n                resp = requests.get(url, headers=headers, timeout=15)\r\n                resp.raise_for_status()\r\n                soup = BeautifulSoup(resp.text, \"html.parser\")\r\n                self._preclean(soup)\r\n\r\n                cfg = self._config_for(url)\r\n                tables = self._extract_main_tables(soup, cfg)\r\n\r\n                if not tables:\r\n                    results.append(Data(data={\r\n                        \"text\": \"Error: no main tables found\",\r\n                        \"source\": url, \"table_id\": None, \"gold_table_id\": None,\r\n                        \"institution\": cfg[\"prefix\"],\r\n                    }))\r\n                    preview.append(f\"{url} -> 0 tables (CHECK SELECTORS)\")\r\n                    continue\r\n\r\n                for table_id, md, _ctx in tables:\r\n                    results.append(Data(data={\r\n                        \"text\": md,               # naive markdown flatten (M1 representation)\r\n                        \"source\": url,\r\n                        \"table_id\": table_id,\r\n                        \"gold_table_id\": table_id,\r\n                        \"institution\": cfg[\"prefix\"],\r\n                    }))\r\n                    first_row = md.splitlines()[0] if md else \"\"\r\n                    preview.append(f\"{table_id}: {first_row[:70]}\")\r\n\r\n            except Exception as e:\r\n                results.append(Data(data={\r\n                    \"text\": f\"Error: {e}\", \"source\": url,\r\n                    \"table_id\": None, \"gold_table_id\": None, \"institution\": None,\r\n                }))\r\n                preview.append(f\"{url} -> ERROR {e}\")\r\n\r\n        # Eyeball preview: verify the right tables were picked and ordered.\r\n        self.status = \"\\n\".join(preview)\r\n        return results",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/\nhttps://iis.ru.ac.th/index.php/academics/tuition-fees/tuition-fee-tables-new-rate\nhttps://www.bu.ac.th/en/tuition-fees/master-degree/2026",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Extracts only the MAIN data tables per source (drops row-filter / dropdown UI and nested 'inside link' tables), flattens each to markdown, and stamps gold_table_id from the source registry.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Multi-URL Scraper-v1",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 251
+        },
+        "position": {
+          "x": -441.09856574001225,
+          "y": 2334.4847515319334
+        },
+        "selected": false
+      },
+      {
+        "id": "MultiWebScraper-q17vN",
+        "data": {
+          "id": "MultiWebScraper-q17vN",
+          "node": {
+            "beta": false,
+            "icon": "globe",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "scraped_data",
+                "cache": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "scrape_urls",
+                "options": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Scraped Data",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.multiurl_scraperv2",
+              "code_hash": "367bdbcbb32e",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "bs4",
+                    "version": "4.12.3"
+                  },
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import re\r\nfrom bs4 import BeautifulSoup\r\nimport requests\r\nfrom urllib.parse import urljoin\r\n\r\nfrom lfx.custom.custom_component.component import Component\r\nfrom lfx.io import MultilineInput, Output\r\nfrom lfx.schema.data import Data\r\nfrom typing import List\r\n\r\n\r\n# ---------------------------------------------------------------------------\r\n# Per-source table registry (matched as a SUBSTRING of the URL).\r\n#   prefix : institution id -> gold_table_id ({prefix}-t000k)\r\n#   n      : how many MAIN data tables to keep (gold order)\r\n#   hints  : ordered keyword groups to pin which table gets t0001, t0002, ...\r\n#            (matched against caption + nearest heading + cell text)\r\n# Must line up with evidence_ground_truth.json:\r\n#   bu -> bu-t0001 (foreign), bu-t0002 (Thai)\r\n#   ait -> ait-t0001, ait-t0002, ait-t0003 (dormitory)\r\n#   iis -> iis-t0001\r\n# ---------------------------------------------------------------------------\r\nSOURCE_CONFIG = [\r\n    {\r\n        \"match\": \"bu.ac.th/en/tuition-fees/master-degree/2026\",\r\n        \"prefix\": \"bu\",\r\n        \"n\": 2,\r\n        \"hints\": [[\"foreign\", \"international\"], [\"thai\", \"thailand\"]],\r\n    },\r\n    {\r\n        \"match\": \"ait.ac.th/tuition-and-fees\",\r\n        \"prefix\": \"ait\",\r\n        \"n\": 3,\r\n        \"hints\": [],\r\n    },\r\n    {\r\n        \"match\": \"iis.ru.ac.th\",\r\n        \"prefix\": \"iis\",\r\n        \"n\": 1,\r\n        \"hints\": [],\r\n    },\r\n]\r\n\r\nNUMERIC_RE = re.compile(r\"\\d\")\r\n\r\n\r\nclass MultiWebScraper(Component):\r\n    display_name = \"Multi-URL Scraper-v2\"\r\n    description = (\r\n        \"Emits page TEXT plus each MAIN table as PLAIN TEXT (no markdown). \"\r\n        \"Drops row-filter/dropdown UI and nested 'inside link' tables, and \"\r\n        \"stamps gold_table_id per table from the source registry.\"\r\n    )\r\n    icon = \"globe\"\r\n\r\n    inputs = [\r\n        MultilineInput(\r\n            name=\"urls\",\r\n            display_name=\"URLs\",\r\n            info=\"Enter URLs (one per line).\",\r\n            value=\"https://www.bu.ac.th/en/tuition-fees/master-degree/2026\",\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Scraped Data\", name=\"scraped_data\", method=\"scrape_urls\"),\r\n    ]\r\n\r\n    # ------------------------------------------------------------------ utils\r\n    def decode_cf_email(self, hex_string: str) -> str:\r\n        \"\"\"Decodes Cloudflare's XOR-encoded email strings.\"\"\"\r\n        try:\r\n            key = int(hex_string[:2], 16)\r\n            return \"\".join(\r\n                chr(int(hex_string[i:i + 2], 16) ^ key)\r\n                for i in range(2, len(hex_string), 2)\r\n            )\r\n        except Exception:\r\n            return \"[Decoding Failed]\"\r\n\r\n    def _config_for(self, url: str) -> dict:\r\n        for cfg in SOURCE_CONFIG:\r\n            if cfg[\"match\"] in url:\r\n                return cfg\r\n        return {\"prefix\": \"src\", \"n\": 999, \"hints\": []}\r\n\r\n    # ------------------------------------------------------ table -> grid/text\r\n    def _table_to_grid(self, table) -> List[List[str]]:\r\n        \"\"\"Expand a <table> into a rectangular grid, honouring colspan/rowspan.\r\n        recursive=False on rows/cells keeps nested tables out of this grid.\"\"\"\r\n        trs = [tr for tr in table.find_all(\"tr\") if tr.find_parent(\"table\") is table]\r\n        grid: List[dict] = []\r\n\r\n        for r, tr in enumerate(trs):\r\n            while len(grid) <= r:\r\n                grid.append({})\r\n            cells = tr.find_all([\"td\", \"th\"], recursive=False)\r\n            c = 0\r\n            for cell in cells:\r\n                while c in grid[r]:\r\n                    c += 1\r\n                text = cell.get_text(separator=\" \", strip=True)\r\n                try:\r\n                    colspan = int(cell.get(\"colspan\", 1) or 1)\r\n                except ValueError:\r\n                    colspan = 1\r\n                try:\r\n                    rowspan = int(cell.get(\"rowspan\", 1) or 1)\r\n                except ValueError:\r\n                    rowspan = 1\r\n                for dr in range(rowspan):\r\n                    while len(grid) <= r + dr:\r\n                        grid.append({})\r\n                    for dc in range(colspan):\r\n                        grid[r + dr][c + dc] = text\r\n                c += colspan\r\n\r\n        max_col = max((max(rowd) + 1 if rowd else 0) for rowd in grid) if grid else 0\r\n        return [[rowd.get(i, \"\") for i in range(max_col)] for rowd in grid]\r\n\r\n    def _grid_to_plaintext(self, grid: List[List[str]]) -> str:\r\n        \"\"\"Plain text: one row per line, cells separated by a tab. No markdown.\"\"\"\r\n        lines = []\r\n        for row in grid:\r\n            cells = [(c or \"\").replace(\"\\n\", \" \").strip() for c in row]\r\n            lines.append(\"\\t\".join(cells).rstrip())\r\n        return \"\\n\".join(lines).strip()\r\n\r\n    # --------------------------------------------------- table classification\r\n    def _numeric_count(self, grid: List[List[str]]) -> int:\r\n        return sum(1 for row in grid for cell in row if NUMERIC_RE.search(cell or \"\"))\r\n\r\n    def _context_text(self, table) -> str:\r\n        parts = []\r\n        cap = table.find(\"caption\")\r\n        if cap:\r\n            parts.append(cap.get_text(\" \", strip=True))\r\n        for prev in table.find_all_previous([\"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"strong\", \"p\"], limit=3):\r\n            parts.append(prev.get_text(\" \", strip=True))\r\n        parts.append(table.get_text(\" \", strip=True)[:300])\r\n        return \" \".join(parts).lower()\r\n\r\n    def _extract_main_tables(self, soup, cfg):\r\n        \"\"\"Return [{table_id, text, tag}, ...] for the main data tables.\"\"\"\r\n        # Remove 'inside link' tables so their text can't bleed into a parent cell.\r\n        for t in soup.find_all(\"table\"):\r\n            if t.find_parent(\"table\") is not None or t.find_parent(\"a\") is not None:\r\n                t.decompose()\r\n\r\n        candidates = []\r\n        for dom_index, table in enumerate(soup.find_all(\"table\")):\r\n            if table.find([\"select\", \"input\", \"button\", \"textarea\"]):\r\n                continue  # row-filter / dropdown UI\r\n            grid = self._table_to_grid(table)\r\n            rows, cols = len(grid), (len(grid[0]) if grid else 0)\r\n            if rows < 2 or cols < 2:\r\n                continue\r\n            numeric = self._numeric_count(grid)\r\n            if numeric == 0:\r\n                continue\r\n            candidates.append({\r\n                \"dom_index\": dom_index,\r\n                \"grid\": grid,\r\n                \"tag\": table,\r\n                \"score\": rows * cols + 5 * numeric,\r\n                \"context\": self._context_text(table),\r\n            })\r\n\r\n        keep = sorted(candidates, key=lambda x: x[\"score\"], reverse=True)[: cfg[\"n\"]]\r\n        keep = sorted(keep, key=lambda x: x[\"dom_index\"])\r\n\r\n        prefix = cfg[\"prefix\"]\r\n        assigned = [None] * len(keep)\r\n        used = set()\r\n        for slot, hint_group in enumerate(cfg.get(\"hints\") or []):\r\n            if slot >= len(keep):\r\n                break\r\n            for i, cand in enumerate(keep):\r\n                if i in used:\r\n                    continue\r\n                if any(kw in cand[\"context\"] for kw in hint_group):\r\n                    assigned[slot] = cand\r\n                    used.add(i)\r\n                    break\r\n        remaining = [c for i, c in enumerate(keep) if i not in used]\r\n        for slot in range(len(assigned)):\r\n            if assigned[slot] is None and remaining:\r\n                assigned[slot] = remaining.pop(0)\r\n\r\n        out = []\r\n        for slot, cand in enumerate(assigned):\r\n            if cand is None:\r\n                continue\r\n            out.append({\r\n                \"table_id\": f\"{prefix}-t{slot + 1:04d}\",\r\n                \"text\": self._grid_to_plaintext(cand[\"grid\"]),\r\n                \"tag\": cand[\"tag\"],\r\n            })\r\n        return out\r\n\r\n    # -------------------------------------------------------------- pipeline\r\n    def _preclean(self, soup):\r\n        for cf_tag in soup.find_all(class_=\"__cf_email__\"):\r\n            enc = cf_tag.get(\"data-cfemail\")\r\n            if enc:\r\n                cf_tag.replace_with(self.decode_cf_email(enc))\r\n        for sel in [\".o-breadcrumb\", \".cli-bar-container\", \".cli-bar-message\",\r\n                    \".fusion-breadcrumb\", \".fusion-breadcrumbs\", \".breadcrumb\",\r\n                    \".fusion-page-title-bar\", \".fusion-page-title-row\"]:\r\n            for t in soup.select(sel):\r\n                t.decompose()\r\n        for node in soup.find_all(string=re.compile(r\"Home\\s*>\\s*\", re.I)):\r\n            parent = node.find_parent()\r\n            if parent:\r\n                parent.decompose()\r\n        for tag in soup([\"script\", \"style\", \"nav\", \"footer\", \"header\", \"aside\", \"noscript\"]):\r\n            tag.decompose()\r\n\r\n    def _capture_links(self, soup, url) -> str:\r\n        important = []\r\n        for a in soup.find_all(\"a\", href=True):\r\n            text = a.get_text(strip=True)\r\n            if any(x in text for x in [\"Apply Now\", \"brochure\", \"Click this link\"]):\r\n                important.append(f\"{text}: {urljoin(url, a['href'])}\")\r\n        internal = []\r\n        for link in soup.find_all(\"a\", string=re.compile(r\"click(ing)? here\", re.I)):\r\n            href = link.get(\"href\")\r\n            if href:\r\n                ctx = link.find_parent().get_text(strip=True)\r\n                internal.append(f\"Context: {ctx} -> URL: {urljoin(url, href)}\")\r\n        extra = \"\"\r\n        if important:\r\n            extra += \"\\n\\nImportant Links:\\n\" + \"\\n\".join(important)\r\n        if internal:\r\n            extra += \"\\n\\nAdditional Resources Found:\\n\" + \"\\n\".join(internal)\r\n        return extra\r\n\r\n    def scrape_urls(self) -> List[Data]:\r\n        urls = self.urls\r\n        url_list = (\r\n            [u.strip() for u in urls.split(\"\\n\") if u.strip()]\r\n            if isinstance(urls, str) else list(urls)\r\n        )\r\n        headers = {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"}\r\n\r\n        results: List[Data] = []\r\n\r\n        for url in url_list:\r\n            try:\r\n                resp = requests.get(url, headers=headers, timeout=15)\r\n                resp.raise_for_status()\r\n                soup = BeautifulSoup(resp.text, \"html.parser\")\r\n                self._preclean(soup)\r\n\r\n                cfg = self._config_for(url)\r\n                link_text = self._capture_links(soup, url)\r\n\r\n                # 1) main tables as PLAIN TEXT, each with its gold_table_id\r\n                tables = self._extract_main_tables(soup, cfg)\r\n                for t in tables:\r\n                    results.append(Data(data={\r\n                        \"text\": t[\"text\"],\r\n                        \"source\": url,\r\n                        \"table_id\": t[\"table_id\"],\r\n                        \"gold_table_id\": t[\"table_id\"],\r\n                        \"institution\": cfg[\"prefix\"],\r\n                        \"kind\": \"table\",\r\n                    }))\r\n                    t[\"tag\"].decompose()  # drop so it isn't duplicated in page text\r\n\r\n                # 2) remaining page TEXT (tables removed above, plus link capture)\r\n                body = (soup.find(\"main\") or soup.find(\"article\")\r\n                        or soup.find(id=\"content\") or soup.find(\"body\") or soup)\r\n                page_text = body.get_text(separator=\" \", strip=True) + link_text\r\n                if page_text.strip():\r\n                    results.append(Data(data={\r\n                        \"text\": page_text.strip(),\r\n                        \"source\": url,\r\n                        \"table_id\": None,\r\n                        \"gold_table_id\": None,\r\n                        \"institution\": cfg[\"prefix\"],\r\n                        \"kind\": \"text\",\r\n                    }))\r\n\r\n            except Exception as e:\r\n                results.append(Data(data={\r\n                    \"text\": f\"Error: {e}\", \"source\": url,\r\n                    \"table_id\": None, \"gold_table_id\": None,\r\n                    \"institution\": None, \"kind\": \"error\",\r\n                }))\r\n\r\n        # Show the actual scraped Data in the node output.\r\n        self.status = results\r\n        return results",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "urls": {
+                "info": "Enter URLs (one per line).",
+                "list": false,
+                "name": "urls",
+                "show": true,
+                "type": "str",
+                "value": "https://ait.ac.th/admissions/tuition-and-fees/\nhttps://iis.ru.ac.th/index.php/academics/tuition-fees/tuition-fee-tables-new-rate\nhttps://www.bu.ac.th/en/tuition-fees/master-degree/2026",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "multiline": true,
+                "tool_mode": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "title_case": false,
+                "_input_type": "MultilineInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "URLs",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "_type": "Component"
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Emits page TEXT plus each MAIN table as PLAIN TEXT (no markdown). Drops row-filter/dropdown UI and nested 'inside link' tables, and stamps gold_table_id per table from the source registry.",
+            "field_order": [
+              "urls"
+            ],
+            "base_classes": [
+              "Data"
+            ],
+            "display_name": "Multi-URL Scraper-v2",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MultiWebScraper",
+          "showNode": true
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 251
+        },
+        "position": {
+          "x": -611.786027829658,
+          "y": 2033.4578470639694
+        },
+        "selected": false
+      },
+      {
+        "id": "CustomComponent-DBh0L",
+        "data": {
+          "id": "CustomComponent-DBh0L",
+          "node": {
+            "beta": false,
+            "icon": "ruler",
+            "edited": true,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "retrieval",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "retrieval_table",
+                "options": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Retrieval & Sufficiency Metrics",
+                "group_outputs": false,
+                "required_inputs": null
+              },
+              {
+                "name": "per_question",
+                "cache": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "per_question_csv",
+                "options": null,
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Per-Question Evaluation CSV",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.spatial_table_rag_evaluator_sesrecall__hit__tokens",
+              "code_hash": "fbaef2f0e802",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "pandas",
+                    "version": "2.2.3"
+                  },
+                  {
+                    "name": "langchain_community",
+                    "version": "0.3.31"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.2"
+                  }
+                ],
+                "total_dependencies": 3
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "import json\r\nimport re\r\nimport pandas as pd\r\nfrom langchain_community.vectorstores import PGVector\r\n\r\nfrom lfx.custom.custom_component.component import Component\r\nfrom lfx.io import (\r\n    FileInput,\r\n    HandleInput,\r\n    IntInput,\r\n    MessageTextInput,\r\n    Output,\r\n    SecretStrInput,\r\n    StrInput,\r\n)\r\nfrom lfx.schema.dataframe import DataFrame\r\nfrom lfx.utils.connection_string_parser import transform_connection_string\r\n\r\n\r\nclass MixRagEvaluator(Component):\r\n    display_name = \"Spatial Table RAG Evaluator (SES-Recall / Hit / Tokens)\"\r\n    description = (\r\n        \"Evaluates a pgvector table index against evidence_cells ground-truth data. \"\r\n        \"Reports Hit@3/5, SES-Recall@3/5, and Tokens@3/5 grouped by spatial query type (q_type).\"\r\n    )\r\n    icon = \"ruler\"\r\n    name = \"MixRagEvaluator\"\r\n\r\n    inputs = [\r\n        SecretStrInput(\r\n            name=\"pg_server_url\", \r\n            display_name=\"PostgreSQL Server Connection String\", \r\n            required=True,\r\n            info=\"Format: postgresql://user:password@host:5432/dbname\"\r\n        ),\r\n        StrInput(\r\n            name=\"collection_name\", \r\n            display_name=\"Table / Collection Name\", \r\n            required=True, \r\n            value=\"naive_data\",\r\n            info=\"The pgvector collection name (e.g., baseline, method1, method2, soung_method).\"\r\n        ),\r\n        HandleInput(\r\n            name=\"embedding\",\r\n            display_name=\"Embedding\",\r\n            input_types=[\"Embeddings\"],\r\n            required=True,\r\n            info=\"Wire the same Ollama Embeddings component your index was built with.\",\r\n        ),\r\n        IntInput(\r\n            name=\"max_k\", \r\n            display_name=\"Max Retrieval Depth (K)\", \r\n            value=5,\r\n            info=\"Retrieval depth to fetch chunks for evaluation (default = 5).\"\r\n        ),\r\n        FileInput(\r\n            name=\"ground_truth_file\",\r\n            display_name=\"Ground-Truth JSON / Dataset\",\r\n            file_types=[\"json\"],\r\n            required=True,\r\n            info=\"JSON dataset containing question, q_type, gold_table_id, and evidence_cells tuples.\",\r\n        ),\r\n        MessageTextInput(\r\n            name=\"q_field\", \r\n            display_name=\"Question Field\", \r\n            value=\"question\", \r\n            advanced=True\r\n        ),\r\n        MessageTextInput(\r\n            name=\"type_field\", \r\n            display_name=\"Query Type Field\", \r\n            value=\"q_type\", \r\n            advanced=True\r\n        ),\r\n        MessageTextInput(\r\n            name=\"gold_table_field\", \r\n            display_name=\"Gold Table ID Field\", \r\n            value=\"gold_table_id\", \r\n            advanced=True\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Retrieval & Sufficiency Metrics\", name=\"retrieval\", method=\"retrieval_table\"),\r\n        Output(display_name=\"Per-Question Evaluation CSV\", name=\"per_question\", method=\"per_question_csv\"),\r\n    ]\r\n\r\n    _df = None  # Cache per-question results across outputs\r\n\r\n    # ----------------------------------------------------------------- Connection String Sanitizer\r\n    def _get_clean_connection_string(self) -> str:\r\n        \"\"\"Extracts and sanitizes the PostgreSQL URL for SQLAlchemy compatibility.\"\"\"\r\n        conn = self.pg_server_url\r\n        \r\n        # Unpack SecretStr if passed as an object\r\n        if hasattr(conn, \"get_secret_value\"):\r\n            conn = conn.get_secret_value()\r\n        elif hasattr(conn, \"value\"):\r\n            conn = conn.value\r\n            \r\n        conn_str = str(conn).strip().strip(\"'\").strip('\"')\r\n        \r\n        if not conn_str:\r\n            raise ValueError(\"PostgreSQL connection string is empty.\")\r\n            \r\n        # Fix deprecated 'postgres://' -> 'postgresql://'\r\n        if conn_str.startswith(\"postgres://\"):\r\n            conn_str = conn_str.replace(\"postgres://\", \"postgresql://\", 1)\r\n            \r\n        # Prepend scheme if user omitted 'postgresql://'\r\n        if not conn_str.startswith(\"postgresql\"):\r\n            conn_str = f\"postgresql://{conn_str}\"\r\n            \r\n        try:\r\n            return transform_connection_string(conn_str)\r\n        except Exception:\r\n            return conn_str\r\n\r\n    # ----------------------------------------------------------------- Helpers\r\n    @staticmethod\r\n    def _normalize(text) -> str:\r\n        \"\"\"Strips punctuation, currency symbols, and converts to lowercase for exact matching.\"\"\"\r\n        if text is None:\r\n            return \"\"\r\n        s = str(text).lower().replace(\"฿\", \"\").replace(\",\", \"\")\r\n        s = re.sub(r\"[^\\w\\s]\", \" \", s)\r\n        return re.sub(r\"\\s+\", \" \", s).strip()\r\n\r\n    def _check_evidence_sufficiency(self, evidence_cells, norm_retrieved_text: str) -> float:\r\n        \"\"\"\r\n        Calculates Structural Evidence Sufficiency Recall (SES-Recall)\r\n        over evidence_cells triples: [Row Header, Column Header, Cell Value].\r\n        \"\"\"\r\n        if not evidence_cells or len(evidence_cells) == 0:\r\n            return 0.0\r\n\r\n        matched_count = 0\r\n        total_cells = len(evidence_cells)\r\n\r\n        for cell in evidence_cells:\r\n            # cell structure: [row_header, col_header, value]\r\n            row_header = self._normalize(cell[0]) if len(cell) > 0 else \"\"\r\n            val_str = self._normalize(cell[2]) if len(cell) > 2 else \"\"\r\n\r\n            # Standard cell value check\r\n            if val_str and val_str not in [\"\", \"-\"]:\r\n                if val_str in norm_retrieved_text:\r\n                    matched_count += 1\r\n            # Null/dash value check anchored by row header presence\r\n            elif val_str in [\"\", \"-\"] and row_header:\r\n                if row_header in norm_retrieved_text:\r\n                    matched_count += 1\r\n\r\n        return matched_count / total_cells\r\n\r\n    # ------------------------------------------------------------------- Core Execution\r\n    def _run(self) -> pd.DataFrame:\r\n        if self._df is not None:\r\n            return self._df\r\n\r\n        # Load Ground Truth File\r\n        path = self.ground_truth_file\r\n        if isinstance(path, list):\r\n            path = path[0] if path else None\r\n        if not path:\r\n            raise ValueError(\"No ground-truth JSON provided.\")\r\n\r\n        with open(path, encoding=\"utf-8\") as f:\r\n            gt_data = json.load(f)\r\n\r\n        # Get Clean & Sanitized Connection String\r\n        conn_str = self._get_clean_connection_string()\r\n\r\n        # Database Connection via LangChain\r\n        store = PGVector.from_existing_index(\r\n            embedding=self.embedding,\r\n            collection_name=self.collection_name,\r\n            connection_string=conn_str,\r\n        )\r\n\r\n        max_k = max(int(self.max_k), 5)\r\n        eval_rows = []\r\n\r\n        for item in gt_data:\r\n            q_uid = item.get(\"question_uid\", \"\")\r\n            q = str(item.get(self.q_field, \"\"))\r\n            qtype = str(item.get(self.type_field, \"all\")).lower()\r\n            gold_table_id = str(item.get(self.gold_table_field, item.get(\"gold_doc_id\", \"\")))\r\n            evidence_cells = item.get(\"evidence_cells\", [])\r\n\r\n            # Similarity Search Top-K Chunks\r\n            retrieved_docs = store.similarity_search(query=q, k=max_k)\r\n\r\n            # Extract retrieved chunk contents and metadata identifiers\r\n            doc_contents = []\r\n            chunk_identifiers = []\r\n\r\n            for doc in retrieved_docs:\r\n                meta = getattr(doc, \"metadata\", {}) or {}\r\n                content = getattr(doc, \"page_content\", \"\")\r\n                doc_contents.append(content)\r\n\r\n                # Identify chunk table ID (supports table_id, chunk_id, or doc_id)\r\n                tid = (\r\n                    meta.get(\"table_id\") \r\n                    or meta.get(\"chunk_id\") \r\n                    or meta.get(\"doc_id\") \r\n                    or meta.get(\"source\") \r\n                    or \"\"\r\n                )\r\n                chunk_identifiers.append(str(tid))\r\n\r\n            rec = {\r\n                \"question_uid\": q_uid,\r\n                \"q_type\": qtype,\r\n                \"question\": q,\r\n                \"gold_answer\": item.get(\"answer\", \"\"),\r\n                \"gold_table_id\": gold_table_id,\r\n            }\r\n\r\n            # Evaluate at cutoff K = 3 and K = 5\r\n            for k_val in [3, 5]:\r\n                k_contents = doc_contents[:k_val]\r\n                k_ids = chunk_identifiers[:k_val]\r\n\r\n                joined_text = \"\\n\\n\".join(k_contents)\r\n                norm_joined_text = self._normalize(joined_text)\r\n\r\n                # 1. Binary Hit@K\r\n                hit_k = 1 if any(gold_table_id in str(cid) for cid in k_ids) else 0\r\n\r\n                # 2. Structural Evidence Sufficiency Recall (SES-Recall@K)\r\n                ses_recall_k = self._check_evidence_sufficiency(evidence_cells, norm_joined_text)\r\n\r\n                # 3. Prompt Token Overhead\r\n                token_count = len(joined_text.split())\r\n\r\n                rec[f\"hit@{k_val}\"] = hit_k\r\n                rec[f\"ses_recall@{k_val}\"] = round(ses_recall_k, 5)\r\n                rec[f\"tokens@{k_val}\"] = token_count\r\n\r\n            eval_rows.append(rec)\r\n\r\n        self._df = pd.DataFrame(eval_rows)\r\n        return self._df\r\n\r\n    # ---------------------------------------------------- Output 1: Summary Table\r\n    def retrieval_table(self) -> DataFrame:\r\n        df = self._run()\r\n        out = []\r\n\r\n        for qtype, sub in sorted(df.groupby(\"q_type\")):\r\n            out.append(\r\n                {\r\n                    \"Spatial Type\": qtype,\r\n                    \"Count\": len(sub),\r\n                    \"Hit@3\": round(sub[\"hit@3\"].mean(), 4),\r\n                    \"Hit@5\": round(sub[\"hit@5\"].mean(), 4),\r\n                    \"SES-Recall@3\": round(sub[\"ses_recall@3\"].mean(), 4),\r\n                    \"SES-Recall@5\": round(sub[\"ses_recall@5\"].mean(), 4),\r\n                    \"Tokens@3\": round(sub[\"tokens@3\"].mean(), 1),\r\n                    \"Tokens@5\": round(sub[\"tokens@5\"].mean(), 1),\r\n                }\r\n            )\r\n\r\n        summary_table = pd.DataFrame(out)\r\n        self.status = summary_table.to_string(index=False)\r\n        return DataFrame(summary_table)\r\n\r\n    # --------------------------------------------------- Output 2: Per-Question CSV\r\n    def per_question_csv(self) -> DataFrame:\r\n        df = self._run()\r\n        cols = [\r\n            \"question_uid\",\r\n            \"q_type\",\r\n            \"question\",\r\n            \"gold_answer\",\r\n            \"gold_table_id\",\r\n            \"hit@3\",\r\n            \"hit@5\",\r\n            \"ses_recall@3\",\r\n            \"ses_recall@5\",\r\n            \"tokens@3\",\r\n            \"tokens@5\",\r\n        ]\r\n        sheet = df[cols].copy()\r\n        self.status = sheet.to_csv(index=False)\r\n        return DataFrame(sheet)",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "max_k": {
+                "info": "Retrieval depth to fetch chunks for evaluation (default = 5).",
+                "list": false,
+                "name": "max_k",
+                "show": true,
+                "type": "int",
+                "value": 5,
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "IntInput",
+                "placeholder": "",
+                "display_name": "Max Retrieval Depth (K)",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": true
+              },
+              "q_field": {
+                "info": "",
+                "list": false,
+                "name": "q_field",
+                "show": true,
+                "type": "str",
+                "value": "question",
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Question Field",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "embedding": {
+                "info": "Wire the same Ollama Embeddings component your index was built with.",
+                "list": false,
+                "name": "embedding",
+                "show": true,
+                "type": "other",
+                "value": "",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "title_case": false,
+                "_input_type": "HandleInput",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "placeholder": "",
+                "display_name": "Embedding",
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "type_field": {
+                "info": "",
+                "list": false,
+                "name": "type_field",
+                "show": true,
+                "type": "str",
+                "value": "q_type",
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Query Type Field",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "pg_server_url": {
+                "info": "Format: postgresql://user:password@host:5432/dbname",
+                "name": "pg_server_url",
+                "show": true,
+                "type": "str",
+                "value": "postgresql://user:password@pgvector:5432/default",
+                "dynamic": false,
+                "advanced": false,
+                "password": true,
+                "required": true,
+                "title_case": false,
+                "_input_type": "SecretStrInput",
+                "input_types": [],
+                "placeholder": "",
+                "display_name": "PostgreSQL Server Connection String",
+                "load_from_db": false,
+                "override_skip": false,
+                "track_in_telemetry": false
+              },
+              "collection_name": {
+                "info": "The pgvector collection name (e.g., baseline, method1, method2, soung_method).",
+                "list": false,
+                "name": "collection_name",
+                "show": true,
+                "type": "str",
+                "value": "M3-test",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "StrInput",
+                "placeholder": "",
+                "display_name": "Table / Collection Name",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "gold_table_field": {
+                "info": "",
+                "list": false,
+                "name": "gold_table_field",
+                "show": true,
+                "type": "str",
+                "value": "gold_table_id",
+                "dynamic": false,
+                "advanced": true,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Gold Table ID Field",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              },
+              "ground_truth_file": {
+                "info": "JSON dataset containing question, q_type, gold_table_id, and evidence_cells tuples.",
+                "list": false,
+                "name": "ground_truth_file",
+                "show": true,
+                "type": "file",
+                "value": "evidence_ground_truth",
+                "dynamic": false,
+                "advanced": false,
+                "required": true,
+                "fileTypes": [
+                  "json"
+                ],
+                "file_path": "4271c932-2664-4a79-b0ca-9d17f0f9ef3f/evidence_ground_truth.json",
+                "temp_file": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "FileInput",
+                "placeholder": "",
+                "display_name": "Ground-Truth JSON / Dataset",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "lf_version": "1.7.3",
+            "description": "Evaluates a pgvector table index against evidence_cells ground-truth data. Reports Hit@3/5, SES-Recall@3/5, and Tokens@3/5 grouped by spatial query type (q_type).",
+            "field_order": [
+              "pg_server_url",
+              "collection_name",
+              "embedding",
+              "max_k",
+              "ground_truth_file",
+              "q_field",
+              "type_field",
+              "gold_table_field"
+            ],
+            "base_classes": [
+              "DataFrame"
+            ],
+            "display_name": "Spatial Table RAG Evaluator (SES-Recall / Hit / Tokens)",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "MixRagEvaluator",
+          "showNode": true,
+          "selected_output": "retrieval"
+        },
+        "type": "genericNode",
+        "dragging": false,
+        "measured": {
+          "width": 320,
+          "height": 547
+        },
+        "position": {
+          "x": -31.43823286654984,
+          "y": 1974.0229583121052
+        },
+        "selected": false
+      }
+    ],
+    "viewport": {
+      "x": 476.92388392583007,
+      "y": 200.68059389960422,
+      "zoom": 0.2500000000000002
+    }
+  },
+  "name": "Baseline- Naive",
+  "updated_at": "2026-08-18 07:15:33.593773",
+  "is_component": false,
+  "endpoint_name": null
+}

@@ -1,0 +1,1102 @@
+{
+  "record_count": 155,
+  "model_name": "gpt-5-mini",
+  "endpoint": "/v1/chat/completions",
+  "mode_counts": {
+    "normal": 147,
+    "reason": 8,
+    "unknown": 0
+  },
+  "source_formats": {
+    "slim": 155,
+    "prebuilt": 0
+  },
+  "generation_mode_override": "auto",
+  "rows": [
+    {
+      "custom_id": "normal_000001",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT value applicants from diverse backgrounds?\n\nContext:\n[1] # PAGE: Admissions - Asian Institute of Technology\nURL: https://ait.ac.th/admissions/\n\n# Admissions\nAIT welcomes talented, high-achieving students who contribute a wide diversity of views, experiences and perspectives.In t",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000002",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does each AIT program require its own application?\n\nContext:\n[1] hips listed on the AIT scholarship website?\n\nYou do not need to apply separately for the scholarships. Once you have submitted the application online, you will be automatically considered for all scholarships for which the ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000003",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Who should applicants contact for AIT admissions inquiries?\n\nContext:\n[1] quiries\n\nFor further inquiries on AIT Admissions Requirements and Procedures, applicants can visit the  AIT Admissions website. You may also contact the following address:\n\nAdmissions and Scholarships UnitAsian Ins",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000004",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the phone contact listed for AIT admissions?\n\nContext:\n[1] e a Cumulative GPA of 3.50 in their Master’s degree and 2.75 in their undergraduate program from top universities.\n\nDeadline for August 2026 Intake: 15  July 2026\n\nContact:AIT Admissions OfficeTel: 02-524 5032, 02-524 503",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000005",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What does AIT say about program application participation?\n\nContext:\n[1] hips listed on the AIT scholarship website?\n\nYou do not need to apply separately for the scholarships. Once you have submitted the application online, you will be automatically considered for all scholarships for wh",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000006",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What are AIT's main semester intakes?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scholarships) are as follows:\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000007",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the January intake deadline for overseas applicants requiring an educational visa?\n\nContext:\n[1] plication process, too.\n\nAcross each and every program, we actively seek students from a wide variety of backgrounds. We value the exceptional academic talent, intellectual curiosity,",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000008",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Which AIT intake is only for the School of Management in March?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scho",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000009",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the March Term deadline for other applicants at AIT School of Management?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and f",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000010",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the June Term deadline for overseas applicants requiring an educational visa?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000011",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the June Term deadline for other applicants?\n\nContext:\n[1] l visa\n\n### March Term Intake (only for Faculty of Business Management)\n\n• 15 February is the deadline for overseas applicants, requiring educational visa• 25 February is for other applicants\n\n### June Term Intake (only f",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000012",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the August intake deadline for overseas applicants requiring an educational visa?\n\nContext:\n[1] equiring an educational visa• 25 May is for other applicants\n\n### August Semester/Term Intake: January IntakeFaculty of Infrastructure, Faculty of Technology, Faculty of Resource, Facu",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000013",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the August intake deadline for other applicants?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scholarship",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000014",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the October Term deadline for overseas applicants requiring an educational visa?\n\nContext:\n[1] l visa\n\n### March Term Intake (only for Faculty of Business Management)\n\n• 15 February is the deadline for overseas applicants, requiring educational visa• 25 February is for other appl",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000015",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What August deadline applies to AIT Scholarships including RTG Fellowships?\n\nContext:\n[1] il and Infrastructure EngineeringRemote Sensing and GISSustainable Energy TransitionMechatronics and Machine IntelligenceWater Resources and Environmental EngineeringFood engineering and bioprocess ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000016",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT provide equal academic opportunities?\n\nContext:\n[1] # PAGE: Eligibility - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/\n\n# Eligibility\nAIT provides equal academic opportunities to all applicants and students regardless of their national origin, gender, age, m",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000017",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What degree background is required for regular Master's admission at AIT?\n\nContext:\n[1] # PAGE: Master's Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/masters-degree-program/\n\n# Master’s Degree Program\n\nEligibility Requirements for the Master’s Degree ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000018",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the minimum cGPA requirement for AIT Master's admission?\n\nContext:\n[1] nt, in an appropriate field of study from an institution of good standing acceptable to AIT;\n* Have undergraduate grades significantly above average; the minimum cGPA requirement for admission to the MPhil Pro",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000019",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What English scores does AIT list for Master's admission?\n\nContext:\n[1] ) | n/a |\n| 5 | 5 | 60 (14-17) | 43-50 |\n| 5.5 | 5.5 | 70 (18-20) | 51-61 |\n| 6 | 6 | 80 (21-23) | 62-73 |\n\n* Exemption, Applicants who are citizens of an English-speaking country (e.g., Australia, Canada, Ireland, N",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000020",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What additional requirement applies to AIT Professional Master's applicants?\n\nContext:\n[1] admission to the Masters Program is 2.75 or equivalent, at the Bachelor degree level;\n* English Proficiency Requirement: AIT-EET:6 or IELTS- Academic:6 (writing 6) or TOEFL Paper: 550 (writing 59-6",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000021",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What academic background is required for AIT doctoral admission?\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular Doctoral degr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000022",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the minimum Master's-level cGPA for AIT doctoral admission?\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular Doctoral d",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000023",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What research proposal requirement does AIT list for doctoral applicants?\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular Doct",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000024",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: How many recommendation letters are required for AIT doctoral applicants?\n\nContext:\n[1] line of dissertation research proposal (5-10 pages) including the required research facilities, if necessary.\n* Two recommendation letters.\n\n*Applicants with a one-year master’s degree, a one-year pro",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000025",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can applicants with a one-year master's degree enter AIT's doctoral program?\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular D",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000026",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is AIT's official medium of instruction and campus communication?\n\nContext:\n[1] # PAGE: English Proficiency Requirement For Admission - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission/\n\n# English Proficiency Requirement ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000027",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: How many ways are listed to satisfy AIT English requirements for admission?\n\nContext:\n[1] sional competency and to ensure that AIT graduates will advance to become future global leaders in the globalization age. Thus, we provide courses in academic English literacy development to assist ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000028",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: What TOEFL iBT score is equivalent to IELTS writing band 6 in AIT's table?\n\nContext:\n[1] ) | n/a |\n| 5 | 5 | 60 (14-17) | 43-50 |\n| 5.5 | 5.5 | 70 (18-20) | 51-61 |\n| 6 | 6 | 80 (21-23) | 62-73 |\n\n* Exemption, Applicants who are citizens of an English-speaking country (e.g., Australia, C",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000029",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: What TOEFL iBT score is equivalent to IELTS writing band 6 in AIT's table?\n\nContext:\n[1] ) | n/a |\n| 5 | 5 | 60 (14-17) | 43-50 |\n| 5.5 | 5.5 | 70 (18-20) | 51-61 |\n| 6 | 6 | 80 (21-23) | 62-73 |\n\n* Exemption, Applicants who are citizens of an English-speaking country (e.g., Australia, C",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000030",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: What TOEFL iBT score is equivalent to IELTS writing band 6 in AIT's table?\n\nContext:\n[1] ) | n/a |\n| 5 | 5 | 60 (14-17) | 43-50 |\n| 5.5 | 5.5 | 70 (18-20) | 51-61 |\n| 6 | 6 | 80 (21-23) | 62-73 |\n\n* Exemption, Applicants who are citizens of an English-speaking country (e.g., Australia, C",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000031",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can a Certificate of English Medium Instruction be submitted to AIT?\n\nContext:\n[1] ) | n/a |\n| 5 | 5 | 60 (14-17) | 43-50 |\n| 5.5 | 5.5 | 70 (18-20) | 51-61 |\n| 6 | 6 | 80 (21-23) | 62-73 |\n\n* Exemption, Applicants who are citizens of an English-speaking country (e.g., Australia, Canada,",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000032",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can a Certificate of English Medium Instruction be submitted to AIT?\n\nContext:\n[1] ) | n/a |\n| 5 | 5 | 60 (14-17) | 43-50 |\n| 5.5 | 5.5 | 70 (18-20) | 51-61 |\n| 6 | 6 | 80 (21-23) | 62-73 |\n\n* Exemption, Applicants who are citizens of an English-speaking country (e.g., Australia, Canada,",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000033",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What deadline does the financial aid page list for AIT Scholarships?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000034",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What study levels are listed for AIT Scholarships?\n\nContext:\n[1] ps grant for each applicant (if eligible) for approval by the School Dean. This AIT Scholarship grant can only be awarded once before enrollment and cannot be changed during the entire study period.\n\nInterested applicants c",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000035",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Which nationalities are listed for the DAAD Scholarship?\n\nContext:\n[1] # PAGE: DAAD Scholarship - Asian Institute of Technology\nURL: https://ait.ac.th/financial/daad-scholarship/\n\n# DAAD Scholarship\n\nDAAD Scholarship at AIT is Funded by the German Federal Ministry for Economic Cooperatio",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000036",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT offer on-campus housing?\n\nContext:\n[1] Asian Institute of Technology\n5. Do you have campus accommodation?\n\nYes, AIT offers on-campus accommodation on a limited basis. In case on-campus accommodation is not available, you may choose to live off-campus. AIT Accommodation office wi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000037",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What types of on-campus accommodation does AIT describe?\n\nContext:\n[1] # PAGE: Student housing - Asian Institute of Technology\nURL: https://ait.ac.th/student-housing/\n\n# Student housing\nAIT campus offers many opportunities for sports activities.In this section [Admissions](https://ait.ac",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000038",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Are AIT rooms furnished?\n\nContext:\n[1] e fully furnished with regular maintenance services. Weekly cleaning service is also available.\n\n### Accommodation facilities & service\n\n* Campus accommodation with air-conditioned/non air-conditioned & cooking/non cooking rooms*\n* Provides the foll",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000039",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Is weekly cleaning service available in AIT housing?\n\nContext:\n[1] and single or double occupancy — all rooms are fully furnished with regular maintenance services. Weekly cleaning service is also available.\n\n### Accommodation facilities & service\n\n* Campus accommodation with air-conditi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000040",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What maintenance services are listed for AIT accommodation?\n\nContext:\n[1] e fully furnished with regular maintenance services. Weekly cleaning service is also available.\n\n### Accommodation facilities & service\n\n* Campus accommodation with air-conditioned/non air-conditioned & cooking/non",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000041",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Are accommodations for disabled students available at AIT?\n\nContext:\n[1] s also available from schools, department and the Student Union.Guidance and counsellingIn a multinational environment such as AIT campus, AIT provides mentoring/counselling/peer support programs to support students",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000042",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Are pets allowed in AIT dorms?\n\nContext:\n[1] Y)\n\n### Regulations\n\n* Pets are not allowed in dorms. Do not feed any stray animals.\n* No cooking allowed in non-cooking dorm.\n* No subletting of room! Subletting will result in eviction from the student accommodation.\n* Always lock your room ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000043",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Do new incoming students need to queue for a preferred room type before arrival?\n\nContext:\n[1] d Y)\n\n### Dorm allocation procedure\n\n* For new students, units are allotted to the student at the start of the semester through lottery.\n* Students can queue later for the desired room, which w",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000044",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What phone number is listed for AIT housing information?\n\nContext:\n[1] r further coordination\n* Provide the picture of the service required\n\nPlease note to specify the subject of the request in below format\n\nFor Residents:Specify dorm / house / building and unit number: followed by Reque",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000045",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Is AIT's Flexible Master's Option a fully online program?\n\nContext:\n[1] nd professional development.\n\nWhat are the requirements for the Flexible Master’s Option? Is it the same as the traditional full time on-campus master?Yes, same entry and graduate requirements, because it’s the same ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000046",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: How long can students take to complete AIT's Flexible Master's Option?\n\nContext:\n[1] to on-campus students via Hybrid Mode. All classes are recorded for later viewing.\n\nAfter completion of the coursework, students can do their research or thesis in the AIT Campus at a flexible time. In c",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000047",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can Flexible Master's students do most coursework online?\n\nContext:\n[1] to on-campus students via Hybrid Mode. All classes are recorded for later viewing.\n\nAfter completion of the coursework, students can do their research or thesis in the AIT Campus at a flexible time. In coordination w",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000048",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have an official Study Options page?\n\nContext:\n[1] # PAGE: Flexible Master’s Option - Asian Institute of Technology\nURL: https://ait.ac.th/study/flexible-masters-option/\n\n# Flexible Master’s Option\n\nThe “Flexible Master’s Option” is a new alternative to our traditional “On-campu",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000049",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have a One-Year Master's Degree Program page?\n\nContext:\n[1] # PAGE: One Year Master’s Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/study/one-year-masters-degree-program/\n\n# One Year Master’s Degree Program\n\n## WHAT ARE THE BENEFITS OF A ONE-YEAR MASTER’S",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000050",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have a Student Opportunities page?\n\nContext:\n[1] # PAGE: Admissions - Asian Institute of Technology\nURL: https://ait.ac.th/admissions/\n\n# Admissions\nAIT welcomes talented, high-achieving students who contribute a wide diversity of views, experiences and perspectives.In this sect",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000051",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have a page for special, exchange, and visiting students?\n\nContext:\n[1] # PAGE:  Special Students: Exchange and Visiting Students - Asian Institute of Technology\nURL: https://ait.ac.th/special-students-exchange-and-visiting-students/\n\n# Special Students: Exchange and Visiting St",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000052",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have a Dining page?\n\nContext:\n[1] # PAGE: Health & Wellness - Asian Institute of Technology\nURL: https://ait.ac.th/health-wellness/\n\n# Health & Wellness\nAIT is proactive in maintaining good wellness practices for its community members.In this section [Housing](https://ait.ac.th/",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000053",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have a Health and Wellness page?\n\nContext:\n[1] # PAGE: Health & Wellness - Asian Institute of Technology\nURL: https://ait.ac.th/health-wellness/\n\n# Health & Wellness\nAIT is proactive in maintaining good wellness practices for its community members.In this section [Housing](https",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000054",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT have an About page?\n\nContext:\n[1] # PAGE: About - Asian Institute of Technology\nURL: https://www.ait.ac.th/about/\n\n# About AIT\nAIT is an international English-speaking postgraduate institution, focusing on engineering, environment, and management studies.In this section [About A",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000055",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Agri-Business Management (ABM) as an academic program?\n\nContext:\n[1] # PAGE: Agri-Business Management (ABM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/agri-business-management/\n\n# Agri-Business Management (ABM)\nAgriculture plays a vital role in the econo",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000056",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Agricultural Systems and Engineering (ASE) as an academic program?\n\nContext:\n[1] # PAGE: Agricultural Systems And Engineering (ASE) - Asian Institute of Technology\nURL: https://ait.ac.th/program/agricultural-systems-and-engineering/\n\n# Agricultural Systems And Engineering (",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000057",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Agricultural Systems, Engineering, and Agribusiness (ASEA) as an academic program?\n\nContext:\n[1] # PAGE: Agricultural Systems, Engineering, and Agribusiness (ASEA) - Asian Institute of Technology\nURL: https://ait.ac.th/program/agricultural-systems-engineering-and-agribusine",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000058",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Aquaculture and Aquatic Resources Management (AARM) as an academic program?\n\nContext:\n[1] # PAGE: Aquaculture and Aquatic Resources Management (AARM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/aquaculture-and-aquatic-resources-management/\n\n# Aquaculture ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000059",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Artificial Intelligence of Things and Signal Processing (AIoT) as an academic program?\n\nContext:\n[1] ait.ac.th/program/agricultural-systems-and-engineering/)  [Agricultural Systems, Engineering, and Agribusiness (ASEA)](https://ait.ac.th/program/agricultural-systems-enginee",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000060",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Biomedical Engineering (BME) as an academic program?\n\nContext:\n[1] # PAGE: Biomedical Engineering (BME) - Asian Institute of Technology\nURL: https://ait.ac.th/program/biomedical-engineering-bme/\n\n# Biomedical Engineering (BME)\n\n#### Area of Specializationunder theIndustrial",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000061",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Climate Change and Sustainable Development (CCSD) as an academic program?\n\nContext:\n[1] # PAGE: Climate Change and Sustainable Development (CCSD) - Asian Institute of Technology\nURL: https://ait.ac.th/program/climate-change-and-sustainable-development-ccsd/\n\n# Climate Chang",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000062",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Computer Science and Communication Technology (CSCT) as an academic program?\n\nContext:\n[1] # PAGE: Computer Science and Communication Technology (CSCT) - Asian Institute of Technology\nURL: https://ait.ac.th/program/computer-science-and-communication-technology-csct/\n\n# Comp",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000063",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Computer Science and Software Engineering (CSSE) as an academic program?\n\nContext:\n[1] ait.ac.th/program/agricultural-systems-and-engineering/)  [Agricultural Systems, Engineering, and Agribusiness (ASEA)](https://ait.ac.th/program/agricultural-systems-engineering-and-agrib",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000064",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Construction Engineering and Infrastructure Management (CEIM) as an academic program?\n\nContext:\n[1] # PAGE: Construction, Engineering and Infrastructure Management (CEIM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/construction-engineering-and-infrastruct",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000065",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Data Science and AI (DSAI) as an academic program?\n\nContext:\n[1] global challenges using data-driven solutions.\n* Adopts a hybrid mode of instruction, combining physical class sessions at the AIT campus in Thailand with online sessions.\n\n## Program Structure\n\nOfficial Degre",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000066",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Data Science and AI (DSAI) as an academic program?\n\nContext:\n[1] global challenges using data-driven solutions.\n* Adopts a hybrid mode of instruction, combining physical class sessions at the AIT campus in Thailand with online sessions.\n\n## Program Structure\n\nOfficial Degre",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000067",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Data Science and AI (DSAI) as an academic program?\n\nContext:\n[1] global challenges using data-driven solutions.\n* Adopts a hybrid mode of instruction, combining physical class sessions at the AIT campus in Thailand with online sessions.\n\n## Program Structure\n\nOfficial Degre",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000068",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Development and Sustainability (DS) as an academic program?\n\nContext:\n[1] # PAGE: Development and Sustainability (DS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/development-and-sustainability/\n\n# Development and Sustainability (DS)\n\nTo visit the academic",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000069",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Development and Sustainability (DS) as an academic program?\n\nContext:\n[1] # PAGE: Development and Sustainability (DS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/development-and-sustainability/\n\n# Development and Sustainability (DS)\n\nTo visit the academic",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000070",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Development Innovation and Sustainability (DIS) as an academic program?\n\nContext:\n[1] # PAGE: Development Innovation and Sustainability (DIS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/development-innovation-and-sustainability-dis/\n\n# Development Innovat",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000071",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Development Planning Management and Innovation (DPMI) as an academic program?\n\nContext:\n[1] # PAGE: Development Planning Management and Innovation (DPMI) - Asian Institute of Technology\nURL: https://ait.ac.th/program/development-planning-management-and-innovation/\n\n# Develo",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000072",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Digital Technology and Enterprise Information Management (DTEIM) as an academic program?\n\nContext:\n[1] Innovation (DPMI)](https://ait.ac.th/program/development-planning-management-and-innovation/)  [Digital Technology and Enterprise Information Management (DTEIM)](https://a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000073",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Disaster Preparedness, Mitigation and Management (DPMM) as an academic program?\n\nContext:\n[1] # PAGE: Disaster Preparedness Mitigation and Management (DPMM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/disaster-preparedness-mitigation-and-management/\n\n# Di",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000074",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Doctor of Philosophy (Ph.D.) in Management as an academic program?\n\nContext:\n[1] Innovation (DPMI)](https://ait.ac.th/program/development-planning-management-and-innovation/)  [Digital Technology and Enterprise Information Management (DTEIM)](https://ait.ac.th/program/digit",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000075",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Doctor of Business Administration (DBA) as an academic program?\n\nContext:\n[1] # PAGE: DBA | AIT School of Management\nURL: https://som.ait.ac.th/dba\n\n# Doctor ofBusiness Administration [DBA]\n\nOur Doctor of Business Administration (DBA) program equips professionals with strat",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000076",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program in Data Science and AI with Brunel University London as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master’s Program in Data Science and AI with Brunel University London (UK) - Asian Institute of Technology\nURL: https://ait.ac.th/prog",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000077",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program in Geotechnical and Earth Resources Engineering with Colorado State University as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master’s Program in Geotechnical and Earth Resources Engineering with Colorado State University (USA) - Asia",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000078",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program in Semiconductor Engineering with Taipei Tech, Taiwan as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master’s Program in Semiconductor Engineering with the National Taipei University of Technology (Taipei Tech), Taiwan - Asian Institu",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000079",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program in Water Engineering and Management with Colorado State University as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master’s Program in Water Engineering and Management with Colorado State University (USA) - Asian Institute of Technolog",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000080",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program in Water Engineering and Management with the University of Iowa as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master’s Program in Water Engineering and Management with the University of Iowa (USA) - Asian Institute of Technology\nURL:",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000081",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Master's Program with Telecom Sud Paris as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Master's Program with Telecom Sud Paris (France) - Asian Institute of Technology\nURL: https://ait.ac.th/program/dual-degree-masters-program-with-telecom-sud-paris/\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000082",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Dual Degree Program with University of Wollongong Australia as an academic program?\n\nContext:\n[1] # PAGE: Dual Degree Programs - Asian Institute of Technology\nURL: https://ait.ac.th/study/dual-degree-programs/\n\n# Dual Degree Programs\n\n* Dual Degree Master’s Program in Water",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000083",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Engineering Entrepreneurship as an academic program?\n\nContext:\n[1] # PAGE: Engineering  Entrepreneurship  - Asian Institute of Technology\nURL: https://ait.ac.th/program/engineering-entrepreneurship/\n\n# Engineering  Entrepreneurship\n\n### Become an Engineer Entrepreneur, Join",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000084",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Environmental Engineering and Management as an academic program?\n\nContext:\n[1] # PAGE: Environmental Engineering and Management (EEM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/environmental-engineering-and-management/\n\n# Environmental Engineering and Ma",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000085",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Food Engineering and Bioprocess Technology as an academic program?\n\nContext:\n[1] # PAGE: Food Engineering and Bioprocess Technology (FEBT) - Asian Institute of Technology\nURL: https://ait.ac.th/program/food-engineering-and-bioprocess-technology/\n\n# Food Engineering and Biop",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000086",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Food Innovation, Bioprocessing, Nutrition and Health (FIBNH) as an academic program?\n\nContext:\n[1] # PAGE: Food Innovation, Bioprocessing, Nutrition and Health (FIBNH) - Asian Institute of Technology\nURL: https://ait.ac.th/program/food-innovation-bioprocessing-nutrition-and",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000087",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Food Innovation, Nutrition and Health (FINH) as an academic program?\n\nContext:\n[1] of the food security, food safety, and nutrition challenges and to be able to identify the innovative solutions to these challenges, such as the necessity to maximize the utilization of resou",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000088",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Gender and Development Studies as an academic program?\n\nContext:\n[1] # PAGE: Gender and Development Studies (GDS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/gender-and-development-studies/\n\n# Gender and Development Studies (GDS)\n\n## Introduction / Backgr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000089",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Geotechnical and Earth Resources Engineering (GTE) as an academic program?\n\nContext:\n[1] # PAGE: Geotechnical and Earth Resources Engineering (GTE) - Asian Institute of Technology\nURL: https://ait.ac.th/program/geotechnical-and-earth-resources-engineering-gte/\n\n# Geotechnic",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000090",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Industrial and Manufacturing Engineering (IME) as an academic program?\n\nContext:\n[1] # PAGE: Industrial and Manufacturing Engineering (IME) - Asian Institute of Technology\nURL: https://ait.ac.th/program/industrial-and-manufacturing-engineering-ime/\n\n# Industrial and Manufac",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000091",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Industrial Systems Engineering (ISE) as an academic program?\n\nContext:\n[1] # PAGE: Industrial Systems Engineering (ISE) - Asian Institute of Technology\nURL: https://ait.ac.th/program/industrial-systems-engineering-ise/\n\n# Industrial Systems Engineering (ISE)\n\n## Introductio",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000092",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Information and Communication Technologies as an academic program?\n\nContext:\n[1] # PAGE: Computer Science and Communication Technology (CSCT) - Asian Institute of Technology\nURL: https://ait.ac.th/program/computer-science-and-communication-technology-csct/\n\n# Computer Scien",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000093",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Information Management as an academic program?\n\nContext:\n[1] # PAGE: Frequently Asked Questions - Asian Institute of Technology\nURL: https://ait.ac.th/admissions/frequently-asked-questions/\n\n# Frequently Asked Questions\nIn this section [Admissions](https://ait.ac.th/admissi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000094",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Internet of Things (IoT) Systems Engineering as an academic program?\n\nContext:\n[1] # PAGE: Internet of Things (IoT) Systems Engineering - Asian Institute of Technology\nURL: https://ait.ac.th/program/internet-of-things-iot-systems-engineering/\n\n# Internet of Things (IoT) Sys",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000095",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Master's in Business Analytics and Digital Transformation as an academic program?\n\nContext:\n[1] # PAGE: Business Analytics and Digital Transformation | AIT School of Management\nURL: https://som.ait.ac.th/badt\n\n# M/MSc Business Analytics andDigital Transformation (BADT)\n\nRan",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000096",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Master's in International Finance (M/MSc IF) as an academic program?\n\nContext:\n[1] # PAGE: Business Analytics and Digital Transformation | AIT School of Management\nURL: https://som.ait.ac.th/international-finance\n\n# MSc International Finance\n\nThe Master of Science in Intern",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000097",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Master of Business Administration (MBA) as an academic program?\n\nContext:\n[1] # PAGE: MBA  | AIT School of Management\nURL: https://som.ait.ac.th/mba\n\n# Master of Business Administration(MBA)\n\nOur MBA is one of Asia’s top-ranked programs, recognized by the QS Global MBA Rank",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000098",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Mechatronics and Machine Intelligence (MMI) as an academic program?\n\nContext:\n[1] devices and the strong interactions between mechanical and electronic parts no longer permit separate investigations of these components.\n\nMechatronics and Machine Intelligence (MMI) provides ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000099",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Nanosystems Engineering (NSE) as an academic program?\n\nContext:\n[1] h Semiconductor industries and collaborating universities overseas. Currently, courses in Bio-Nano Materials Science and Engineering are being added to the offerings of the field.\n\nPrograms leading to the a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000100",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Natural Resources Management as an academic program?\n\nContext:\n[1] # PAGE: Natural Resources Management (NRM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/natural-resources-management/\n\n# Natural Resources Management (NRM)\n\n## Introduction / Background\n\nTh",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000101",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master Degree in Structural Design of Tall Buildings as an academic program?\n\nContext:\n[1] # PAGE: Professional Master in Structural Design of Tall Buildings (PMTB) - Asian Institute of Technology\nURL: https://ait.ac.th/program/professional-master-degree-in-str",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000102",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master in Banking and Finance as an academic program?\n\nContext:\n[1] # PAGE: Professional Master in Banking and Finance - Asian Institute of Technology\nURL: https://ait.ac.th/program/professional-master-in-banking-and-finance/\n\n# Professional Master in Banking a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000103",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master in Environment, Social and Governance (ESG) as an academic program?\n\nContext:\n[1] Banking & Finance\n* Business Analytics & Digital Transformation\n* Environmental, Social and Governance\n* Social Business and EntrepreneurshipDownload Professional Master Pr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000104",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master in Geotechnical Engineering and Management (PME-GEM) as an academic program?\n\nContext:\n[1] # PAGE: Professional Master in Geotechnical Engineering and Management (PME-GEM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/professional-master",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000105",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master in Project Management (MPM) as an academic program?\n\nContext:\n[1] # PAGE: Professional Master in Project Management (MPM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/professional-master-in-project-management-mpm/\n\n# Professional Master",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000106",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master's Program in Data Science (PMDS) as an academic program?\n\nContext:\n[1] # PAGE: Professional Master in Data Science (PMDS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/professional-masters-program-in-data-science-pmds/\n\n# Professional Ma",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000107",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Professional Master's Programme in Data Science and AI Applications (AIT-UNITAR PMDS) as an academic program?\n\nContext:\n[1] # PAGE: Professional Master’s Programme in Data Science and AI Applications (AIT-UNITAR PMDS) - Asian Institute of Technology\nURL: https://ait.ac.th/p",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000108",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Remote Sensing and Geographic Information Systems (RS-GIS) as an academic program?\n\nContext:\n[1] # PAGE: Remote Sensing and Geographic Information Systems (RS-GIS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/remote-sensing-and-geographic-information-syste",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000109",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Semiconductor Engineering (SCE) as an academic program?\n\nContext:\n[1] # PAGE: Master’s in Semiconductor Engineering in Asia | AIT Thailand\nURL: https://ait.ac.th/program/semiconductor-engineering-sce/\n\n# Semiconductor Engineering (SCE)\n\n#### Area of Specializationunder theI",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000110",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Smart Networks and Communications Engineering (SNCE) as an academic program?\n\nContext:\n[1] strategies for cellular-mobile and cabled networks, as well as questions of congestion control and new services in ISDN and future B-ISDN networks.\n [](https://www.youtube.com/watch?v",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000111",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Structural Engineering (STE) as an academic program?\n\nContext:\n[1] # PAGE: Structural Engineering (STE) - Asian Institute of Technology\nURL: https://ait.ac.th/program/structural-engineering-ste/\n\n# Structural Engineering (STE)\n\n## Introdution\n\nStructural engineering (STE) h",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000112",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Sustainable Energy Transition as an academic program?\n\nContext:\n[1] # PAGE: Sustainable Energy Transition (SET) - Asian Institute of Technology\nURL: https://ait.ac.th/program/sustainable-energy-transition/\n\n# Sustainable Energy Transition (SET)\n\n## Introduction / Background",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000113",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Telecommunications (TC) as an academic program?\n\nContext:\n[1] # PAGE: Telecommunications (TC) - Asian Institute of Technology\nURL: https://ait.ac.th/program/telecommunications-tc/\n\n# Telecommunications (TC)\n\nThe Telecommunications program offers areas of specialization in t",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000114",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Transportation Engineering (TRE) as an academic program?\n\nContext:\n[1] # PAGE: Transportation Engineering (TRE) - Asian Institute of Technology\nURL: https://ait.ac.th/program/transportation-engineering-tre/\n\n# Transportation Engineering (TRE)\n\n## Introduction\n\nIndustrializa",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000115",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list University of Nice Sophia Antipolis, France as an academic program?\n\nContext:\n[1] # PAGE: Joint Degree Programme with the University of Nice Sophia Antipolis (France) - Asian Institute of Technology\nURL: https://ait.ac.th/program/university-of-nice-sophia-antipolis-france/\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000116",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Urban Innovation and Sustainability as an academic program?\n\nContext:\n[1] # PAGE: Urban Innovation and Sustainability (UIS) - Asian Institute of Technology\nURL: https://ait.ac.th/program/urban-innovation-and-sustainability/\n\n# Urban Innovation and Sustainability (UIS)\n\n### ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000117",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Does AIT list Water Engineering and Management (WEM) as an academic program?\n\nContext:\n[1] # PAGE: Water Engineering and Management (WEM) - Asian Institute of Technology\nURL: https://ait.ac.th/program/water-engineering-and-management-wem/\n\n# Water Engineering and Management (WEM)\n\n## Int",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000118",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: January intake, overseas applicant who needs an educational visa.\n\nContext:\n[1] l visa\n\n### March Term Intake (only for Faculty of Business Management)\n\n• 15 February is the deadline for overseas applicants, requiring educational visa• 25 February is for other applicants\n\n### June Term I",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000119",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: January intake, overseas applicant who needs an educational visa.\n\nContext:\n[1] l visa\n\n### March Term Intake (only for Faculty of Business Management)\n\n• 15 February is the deadline for overseas applicants, requiring educational visa• 25 February is for other applicants\n\n### June Term I",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000120",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: August intake, overseas applicant needing an educational visa.\n\nContext:\n[1] equiring an educational visa• 25 May is for other applicants\n\n### August Semester/Term Intake: January IntakeFaculty of Infrastructure, Faculty of Technology, Faculty of Resource, Faculty of Climate Change,  Fac",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000121",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: August intake, overseas applicant needing an educational visa.\n\nContext:\n[1] equiring an educational visa• 25 May is for other applicants\n\n### August Semester/Term Intake: January IntakeFaculty of Infrastructure, Faculty of Technology, Faculty of Resource, Faculty of Climate Change,  Fac",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "reason_000122",
+      "generation_mode": "reason",
+      "reasoning_effort_used": "medium",
+      "prompt_preview": "User Query: August intake, overseas applicant needing an educational visa.\n\nContext:\n[1] equiring an educational visa• 25 May is for other applicants\n\n### August Semester/Term Intake: January IntakeFaculty of Infrastructure, Faculty of Technology, Faculty of Resource, Faculty of Climate Change,  Fac",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000123",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the SOM deadline?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scholarships) are as follows:\n\nJanuary Sem",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000124",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the SOM deadline?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scholarships) are as follows:\n\nJanuary Sem",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000125",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: March term, other applicants.\n\nContext:\n[1] plication process, too.\n\nAcross each and every program, we actively seek students from a wide variety of backgrounds. We value the exceptional academic talent, intellectual curiosity, individual perspectives, creativity, and other defining attr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000126",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What deadline applies to me for June?\n\nContext:\n[1] l visa\n\n### March Term Intake (only for Faculty of Business Management)\n\n• 15 February is the deadline for overseas applicants, requiring educational visa• 25 February is for other applicants\n\n### June Term Intake (only for Faculty of B",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000127",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: School of Management June Term, overseas visa applicant.\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scholarship",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000128",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: When is the October application due?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scholarships) are as follows:\n\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000129",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Other applicants.\n\nContext:\n[1] r is for other applicants\n\n##### Apply\n [Admissions](https://ait.ac.th/admissions/)  [Eligibility](https://ait.ac.th/eligibility/)  [Financial aid](https://ait.ac.th/financial-aid/)  [Tuition and fees](https://ait.ac.th/tuition-and-fees/)  [Student housing",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000130",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: How long is the program?\n\nContext:\n[1] & Certificate Programs, Non-degree programs & Intensive English language.\n\n* For eligibility requirements on the Degree Programs, please visit theAdmissions website.\n\n* For non-degree training, please visit theAIT ExtensionandLanguage Center\n\n2. Can",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000131",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Doctoral program.\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular Doctoral degree program, an applicant must:\n\n* Have strong a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000132",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Is it online?\n\nContext:\n[1] s?\n\nYes, you can attend the classes on campus as well. That’s up to you if you follow classes online via our Hybrid Mode or come to the classroom on campus. However, AIT does not support visas for non-Thai students during coursework time.\nCan I choose any prog",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000133",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Master's admission.\n\nContext:\n[1] tic’s, Underground Excavation and Tunneling, Geotechnical Investigation & Exploration, Risk Management for Infrastructure Development and Planning, Challenges in Applying Engineering Principles in Practice.\n\nPME-GEPG: Fundamentals of Geosystem Exploratio",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000134",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Doctoral admission.\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular Doctoral degree program, an applicant must:\n\n* Have strong",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000135",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Doctoral degree.\n\nContext:\n[1] # PAGE: Doctoral Degree Program - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/doctoral-degree-program/\n\n# Doctoral Degree Program\n\nTo be eligible for admission to the regular Doctoral degree program, an applicant must:\n\n* Have strong ac",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000136",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Certificate of English Medium Instruction.\n\nContext:\n[1] sional competency and to ensure that AIT graduates will advance to become future global leaders in the globalization age. Thus, we provide courses in academic English literacy development to assist students in continuously improvin",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000137",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Is my English test still valid?\n\nContext:\n[1] de proof of attendance.\n\nI obtained a degree at a university at which English is the sole medium of instruction. Can I submit a certificate, in place of English Test score?\n\nYou can submit the ‘Certificate of English Medium of Instruction’ is",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000138",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: It is more than two years old.\n\nContext:\n[1] works.European Journal of Operational Research, Vol. 136 (2), pp 403-421.\n* Luong, H.T., and Nagendra N. Nagarur (2001).  Optimal Replacement Policy for Single Pipe in Water Distribution Networks.Water Resources Research, Vol. 37(12), pp 3285-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000139",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Writing-band equivalency for IELTS 6.\n\nContext:\n[1] 000 Baht one-time flat EL fee. The fee is to be invoiced to students in the EL track by Language Center and to be settled by the said students in their first semester. This EL fee is on top of the 2,000 baht Language Support Fee paid by",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000140",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Do I need to register for housing?\n\nContext:\n[1] d Y)\n\n### Dorm allocation procedure\n\n* For new students, units are allotted to the student at the start of the semester through lottery.\n* Students can queue later for the desired room, which will be allocated as per the availability.\n* To",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000141",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: New incoming student.\n\nContext:\n[1] (For August 2026 intake). In this regard, please make sure you have filled out aGoogle formwith your arrival date and time. Please do specify the airport name, as there are two airports in Bangkok (suvarnabhumi andDon Muang).Our Student Union (SU) team",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000142",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Are rooms furnished?\n\nContext:\n[1] and single or double occupancy — all rooms are fully furnished with regular maintenance services. Weekly cleaning service is also available.\n\n### Accommodation facilities & service\n\n* Campus accommodation with air-conditioned/non air-conditioned & cooki",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000143",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Yes, on-campus accommodation.\n\nContext:\n[1] and single or double occupancy — all rooms are fully furnished with regular maintenance services. Weekly cleaning service is also available.\n\n### Accommodation facilities & service\n\n* Campus accommodation with air-conditioned/non air-conditione",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000144",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can I bring a pet?\n\nContext:\n[1] Y)\n\n### Regulations\n\n* Pets are not allowed in dorms. Do not feed any stray animals.\n* No cooking allowed in non-cooking dorm.\n* No subletting of room! Subletting will result in eviction from the student accommodation.\n* Always lock your room when you lea",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000145",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Which AIT professor will supervise my thesis if I apply?\n\nContext:\n[1] The other available option is to use a smartphone as well; however, we recommend you use a computer.\n\nWill I have AIT student status?Yes, you will be a registered AIT student like every student on campus. However, we ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000146",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can AIT guarantee my Thai student visa approval?\n\nContext:\n[1] letter and proof of your 1st-semester tuition and fees at AIT.\n\nGroup III:\n\n* Please show a copy of the visa authorization letter issued by the Ministry of Foreign Affairs (MOFA) of Thailand received from GRU/OTA and AIT Cert",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000147",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the private email address of an AIT admissions officer?\n\nContext:\n[1] oaded to the application portal.\n\n## Contact\n\nMs. Wilailak at 02-524-5023, orMs. Kanchana at 02-524-6119, orE-mail:rtg@ait.ac.th\n\n## Further Inquiries\n\nFor further inquiries on AIT Admissions Requirements and P",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000148",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What are the exact cafeteria menus for next week at AIT?\n\nContext:\n[1] at least 2 days in advance. |\n| 7% VAT applies to all booking of accommodation and meeting rooms. |\n| Food catering/lunch boxes and drinks from outside are not allowed inside the Auditorium and the meeting rooms. Food",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000149",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the application deadline for AIT's 2032 intake?\n\nContext:\n[1] t/FirstPage.aspx) \n\n## Deadlines and notifications for the Application\n\nThe AIT academic year consists of two semesters: January and August. The deadlines for applications for admissions and financial aid (Scholarships",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000150",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can I get a full refund if I withdraw after classes start?\n\nContext:\n[1] or the first three weeks at AIT.\n* Students on other funding categories (Self-Support, Externally Supported/ Sponsored): Thecertified and signed Financial Assurance Form with additional certification or evidence of ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000151",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What are the exact room numbers available today in Dorm J?\n\nContext:\n[1] tory 3 – Married | 8 | Staff Dormitory 9 – Studio | 42 |\n| Staff Dormitory 4 – Studio | 12 | Staff Dormitory 10 – 2 br | 18 |\n| Staff Dormitory 4 – Married | 3 | Staff Dormitory 11 – 1 br | 2 |\n| Staff Dormitory 5 –",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000152",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can I bring my dog if I promise it is quiet?\n\nContext:\n[1] Y)\n\n### Regulations\n\n* Pets are not allowed in dorms. Do not feed any stray animals.\n* No cooking allowed in non-cooking dorm.\n* No subletting of room! Subletting will result in eviction from the student accommodation.\n* Always l",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000153",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Can you submit my AIT application for me?\n\nContext:\n[1] # PAGE: Apply Now for Admissions to AIT | AIT Online Application\nURL: https://ait.ac.th/apply-online/\n\n# Apply online\nAIT welcomes talented, high-achieving students who contribute a wide diversity of views, experiences and perspecti",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000154",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the personal phone number of the Dean of the School of Management?\n\nContext:\n[1] # PAGE: Roger Levermore - Asian Institute of Technology\nURL: https://ait.ac.th/people/dr-roger-levermore/\n\n# Dr.\nRoger Levermore\nPositionSenior Strategic Advisor to the President and the Faculty of B",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000155",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: What is the exact decision date for my individual admission application?\n\nContext:\n[1] l visa\n\n### March Term Intake (only for Faculty of Business Management)\n\n• 15 February is the deadline for overseas applicants, requiring educational visa• 25 February is for other applicants\n\n### June",
+      "source_format": "slim"
+    }
+  ]
+}

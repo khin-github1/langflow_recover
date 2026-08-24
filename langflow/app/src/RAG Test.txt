@@ -1,0 +1,160 @@
+{
+  "original_query": "What are the admission requirements and tuition fees for the Master's in Data Science for August 2026?",
+  "decomposition_used": true,
+  "decomposition_type": "parallel",
+  "notes": "multi_intent",
+  "final_query_count": 2,
+  "total_results_returned": 10,
+  "results_by_query": [
+    {
+      "query_index": 1,
+      "query_text": "What are the admission requirements for the Master's in Data Science for the August 2026 intake?",
+      "total_queries": 2,
+      "retrieval_wall_time_s": 0.06214392418041825,
+      "top_k": 5,
+      "n_returned": 5,
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.27946129571706235,
+          "page_content": "A degree of MSc in Data Science from Asian Institute of Technology, Thailand, and MRes in Data Science and Analytics from Brunel University London, UK. Students have the opportunity to work with doctoral students and the staff in the leading Intelligent Data Analysis Group in the Department of Computer Science. Students have the opportunity to develop a broader set of skills including study skills, research skills, employment skills, and capability skills through teamwork, guest lectures or workshops from industry, and dissertation projects with industrial/academic collaborations Target group Highly motivated and ambitious candidates with a bachelor’s degree preferably in Data Science, Artificial Intelligence, Computer Science, or related fields. Minimum Admissions Requirements A 2:2 or above UK Honours degree or equivalent internationally recognized qualification from a scientific, engineering, or a numerate subject",
+          "metadata": {
+            "source": "https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london",
+            "doc_id": "https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london",
+            "chunk_index": 1,
+            "chunk_id": "https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london::c0001",
+            "chunk_len_chars": 930,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 2,
+          "score": 0.31134747869154233,
+          "page_content": "Program Structure Official Degree Title: Master of Science (Professional) in Data Science and Artificial Intelligence Applications Total Credits: 30 credits Duration: 12 months (minimum) Curriculum Structure Technical Required Courses (12 credits): Computer Programming for Data Science Data Modeling and Data Management Fundamentals of Machine Learning Data Analytics for Business Intelligence Selected Topics / Elective Courses on Technology Ethics and Governance (12 credits): Data Privacy, Security, and Governance Selected Topic: AI Regulation and Governance Selected Topic: Techplomacy, Ethics, And Conflicts in Artificial Intelligence Selected Topic: Strategic Cybersecurity Governance Master’s Project (6 credits) Eligibility Requirements: Hold a Bachelor’s degree (normally from a four-year program), or its equivalent from an accredited institution in relevant areas with a minimum cumulative grade point average of 2.75 (4.0 scale); English Proficiency Requirement: AIT-EET: 6; IELTS",
+          "metadata": {
+            "source": "https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds",
+            "doc_id": "https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds",
+            "chunk_index": 1,
+            "chunk_id": "https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds::c0001",
+            "chunk_len_chars": 994,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 3,
+          "score": 0.31162808662232944,
+          "page_content": "Important Links:\nApply Now: https://ait.ac.th/apply-online/\nProgram brochure: https://ait.ac.th/wp-content/uploads/2021/05/Professional-Masters-in-Data-Science-2021.pdf",
+          "metadata": {
+            "source": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds",
+            "doc_id": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds",
+            "chunk_index": 4,
+            "chunk_id": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds::c0004",
+            "chunk_len_chars": 168,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 4,
+          "score": 0.320521390593447,
+          "page_content": "learning and artificial intelligence Data mining, big data technologies, and deep learning Foundations of Computer Science and Advanced Computing Algorithms and data structures Computational models and advanced computing concepts Systems architecture and performance Enterprise Information Systems and Digital Platforms Information management systems Enterprise systems and digital platforms Data-driven organizational processes Smart Networks and Communication Technologies Computer networks and data communications Telecommunications systems Wireless and mobile communication technologies Applied Computing and Industry-Oriented Practice Real-world digital applications and system integration Project-based learning and internships Industry collaboration and innovation Preferred Background Master’s Program Applicants should hold an undergraduate degree in one of the following fields: Computer Science, Computer Engineering, or Information and Communication Technology (ICT) Electronics,",
+          "metadata": {
+            "source": "https://ait.ac.th/program/computer-science-and-software-engineering-csse",
+            "doc_id": "https://ait.ac.th/program/computer-science-and-software-engineering-csse",
+            "chunk_index": 3,
+            "chunk_id": "https://ait.ac.th/program/computer-science-and-software-engineering-csse::c0003",
+            "chunk_len_chars": 991,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 5,
+          "score": 0.320521390593447,
+          "page_content": "learning and artificial intelligence Data mining, big data technologies, and deep learning Foundations of Computer Science and Advanced Computing Algorithms and data structures Computational models and advanced computing concepts Systems architecture and performance Enterprise Information Systems and Digital Platforms Information management systems Enterprise systems and digital platforms Data-driven organizational processes Smart Networks and Communication Technologies Computer networks and data communications Telecommunications systems Wireless and mobile communication technologies Applied Computing and Industry-Oriented Practice Real-world digital applications and system integration Project-based learning and internships Industry collaboration and innovation Preferred Background Master’s Program Applicants should hold an undergraduate degree in one of the following fields: Computer Science, Computer Engineering, or Information and Communication Technology (ICT) Electronics,",
+          "metadata": {
+            "source": "https://ait.ac.th/program/computer-science-and-communication-technology-csct",
+            "doc_id": "https://ait.ac.th/program/computer-science-and-communication-technology-csct",
+            "chunk_index": 3,
+            "chunk_id": "https://ait.ac.th/program/computer-science-and-communication-technology-csct::c0003",
+            "chunk_len_chars": 991,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "query_index": 2,
+      "query_text": "What are the tuition fees for the Master's in Data Science for the August 2026 intake?",
+      "total_queries": 2,
+      "retrieval_wall_time_s": 0.03426241083070636,
+      "top_k": 5,
+      "n_returned": 5,
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.3303767054150375,
+          "page_content": "Important Links:\nApply Now: https://ait.ac.th/apply-online/\nProgram brochure: https://ait.ac.th/wp-content/uploads/2021/05/Professional-Masters-in-Data-Science-2021.pdf",
+          "metadata": {
+            "source": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds",
+            "doc_id": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds",
+            "chunk_index": 4,
+            "chunk_id": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds::c0004",
+            "chunk_len_chars": 168,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 2,
+          "score": 0.35321772098539417,
+          "page_content": "MBA MSc International Finance MSc Business Analytics & Digital Transformation HOW TO APPLY? 1. Assess your eligibility and read about the process of application at: Click Here 2. Complete your application at: Click Here 3. Once you have submitted all required documents, your application will be reviewed within seven working days COSTS? Tuition fees for a regular program at AIT costs between 855,000-960,000 Thai Baht. Living costs for two years are 200,000-300,000. A One Year Master’s program costs between 480,000 and 632,000 Thai Baht with living costs half that of the regular Master’s programs. There is an opportunity to be considered for an AIT Scholarship for One Year Master’s programs. For more information on expenses, please Click Here Student Testimonials Ms. Sasithorn Saeung, (Thailand), MSc. International Finance, School of Management “The one-year program has been an impressive and memorable journey",
+          "metadata": {
+            "source": "https://ait.ac.th/study/one-year-masters-degree-program",
+            "doc_id": "https://ait.ac.th/study/one-year-masters-degree-program",
+            "chunk_index": 4,
+            "chunk_id": "https://ait.ac.th/study/one-year-masters-degree-program::c0004",
+            "chunk_len_chars": 921,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 3,
+          "score": 0.35476462301782097,
+          "page_content": "Program Structure Official Degree Title: Master of Science (Professional) in Data Science and Artificial Intelligence Applications Total Credits: 30 credits Duration: 12 months (minimum) Curriculum Structure Technical Required Courses (12 credits): Computer Programming for Data Science Data Modeling and Data Management Fundamentals of Machine Learning Data Analytics for Business Intelligence Selected Topics / Elective Courses on Technology Ethics and Governance (12 credits): Data Privacy, Security, and Governance Selected Topic: AI Regulation and Governance Selected Topic: Techplomacy, Ethics, And Conflicts in Artificial Intelligence Selected Topic: Strategic Cybersecurity Governance Master’s Project (6 credits) Eligibility Requirements: Hold a Bachelor’s degree (normally from a four-year program), or its equivalent from an accredited institution in relevant areas with a minimum cumulative grade point average of 2.75 (4.0 scale); English Proficiency Requirement: AIT-EET: 6; IELTS",
+          "metadata": {
+            "source": "https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds",
+            "doc_id": "https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds",
+            "chunk_index": 1,
+            "chunk_id": "https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds::c0001",
+            "chunk_len_chars": 994,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 4,
+          "score": 0.36244611891050404,
+          "page_content": "A degree of MSc in Data Science from Asian Institute of Technology, Thailand, and MRes in Data Science and Analytics from Brunel University London, UK. Students have the opportunity to work with doctoral students and the staff in the leading Intelligent Data Analysis Group in the Department of Computer Science. Students have the opportunity to develop a broader set of skills including study skills, research skills, employment skills, and capability skills through teamwork, guest lectures or workshops from industry, and dissertation projects with industrial/academic collaborations Target group Highly motivated and ambitious candidates with a bachelor’s degree preferably in Data Science, Artificial Intelligence, Computer Science, or related fields. Minimum Admissions Requirements A 2:2 or above UK Honours degree or equivalent internationally recognized qualification from a scientific, engineering, or a numerate subject",
+          "metadata": {
+            "source": "https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london",
+            "doc_id": "https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london",
+            "chunk_index": 1,
+            "chunk_id": "https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london::c0001",
+            "chunk_len_chars": 930,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        },
+        {
+          "rank": 5,
+          "score": 0.3650897741317568,
+          "page_content": "Semester Period Course First semester August-Mid December 2021 Core and elective courses Second semester January-Mid May 2022 Core and elective course Third semester June-July 2022 Individual project with industry Course 1st Semester (August-November) Computer Programming for Data Science Required 3 1st Semester (August-November) Data Modeling and Data Management Required 3 1st Semester (August-November) Fundamentals of Machine Learning Required 3 1st Semester (August-November) Mathematical for Data Science Required 3 2nd Semester (January-Mid May) Data Analytics for Business Intelligence Required 3 2nd Semester (January-Mid May) Data Driven Computer Vision Required 3 2nd Semester (January-Mid May) Deep Learning Required 3 2nd Semester (January-Mid May) Human-Computer Interaction Required 3 3rd Semester (June-July) Industrial Project Required 6 Apply Now Program brochure For more information +66(0)2524 5700 siripornn@ait.ac.th",
+          "metadata": {
+            "source": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds",
+            "doc_id": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds",
+            "chunk_index": 3,
+            "chunk_id": "https://ait.ac.th/program/professional-masters-program-in-data-science-pmds::c0003",
+            "chunk_len_chars": 940,
+            "ingested_at_utc": "2026-02-13T08:22:15.631673+00:00"
+          }
+        }
+      ]
+    }
+  ]
+}

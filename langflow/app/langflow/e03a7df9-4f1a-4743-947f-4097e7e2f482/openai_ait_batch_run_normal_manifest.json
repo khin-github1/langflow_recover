@@ -1,0 +1,1417 @@
+{
+  "record_count": 200,
+  "model_name": "gpt-5-mini",
+  "endpoint": "/v1/chat/completions",
+  "mode_counts": {
+    "normal": 200,
+    "reason": 0,
+    "unknown": 0
+  },
+  "source_formats": {
+    "slim": 200,
+    "prebuilt": 0
+  },
+  "generation_mode_override": "normal",
+  "rows": [
+    {
+      "custom_id": "normal_000001",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What kind of students does AIT seek through admissions?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.248958\n\n---\n\n# PAGE: Admissions - Asian Institute of Technology\nURL: https://ait.ac.th/admissions/\n# Admissi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000002",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How does AIT describe its admissions process for prospective students?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.215094\n\n---\n\n# PAGE: Admissions - Asian Institute of Technology\nURL: https://ait.ac.th/admiss",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000003",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT value applicants from diverse backgrounds?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://careercenter.ait.ac.th/faqs-for-employers/ chunk_id=https://careercenter.ait.ac.th/faqs-for-employers/::r1 score=0.274642\n\n---\n\nes?\nNo, job and internship postings are currently free of",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000004",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does each AIT program require its own application?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.257261\n\n---\n\nnrollment with your academic program. There ar",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000005",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can an applicant apply to more than one AIT program at the same time?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.288639\n\n---\n\nnrollment with your academi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000006",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the AIT application processing fee?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.193794\n\n---\n\nble test resultshere.\n11. Is TOEFL ITP acceptable to ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000007",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Who should applicants contact for AIT admissions inquiries?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/ chunk_id=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/::r1 score=0.2267",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000008",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the phone contact listed for AIT admissions?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/ chunk_id=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/::r1 score=0.207482\n\n---",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000009",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Where is the Admissions and Scholarships Unit located by mailing address?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/ chunk_id=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/::r",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000010",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What does AIT say about program application participation?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://careercenter.ait.ac.th/faqs-for-employers/ chunk_id=https://careercenter.ait.ac.th/faqs-for-employers/::r1 score=0.277175\n\n---\n\nime opportunities typically attract stronger engag",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000011",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What are AIT's main semester intakes?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/apply-online/ chunk_id=https://ait.ac.th/apply-online/::r1 score=0.227394\n\n---\n\nt/FirstPage.aspx)\n## Deadlines and notifications for the Application\nThe AIT academic year consists of two se",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000012",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the January intake deadline for overseas applicants requiring an educational visa?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.264143\n\n---\n\nl visa\n### March Term Intake (only for Faculty of Business M",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000013",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Which AIT intake is only for the School of Management in March?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.315591\n\n---\n\nve full financial support?\nNo, ou",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000014",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the March Term deadline for overseas applicants requiring an educational visa?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.244900\n\n---\n\nl visa\n### March Term Intake (only for Faculty of Business Manag",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000015",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the March Term deadline for other applicants at AIT School of Management?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/apply-online/ chunk_id=https://ait.ac.th/apply-online/::r1 score=0.179497\n\n---\n\nt/FirstPage.aspx)\n## Deadlines and notifications for the Applicat",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000016",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the June Term deadline for overseas applicants requiring an educational visa?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.253678\n\n---\n\nl visa\n### March Term Intake (only for Faculty of Business Manage",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000017",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the June Term deadline for other applicants?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.321956\n\n---\n\nl visa\n### March Term Intake (only for Faculty of Business Management)\n• 15 February is the deadli",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000018",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the August intake deadline for overseas applicants requiring an educational visa?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/apply-online/ chunk_id=https://ait.ac.th/apply-online/::r1 score=0.254499\n\n---\n\nequiring an educational visa• 25 May is for other applica",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000019",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the August intake deadline for other applicants?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.309064\n\n---\n\nplication process, too.\nAcross each and every program, we actively seek students from a wide v",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000020",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the October Term deadline for overseas applicants requiring an educational visa?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.265772\n\n---\n\nl visa\n### March Term Intake (only for Faculty of Business Man",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000021",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the October Term deadline for other applicants?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.297434\n\n---\n\nplication process, too.\nAcross each and every program, we actively seek students from a wide va",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000022",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What August deadline applies to HM King's, Queen's, and GMS scholarships?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.279382\n\n---\n\nl visa\n### March Term Intake (only for Faculty of Business Management)\n• 15 F",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000023",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What August deadline applies to other scholarships such as ADB-JSP and Bangchak?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp/ chunk_id=https://ait.ac.th/financial/asian-development-bank-japan-scholarship-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000024",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What August deadline applies to AIT Scholarships including RTG Fellowships?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/rtg-fellowships/ chunk_id=https://ait.ac.th/financial/rtg-fellowships/::r1 score=0.206304\n\n---\n\nd) or AIT EET ≥ 5.0). Should the score be 4.5",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000025",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT provide equal academic opportunities?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/ chunk_id=https://ait.ac.th/eligibility/::r1 score=0.227068\n\n---\n\n# PAGE: Eligibility - Asian Institute of Technology\nURL: https://ait.ac.th/eligibility/\n# Eligibility\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000026",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What degree background is required for regular Master's admission at AIT?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/masters-degree-program/ chunk_id=https://ait.ac.th/eligibility/masters-degree-program/::r1 score=0.213781\n\n---\n\n# PAGE: Master's Degree Progr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000027",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the minimum cGPA requirement for AIT Master's admission?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/ait-scholarships/ chunk_id=https://ait.ac.th/financial/ait-scholarships/::r1 score=0.204227\n\n---\n\ne a Cumulative GPA of 3.50 in their Master’s degree an",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000028",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What English scores does AIT list for Master's admission?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.240386\n\n---\n\ns such as TOEFL-Internet-based / comput",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000029",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What additional requirement applies to AIT Professional Master's applicants?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-master-in-banking-and-finance/ chunk_id=https://ait.ac.th/program/professional-master-in-banking-and-finance/::r1 score=0.227094\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000030",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Are applicants for AIT 1-year Master's programs eligible for scholarships or fellowships?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.216248\n\n---\n\ncompeti",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000031",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What academic background is required for AIT doctoral admission?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/doctoral-degree-program/ chunk_id=https://ait.ac.th/eligibility/doctoral-degree-program/::r1 score=0.195005\n\n---\n\n# PAGE: Doctoral Degree Program - As",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000032",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the minimum Master's-level cGPA for AIT doctoral admission?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/doctoral-degree-program/ chunk_id=https://ait.ac.th/eligibility/doctoral-degree-program/::r1 score=0.188120\n\n---\n\n# PAGE: Doctoral Degree Program -",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000033",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What research proposal requirement does AIT list for doctoral applicants?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/doctoral-degree-program/ chunk_id=https://ait.ac.th/eligibility/doctoral-degree-program/::r1 score=0.186795\n\n---\n\nline of dissertation resear",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000034",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How many recommendation letters are required for AIT doctoral applicants?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.219334\n\n---\n\nrecommendation?\nYour re",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000035",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can applicants with a one-year master's degree enter AIT's doctoral program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.209750\n\n---\n\nbreak between semest",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000036",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is AIT's official medium of instruction and campus communication?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission/ chunk_id=https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission/::r1 score=0",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000037",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How many ways are listed to satisfy AIT English requirements for admission?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.191725\n\n---\n\nuired?\nYes, all AIT p",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000038",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How long are official English test scores valid for AIT admission?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.195086\n\n---\n\ns such as TOEFL-Internet-based",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000039",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What IELTS Academic score satisfies AIT's English requirement?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.181027\n\n---\n\nese two tasks are scored on a nine",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000040",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What AIT-EET score corresponds to satisfying AIT's English requirement?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.182098\n\n---\n\ns such as TOEFL-Internet-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000041",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What English score is required for applicants applying for full scholarships?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.288692\n\n---\n\nhips listed on the ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000042",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What one-time Language Support fee does AIT list for students at entry?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://som.ait.ac.th/iemba chunk_id=https://som.ait.ac.th/iemba::r1 score=0.232508\n\n---\n\ntask 2). English Test fee: 1.239.719 VND (47 USD)\n* Depending on the profile, the p",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000043",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What TOEFL iBT score is equivalent to IELTS writing band 6 in AIT's table?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.271081\n\n---\n\ns such as TOEFL-Intern",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000044",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Who is exempted from AIT English proficiency requirements by citizenship?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.228131\n\n---\n\nuired?\nYes, all AIT pro",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000045",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can a Certificate of English Medium Instruction be submitted to AIT?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission/ chunk_id=https://ait.ac.th/eligibility/english-proficiency-requirement-for-admission/::r1 score=0.1",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000046",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the registration fee rate listed for several AIT faculties?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.199594\n\n---\n\nemony.\nHow much is the registration fee?\nThe registra",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000047",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the tuition fee rate per credit listed for several AIT faculties?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.245556\n\n---\n\nemony.\nHow much is the registration fee?\nThe re",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000048",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What total fee does AIT list for a 4-semester Master's or M.Phil program in several faculties?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.250793\n\n---\n\nemony.\nHow much is the reg",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000049",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What total fee does AIT list for a 1-year Master's program in several faculties?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/one-year-masters-degree-program/ chunk_id=https://ait.ac.th/study/one-year-masters-degree-program/::r1 score=0.223898\n\n---\n\nram at AIT costs",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000050",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What medical insurance fee rate is listed on the AIT tuition page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/special-students-exchange-and-visiting-students/ chunk_id=https://ait.ac.th/special-students-exchange-and-visiting-students/::r1 score=0.246156\n\n---\n\naht per se",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000051",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What student union fee rate is listed on the AIT tuition page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/special-students-exchange-and-visiting-students/ chunk_id=https://ait.ac.th/special-students-exchange-and-visiting-students/::r1 score=0.256821\n\n---\n\naht per semest",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000052",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What monthly dormitory accommodation cost range does AIT list?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/tuition-and-fees/ chunk_id=https://ait.ac.th/tuition-and-fees/::r1 score=0.273896\n\n---\n\n00 ## | ## ฿856,600 ## |\n| *Living /Accommodation/Miscellaneous Expenses @Ba",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000053",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What monthly private accommodation cost range does AIT list?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/tuition-and-fees/ chunk_id=https://ait.ac.th/tuition-and-fees/::r1 score=0.293122\n\n---\n\n00 ## | ## ฿856,600 ## |\n| *Living /Accommodation/Miscellaneous Expenses @Baht",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000054",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What minimum monthly mobile phone cost does AIT list?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/tuition-and-fees/ chunk_id=https://ait.ac.th/tuition-and-fees/::r1 score=0.290257\n\n---\n\n00 ## | ## ฿856,600 ## |\n| *Living /Accommodation/Miscellaneous Expenses @Baht 11,500",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000055",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What minimum monthly travel or transport cost does AIT list?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/tuition-and-fees/ chunk_id=https://ait.ac.th/tuition-and-fees/::r1 score=0.286582\n\n---\n\n00 ## | ## ฿856,600 ## |\n| *Living /Accommodation/Miscellaneous Expenses @Baht",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000056",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What information does AIT's financial aid page provide?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial-aid/ chunk_id=https://ait.ac.th/financial-aid/::r1 score=0.226174\n\n---\n\n# PAGE: Financial aid - Asian Institute of Technology\nURL: https://ait.ac.th/financial-ai",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000057",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What deadline does the financial aid page list for AIT Scholarships?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/ chunk_id=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/::r1 sco",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000058",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Who can apply for AIT Scholarships according to the financial aid listing?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.198456\n\n---\n\nhips listed on the AIT",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000059",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What study levels are listed for AIT Scholarships?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.231992\n\n---\n\nhips listed on the AIT scholarship website?\nYo",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000060",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What deadline is listed for the ADB-JSP scholarship?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp/ chunk_id=https://ait.ac.th/financial/asian-development-bank-japan-scholarship-program-adb-jsp/::r1 score=0",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000061",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Which nationalities are listed for the DAAD Scholarship?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/daad-scholarship/ chunk_id=https://ait.ac.th/financial/daad-scholarship/::r1 score=0.229713\n\n---\n\nscreen, pre-select (according to DAAD selection criteria) and ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000062",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT offer on-campus housing?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.199720\n\n---\n\nAsian Institute of Technology\n5. Do you have campus accommodati",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000063",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What types of on-campus accommodation does AIT describe?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/student-housing/ chunk_id=https://ait.ac.th/student-housing/::r1 score=0.227115\n\n---\n\n# PAGE: Student housing - Asian Institute of Technology\nURL: https://ait.ac.th/stude",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000064",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Are AIT rooms furnished?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/health-wellness/ chunk_id=https://ait.ac.th/health-wellness/::r1 score=0.292353\n\n---\n\ncommodation suitable for disabled, wheelchair users and those needing extra space for special equipment are availabl",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000065",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Is weekly cleaning service available in AIT housing?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/student-housing/ chunk_id=https://ait.ac.th/student-housing/::r1 score=0.252179\n\n---\n\ne fully furnished with regular maintenance services. Weekly cleaning service is also ava",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000066",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What maintenance services are listed for AIT accommodation?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/student-housing/ chunk_id=https://ait.ac.th/student-housing/::r1 score=0.228052\n\n---\n\ne fully furnished with regular maintenance services. Weekly cleaning service is a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000067",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Are accommodations for disabled students available at AIT?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/health-wellness/ chunk_id=https://ait.ac.th/health-wellness/::r1 score=0.225211\n\n---\n\ns also available from schools, department and the Student Union.Guidance and couns",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000068",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Are pets allowed in AIT dorms?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/housing/ chunk_id=https://ait.ac.th/housing/::r1 score=0.250852\n\n---\n\nY)\n### Regulations\n* Pets are not allowed in dorms. Do not feed any stray animals.\n* No cooking allowed in non-cooking dorm.\n*",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000069",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Do new incoming students need to queue for a preferred room type before arrival?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ofam.ait.ac.th/asset-management/accommodation-office/ chunk_id=https://ofam.ait.ac.th/asset-management/accommodation-office/::r1 score=0.282985\n\n---\n\nd Y)\n#",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000070",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What phone number is listed for AIT housing information?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ofam.ait.ac.th/campus-services/call-center/ chunk_id=https://ofam.ait.ac.th/campus-services/call-center/::r1 score=0.267803\n\n---\n\nr further coordination\n* Provide the picture of th",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000071",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the Flexible Master's Option at AIT?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-masters-option/ chunk_id=https://ait.ac.th/study/flexible-masters-option/::r1 score=0.170778\n\n---\n\n# PAGE: Flexible Master’s Option - Asian Institute of Technology\nURL",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000072",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Is AIT's Flexible Master's Option a fully online program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-masters-option/ chunk_id=https://ait.ac.th/study/flexible-masters-option/::r1 score=0.191585\n\n---\n\n# PAGE: Flexible Master’s Option - Asian Institute of T",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000073",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How long can students take to complete AIT's Flexible Master's Option?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.162402\n\n---\n\nline at this linkApplication Form. Choose “Flexibl",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000074",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can Flexible Master's students do most coursework online?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-masters-option/ chunk_id=https://ait.ac.th/study/flexible-masters-option/::r1 score=0.277060\n\n---\n\nly any time and need to pay the full fee for your regis",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000075",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have an official Study Options page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-masters-option/ chunk_id=https://ait.ac.th/study/flexible-masters-option/::r1 score=0.296086\n\n---\n\n# PAGE: Flexible Master’s Option - Asian Institute of Technology\nUR",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000076",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Master's Degree Programs page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.263047\n\n---\n\nline at this linkApplication Form. Choose “Flexible Master Degree” in the ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000077",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Doctoral Degree Programs page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/doctoral-degree-program/ chunk_id=https://ait.ac.th/eligibility/doctoral-degree-program/::r1 score=0.233610\n\n---\n\n# PAGE: Doctoral Degree Program - Asian Institute of T",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000078",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Dual Degree Programs page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/dual-degree-programs/ chunk_id=https://ait.ac.th/study/dual-degree-programs/::r1 score=0.247210\n\n---\n\n# PAGE: Dual Degree Programs - Asian Institute of Technology\nURL: https://ai",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000079",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Joint Degree Programs page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/unified-degree-programs/ chunk_id=https://ait.ac.th/study/unified-degree-programs/::r1 score=0.240932\n\n---\n\n# PAGE: Unified Degree Programs - Asian Institute of Technology\nURL: ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000080",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Certificate Programs page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/certificate-and-special-program/ chunk_id=https://ait.ac.th/eligibility/certificate-and-special-program/::r1 score=0.258932\n\n---\n\n# PAGE: Certificate and Special Program - ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000081",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Professional Master's Programs page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/professional-masters-programs/ chunk_id=https://ait.ac.th/study/professional-masters-programs/::r1 score=0.264718\n\n---\n\n# PAGE: Professional Master’s Programs - Asian I",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000082",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a One-Year Master's Degree Program page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/one-year-masters-degree-program/ chunk_id=https://ait.ac.th/study/one-year-masters-degree-program/::r1 score=0.207870\n\n---\n\n# PAGE: One Year Master’s Degree Program -",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000083",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have an Erasmus Programs page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/erasmus-programs/ chunk_id=https://ait.ac.th/study/erasmus-programs/::r1 score=0.222421\n\n---\n\n# PAGE: Erasmus Programs - Asian Institute of Technology\nURL: https://ait.ac.th/study/e",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000084",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Flexible PhD Option page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.165943\n\n---\n\n# PAGE: Flexible PhD Option - Asian Institute of Technology\nURL: https://ait.ac",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000085",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Student Opportunities page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://careercenter.ait.ac.th/faqs-for-employers/ chunk_id=https://careercenter.ait.ac.th/faqs-for-employers/::r1 score=0.243469\n\n---\n\nime opportunities typically attract stronger engagement and long-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000086",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a page for special, exchange, and visiting students?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/certificate-and-special-program/ chunk_id=https://ait.ac.th/eligibility/certificate-and-special-program/::r1 score=0.180021\n\n---\n\nconsidered as Spec",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000087",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Dining page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.283264\n\n---\n\ny my own bed sheets and pillowcases?\nMost dormitory units provide be",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000088",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a Health and Wellness page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/health-wellness/ chunk_id=https://ait.ac.th/health-wellness/::r1 score=0.222730\n\n---\n\n# PAGE: Health & Wellness - Asian Institute of Technology\nURL: https://ait.ac.th/health-wellness/\n#",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000089",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have an About page?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://www.ait.ac.th/about/ chunk_id=https://www.ait.ac.th/about/::r1 score=0.263439\n\n---\n\n# PAGE: About - Asian Institute of Technology\nURL: https://www.ait.ac.th/about/\n# About AIT\nAIT is an international English-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000090",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Agri-Business Management (ABM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/agri-business-management/ chunk_id=https://ait.ac.th/program/agri-business-management/::r1 score=0.208177\n\n---\n\n# PAGE: Agri-Business Management (ABM)",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000091",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Agricultural Systems and Engineering (ASE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/agricultural-systems-and-engineering/ chunk_id=https://ait.ac.th/program/agricultural-systems-and-engineering/::r1 score=0.135715\n\n---\n\n# ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000092",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Agricultural Systems, Engineering, and Agribusiness (ASEA) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/agricultural-systems-engineering-and-agribusiness-asea/ chunk_id=https://ait.ac.th/program/agricultural-systems-engineerin",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000093",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Aquaculture and Aquatic Resources Management (AARM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/aquaculture-and-aquatic-resources-management/ chunk_id=https://ait.ac.th/program/aquaculture-and-aquatic-resources-management/::r",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000094",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Artificial Intelligence of Things and Signal Processing (AIoT) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/academics/programs/ chunk_id=https://ait.ac.th/academics/programs/::r1 score=0.270051\n\n---\n\nait.ac.th/program/agricultural-sys",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000095",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Biomedical Engineering (BME) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/biomedical-engineering-bme/ chunk_id=https://ait.ac.th/program/biomedical-engineering-bme/::r1 score=0.179598\n\n---\n\n# PAGE: Biomedical Engineering (BME)",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000096",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Climate Change and Sustainable Development (CCSD) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/climate-change-and-sustainable-development-ccsd/ chunk_id=https://ait.ac.th/program/climate-change-and-sustainable-development-ccsd",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000097",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Computer Science and Communication Technology (CSCT) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/computer-science-and-communication-technology-csct/ chunk_id=https://ait.ac.th/program/computer-science-and-communication-techno",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000098",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Computer Science and Software Engineering (CSSE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/computer-science-and-communication-technology-csct/ chunk_id=https://ait.ac.th/program/computer-science-and-communication-technology",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000099",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Construction Engineering and Infrastructure Management (CEIM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/construction-engineering-and-infrastructure-management-ceim/ chunk_id=https://ait.ac.th/program/construction-engineerin",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000100",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Data Science and AI (DSAI) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/data-science-and-ai/ chunk_id=https://ait.ac.th/program/data-science-and-ai/::r1 score=0.200854\n\n---\n\n# PAGE: Data Science and AI (DSAI) - Asian Institute",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000101",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Development and Sustainability (DS) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/development-and-sustainability/ chunk_id=https://ait.ac.th/program/development-and-sustainability/::r1 score=0.172585\n\n---\n\n# PAGE: Development a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000102",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Development Innovation and Sustainability (DIS) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/development-innovation-and-sustainability-dis/ chunk_id=https://ait.ac.th/program/development-innovation-and-sustainability-dis/::r1 ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000103",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Development Planning Management and Innovation (DPMI) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/development-planning-management-and-innovation/ chunk_id=https://ait.ac.th/program/development-planning-management-and-innovati",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000104",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Digital Technology and Enterprise Information Management (DTEIM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/academics/programs/ chunk_id=https://ait.ac.th/academics/programs/::r1 score=0.269046\n\n---\n\nInnovation (DPMI)](https://ait.a",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000105",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Disaster Preparedness, Mitigation and Management (DPMM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/disaster-preparedness-mitigation-and-management/ chunk_id=https://ait.ac.th/program/disaster-preparedness-mitigation-and-mana",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000106",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Doctor of Philosophy (Ph.D.) in Management as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/doctoral-degree-programs/ chunk_id=https://ait.ac.th/study/doctoral-degree-programs/::r1 score=0.278632\n\n---\n\n# PAGE: Doctoral Degree Progra",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000107",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Doctor of Business Administration (DBA) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://som.ait.ac.th/dba chunk_id=https://som.ait.ac.th/dba::r1 score=0.193567\n\n---\n\n# PAGE: DBA | AIT School of Management\nURL: https://som.ait.ac.th/dba\n# Doctor of",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000108",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Dual Degree Master's Program in Data Science and AI with Brunel University London as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/dual-degree-masters-program-in-data-science-and-ai-with-brunel-university-london/ chunk_id=https://",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000109",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Dual Degree Master's Program in Geotechnical and Earth Resources Engineering with Colorado State University as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/dual-degree-masters-program-in-geotechnical-and-earth-resources-engineeri",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000110",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Dual Degree Master's Program in Semiconductor Engineering with Taipei Tech, Taiwan as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/dual-degree-masters-program-in-semiconductor-engineering-with-the-national-taipei-university-of-te",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000111",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Dual Degree Master's Program in Water Engineering and Management with Colorado State University as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/dual-degree-masters-program-in-water-engineering-and-management-with-colorado-state-u",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000112",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Dual Degree Master's Program in Water Engineering and Management with the University of Iowa as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/dual-degree-masters-program-in-water-engineering-and-management-with-the-university-of-i",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000113",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Dual Degree Master's Program with Telecom Sud Paris as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/dual-degree-masters-program-with-telecom-sud-paris/ chunk_id=https://ait.ac.th/program/dual-degree-masters-program-with-telecom-s",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000114",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Dual Degree Program with University of Wollongong Australia as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/dual-degree-programs/ chunk_id=https://ait.ac.th/study/dual-degree-programs/::r1 score=0.281053\n\n---\n\n# PAGE: Dual Degree P",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000115",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Engineering Entrepreneurship as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/engineering-entrepreneurship/ chunk_id=https://ait.ac.th/program/engineering-entrepreneurship/::r1 score=0.184133\n\n---\n\n# PAGE: Engineering  Entrepreneu",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000116",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Environmental Engineering and Management as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/environmental-engineering-and-management/ chunk_id=https://ait.ac.th/program/environmental-engineering-and-management/::r1 score=0.170117\n\n-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000117",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Food Engineering and Bioprocess Technology as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/food-engineering-and-bioprocess-technology/ chunk_id=https://ait.ac.th/program/food-engineering-and-bioprocess-technology/::r1 score=0.172",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000118",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Food Innovation, Bioprocessing, Nutrition and Health (FIBNH) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/food-innovation-bioprocessing-nutrition-and-health-fibnh/ chunk_id=https://ait.ac.th/program/food-innovation-bioprocessi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000119",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Food Innovation, Nutrition and Health (FINH) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/food-innovation-nutrition-and-health-finh/ chunk_id=https://ait.ac.th/program/food-innovation-nutrition-and-health-finh/::r1 score=0.160",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000120",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Gender and Development Studies as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/gender-and-development-studies/ chunk_id=https://ait.ac.th/program/gender-and-development-studies/::r1 score=0.210214\n\n---\n\n# PAGE: Gender and Develop",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000121",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Geotechnical and Earth Resources Engineering (GTE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/geotechnical-and-earth-resources-engineering-gte/ chunk_id=https://ait.ac.th/program/geotechnical-and-earth-resources-engineering-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000122",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Industrial and Manufacturing Engineering (IME) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/industrial-and-manufacturing-engineering-ime/ chunk_id=https://ait.ac.th/program/industrial-and-manufacturing-engineering-ime/::r1 sco",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000123",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Industrial Systems Engineering (ISE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/industrial-systems-engineering-ise/ chunk_id=https://ait.ac.th/program/industrial-systems-engineering-ise/::r1 score=0.148530\n\n---\n\n# PAGE: Indu",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000124",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Information and Communication Technologies as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/computer-science-and-communication-technology-csct/ chunk_id=https://ait.ac.th/program/computer-science-and-communication-technology-csct/",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000125",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Information Management as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/academics/programs/ chunk_id=https://ait.ac.th/academics/programs/::r1 score=0.310364\n\n---\n\nttps://ait.ac.th/program/dual-degree-masters-program-in-water-engineering-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000126",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Internet of Things (IoT) Systems Engineering as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/internet-of-things-iot-systems-engineering/ chunk_id=https://ait.ac.th/program/internet-of-things-iot-systems-engineering/::r1 score=0.1",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000127",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Master's in Business Analytics and Digital Transformation as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://som.ait.ac.th/badt chunk_id=https://som.ait.ac.th/badt::r1 score=0.172160\n\n---\n\n# PAGE: Business Analytics and Digital Transformation | AIT S",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000128",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Master's in International Finance (M/MSc IF) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://som.ait.ac.th/international-finance chunk_id=https://som.ait.ac.th/international-finance::r1 score=0.187708\n\n---\n\n# PAGE: Business Analytics and Digital T",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000129",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Master of Business Administration (MBA) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://som.ait.ac.th/mba chunk_id=https://som.ait.ac.th/mba::r1 score=0.212240\n\n---\n\n# PAGE: MBA  | AIT School of Management\nURL: https://som.ait.ac.th/mba\n# Master o",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000130",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Mechatronics and Machine Intelligence (MMI) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/mechatronics-and-machine-intelligence-mmi/ chunk_id=https://ait.ac.th/program/mechatronics-and-machine-intelligence-mmi/::r1 score=0.1803",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000131",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Nanosystems Engineering (NSE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/industrial-systems-engineering-ise/ chunk_id=https://ait.ac.th/program/industrial-systems-engineering-ise/::r1 score=0.296313\n\n---\n\n# PAGE: Industrial ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000132",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Natural Resources Management as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/natural-resources-management/ chunk_id=https://ait.ac.th/program/natural-resources-management/::r1 score=0.193016\n\n---\n\n# PAGE: Natural Resources Manage",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000133",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Professional Master Degree in Structural Design of Tall Buildings as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-master-degree-in-structural-design-of-tall-buildings/ chunk_id=https://ait.ac.th/program/professional-",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000134",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Professional Master in Banking and Finance as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-master-in-banking-and-finance/ chunk_id=https://ait.ac.th/program/professional-master-in-banking-and-finance/::r1 score=0.217",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000135",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Professional Master in Environment, Social and Governance (ESG) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://som.ait.ac.th/pm-esg chunk_id=https://som.ait.ac.th/pm-esg::r1 score=0.249779\n\n---\n\nPM-ESG Management flexible weekend format remains p",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000136",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Professional Master in Geotechnical Engineering and Management (PME-GEM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-master-in-geotechnical-engineering-and-management-pme-gem/ chunk_id=https://ait.ac.th/program/p",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000137",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Professional Master in Project Management (MPM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-master-in-project-management-mpm/ chunk_id=https://ait.ac.th/program/professional-master-in-project-management-mpm/::r1 ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000138",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Professional Master's Program in Data Science (PMDS) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-masters-program-in-data-science-pmds/ chunk_id=https://ait.ac.th/program/professional-masters-program-in-data-scien",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000139",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Professional Master's Programme in Data Science and AI Applications (AIT-UNITAR PMDS) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-masters-programme-in-data-science-and-ai-applications-ait-unitar-pmds/ chunk_id=ht",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000140",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Remote Sensing and Geographic Information Systems (RS-GIS) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/remote-sensing-and-geographic-information-systems-rs-gis/ chunk_id=https://ait.ac.th/program/remote-sensing-and-geographic",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000141",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Semiconductor Engineering (SCE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/semiconductor-engineering-sce/ chunk_id=https://ait.ac.th/program/semiconductor-engineering-sce/::r1 score=0.232394\n\n---\n\n# PAGE: Master’s in Semicon",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000142",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Smart Networks and Communications Engineering (SNCE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/telecommunications-tc/ chunk_id=https://ait.ac.th/program/telecommunications-tc/::r1 score=0.299150\n\n---\n\nstrategies for cellula",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000143",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Structural Engineering (STE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/structural-engineering-ste/ chunk_id=https://ait.ac.th/program/structural-engineering-ste/::r1 score=0.198422\n\n---\n\n# PAGE: Structural Engineering (STE)",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000144",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Sustainable Energy Transition as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/sustainable-energy-transition/ chunk_id=https://ait.ac.th/program/sustainable-energy-transition/::r1 score=0.170465\n\n---\n\n# PAGE: Sustainable Energy Tr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000145",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Telecommunications (TC) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/telecommunications-tc/ chunk_id=https://ait.ac.th/program/telecommunications-tc/::r1 score=0.168291\n\n---\n\n# PAGE: Telecommunications (TC) - Asian Institute o",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000146",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Transportation Engineering (TRE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/transportation-engineering-tre/ chunk_id=https://ait.ac.th/program/transportation-engineering-tre/::r1 score=0.218694\n\n---\n\n# PAGE: Transportation E",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000147",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list University of Nice Sophia Antipolis, France as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/university-of-nice-sophia-antipolis-france/ chunk_id=https://ait.ac.th/program/university-of-nice-sophia-antipolis-france/::r1 score=0.17",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000148",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Urban Innovation and Sustainability as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/urban-innovation-and-sustainability/ chunk_id=https://ait.ac.th/program/urban-innovation-and-sustainability/::r1 score=0.243249\n\n---\n\n# PAGE: Urb",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000149",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Water Engineering and Management (WEM) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/water-engineering-and-management-wem/ chunk_id=https://ait.ac.th/program/water-engineering-and-management-wem/::r1 score=0.150632\n\n---\n\n# PAGE",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000150",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT list Yunus Professional Master's in Social Business and Entrepreneurship (YPM-SBE) as an academic program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://som.ait.ac.th/pm-esg chunk_id=https://som.ait.ac.th/pm-esg::r1 score=0.296403\n\n---\n\nPM-ESG Management flexible weekend fo",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000151",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the deadline?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.378411\n\n---\n\nplication process, too.\nAcross each and every program, we actively seek students from a wide variety of backgrounds. We value the",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000152",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: When should I apply?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/ chunk_id=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/::r1 score=0.372200\n\n---\n\n(August 2026 intake): 30 June 2026\nInterested applic",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000153",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the SOM deadline?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/apply-online/ chunk_id=https://ait.ac.th/apply-online/::r1 score=0.354618\n\n---\n\nequiring an educational visa• 25 May is for other applicants\n### August Semester/Term Intake: January IntakeFaculty of In",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000154",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What deadline applies to me for June?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/ chunk_id=https://ait.ac.th/admissions/::r1 score=0.379820\n\n---\n\nl visa\n### March Term Intake (only for Faculty of Business Management)\n• 15 February is the deadline for overseas",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000155",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: When is the October application due?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/ chunk_id=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/::r1 score=0.364049\n\n---\n\n(August 2026 intake): 30 June 2026\nI",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000156",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How much is the fee?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/special-students-exchange-and-visiting-students/ chunk_id=https://ait.ac.th/special-students-exchange-and-visiting-students/::r1 score=0.342893\n\n---\n\ninsurance)Student ID card: 100 Thai BahtIf registered fo",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000157",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How much does AIT charge per credit?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.283529\n\n---\n\nemony.\nHow much is the registration fee?\nThe registration fee is calculated per cred",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000158",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the monthly accommodation cost?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/tuition-and-fees/ chunk_id=https://ait.ac.th/tuition-and-fees/::r1 score=0.310789\n\n---\n\n00 ## | ## ฿856,600 ## |\n| *Living /Accommodation/Miscellaneous Expenses @Baht 11,500-15,000 per Mo",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000159",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the visa fee?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-phd-option/ chunk_id=https://ait.ac.th/study/flexible-phd-option/::r1 score=0.365899\n\n---\n\nemony.\nHow much is the registration fee?\nThe registration fee is calculated per credit of your regi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000160",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I get a scholarship?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.345649\n\n---\n\nhips listed on the AIT scholarship website?\nYou do not need to apply sep",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000161",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the scholarship deadline?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/ chunk_id=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/::r1 score=0.284759\n\n---\n\n(August 2026 intake): 30 June 2026\nInte",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000162",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What English score do I need for funding?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.310787\n\n---\n\nese two tasks are scored on a nine point scale. (The cr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000163",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I apply to two programs?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/ chunk_id=https://ait.ac.th/eligibility/::r1 score=0.376876\n\n---\n\negardless of their national origin, gender or sexual orientation, age, religion, marital status or disability.Please not",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000164",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: How long is the program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/professional-master-in-banking-and-finance/ chunk_id=https://ait.ac.th/program/professional-master-in-banking-and-finance/::r1 score=0.297025\n\n---\n\ndule) will be delivered over 3 to 4 weeks. The",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000165",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What Master's option is available?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-masters-option/ chunk_id=https://ait.ac.th/study/flexible-masters-option/::r1 score=0.305460\n\n---\n\nly any time and need to pay the full fee for your registered courses (min 2 co",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000166",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Is it online?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-masters-option/ chunk_id=https://ait.ac.th/study/flexible-masters-option/::r1 score=0.388056\n\n---\n\ne classes online in real-time. Currently, we are using ZOOM to connect to the class. The lecturer w",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000167",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What GPA do I need?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/agricultural-systems-engineering-and-agribusiness-asea/ chunk_id=https://ait.ac.th/program/agricultural-systems-engineering-and-agribusiness-asea/::r1 score=0.369067\n\n---\n\nareas:\nAgricultural Systems",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000168",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What GPA is required?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/agricultural-systems-engineering-and-agribusiness-asea/ chunk_id=https://ait.ac.th/program/agricultural-systems-engineering-and-agribusiness-asea/::r1 score=0.339159\n\n---\n\nareas:\nAgricultural Syste",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000169",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Do I need recommendation letters?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.354741\n\n---\n\nrecommendation?\nYour referees should be well acquainted with yo",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000170",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I submit an English certificate?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.248250\n\n---\n\nde proof of attendance.\nI obtained a degree at a university ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000171",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Is my English test still valid?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.320198\n\n---\n\nde proof of attendance.\nI obtained a degree at a university at wh",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000172",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What TOEFL score do I need?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.335360\n\n---\n\ns such as TOEFL-Internet-based / computer-based / paper-based; CEFR; ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000173",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Do I need to register for housing?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/housing/ chunk_id=https://ait.ac.th/housing/::r1 score=0.384885\n\n---\n\nY)\n### Regulations\n* Pets are not allowed in dorms. Do not feed any stray animals.\n* No cooking allowed in non-cooking dor",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000174",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Are rooms furnished?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/housing/ chunk_id=https://ait.ac.th/housing/::r1 score=0.375173\n\n---\n\nand single or double occupancy — all rooms are fully furnished with regular maintenance services. Weekly cleaning service is also availa",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000175",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I bring a pet?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/housing/ chunk_id=https://ait.ac.th/housing/::r1 score=0.425168\n\n---\n\nY)\n### Regulations\n* Pets are not allowed in dorms. Do not feed any stray animals.\n* No cooking allowed in non-cooking dorm.\n* No subletti",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000176",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the exact acceptance rate for AIT this year?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/ait-scholarships/ chunk_id=https://ait.ac.th/financial/ait-scholarships/::r1 score=0.258218\n\n---\n\ne a Cumulative GPA of 3.50 in their Master’s degree and 2.75 in th",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000177",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can you guarantee that I will receive an AIT scholarship if I apply?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.226822\n\n---\n\nhips listed on the AIT schol",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000178",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is my personal chance of admission to AIT with my GPA?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/ait-scholarships/ chunk_id=https://ait.ac.th/financial/ait-scholarships/::r1 score=0.247737\n\n---\n\ne a Cumulative GPA of 3.50 in their Master’s degree and 2.7",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000179",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Which AIT professor will supervise my thesis if I apply?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/eligibility/fellows-of-ait/ chunk_id=https://ait.ac.th/eligibility/fellows-of-ait/::r1 score=0.296461\n\n---\n\nandidate, who has completed a doctoral degree from an institut",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000180",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can AIT guarantee my Thai student visa approval?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/ chunk_id=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/::r1 score=0.210653\n\n---\n\nficates, along wit",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000181",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the private email address of an AIT admissions officer?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/ chunk_id=https://ait.ac.th/financial/prof-emeritus-madan-mohan-das-memorial-scholarship/::r1 score=0.",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000182",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What are the exact cafeteria menus for next week at AIT?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.288999\n\n---\n\ny my own bed sheets and pillowcases?\nMos",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000183",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT offer an undergraduate bachelor's degree in medicine?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.302768\n\n---\n\nnrollment with your academic progr",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000184",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the application deadline for AIT's 2032 intake?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/ait-scholarships/ chunk_id=https://ait.ac.th/financial/ait-scholarships/::r1 score=0.249632\n\n---\n\ne a Cumulative GPA of 3.50 in their Master’s degree and 2.75 in",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000185",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I get a full refund if I withdraw after classes start?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.417633\n\n---\n\never, the financial conditions of the ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000186",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the exact salary I will earn after graduating from AIT?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/ait-scholarships/ chunk_id=https://ait.ac.th/financial/ait-scholarships/::r1 score=0.324821\n\n---\n\nps grant for each applicant (if eligible) for approval ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000187",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT require GRE scores for every program?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.300253\n\n---\n\nhips listed on the AIT scholarship website?\nYou do",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000188",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can AIT waive all tuition for me because I ask here?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/study/flexible-masters-option/ chunk_id=https://ait.ac.th/study/flexible-masters-option/::r1 score=0.309677\n\n---\n\nManagement,“study when you’re free”, take courses online fro",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000189",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What are the exact room numbers available today in Dorm J?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/housing/ chunk_id=https://ait.ac.th/housing/::r1 score=0.371133\n\n---\n\nand single or double occupancy — all rooms are fully furnished with regular maintenance services. ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000190",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I bring my dog if I promise it is quiet?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/housing/ chunk_id=https://ait.ac.th/housing/::r1 score=0.472424\n\n---\n\nand single or double occupancy — all rooms are fully furnished with regular maintenance services. Weekly cleanin",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000191",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Which bank gives the best exchange rate for paying AIT fees today?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/ chunk_id=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/::r1 score=0.264001\n\n---\n\n",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000192",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can you submit my AIT application for me?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/daad-scholarship/ chunk_id=https://ait.ac.th/financial/daad-scholarship/::r1 score=0.274912\n\n---\n\nter-for-an-application/\n* Log in to the portal\n* Carefully read the instructi",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000193",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the current waiting list position for my housing application?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ofam.ait.ac.th/asset-management/accommodation-office/ chunk_id=https://ofam.ait.ac.th/asset-management/accommodation-office/::r1 score=0.385274\n\n---\n\nd Y)\n### Dorm all",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000194",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I skip the English requirement without any evidence?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/admissions/frequently-asked-questions/ chunk_id=https://ait.ac.th/admissions/frequently-asked-questions/::r1 score=0.338463\n\n---\n\nuired?\nYes, all AIT programs are conduct",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000195",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What are the exam questions for next semester's AIT courses?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/apply-online/ chunk_id=https://ait.ac.th/apply-online/::r1 score=0.308773\n\n---\n\n# PAGE: Apply Now for Admissions to AIT | AIT Online Application\nURL: https://ait.ac.t",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000196",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Does AIT have a secret scholarship not listed on the website?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/ait-scholarships/ chunk_id=https://ait.ac.th/financial/ait-scholarships/::r1 score=0.257060\n\n---\n\nte, the AIT Scholarships are intended to increase the num",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000197",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can AIT guarantee that I will get a job in Thailand after graduation?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/ chunk_id=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/::r1 score=0.232416\n\n--",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000198",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the personal phone number of the Dean of the School of Management?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/program/telecommunications-tc/ chunk_id=https://ait.ac.th/program/telecommunications-tc/::r1 score=0.380473\n\n---\n\nsanguankotchakorn/)\n## Staff\n [Premma ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000199",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: Can I use fake documents if I explain later?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/ chunk_id=https://ait.ac.th/guidelines-for-applicants-who-were-offered-admission/::r1 score=0.476752\n\n---\n\ning their own medical ",
+      "source_format": "slim"
+    },
+    {
+      "custom_id": "normal_000200",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "FINAL_QUERY:\nUSER: What is the exact decision date for my individual admission application?\nHISTORY: \n\n\nCONTEXT:\n[1] source_url=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/ chunk_id=https://ait.ac.th/financial/computer-and-structures-inc-scholarship/::r1 score=0.364891\n\n---\n\n",
+      "source_format": "slim"
+    }
+  ]
+}

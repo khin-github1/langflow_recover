@@ -1,0 +1,22 @@
+{
+  "model_name": "gpt-5-mini",
+  "record_count": 2,
+  "mode_counts": {
+    "normal": 2,
+    "reason": 0
+  },
+  "rows": [
+    {
+      "custom_id": "normal_000001",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: Hello can you tell me the contact information for AIT administration?\n\nContext:\n[1] ait.ac.th/people/naphassorn-chaimongkol/)  [Ms. Sunisa CharoennaAdministrative Officer](https://ait.ac.th/people/sunisa-charoenna/)  [Mr. Thanakorn KhamthaTechnical Staff](https://ait.ac.th/people/mr-than"
+    },
+    {
+      "custom_id": "normal_000002",
+      "generation_mode": "normal",
+      "reasoning_effort_used": "minimal",
+      "prompt_preview": "User Query: hello tell me about AIT Conference center contact information\n\nContext:\n[1] # PAGE: Contact us – AIT Conference Center\nURL: http://aitcc.ait.ac.th/contact-us/\n\n## Map to AITCC\n\n## Room & venue reservations\n\nCall to AITCC reception: 02-524-5250 .\n\nEmail:aitccr@ait.ac.th\n\nReservations can "
+    }
+  ]
+}

